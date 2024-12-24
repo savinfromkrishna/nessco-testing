@@ -1,0 +1,339 @@
+{
+    "MediaRoom": [
+      {
+        "mediaRoomSeoData": {
+          "title": "Discover the Latest News and Media Coverage of Nessco",
+          "description": "Explore the latest news, press releases, and media coverage about Nessco's innovative packaging solutions.",
+          "openGraph": {
+            "title": "Discover the Latest News and Media Coverage of Nessco",
+            "description": "Explore the latest news, press releases, and media coverage about Nessco's innovative packaging solutions."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Discover the Latest News and Media Coverage of Nessco",
+            "description": "Explore the latest news, press releases, and media coverage about Nessco's innovative packaging solutions."
+          }
+        },
+        "Header": {
+          "title": "Media Room",
+          "apply": "Apply",
+          "cancel": "Cancel",
+          "filter": "Filters",
+          "byCategory": "By Category",
+          "placeholder": "Search...",
+          "filters": [
+            {
+              "title": "Tech"
+            },
+            {
+              "title": "Science"
+            },
+            {
+              "title": "AI"
+            },
+            {
+              "title": "Machine"
+            },
+            {
+              "title": "Video"
+            },
+            {
+              "title": "Machine"
+            },
+            {
+              "title": "Reviews"
+            },
+            {
+              "title": "Tech"
+            },
+            {
+              "title": "AI"
+            },
+            {
+              "title": "Science"
+            },
+            {
+              "title": "Video"
+            },
+            {
+              "title": "Tech"
+            },
+            {
+              "title": "Machine"
+            }
+          ],
+          "categories": [
+            {
+              "title": "All "
+            },
+            {
+              "title": "Paper Bowls"
+            },
+            {
+              "title": "Paper Cup"
+            },
+            {
+              "title": "Paper Box"
+            },
+            {
+              "title": "Paper Lid"
+            },
+            {
+              "title": "Paper Straw"
+            },
+            {
+              "title": "Paper Plate"
+            }
+          ]
+        },
+        "TrendingNews": {
+          "title": "Paper Bag",
+          "sections": [
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-nippon-ogcups-japan24.webp",
+              "header": "Tech",
+              "filter": "Tech,All,Paper Cup Machine",
+              "title": "Nessco Unveils Advanced Servo Paper Cup Machine and Two Compartment Rectangular Bowl-Making Technology: A Bold Step Towards Sustainability",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/7-eleven-news.webp",
+              "header": "Science",
+              "filter": "Science,All, Paper Lid Machine",
+              "title": "Nessco Revolutionizes Dome Lid Manufacturing with Advanced Technology for the Japanese Market",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-drupa24.webm",
+              "header": "Machine",
+              "filter": "Machine,All,Paper Cup",
+              "title": "Nessco Highlights Sustainability Solutions at Drupa Exhibition",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-fooma-japan-24-visitor1.webp",
+              "header": "Science",
+              "filter": "Science,All , Paper Bowl ",
+              "title": "Nessco Unveils Rectangular Bowl Machine at FOOMA Japan, Eyes Bold Expansion in Japanese Market",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-kshow-germany.webm",
+              "header": "Tech",
+              "filter": "Tech,All, Paper Cup ",
+              "title": "Nessco Shines at K Show Germany with New Paper Cup Machine Launch and Sustainability Focus",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-gulfood-visitor2.webp",
+              "header": "Science",
+              "filter": "Science,All,Paper Cup ",
+              "title": "Nessco Showcases Sustainable Packaging Solutions at Gulf Food Dubai",
+              "continueReading": "Continue Reading"
+            }
+          ]
+        },
+        "LatestNews": {
+          "mainTitle": "Latest News",
+          "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-nippon-ogcups-japan24.webp",
+          "filter": "Paper Cup ",
+          "title": "Nessco Unveils Advanced Servo Paper Cup Machine and Two Compartment Rectangular Bowl-Making Technology: A Bold Step Towards Sustainability\r\n",
+          "description": "Nessco, a global leader in packaging machinery, has launched two groundbreaking innovations—the Servo-Driven Paper Cup Machine and the Two-Compartment Rectangular Bowl Machine. These machines are engineered to set new industry standards, driving the future of sustainable packaging solutions with precision and efficiency.\r\n",
+          "continueReading": "Continue Reading",
+          "sections": [
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-mitsubishi-japan24-1.webp",
+              "header": "Tech",
+              "filter": "Tech,All,Paper Cup ",
+              "title": "Nessco and Mitsubishi Discuss the Future of Sustainable Packaging in Japan\r\n",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/7-eleven-news.webp",
+              "header": "Tech",
+              "filter": "Science,All,Paper Lid ",
+              "title": "Nessco Revolutionizes Dome Lid Manufacturing with Advanced Technology for the Japanese Market\r\n",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-expands-presence-in-japan.webm",
+              "header": "Tech",
+              "filter": "Tech,All,Paper Cup",
+              "title": "Nessco Expands Presence in Japan with Servo Paper Packaging Solutions\r\n",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-drupa24.webm",
+              "header": "Science",
+              "filter": "Science,All,Paper Cup",
+              "title": "Nessco Highlights Sustainability Solutions at Drupa Exhibition",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-saudi-print-pack24.webm",
+              "header": "Machine",
+              "filter": "Tech,All,Paper Cup ",
+              "title": "Nessco Makes a Statement at Saudi P&P with Live Demos",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/drup24-nessco-video.webm",
+              "header": "Machine",
+              "filter": "Tech,All,Paper Cup",
+              "title": "Nessco Launches Innovative Paper Cup Machine at Drupa Exhibition",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/news/tokyo-2024-news.webp",
+              "header": "Machine",
+              "filter": "Tech,All,Paper Cup",
+              "title": "Nessco Honored in Kuwait for Outstanding Quality and Excellence",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/news/saudi-2024-news.webp",
+              "header": "Machine",
+              "filter": "Tech,All,Paper Cup",
+              "title": "How Nessco Focus On Sustainability in their Innovation",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-fooma-japan-24-visitor1.webp",
+              "header": "Science",
+              "filter": "Science,All , Paper Bowl ",
+              "title": "Nessco Unveils Rectangular Bowl Machine at FOOMA Japan, Eyes Bold Expansion in Japanese Market",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-kshow-germany.webm",
+              "header": "Tech",
+              "filter": "Tech,All, Paper Cup ",
+              "title": "Nessco Shines at K Show Germany with New Paper Cup Machine Launch and Sustainability Focus",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-gulfood-visitor2.webp",
+              "header": "Science",
+              "filter": "Science,All,Paper Cup ",
+              "title": "Nessco Showcases Sustainable Packaging Solutions at Gulf Food Dubai",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-interpack23-germany.webm",
+              "header": "Tech",
+              "filter": "Tech,All,Paper Cup ",
+              "title": "Nessco Drives Sustainability Awareness at Interpack with Focus on Paper-Based Food Packaging\r\n",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-libiya-tradefair.webp",
+              "header": "Tech",
+              "filter": "Tech,All,Paper Cup",
+              "title": "Nessco's Presence Strengthens in Libya with Successful Food Packaging Exhibition\r\n",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-plastindia23.webp",
+              "header": "Science",
+              "filter": "Science,All,Paper Cup",
+              "title": "Nessco India x PlastIndia - Leadership in Sustainable Packaging at PlastIndia",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-printpack19-noida.webp",
+              "header": "Machine",
+              "filter": "Tech,All,Paper Straw",
+              "title": "Nessco Showcases Paper Straw Machine and Sustainable Packaging Solutions at Print Pack Noida\r\n",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-paperex-logo.webp",
+              "header": "Machine",
+              "filter": "Tech,All,Paper Straw",
+              "title": "Paperex: Driving Innovation, Exports, and Sustainability in the Paper Industry",
+              "continueReading": "Continue Reading"
+            }
+          ]
+        },
+        "MostRead": {
+          "title": "Most Read",
+          "sections": [
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-fooma-japan-24-visitor1.webp",
+              "header": "Tech",
+              "filter": "Tech,All,Paper Bowl ",
+              "title": "Nessco Unveils Rectangular Bowl Machine at FOOMA Japan, Eyes Bold Expansion in Japanese Market",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-kshow-germany.webm",
+              "header": "Science",
+              "filter": "Science,All,Paper Cup ",
+              "title": "Nessco Shines at K Show Germany with New Paper Cup Machine Launch and Sustainability Focus\r\n",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-interpack23-germany.webm",
+              "header": "Tech",
+              "filter": "Tech,All,Paper Cup ",
+              "title": "Nessco Drives Sustainability Awareness at Interpack with Focus on Paper-Based Food Packaging\r\n",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-gulfood-visitor2.webp",
+              "header": "Science",
+              "filter": "Science,All,Paper Cup",
+              "title": "Nessco Showcases Sustainable Packaging Solutions at Gulf Food Dubai\r\n"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-libiya-tradefair.webp",
+              "header": "Tech",
+              "filter": "Tech,All,Paper Cup",
+              "title": "Nessco's Presence Strengthens in Libya with Successful Food Packaging Exhibition\r\n",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-plastindia23.webp",
+              "header": "Science",
+              "filter": "Science,All,Paper Cup",
+              "title": "Nessco India x PlastIndia - Leadership in Sustainable Packaging at PlastIndia",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/nessco-printpack19-noida.webp",
+              "header": "Machine",
+              "filter": "Tech,All,Paper Straw",
+              "title": "Nessco Showcases Paper Straw Machine and Sustainable Packaging Solutions at Print Pack Noida\r\n",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/news/saudi-2024-news.webp",
+              "header": "Machine",
+              "filter": "Tech,All,Paper Straw",
+              "title": "How Nessco Focus on Sustainability in Their Innovation",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/news/tokyo-2024-news.webp",
+              "header": "Machine",
+              "filter": "Tech,All,Paper Straw",
+              "title": "Nessco Honored in Kuwait for Outstanding Quality and Excellence",
+              "continueReading": "Continue Reading"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/media-room/drup24-nessco-video.webm",
+              "header": "Machine",
+              "filter": "Tech,All,Paper Straw",
+              "title": "Nessco Launches Innovative Paper Cup Machine at Drupa Exhibition",
+              "continueReading": "Continue Reading"
+            }
+          ]
+        }
+      }
+    ],
+    "mediaroom": {
+      "continueReading": "Continue Reading"
+    }
+  }

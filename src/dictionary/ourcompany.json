@@ -1,0 +1,189 @@
+{
+    "Ourcompany": [
+      {
+        "companySeoData": {
+          "title": "The Nessco Story",
+          "description": "Uncover the inspiring journey of Nessco, from its humble beginnings to becoming a global leader in paper disposable machinery industry.",
+          "openGraph": {
+            "title": "The Nessco Story",
+            "description": "Uncover the inspiring journey of Nessco, from its humble beginnings to becoming a global leader in paper disposable machinery industry.",
+            "images": [
+              {
+                "robots": "index, follow"
+              }
+            ]
+          },
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "The Nessco Story",
+            "description": "Uncover the inspiring journey of Nessco, from its humble beginnings to becoming a global leader in paper disposable machinery industry."
+          }
+        },
+        "Page1Data": {
+          "video": "https://assets.nesscoindustries.com/public/assets/about/our-company/banner.webm",
+          "title": "Our Company",
+          "getaQuote": "Get a Quote",
+          "mainImg": "/assets/about/ourcompany/company2.svg",
+          "leftBorderImg": "/assets/about/LeftBorderImg.svg",
+          "rightBorderImg": "/assets/about/RightBorderImg.svg",
+          "description": "Nessco India, with 40+ years of expertise, is a leading manufacturer and exporter of disposable machinery. Serving global markets, we’ve sold 1,000+ machines, delivering innovative, sustainable solutions backed by exceptional quality and customer support.",
+          "images": [
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-company/our-company-years-of-expertise-icon.webp",
+              "title": "40+ Years of Expertise"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-company/our-company-global-leader-icon.webp",
+              "title": "Global Leader in Packaging"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-company/our-company-main-icon.webp"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-company/our-company-advance-engineering-icon.webp",
+              "title": "Engineering Excellence"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-company/our-company-pioneers-innovation-icon.webp",
+              "title": "Pioneers in Innovation"
+            }
+          ]
+        },
+        "sustainableContent": {
+          "heading": "The Future is",
+          "highlight": "Sustainable",
+          "description": "We believe sustainability is not just a choice but a necessity for a better tomorrow. By focusing on eco-friendly solutions and innovative machinery, we are committed to reducing environmental impact and promoting responsible manufacturing practices. Together, we aim to build a future where businesses grow while preserving the planet for generations to come.",
+          "buttonText": "Explore Solutions",
+          "image": "https://assets.nesscoindustries.com/public/assets/about/our-company/sustainability.webp"
+        },
+        "ourStoryContent": {
+          "title": "Our",
+          "highlight": "Story",
+          "paragraph": "Since our inception in 1978, Nessco India has been dedicated to delivering top-quality machinery to the disposable industry. Our journey began with a vision to provide innovative solutions that meet the evolving needs of our clients. Over the years, we have expanded our product range and enhanced our manufacturing capabilities, establishing ourselves as a trusted name in the market. Our commitment to excellence is reflected in our state-of-the-art R&D team, which continually strives to develop cutting-edge technologies. With a focus on customer satisfaction, we have built lasting relationships and garnered acclaim for our reliable and efficient machines. Today, Nessco India stands as a leader in the disposable industry, driven by a passion for innovation and a dedication to quality.",
+          "highlightedText": "Nessco India",
+          "image": {
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/home-banner-1.webm",
+            "alt": "Our Story Image",
+            "width": "820",
+            "height": "410"
+          }
+        },
+        "ourfounderheading": {
+          "title": "Our",
+          "highlight": "Founders",
+          "caption": "The work we do reflect who we are"
+        },
+        "founders": [
+          {
+            "name": "Mr Harshit Agarwal",
+            "title": "Director and CEO",
+            "description": "In today’s globalized market, international business is about adaptability and foresight. At Nessco, we aim to bridge markets and cultures with cutting-edge technology and sustainable solutions.",
+            "imageSrc": "https://assets.nesscoindustries.com/public/assets/about/our-company/our-company-founder-2-image.webp",
+            "linkedInUrl": "https://www.linkedin.com/in/harshit-agarwal-harry-07025b188/"
+          },
+          {
+            "name": "Mr Gopal Lal Gupta",
+            "title": "Director and CEO",
+            "description": "With over 40 years of experience in the disposable industry, I’ve witnessed its evolution firsthand. At Nessco, we strive to blend tradition with innovation, creating solutions that define the future of sustainable packaging.",
+            "imageSrc": "https://assets.nesscoindustries.com/public/assets/about/our-company/our-company-founder-1-image.webp",
+            "linkedInUrl": "https://www.linkedin.com/in/nesscoindia/"
+          },
+          {
+            "name": "Mr Yogesh Agarwal",
+            "title": "Director and CEO",
+            "description": "Marketing is not just about selling; it’s about understanding the customer’s needs and delivering unmatched value. At Nessco, we focus on building lasting relationships through trust and excellence.",
+            "imageSrc": "https://assets.nesscoindustries.com/public/assets/about/our-company/our-company-founder-3-image.webp",
+            "linkedInUrl": "https://www.linkedin.com/in/yogesh-agarwal-23a6b245/"
+          }
+        ],
+        "viewgallery": "View Gallery",
+        "images": [
+          {
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-company/gallery-images-2.webp",
+            "alt": "Image 1",
+            "style": "lg:top-36 top-36 lg:left-[35%] left-[15%] lg:w-[10%] lg:h-[20%] h-[13%] w-[23%]"
+          },
+          {
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-company/gallery-images-7.webp",
+            "alt": "Image 2",
+            "style": "lg:top-[35%] top-[37%] lg:left-[87%] left-[80%] lg:w-[6%] lg:h-[12%] h-[11%] w-[16%]"
+          },
+          {
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-company/gallery-images-3.webp",
+            "alt": "Image 3",
+            "style": "lg:visible invisible lg:top-[58%] top-[52%] left-2 lg:w-[7%] w-[25%] h-[11%]"
+          },
+          {
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-company/gallery-images-4.webp",
+            "alt": "Image 4",
+            "style": "lg:top-[30%] top-[34%] lf:left-16 left-2 lg:w-[20%] lg:h-[25%] h-[13%] w-[45%]"
+          },
+          {
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-company/gallery-images-1.webp",
+            "alt": "Image 5",
+            "style": "lg:top-[50%] top-[50%] lg:left-[24%] left-[4%] lg:w-[28%] lg:h-[36%] h-[25%] w-[50%] image-scale-up"
+          },
+          {
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-company/gallery-images-9.webp",
+            "alt": "Image 6",
+            "style": "lg:visible invisible lg:top-[70%] top-[79%] lg:left-[8%] left-[10%] lg:w-[6%] lg:h-[19%] w-[19%] h-[11%]"
+          },
+          {
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-company/gallery-images-6.webp",
+            "alt": "Image 7",
+            "style": "lg:top-[57%] top-[75%] left-[56%] lg:w-[15%] lg:h-[15%] w-[33%] h-[12%] image-translate-up"
+          },
+          {
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-company/gallery-images-8.webp",
+            "alt": "Image 8",
+            "style": "lg:top-[75%] lg:left-[68%] lg:w-[7%] lg:h-[12%] h-[7%] w-[20%] top-[82%] left-[24%]"
+          },
+          {
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-company/gallery-images-5.webp",
+            "alt": "Image 9",
+            "style": "lg:w-[26%] lg:h-[23%] w-[50%] h-[15%] lg:left-[55%] left-[45%] lg:top-40 top-36"
+          },
+          {
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-company/gallery-images-10.webp",
+            "alt": "Image 10",
+            "style": "top-[55%] lg:left-[83%] left-[70%] lg:w-[13%] lg:h-[25%] h-[16%] w-[26%] image-translate-up"
+          }
+        ],
+        "Data": [
+          {
+            "title": "1983",
+            "description": "The idea of Nessco emerged 41 years ago when Shree Gopal Lal Gupta Ji envisioned addressing the growing market demand for single-use disposable products. Initially, the company focused on the plastic segment, effectively catering to market needs. However, as environmental concerns around plastic usage grew, in 1990 Shree Gopal Lal Gupta Ji recognized its adverse effects on the environment. Driven by a desire to innovate and disrupt the industry, he began exploring eco-friendly alternatives, setting the stage for a transformational shift in the company’s vision.",
+            "image": "https://assets.nesscoindustries.com/public/assets/about/our-company/the-beginning-and-realization-1983.webp"
+          },
+          {
+            "title": "2000",
+            "description": "In the hunt for sustainable solutions, Shree Gopal Lal Gupta Ji discovered paper cups as an eco-friendly alternative. He began with manual machines to support this vision, solving market problems effectively. Recognizing the growing demand for paper-based solutions, the company realized the need for automatic machines in the near future. This forward-thinking approach set another milestone for Nessco, paving the way for advanced engineering solutions to meet market needs with greater efficiency and reliability.\r\n",
+            "image": "https://assets.nesscoindustries.com/public/assets/about/our-company/the-paper-revolution-and-transition-to-automation-2000s.webp"
+          },
+          {
+            "title": "2010",
+            "description": "The next generation of leaders, Harshit Agarwal and Yogesh Agarwal, joined the family business after completing their education. Harshit Agarwal spearheaded the company’s international expansion, successfully introducing Nessco’s machines to the MENA region. This marked the beginning of a global journey, which soon extended to the European subcontinent, North America, and South America, establishing Nessco as a trusted brand worldwide.Yogesh Agarwal, an engineering grad and MBA , brought innovative and technical insights to the company applying disruptive approach to scale the business further.",
+            "image": "https://assets.nesscoindustries.com/public/assets/about/our-company/the-next-generation-joins-2010.webp"
+          },
+          {
+            "title": "2017",
+            "description": "With the combined efforts of the next generation, Nessco launched high-speed automatic machines and servo-based advanced engineering solutions. These innovations represented a major leap in efficiency and precision, revolutionizing the industry and solidifying Nessco’s reputation as a leader in paper-based disposable machinery.",
+            "image": "https://assets.nesscoindustries.com/public/assets/about/our-company/high-speed-and-servo-based-marvels-2017.webm"
+          },
+          {
+            "title": "2020",
+            "description": "Nessco emerged as a market leader in paper-based disposable machinery and sustainable food packaging solutions. Today, the company caters to global brands and small entrepreneurs alike, providing eco-friendly solutions and creating alternative income opportunities for society. With its commitment to innovation and sustainability, Nessco continues to address modern food packaging challenges on a global scale.",
+            "image": "https://assets.nesscoindustries.com/public/assets/about/our-company/market-leadership-2020s.webm"
+          }
+        ],
+        "teampage": {
+          "video": "https://res.cloudinary.com/dlti4o10e/video/upload/v1729077376/f8z9q4pdi7s6hgiw0b4r.webm",
+          "heading": "Meet The",
+          "higlight": "Team",
+          "quote": "Build with Unity & Trust",
+          "description": "At our company, the team is built on the foundations of unity and trust, creating a cohesive and supportive work environment. Each member brings unique skills and perspectives, contributing to a culture where collaboration and mutual respect are paramount."
+        }
+      }
+    ]
+  }

@@ -1,0 +1,225 @@
+.KnowMoreCardContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: sticky;
+  top: 2rem;
+}
+
+.KnowMoreCard {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 540px;
+  width: 1200px;
+  border-radius: 25px;
+  padding: 2px;
+  background-color: #1a2e3e;
+  overflow: hidden;
+}
+
+.expertiseContainer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-bottom-left-radius: 24px;
+  z-index: 100;
+  width: 230px;
+  height: 140px;
+}
+
+.expertiseText {
+  font-size: 16px;
+  text-align: center; /* Center the text horizontally */
+}
+
+.icon {
+  margin-bottom: 5px; /* Add some space between the icon and the text */
+  text-align: center;
+}
+
+.expertiseContainer svg {
+  margin-right: 0px;
+}
+.KnowMoreCard .body {
+  display: flex;
+  height: 100%;
+  gap: 70px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  flex: 1;
+}
+
+.KnowMoreCard .body .description {
+  width: 50%; /* Adjust width for equal distribution */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3rem;
+}
+
+.KnowMoreCard .body .description span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.KnowMoreCard .body .description span a {
+  cursor: pointer;
+}
+
+.KnowMoreCard .body .imageContainer {
+  width: 45%; /* Adjust width for equal distribution */
+  height: 100%;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+}
+
+.KnowMoreCard .body .imageContainer .inner {
+  width: 100%;
+  height: 100%;
+}
+
+.KnowMoreCard .body .imageContainer img {
+  object-fit: cover;
+}
+
+.imageCorner {
+  position: absolute;
+  top: 1.1rem;
+  right: 5.1rem;
+  margin-right: 9.2rem;
+  width: 30px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+  z-index: 9999;
+}
+.imageCorner_second {
+  position: absolute;
+  top: 8.71rem;
+  right: 1.05rem;
+  margin-right: 0rem;
+  width: 30px;
+  height: 40px;
+  z-index: 9999;
+}
+@media (max-width: 768px) {
+  .KnowMoreCardContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: sticky;
+    top: 2rem;
+  }
+  
+  .KnowMoreCard {
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    height:600px;
+    width: 1380px;
+    border-radius: 25px;
+    background-color: #000000;
+    overflow: hidden;
+  }
+  
+  .expertiseContainer {   
+    display: flex;
+    width:40%;
+    height:15%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 24px;
+    z-index: 100;
+   
+  }
+  
+  .expertiseText {
+    font-size:10px;
+  }
+  
+  .icon {
+    margin-bottom: 5px; /* Add some space between the icon and the text */
+    text-align: center;
+  }
+  
+  .expertiseContainer svg {
+    margin-right: 0px;
+  }
+  .KnowMoreCard .body {
+    display: flex;
+    height: 100%;
+    display: flex;
+    flex-direction:column-reverse;
+    flex: 1;
+  }
+  
+  .KnowMoreCard .body .description {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    
+    margin-left:-0.2rem;
+  }
+  
+  .KnowMoreCard .body .description span {
+    display: flex;
+
+    font-size: 5px;
+  }
+  
+  
+  
+  .KnowMoreCard .body .imageContainer {
+    width: 100%; /* Adjust width for equal distribution */
+    height: 50%;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .KnowMoreCard .body .imageContainer .inner {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .KnowMoreCard .body .imageContainer image {
+    object-fit: cover;
+  }
+  
+  .imageCorner {
+    position: absolute;
+    top: 1.1rem;
+    right:0rem;
+    margin-right: 8.4rem;
+    width: 30px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    z-index: 9999;
+  }
+  .imageCorner_second {
+    position: absolute;
+    top: 5.4rem;
+    right: 1.05rem;
+    margin-right: 0rem;
+    width: 30px;
+    height: 40px;
+    z-index: 9999;
+  }
+}

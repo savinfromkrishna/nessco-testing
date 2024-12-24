@@ -1,0 +1,162 @@
+{
+    "Maintainance": [
+      {
+        "maintainanceSeoData": {
+          "title": "Expert Maintenance Solutions from Nessco",
+          "description": "Ensure top performance of your paper product machinery with Nessco's 100+ checkpoints maintenance services. Maximize efficiency and minimize downtime.",
+          "openGraph": {
+            "title": "Expert Maintenance Solutions from Nessco",
+            "description": "Ensure top performance of your paper product machinery with Nessco's 100+ checkpoints maintenance services. Maximize efficiency and minimize downtime."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Expert Maintenance Solutions from Nessco",
+            "description": "Ensure top performance of your paper product machinery with Nessco's 100+ checkpoints maintenance services. Maximize efficiency and minimize downtime."
+          }
+        },
+        "Header": {
+          "title": "Maintenance",
+          "maintainance": "MAINTENANCE",
+          "filter": "Filters",
+          "cancel": "Cancel",
+          "apply": "Apply",
+          "submit": "Submit",
+          "name": "Name",
+          "email": "Email",
+          "phone": "Phone",
+          "formTitle": "Get Maintenance Guide",
+          "footer": "Nessco © 2024 All Right Reserved",
+          "checkListTitle": "Maintenance Check List",
+          "formDescription": "Fill the form below to get your user guide",
+          "download": "Download Maintenance Check Sheet",
+          "description": "At Nessco, we ensure top-notch machine performance by offering maintenance services with 100+ checkpoints, guaranteeing smooth and efficient operation for all your  paper product machinery.",
+          "img": "https://assets.nesscoindustries.com/public/assets/support/nessco-support-maintainance.webp",
+          "points": [
+            {
+              "number": "1",
+              "title": "Startup Guide"
+            },
+            {
+              "number": "2",
+              "title": "Troubleshooting"
+            },
+            {
+              "number": "3",
+              "title": "Mechanical Checkpoints"
+            },
+            {
+              "number": "4",
+              "title": "Electrical Checkpoints"
+            },
+            {
+              "number": "5",
+              "title": "Pneumatic Checkpoints"
+            },
+            {
+              "number": "6",
+              "title": "Hydraulic Checkpoints"
+            }
+          ],
+          "categories": [
+            {
+              "title": "All Categories"
+            },
+            {
+              "title": "Paper Bowl"
+            },
+            {
+              "title": "Paper Cup"
+            },
+            {
+              "title": "Paper Lid"
+            },
+            {
+              "title": "Paper Box"
+            },
+            {
+              "title": "Paper Bag"
+            },
+            {
+              "title": "Paper Cutlery"
+            }
+          ],
+          "cards": [
+            {
+              "title": "Paper  Cup Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160s.webp",
+              "button": "Download",
+              "category": "All Categories, Paper Cup"
+            },
+            {
+              "title": "Paper Bowl Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160b.webp",
+              "button": "Download",
+              "category": "All Categories, Paper Bowl"
+            },
+            {
+              "title": "Paper Straw Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ps9.webp",
+              "button": "Download",
+              "category": "All Categories, Paper Straw"
+            },
+            {
+              "title": "Flexo Printing Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-950.webp",
+              "button": "Download",
+              "category": "All Categories, Flexo Printing"
+            },
+            {
+              "title": "Paper Bag Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pb450a.webp",
+              "button": "Download",
+              "category": "All Categories, Paper Bag"
+            },
+            {
+              "title": "Paper Plate Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ppm300.webp",
+              "button": "Download",
+              "category": "All Categories,Paper Plate"
+            },
+            {
+              "title": "Paper Lid Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lid-h.webp",
+              "button": "Download",
+              "category": "All Categories, Paper Lid"
+            },
+            {
+              "title": "Paper Box Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-crf.webp",
+              "button": "Download",
+              "category": "All Categories, Paper Box"
+            },
+            {
+              "title": "Die Cutting Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-1200.webp",
+              "button": "Download",
+              "category": "All Categories, Die Cutting"
+            },
+            {
+              "title": "Paper Coating Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ext1300.webp",
+              "button": "Download",
+              "category": "All Categories, Paper Coating"
+            },
+            {
+              "title": "Insulating Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160d.webp",
+              "button": "Download",
+              "category": "All Categories, Insulating Cup"
+            },
+            {
+              "title": "Paper Cutlery Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pctm.webp",
+              "button": "Download",
+              "category": "All Categories, Paper Cutlery"
+            }
+          ]
+        }
+      }
+    ]
+  }

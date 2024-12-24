@@ -1,0 +1,51 @@
+/* Sustainable.module.css */
+
+
+  
+  .gradientoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+  }
+  
+  .gradientoverlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70%;
+    background: linear-gradient(to bottom, black, transparent);
+  }
+  
+  .gradientoverlay::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%;
+    background: linear-gradient(to top, black, transparent);
+  }
+  
+  .gradientleft {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background: linear-gradient(to right, black, transparent);
+  }
+  
+  .gradientright {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    background: linear-gradient(to left, black, transparent);
+  }
+  

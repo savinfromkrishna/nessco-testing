@@ -1,0 +1,605 @@
+{
+    "GenuineParts": [
+      {
+        "genuinePartsSeoData": {
+          "title": "Protect Your Investment with Nessco Genuine Parts",
+          "description": "Invest in the future of your business and avoid costly downtime. Choose Nessco's genuine spare parts to keep your machinery running smoothly.",
+          "openGraph": {
+            "title": "Protect Your Investment with Nessco Genuine Parts",
+            "description": "Invest in the future of your business and avoid costly downtime. Choose Nessco's genuine spare parts to keep your machinery running smoothly."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Protect Your Investment with Nessco Genuine Parts",
+            "description": "Invest in the future of your business and avoid costly downtime. Choose Nessco's genuine spare parts to keep your machinery running smoothly."
+          }
+        },
+        "Header": {
+          "title": "Nessco Genuine Parts",
+          "description": "Our Genuine Parts are designed and engineered specifically for your Machine",
+          "toolBoxImg": "https://assets.nesscoindustries.com/public/assets/support/nessco-support-genuine-parts.webp",
+          "diverseMachines": "Diverse Machines, Tailored Solutions.",
+          "paragraph": "At Nessco, we provide a diverse range of machines for all your production needs, from paper cups to versatile packaging solutions. Trust our cutting-edge technology to enhance your manufacturing efficiency and quality."
+        },
+        "Inventory": {
+          "searchFilter": "Search Machine Filter",
+          "filter": "Filter",
+          "machinesFilter": "Machine Filter",
+          "partsFilter": "Parts Filter",
+          "searchParts": "Search Machine Parts",
+          "inventory": "Inventory",
+          "productNotFound": "Product Not Found?",
+          "addEnquiry": "Add To Enquiry",
+          "addedEnquiry": "Added To Enquiry",
+          "requestSpare": "Request Spare",
+          "proceed": "Proceed To Enquire",
+          "inventoryItems": "Inventory Items",
+          "submitYourEnquiry": "Submit Your Enquiry",
+          "submit": "Submit",
+          "cancel": "Cancel",
+          "fullName": "Full Name",
+          "phone": "Phone",
+          "email": "Email",
+          "iButton": "Parts To Enquire Will Be Shown In Inventory",
+          "machineFilter": [
+            {
+              "title": "Paper Cup Machine Part"
+            },
+            {
+              "title": "Paper Bowl Machine Part"
+            },
+            {
+              "title": "Paper Plate Machine Part"
+            },
+            {
+              "title": "Paper Roll Machine Part"
+            },
+            {
+              "title": "Paper straw Machine Part"
+            }
+          ],
+          "Filter": [
+            {
+              "title": "All",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/genuine-parts-all-icon.webp"
+            },
+            {
+              "title": "Mechanical",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/genuine-parts-mechanical-icon.webp"
+            },
+            {
+              "title": "Electrical",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/genuine-parts-electrical-icon.webp"
+            },
+            {
+              "title": "Hydraulic",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/genuine-parts-hydraulic-icon.webp"
+            },
+            {
+              "title": "Pneumatic",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/genuine-parts-pneumatic-icon.webp"
+            },
+            {
+              "title": "Consumables",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/genuine-parts-consumables-icon.webp"
+            },
+            {
+              "title": "Tools",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/genuine-parts-tools-icon.webp"
+            }
+          ],
+          "parts": [
+            {
+              "title": "Photo Sensor",
+              "categoryType": "Electrical, Paper Cup Machine Part",
+              "description": "Photo Sensor NPN NO-NC M18 Range 30CM G18-3A30NC Poweron",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/SP18P30O3P.webp",
+              "code": "SP18P30O3P",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Relay",
+              "categoryType": "Electrical",
+              "description": "Relay 8 Pin Coil 24VDC Rating. 5A/220VAC RXM2LB2BD Schneider",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/RL08024V04A.webp",
+              "code": "RL08024V04A",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Push Button",
+              "categoryType": "Electrical   ",
+              "description": "Emergency Push Button",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/EMG022M00R.webp",
+              "code": "EMG022M00R",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Phase Sequence Relay",
+              "categoryType": "Electrical",
+              "description": "Voltage Protection Device 3Phase NO/NC LED Indicator V-22 RYB Multispan",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/RPSV22RYB.webp",
+              "code": "RPSV22RYB",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Connector",
+              "categoryType": "Electrical",
+              "description": "Wago Connector 2 Way",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/E5PVC0202.webp",
+              "code": "E5PVC0202",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Limit Switch",
+              "categoryType": "Electrical",
+              "description": "Limit Switch Plunger Type NO + NC AC/DC MLASS3B2 ESBEE",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/LSWCE3M12.webp",
+              "code": "LSWCE3M12",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Relay Base",
+              "categoryType": "Electrical",
+              "description": "Relay Socket 8 Pin RXZE1M2C Schneider",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/RLBSMY2N01.webp",
+              "code": "RLBSMY2N01",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Heater",
+              "categoryType": "Electrical",
+              "description": "Ring Heater 1 Layer OD 90MM 10.3mm",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/RH1C509010.webp",
+              "code": "RH1C509010",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Select Switch",
+              "categoryType": "Electrical",
+              "description": "Select Switch White 1 Way NO Model. S2SR-S3WA Autonics",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/SSC5CE1W0A.webp",
+              "code": "SSC5CE1W0A",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Thermocouple",
+              "categoryType": "Electrical",
+              "description": "THERMOCOPLE WIRE K Type 1000MM",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/TCL2P4M8L4K0.webp",
+              "code": "TCL2P4M8L4K0",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Temp. Controller",
+              "categoryType": "Electrical",
+              "description": "Temperature Controller 0-400 °C K Type AC220V NG-5401-2 AISET",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/DTCC5K400A.webp",
+              "code": "DTCC5K400A",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Timer Relay",
+              "categoryType": "Electrical",
+              "description": "Time Relay Power On Delay 1s/10s/60s/6m 220VAC Model. HHS5-B(ST3PA-B) C-Lin",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/RLT486M000.webp",
+              "code": "RLT486M000",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Contact Element",
+              "categoryType": "Electrical",
+              "description": "Contact Element NO 240 V 3A",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/CEC5NO0000.webp",
+              "code": "CEC5NO0000",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Contact Element",
+              "categoryType": "Electrical",
+              "description": "Contact Element NC 240 V",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/CEC5NC0000.webp",
+              "code": "CEC5NC0000",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Relay",
+              "categoryType": "Electrical",
+              "description": "Relay 14 Pin Coil 230VAC RXM4CB2P7 Schneider",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/RL14230V04.webp",
+              "code": "RL14230V04",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Push Button",
+              "categoryType": "Electrical",
+              "description": "Push Button Switch Green W/O Contact Element",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PS0022M2PG.webp",
+              "code": "PS0022M2PG",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Push Button",
+              "categoryType": "Electrical",
+              "description": "Push Button Switch Red W/O Contact Element",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PS0022M2PR.webp",
+              "code": "PS0022M2PR",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Push Button",
+              "categoryType": "Electrical",
+              "description": "Push Button Switch Yellow W/O Contact Element",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PS0022M2PY.webp",
+              "code": "PS0022M2PY",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Select Switch",
+              "categoryType": "Electrical",
+              "description": "Select Switch White 2 Way without Contact Element",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/SS0022M2PW.webp",
+              "code": "SS0022M2PW",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Siren",
+              "categoryType": "Electrical",
+              "description": "Siren 220V AC BJ-1K",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/SIREN220B1K.webp",
+              "code": "SIREN220B1K",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Siren",
+              "categoryType": "Electrical",
+              "description": "Siren 12V DC",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/SIREN012VDC.webp",
+              "code": "SIREN012VDC",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Horn",
+              "categoryType": "Electrical",
+              "description": "Ultrasonic Horn 150mm",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/U20HRN150Z.webp",
+              "code": "U20HRN150Z",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Booster",
+              "categoryType": "Electrical",
+              "description": "Ultrasonic Booster",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/US20BSTRZZ.webp",
+              "code": "US20BSTRZZ",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Generator",
+              "categoryType": "Electrical",
+              "description": "Ultrasonic Generator",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/U20GNTRZZZ.webp",
+              "code": "U20GNTRZZZ",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Inductive Sensor",
+              "categoryType": "Electrical",
+              "description": "Square Inductive Sensor Range 5 MM NPN NO PL05N Fotek",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/SISQM05O1F.webp",
+              "code": "SISQM05O1F",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Photo Sensor",
+              "categoryType": "Electrical",
+              "description": "Photo Sensor NPN NO+NC Panasonic CX-441",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PSNONCX441.webp",
+              "code": "PSNONCX441",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Photo Sensor",
+              "categoryType": "Electrical",
+              "description": "Photo Sensor NPN NO+NC Panasonic CX-491",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PCNONCX491.webp",
+              "code": "PCNONCX491",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Photo Sensor",
+              "categoryType": "Electrical",
+              "description": "Photo Sensor NPN NO+NC Panasonic CX-442",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PSNONCX442.webp",
+              "code": "PSNONCX442",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Contactor",
+              "categoryType": "Electrical",
+              "description": "Contactor 3P 1 NO Aux. Coil 220VAC 50 Hz Model. LC1n1210M5N Schneider",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/RCC5T212AV04.webp",
+              "code": "RCC5T212AV04",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Fan",
+              "categoryType": "Electrical",
+              "description": "Cooling Fan 120x120x38 220/240VAC 50/60Hz 0.16A CF12038",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/USFAN004ZZ.webp",
+              "code": "USFAN004ZZ",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Jali",
+              "categoryType": "Electrical",
+              "description": "Cooling Fan Jali 4\"",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/USJALI004ZZ.webp",
+              "code": "USJALI004ZZ",
+              "information": "More information about this item."
+            },
+            {
+              "title": "SMPS",
+              "categoryType": "Electrical",
+              "description": "Power Supply SMPS 24VDC 0.625A Model. RS-15-24 Mean Well",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PSC51524MW.webp",
+              "code": "PSC51524MW",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Sensor",
+              "categoryType": "Electrical",
+              "description": "Autonics Sensor PSN-17-5DN 24V DC (Green)",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/SISQP05O1A.webp",
+              "code": "SISQP05O1A",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Limit Switch",
+              "categoryType": "Pneumatic",
+              "description": "Pneumatic Limit Switch K23RC-06 SEGANG",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/LSW32W14FS.webp",
+              "code": "LSW32W14FS",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Paraffin Cup",
+              "categoryType": "Mechanical",
+              "description": "Needle Valve Oil Cup",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PFCUPM1410.webp",
+              "code": "PFCUPM1410",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Bearing",
+              "categoryType": "Mechanical",
+              "description": "Angular Contact Bearing 3204Z NBC",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/BAC3204ZZV13.webp",
+              "code": "BAC3204ZZV13",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Push Button",
+              "categoryType": "Electrical",
+              "description": "Start/Stop Push Button NONC Model. LA38",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PSTCE3GR00.webp",
+              "code": "PSTCE3GR00",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Push Button",
+              "categoryType": "Electrica",
+              "description": "Push Button Start/Stop Series NO NC",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PSTCE3GR01.webp",
+              "code": "PSTCE3GR01",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Rubber Sucker",
+              "categoryType": "Mechanical",
+              "description": "Rubber Sucker 2 Layer Dia 30 MM Best Quality",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/VSC2D2H27Y.webp",
+              "code": "VSC2D2H27Y",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Rubber Sucker",
+              "categoryType": "Mechanical",
+              "description": "Rubber Sucker 1 Layer Dia 30 MM H-18 Nozzle ID- 6 MM",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/VSC1D1H18X.webp",
+              "code": "VSC1D1H18X",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Valve",
+              "categoryType": "Electrical",
+              "description": "Solenoid Valve 2/2 Way R1/4 Female end 220VAC",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/SVC5F3D1M0.webp",
+              "code": "SVC5F3D1M0",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Heater",
+              "categoryType": "Electrical",
+              "description": "Pencil Heater M14x70 150 watt 220V",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/CH15C51407.webp",
+              "code": "CH15C51407",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Heater",
+              "categoryType": "Electrical",
+              "description": "Pencil Heater 12x110 220V 300W",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/CH30C512110.webp",
+              "code": "CH30C512110",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Heater",
+              "categoryType": "Electrical",
+              "description": "Pencil Heater M16x130 300 watt 220V",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/CH30C51613.webp",
+              "code": "CH30C51613",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Inductive Sensor",
+              "categoryType": "Electrical",
+              "description": "Inductive Sensor M12 NPN NO Range 4 MM 3 Wire",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/SI12M04O1D.webp",
+              "code": "SI12M04O1D",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Photo Sensor",
+              "categoryType": "Electrical",
+              "description": "Photoelectric Sensor M18 NPN NO E3F-DS10C2",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/SPSQP3F10C2.webp",
+              "code": "SPSQP3F10C2",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Tracker",
+              "categoryType": "Mechanical",
+              "description": "Tracker Clip Spring Type Medium Quality",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/TRCL00000M.webp",
+              "code": "TRCL00000M",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Thermocouple",
+              "categoryType": "Electrical",
+              "description": "Thermocouple 2 Wire M6 0-800 °C L-500 MM",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/TCL2M6L1K0.webp",
+              "code": "TCL2M6L1K0",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Bearing",
+              "categoryType": "Mechanical",
+              "description": "Rod End Ball Joint M16x2 Right Male Thread",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/REBJM16LM0.webp",
+              "code": "REBJM16LM0",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Bearing",
+              "categoryType": "Mechanical",
+              "description": "Rod End Ball Joint M16x2 Right Female Thread",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/REBJM16RF0.webp",
+              "code": "REBJM16RF0",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Timer Relay Base",
+              "categoryType": "Electrical",
+              "description": "Relay Base 8 Pin Type PF083A-E KT108 Kyota",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/RLBSMK2P00.webp",
+              "code": "RLBSMK2P00",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Tower Light",
+              "categoryType": "Electrical",
+              "description": "Multicolor Machine Tower Light",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/MCTWRL5W00.webp",
+              "code": "MCTWRL5W00",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Hinge",
+              "categoryType": "Mechanical",
+              "description": "Aluminium / Zinc Die Cast Hinge 50x50 Black",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/HNGAL5050Z.webp",
+              "code": "HNGAL5050Z",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Gear Box",
+              "categoryType": "Mechanical",
+              "description": "Reducer Worm Gear WPS100-1/30-B",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/WPS10130B0.webp",
+              "code": "WPS10130B0",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Gear Box",
+              "categoryType": "Mechanical",
+              "description": "Reducer Worm Gear WPS100-1/30-A",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/WPS10130A0.webp",
+              "code": "WPS10130A0",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Blower",
+              "categoryType": "Electrical",
+              "description": "Air Blower 0.37 KW 0.5HP 3PH 220VAC Make SunSun",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/BLRC5W37R28S.webp",
+              "code": "BLRC5W37R28S",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Seal Kit",
+              "categoryType": "Pneumatic",
+              "description": "Seal Kit SC80 Techno",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/SLKTSC80T0.webp",
+              "code": "SLKTSC80T0",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Pneu. Pipe",
+              "categoryType": "Pneumatic",
+              "description": "PU Pipe 8mm Janatics",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PUPIPE08JN.webp",
+              "code": "PUPIPE08JN",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Pneu. Pipe",
+              "categoryType": "Pneumatic",
+              "description": "PU Pipe 6mm Black",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PUPIPE06BLK.webp",
+              "code": "PUPIPE06BLK",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Pipe",
+              "categoryType": "Pneumatic",
+              "description": "Lubrication Teflon Pipe OD 4mm",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/LUBPIPE4MM.webp",
+              "code": "LUBPIPE4MM",
+              "information": "More information about this item."
+            },
+            {
+              "title": "Conduit Pipe",
+              "categoryType": "Electrical",
+              "description": "PVC Conduit Pipe Flexible ID-9 mm OD-12 mm Black",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/genuineparts/parts/PVCFX0912BLK.webp",
+              "code": "PVCFX0912BLK",
+              "information": "More information about this item."
+            }
+          ]
+        },
+        "Box": {
+          "box": [
+            {
+              "title": "Precision and Performance",
+              "description": "Kia Genuine Parts are specially built for your Kia car to ensure peak performance. They meet the same quality and design requirements as the one used in the manufacturing of the car.",
+              "img": "https://res.cloudinary.com/dfryvystt/image/upload/v1731481268/PartsImg_plmtw1.png"
+            },
+            {
+              "title": "Quality Assurance & Authenticity",
+              "description": "Kia Genuine Parts are thoroughly tested under various extreme environments to ensure quality and durability for proper function on Kia cars. Purchasing Kia Genuine Parts from authorized Kia dealerships eliminate the chances of installation of counterfeit parts in your Kia Car.",
+              "img": "https://res.cloudinary.com/dfryvystt/image/upload/v1731481268/PartsImg_plmtw1.png"
+            },
+            {
+              "title": "Genuine Parts. Genuine Protection",
+              "description": "Kia Genuine Parts are engineered & designed to meet the global standards and are covered under warranty for 6 months. Usage of non-genuine parts may compromise the car performance and may also invalidate your car warranty",
+              "img": "https://res.cloudinary.com/dfryvystt/image/upload/v1731481268/PartsImg_plmtw1.png"
+            }
+          ]
+        }
+      }
+    ]
+  }

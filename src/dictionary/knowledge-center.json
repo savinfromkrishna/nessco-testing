@@ -1,0 +1,65 @@
+{
+    "knowledgeCenter": [
+      {
+        "knowLedgeCenterSeoData": {
+          "title": "Knowledge Center | Nessco",
+          "description": "Master your product, machine, and business with Nessco's knowledge center. Discover valuable insights, expert advice, and industry best practices.",
+          "openGraph": {
+            "title": "Knowledge Center | Nessco",
+            "description": "Master your product, machine, and business with Nessco's knowledge center. Discover valuable insights, expert advice, and industry best practices."
+          }
+        },
+        "Hero": {
+          "title": "Knowledge Center",
+          "subtitle": "Master Your Product, Machine, and Business with NESSCO",
+          "section": [
+            {
+              "title": "Know Your Products",
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/knowledge-center/knowledge-center-product-image.webp",
+              "link": "/know-your-product"
+            },
+            {
+              "title": "Know Your Machine",
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/knowledge-center/knowledge-center-machine-image.webp",
+              "link": "/know-your-machine"
+            },
+            {
+              "title": "Know Your Bussiness",
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/knowledge-center/knowledge-center-bussiness-image.webp",
+              "link": "/know-your-bussiness"
+            }
+          ]
+        },
+        "Section": {
+          "button": "Read More",
+          "sections": [
+            {
+              "number": "1",
+              "title": "Know Your Product",
+              "link": "know-your-product",
+              "description": "At Nessco, we specialize in providing high-quality, eco-friendly paper products designed to meet the diverse needs of businesses worldwide. Our range includes paper cups, plates, straws, bags, and more, all crafted using sustainable materials. We prioritize innovation, durability, and environmental responsibility in every product we offer. Trust Nessco to deliver reliable, cost-effective solutions for your packaging and disposable needs. Our commitment to quality ensures you receive products that enhance your business and support a greener future.",
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/knowledge-center/knowledge-center-product-image.webp"
+            },
+            {
+              "number": "2",
+              "title": "Know Your Machine",
+              "link": "know-your-machine",
+              "description": "Nessco’s state-of-the-art machines are engineered for precision, efficiency, and sustainability. Designed to meet the highest industry standards, our machines are capable of producing high-quality paper products with optimal performance. With advanced technology and user-friendly interfaces, they ensure maximum productivity and minimal downtime. Trust Nessco’s machinery to deliver reliable, cost-effective solutions that drive your business forward. Our commitment to innovation ensures you stay ahead in a competitive market.",
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/knowledge-center/knowledge-center-machine-image.webp"
+            },
+            {
+              "number": "3",
+              "title": "Know Your Bussiness",
+              "link": "know-your-bussiness",
+              "description": "Nessco is a leading provider of eco-friendly paper products and advanced machinery, committed to sustainability and innovation. With years of industry experience, we deliver high-quality solutions for businesses in packaging, foodservice, and retail. Our products and machines are designed to meet the evolving needs of our customers while minimizing environmental impact. At Nessco, we prioritize excellence, reliability, and customer satisfaction, making us a trusted partner for businesses worldwide. We’re dedicated to driving growth through sustainable practices and cutting-edge technology.\r\n",
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/knowledge-center/knowledge-center-bussiness-image.webp"
+            }
+          ]
+        },
+        "SubSection": {
+          "title": "Insight. Precision. Growth.",
+          "description": "At Nessco India our Knowledge Center is your ultimate resource for mastering every aspect of your business. Weather it`s understanding the nauances of your product,optimizing your machinery, or drving business growth , we provide the insight and tools you need to succeed. Our focus is on empowering you with the knowledge to make informed decision, streamline operations,and enhance your competitive edge in the market."
+        }
+      }
+    ]
+  }

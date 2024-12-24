@@ -1,0 +1,19 @@
+.glow {
+  animation: glowing 1.5s infinite alternate;
+  filter: drop-shadow(0 0 10px rgba(236, 236, 236, 0.5));
+}
+
+@keyframes glowing {
+  0% {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgb(247, 247, 247));
+  }
+  100% {
+    filter: drop-shadow(0 0 10px rgb(247, 247, 247));
+  }
+  150% {
+    filter: drop-shadow(0 0 10px rgb(224, 224, 224));
+  }
+}

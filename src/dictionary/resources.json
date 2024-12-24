@@ -1,0 +1,84 @@
+{
+    "resources": [
+      {
+        "resourcesSeoData": {
+          "title": "Nessco Resources",
+          "description": "Your one-stop solutions for packaging needs. Explore our FAQ, Knowledge Center, Media Room, Blog, and Clientele section for valuable insights and resources.",
+          "openGraph": {
+            "title": "Nessco Resources",
+            "description": "Your one-stop solutions for packaging needs. Explore our FAQ, Knowledge Center, Media Room, Blog, and Clientele section for valuable insights and resources."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Nessco Resources",
+            "description": "Your one-stop solutions for packaging needs. Explore our FAQ, Knowledge Center, Media Room, Blog, and Clientele section for valuable insights and resources."
+          }
+        },
+        "pageHeader": {
+          "mainTitle": "Nessco",
+          "highlightTitle": "Resources",
+          "description": "When it comes to the longevity and reliability of your machine, don’t settle for less. Trust our genuine parts to keep your equipment running at its best—every time, everywhere.",
+          "image": {
+            "src": "https://assets.nesscoindustries.com/public/assets/resources/resources-icon.webp",
+            "alt": "machine",
+            "width": "300",
+            "height": "300"
+          }
+        },
+        "cards": [
+          {
+            "title": "Faq",
+            "link": "faq",
+            "image": {
+              "src": "https://assets.nesscoindustries.com/public/assets/resources/faq-icon.webp",
+              "alt": "FAQ",
+              "width": "150",
+              "height": "150"
+            }
+          },
+          {
+            "title": "Knowledge Center",
+            "link": "knowledge-center",
+            "image": {
+              "src": "https://assets.nesscoindustries.com/public/assets/resources/knowledge-center-icon.webp",
+              "alt": "Knowledge Center",
+              "width": "150",
+              "height": "150"
+            }
+          },
+          {
+            "title": "Media Room",
+            "link": "media-room",
+            "image": {
+              "src": "https://assets.nesscoindustries.com/public/assets/resources/media-room-icon.webp",
+              "alt": "Media Room",
+              "width": "150",
+              "height": "150"
+            }
+          },
+          {
+            "title": "Blogs",
+            "link": "blog",
+            "image": {
+              "src": "https://assets.nesscoindustries.com/public/assets/resources/blogs-icon.webp",
+              "alt": "Blogs",
+              "width": "150",
+              "height": "150"
+            }
+          },
+          {
+            "title": "Clientele",
+            "link": "clientele",
+            "image": {
+              "src": "https://assets.nesscoindustries.com/public/assets/resources/clientele-icon.webp",
+              "alt": "Clientele",
+              "width": "150",
+              "height": "150"
+            }
+          }
+        ]
+      }
+    ]
+  }

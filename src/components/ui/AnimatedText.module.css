@@ -1,0 +1,49 @@
+.box {
+  width: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  height: 20px;
+}
+
+.block {
+  width: 0%;
+  height: inherit;
+  background: white;
+  position: absolute;
+  animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+}
+
+.heading {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 32px;
+  opacity: 0;
+  display: flex;
+  align-items: baseline;
+  position: relative;
+}
+
+@keyframes mainBlock {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%; /* Move the block completely out of view */
+  }
+}

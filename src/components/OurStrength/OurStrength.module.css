@@ -1,0 +1,68 @@
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.transition-transform {
+  transition: transform 0.5s ease;
+}
+
+.active {
+  transform: scale(1.2); /* Scale up the text */
+}
+
+.swiper_container {
+  width: 200px;
+  height: 52rem;
+  padding: 2rem 0;
+  position: relative;
+}
+
+
+/* Swiper Slide */
+.swiper-slide {
+  width: 305px; /* Set your desired width here */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Slide Image */
+.swiper-slide img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+
+
+
+/* Pagination */
+.swiper-pagination {
+  position: absolute;
+  width: 15rem;
+  bottom: 1rem;
+  text-align: center;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: var(--primary);
+}
+
+
+
+

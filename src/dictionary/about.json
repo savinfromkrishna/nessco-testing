@@ -1,0 +1,368 @@
+{
+    "About": [
+      {
+        "aboutSeoData": {
+          "title": "About Nessco ",
+          "description": "Experience the Nessco difference. As a leading provider of innovative packaging solutions since 1978, we offer a wide range of high-quality disposable industry machinery that meet stringent global standards.",
+          "keywords": "Nessco India",
+          "openGraph": {
+            "title": "About Nessco ",
+            "description": "Experience the Nessco difference. As a leading provider of innovative packaging solutions since 1978, we offer a wide range of high-quality disposable industry machinery that meet stringent global standards."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "About Nessco ",
+            "description": "Experience the Nessco difference. As a leading provider of innovative packaging solutions since 1978, we offer a wide range of high-quality disposable industry machinery that meet stringent global standards."
+          }
+        },
+        "Page1Data": {
+          "video": "https://assets.nesscoindustries.com/public/assets/about/about-banner.webm",
+          "title": "About Us",
+          "getaQuote": "Get a Quote",
+          "mainImg": "https://assets.nesscoindustries.com/public/imageassets/centreimg.svg",
+          "leftBorderImg": "/assets/about/LeftBorderImg.svg",
+          "rightBorderImg": "/assets/about/RightBorderImg.svg",
+          "description": "Since 1978, Nessco India has been a trusted manufacturer and exporter of high-quality disposable industry machines. With innovation, precision, and a dedicated R&D team, we deliver reliable, cutting-edge solutions to meet evolving global demands.",
+          "image": [
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/about-years-of-experience-icon.webp",
+              "title": "40+ Years of Experience"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/about-global-clientele-icon.webp",
+              "title": "Global Trusted Clientele"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/about-main-icon.webp"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/about-iso-certified-company-icon.webp",
+              "title": "ISO Certified Company"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/about-sustainability-commitment-icon.webp",
+              "title": "Sustainability Commitment"
+            }
+          ]
+        },
+        "missionvissionContent": {
+          "title": "Mission & Vision",
+          "button": "Read more",
+          "slides": [
+            {
+              "title": "Mission",
+              "imageSrc": "https://assets.nesscoindustries.com/public/assets/about/mission.svg",
+              "description": "We don’t just build machines—We build trust, innovation, and a legacy of excellence. With over 1,000 machines sold across the globe, we’re proud to have earned the confidence of businesses in markets like Russia, Italy, and the USA. This milestone is more than a number; it’s a reflection of the quality, dedication, and customer-first approach that drives everything we do."
+            },
+            {
+              "title": "Vision",
+              "imageSrc": "https://assets.nesscoindustries.com/public/assets/about/vision.svg",
+              "description": "Our vision is to be a global leader in transforming the disposable industry through innovation, sustainability, and customer-centric solutions. We aspire to set new benchmarks by creating machinery that not only enhances efficiency but also aligns with the growing demand for eco-friendly alternatives.",
+              "points": [
+                {
+                  "caption": "Global Leadership"
+                },
+                {
+                  "caption": "Sustainability"
+                },
+                {
+                  "caption": "Empowering Businesses"
+                },
+                {
+                  "caption": "Innovation at the Core"
+                }
+              ]
+            },
+            {
+              "title": "Culture",
+              "imageSrc": "https://assets.nesscoindustries.com/public/assets/about/culture.svg",
+              "description": "Our culture is all about working together, sharing ideas, and valuing everyone’s efforts. We create a space where creativity shines, teamwork leads the way, and learning never stops. With honesty, inclusivity, and support at our core, we celebrate wins and face challenges as one team .",
+              "values": [
+                {
+                  "imageSrc": "https://assets.nesscoindustries.com/public/assets/about/stand.svg",
+                  "text": "Innovation and Creativity"
+                },
+                {
+                  "imageSrc": "https://assets.nesscoindustries.com/public/assets/about/stand.svg",
+                  "text": "Customer Centricity"
+                },
+                {
+                  "imageSrc": "https://assets.nesscoindustries.com/public/assets/about/stand.svg",
+                  "text": "Integrity and Transparency"
+                },
+                {
+                  "imageSrc": "https://assets.nesscoindustries.com/public/assets/about/stand.svg",
+                  "text": "Collaboration and Teamwork"
+                }
+              ]
+            }
+          ]
+        },
+        "companyContent": {
+          "title": "Our Company",
+          "description": "Nesscoindia is a leading manufacturer of high-quality paper cup machines. With a focus on innovation and customer satisfaction, we specialize in producing state-of-the-art machinery designed to meet the demands of the modern paper cup industry. Our machines are renowned for their durability, efficiency, and precision, helping businesses around the world produce eco-friendly paper cups with ease. At Nesscoindia, we are committed to sustainability and excellence, ensuring that our products not only meet but exceed industry standards.",
+          "imageWithDescription": [
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-company-image-1.webp"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-company-image-2.webp"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-company-image-3.webp"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-company-image-4.webp"
+            }
+          ]
+        },
+        "Heading": {
+          "title": "Our Strength"
+        },
+        "cards": [
+          {
+            "description": "Over four decades of experience in the disposable industry, delivering exceptional solutions tailored to client needs.",
+            "title": "Expertise and Experience",
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-strength-icon1.svg",
+            "video": "https://assets.nesscoindustries.com/public/assets/about/our-strength1.webm"
+          },
+          {
+            "description": "A strong presence in key markets like Russia, Italy, and the USA, with over 1,000 machines sold worldwide.",
+            "title": "Global Reach",
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-strength-icon2.svg",
+            "video": "https://assets.nesscoindustries.com/public/assets/about/our-strength2.webm"
+          },
+          {
+            "description": "Dedicated to providing high-performance machinery that meets global standards of excellence and reliability.",
+            "title": "Commitment to Quality",
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-strength-icon3.svg",
+            "video": "https://assets.nesscoindustries.com/public/assets/about/our-strength3.webm"
+          },
+          {
+            "description": "Dedicated to environmental responsibility, we focus on producing eco-friendly machines that help businesses reduce their carbon footprint and promote sustainable practices.",
+            "title": "Sustainability Commitment",
+            "src": "https://assets.nesscoindustries.com/public/assets/about/our-strength-icon4.svg",
+            "video": "https://assets.nesscoindustries.com/public/assets/about/our-strength4.webm"
+          }
+        ],
+        "galleryfour": {
+          "heading": "The Pink City",
+          "galleryImages": [
+            {
+              "src": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-4.webp",
+              "paragraph": "The Pink City of Jaipur, capital city of Rajasthan, is a vibrant hub known for its perfect mix of culture, tradition, and modern development, making it an ideal base for our operations."
+            },
+            {
+              "src": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-3.webp\r\n",
+              "paragraph": "The city’s strategic location and excellent connectivity to major cities across India have positioned it as a growing center for commerce and innovation."
+            },
+            {
+              "src": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-2.webp\r\n",
+              "paragraph": "Jaipur is renowned for its skilled workforce, entrepreneurial spirit, and a thriving industrial ecosystem, offering endless opportunities for businesses like ours."
+            },
+            {
+              "src": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-5.webp\r\n",
+              "paragraph": "Jaipur offers excellent connectivity, skilled talent, and a growing infrastructure that supports innovation and development across industries."
+            }
+          ]
+        },
+        "Sustainabilityheading": {
+          "title": "Sustainability",
+          "Approach": "Our Approach"
+        },
+        "slides": [
+          {
+            "id": "0",
+            "img": "/assets/about/sustain/20.svg",
+            "title": "Carbon Emission Control",
+            "description": "At Nessco India, our commitment to sustainable manufacturing practices is at the core of our operations. We employ cutting-edge technologies and processes that prioritize energy efficiency and waste reduction."
+          },
+          {
+            "id": "1",
+            "img": "/assets/about/sustain/21.svg",
+            "title": "Energy Efficiency",
+            "description": "At Nessco India, our commitment to sustainable manufacturing practices is at the core of our operations."
+          },
+          {
+            "id": "2",
+            "img": "/assets/about/sustain/22.svg",
+            "title": "Waste Reduction",
+            "description": "At Nessco India, our commitment to sustainable manufacturing practices is at the core of our operations. We employ cutting-edge technologies and processes that prioritize energy efficiency and waste reduction."
+          },
+          {
+            "id": "3",
+            "img": "/assets/about/sustain/23.svg",
+            "title": "Water Conservation",
+            "description": "At Nessco India, our commitment to sustainable manufacturing practices is at the core of our operations. We employ cutting-edge technologies and processes that prioritize energy efficiency and waste reduction."
+          },
+          {
+            "id": "4",
+            "img": "/assets/about/sustain/24.svg",
+            "title": "Green Manufacturing",
+            "description": "At Nessco India, our commitment to sustainable manufacturing practices is at the core of our operations. We employ cutting-edge technologies and processes that prioritize energy efficiency and waste reduction."
+          }
+        ],
+        "Featureheading": {
+          "title": "Featured Projects",
+          "featuredpage": "Nessco",
+          "featuredpagehighlight": "Featured Projects",
+          "button": "Read more",
+          "banner1": "Innovative packaging solution,",
+          "banner2": "One Machine at a Time",
+          "viewmachine": "View Machine"
+        },
+        "machines": [
+          {
+            "id": "1",
+            "title": "Meiji",
+            "description": "Nessco India designed and delivered a fully automated production line for Meiji-branded sleeve-wrapped PP cups. The solution integrated cup feeding, sleeve application, cone creation, and precise attachment, followed by stacking and packaging—all while adhering to Six Sigma DPMO standards for quality.",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-meiji-1.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-meiji-1.webp",
+            "link": "projects/meiji---automating-sleeve-wrapped-pp-cups"
+          },
+          {
+            "id": "2",
+            "title": "7-Eleven Japan",
+            "description": "Nessco India partnered with a 7-Eleven’s supplier in Japan to create a sustainable alternative to plastic dome lids. The project required designing and manufacturing leak-proof, paper-based dome lids with options for sippers and straws. ",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-7-eleven-dome-lid.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-7-eleven-dome-lid.webp",
+            "link": "projects/7-eleven-japan-revolutionizing-dome-shaped-paper-lids"
+          },
+          {
+            "id": "3",
+            "title": "Nestlé Instant Noodle Cup",
+            "description": "Nessco India collaborated with Nestlé to create a custom-designed double-wall sleeve for instant noodle cups, combining insulation, durability, and recyclability. The sleeve featured a gap for heat resistance, a zipper tear pattern for easy detachment, and optimized glue for strong yet recyclable adhesion to the plastic cup. ",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-nestle-instant-cup-noodle.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-nestle-instant-cup-noodle.webp",
+            "link": "projects/nestl-instant-noodle-cup-redefining-convenience-and-sustainability"
+          },
+          {
+            "id": "4",
+            "title": "Go-IndiGo",
+            "description": "Indigo Supplier – Exceeding Expectations with Tailored Solutions\r\nCustom-engineered machines delivered to Indigo’s supplier, ensuring superior quality and customer delight through rigorous testing and precision manufacturing.\r\n",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-indigo.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-indigo.webp",
+            "link": "projects/go-indigo-delivering-tailored-cup-manufacturing-machines"
+          },
+          {
+            "id": "5",
+            "title": "Pepsi & PVR",
+            "description": "Collaborated with Pepsi and PVR’s supplier to provide state-of-the-art machines for producing cold drink cups and popcorn tubs.Delivered precision-engineered machines for 16oz, 18oz, 22oz, 24oz cold drink cups and popcorn tubs, ensuring perfect lid fitments and seamless operations for Pepsi and PVR at cinema halls.\n",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-pepsi-pvr.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-pepsi-pvr.webp",
+            "link": "projects/pepsi-pvr-cold-drink-cups-and-popcorn-tubs"
+          },
+          {
+            "id": "6",
+            "title": "Germany Plant Setup",
+            "description": "Nessco India takes pride in revolutionizing global markets with turnkey solutions. Explore how we established a state-of-the-art plant in Germany, designed to meet high-demand QSR needs with exceptional precision and reliability.\r\n",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-germany-plant-setup.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-germany-plant-setup.webp",
+            "link": "projects/germany-plant-setup-630-million-cups-annually"
+          }
+        ],
+        "grid": [
+          {
+            "id": "11",
+            "title": "Meiji - Automating Sleeve-Wrapped PP Cups",
+            "description": "Nessco India designed and delivered a fully automated production line for Meiji-branded sleeve-wrapped PP cups. The solution integrated cup feeding, sleeve application, cone creation, and precise attachment, followed by stacking and packaging—all while adhering to Six Sigma DPMO standards for quality. By replacing fragmented machinery from multiple suppliers with a seamless, end-to-end system, Nessco reduced operational inefficiencies, minimized manual intervention, and ensured consistent, high-quality output. This tailor-made solution exceeded the client’s expectations, transforming their operations with efficiency and precision engineering.",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-meiji-1.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-meiji-1.webp"
+          },
+          {
+            "id": "12",
+            "title": "7-Eleven Japan – Revolutionizing Dome-Shaped Paper Lids",
+            "description": "Nessco India partnered with a 7-Eleven’s supplier in Japan to create a sustainable alternative to plastic dome lids. The project required designing and manufacturing leak-proof, paper-based dome lids with options for sippers and straws. Nessco engineered a precision mold tailored to the cup’s top diameter and curling specifications, ensuring a snap-fit lid that passed the supplier’s stringent testing, including leakage tests and CT-scan fitment evaluations.\n",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-7-eleven-dome-lid.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-7-eleven-dome-lid.webp"
+          },
+          {
+            "id": "13",
+            "title": "Nestlé Instant Noodle Cup – Redefining Convenience and Sustainability",
+            "description": "Nessco India collaborated with Nestlé to create a custom-designed double-wall sleeve for instant noodle cups, combining insulation, durability, and recyclability. The sleeve featured a gap for heat resistance, a zipper tear pattern for easy detachment, and optimized glue for strong yet recyclable adhesion to the plastic cup. This innovative solution ensured effortless recycling and enhanced usability, meeting Nestlé's stringent requirements. With precision engineering and material science expertise, Nessco delivered a product that delighted Nestlé and showcased our commitment to sustainability and innovation.",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-nestle-instant-cup-noodle.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-nestle-instant-cup-noodle.webp"
+          },
+          {
+            "id": "14",
+            "title": "Go-IndiGo – Delivering Tailored Cup Manufacturing Machines",
+            "description": "Custom-engineered machines delivered to Indigo’s supplier, ensuring superior quality and customer delight through rigorous testing and precision manufacturing.",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-indigo.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-indigo.webp"
+          },
+          {
+            "id": "15",
+            "title": "Pepsi & PVR – Cold Drink Cups and Popcorn Tubs",
+            "description": "Collaborated with Pepsi and PVR’s supplier to provide state-of-the-art machines for producing cold drink cups and popcorn tubs.Delivered precision-engineered machines for 16oz, 18oz, 22oz, 24oz cold drink cups and popcorn tubs, ensuring perfect lid fitments and seamless operations for Pepsi and PVR at cinema halls.",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-pepsi-pvr.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-pepsi-pvr.webp"
+          },
+          {
+            "id": "16",
+            "title": "Germany Plant Setup – 630 Million Cups Annually",
+            "description": "Established a high-capacity plant in Germany featuring 10+ high-speed paper cup machines, producing 630 million cups annually to serve the customized demands of the QSR sector.\nNessco India takes pride in revolutionizing global markets with turnkey solutions. Explore how we established a state-of-the-art plant in Germany, designed to meet high-demand QSR needs with exceptional precision and reliability.\n",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-germany-plant-setup.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-germany-plant-setup.webp"
+          },
+          {
+            "id": "17",
+            "title": "KFC Ice Cream Bowl – Winning the Mega Order",
+            "description": "Rapidly supplied machines for KFC ice cream bowls, enabling our client to win a mega order by delivering high-quality samples and consistent production.\r\nAt Nessco India, we pride ourselves on delivering rapid and reliable solutions to meet dynamic business needs. Discover how we supported our client in securing a mega order for KFC by delivering high-performance machines for ice cream bowl production.\r\n",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-kfc-ice-cream-bowl.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-kfc-ice-cream-bowl.webp"
+          },
+          {
+            "id": "18",
+            "title": "Baba Cups – Empowering India’s Largest Supplier",
+            "description": "Nessco India is proud to be a trusted partner of leading suppliers in India, supporting them with state-of-the-art machinery to serve domestic and international markets. Discover how we forged a strong partnership with Baba Cups, one of India’s largest paper cup and raw material suppliers. Partnered with Baba Cups to supply cutting-edge machines for paper cups, bowls, lids, and ripple wall solutions, serving markets across India and beyond.\r",
+            "mainImage": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-babacups.webp",
+            "mobileimg": "https://assets.nesscoindustries.com/public/assets/about/projects/featured-babacups.webp"
+          }
+        ],
+        "Awardheading": {
+          "title": "Awards",
+          "description": "Recognition affirms our purpose, and shows us we’re on the right track.Look through the awards we’ve accumulated, and the certifications that mark the checkpoints ensuring our progress."
+        },
+        "awards": [
+          {
+            "id": "1",
+            "title": "ISO 9001 Certified",
+            "description": "Recognition affirms our purpose, and shows us we’re on the right track.",
+            "image": "https://assets.nesscoindustries.com/public/assets/about/award6.svg"
+          },
+          {
+            "id": "2",
+            "title": "Taxpayers Award",
+            "description": "Look through the awards we’ve accumulated.",
+            "image": "https://assets.nesscoindustries.com/public/assets/about/award2.svg"
+          },
+          {
+            "id": "3",
+            "title": "Child Labour Free",
+            "description": "The certifications that mark the checkpoints ensuring our progress.",
+            "image": "https://assets.nesscoindustries.com/public/assets/about/award4.svg"
+          },
+          {
+            "id": "4",
+            "title": "Star Export House",
+            "description": "Recognition affirms our purpose, and shows us we’re on the right track.",
+            "image": "https://assets.nesscoindustries.com/public/assets/about/award1.svg"
+          },
+          {
+            "id": "5",
+            "title": "CE Certified",
+            "description": "Look through the awards we’ve accumulated.",
+            "image": "https://assets.nesscoindustries.com/public/assets/about/award3.svg"
+          },
+          {
+            "id": "6",
+            "title": "RoHS Certified",
+            "description": "The certifications that mark the checkpoints ensuring our progress.",
+            "image": "https://assets.nesscoindustries.com/public/assets/about/award5.svg"
+          }
+        ]
+      }
+    ]
+  }

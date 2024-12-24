@@ -1,0 +1,77 @@
+{
+    "pinkcity": [
+      {
+        "pinkcitySeoData": {
+          "title": "The Pink City: A Glimpse into Jaipur's Majesty | Nessco",
+          "description": "Discover the enchanting city of Jaipur. Explore its majestic forts, vibrant bazaars, and rich cultural heritage. Experience the beauty of the Pink City with Nessco.",
+          "openGraph": {
+            "title": "The Pink City: A Glimpse into Jaipur's Majesty | Nessco",
+            "description": "Discover the enchanting city of Jaipur. Explore its majestic forts, vibrant bazaars, and rich cultural heritage. Experience the beauty of the Pink City with Nessco."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "The Pink City: A Glimpse into Jaipur's Majesty | Nessco",
+            "description": "Discover the enchanting city of Jaipur. Explore its majestic forts, vibrant bazaars, and rich cultural heritage. Experience the beauty of the Pink City with Nessco."
+          }
+        },
+        "landingPageContent": {
+          "backgroundImg": "https://res.cloudinary.com/dlti4o10e/image/upload/v1729144603/xpn3r5ilruwzgpkyf1pn.png",
+          "cornerLayerImg": "/assets/pinkcity/cornerlayer.svg",
+          "stickerImg": "/assets/pinkcity/stickerimg.png",
+          "description": "Rajasthan, a name of Hindustani origin, translates to \"The Land of Kings,\" a tribute to its regal history and the majestic Maharajas who once ruled its vast and vibrant territories.",
+          "title": "The Land of",
+          "subtitle": "Maharajas.",
+          "jaipur": "Jaipur"
+        },
+        "secondPageContent": {
+          "mandalaImg": "/assets/pinkcity/mandala/1.svg",
+          "topImg": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-1.webp",
+          "strokeImg": "/assets/pinkcity/strokerimg.svg",
+          "description": "Jaipur, the capital of Rajasthan, stands as a testament to India’s royal past and architectural brilliance. Often referred to as the Pink City due to its signature terracotta-colored buildings, it offers a unique blend of history, culture, and artistry. From the grandeur of Amber Fort to the intricate designs of Jantar Mantar, Jaipur captivates visitors with its timeless charm. Its bustling markets, filled with handcrafted textiles, jewelry, and pottery, showcase the city's vibrant traditions. A perfect blend of old-world elegance and modern vibrancy, Jaipur continues to be a treasure trove for travelers and heritage lovers alike."
+        },
+        "bluePageContent": {
+          "backgroundSvg": "/assets/pinkcity/bluemandala.svg",
+          "videoSrc": "https://res.cloudinary.com/dlti4o10e/video/upload/v1729146305/pinkhaveli_ioeeyj.webm"
+        },
+        "pinkPageContent": {
+          "birdComponent": "TRUE",
+          "mandalaImg": "/assets/pinkcity/mandala/2.svg",
+          "strokeImg": "/assets/pinkcity/1.svg",
+          "hawamahalImg": "https://res.cloudinary.com/dlti4o10e/image/upload/v1729146417/hawamahal_r84zjf.png",
+          "description": "Steeped in vibrant traditions and rich heritage, Jaipur, the capital of Rajasthan, serves as the inspiration behind our company. Known for its stunning palaces, majestic forts, and timeless artistry, the city infuses its cultural essence into every machine we create. Rooted in the spirit of this iconic city, our products reflect a harmonious blend of innovation and the timeless craftsmanship Jaipur is renowned for, making them truly exceptional."
+        },
+        "galleryContent": {
+          "topStrokeImg": "/assets/pinkcity/bottomimage.svg",
+          "bottomStrokeImg": "/assets/pinkcity/3.svg",
+          "galleryImages": [
+            {
+              "gallery": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-2.webp"
+            },
+            {
+              "gallery": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-3.webp"
+            },
+            {
+              "gallery": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-4.webp"
+            },
+            {
+              "gallery": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-5.webp"
+            },
+            {
+              "gallery": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-6.webp"
+            },
+            {
+              "gallery": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-7.webp"
+            },
+            {
+              "gallery": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-8.webp"
+            },
+            {
+              "gallery": "https://assets.nesscoindustries.com/public/assets/about/pinkcity/pink-city-9.webp"
+            }
+          ]
+        }
+      }
+    ]
+  }

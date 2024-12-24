@@ -1,0 +1,35 @@
+{
+    "Services": [
+      {
+        "servicesSeoData": {
+          "title": "Book Your Next Service Appointment | Nessco",
+          "description": "Schedule your next service appointment with ease. Our team of experts will ensure your Nessco machines operates at peak performance. Book now today!",
+          "openGraph": {
+            "title": "Book Your Next Service Appointment | Nessco",
+            "description": "Schedule your next service appointment with ease. Our team of experts will ensure your Nessco machines operates at peak performance. Book now today!"
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Book Your Next Service Appointment | Nessco",
+            "description": "Schedule your next service appointment with ease. Our team of experts will ensure your Nessco machines operates at peak performance. Book now today!"
+          }
+        },
+        "Header": {
+          "title": "Book a Service Appointment",
+          "paragraph": "Kindly fill the form so that we can process your request further as fast as we can.",
+          "yourName": "YOUR NAME",
+          "yourCompanyName": "YOUR COMPANY NAME",
+          "phone": "PHONE",
+          "yourAddress": "YOUR ADDRESS",
+          "city": "City",
+          "country": "Country",
+          "existingCustomer": "EXISTING NESSCO CUSTOMER",
+          "machineType": "MACHINE TYPE",
+          "serviceType": "SERVICE TYPE",
+          "submit": "Submit"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,54 @@
+{
+    "Sustainability": [
+      {
+        "SustainabilitySeoData": {
+          "title": "Build a Sustainable Future with Nessco",
+          "description": "A greener tomorrow starts today. Choose Nessco for sustainable packaging solutions that benefit your business and the planet.",
+          "openGraph": {
+            "title": "Build a Sustainable Future with Nessco",
+            "description": "A greener tomorrow starts today. Choose Nessco for sustainable packaging solutions that benefit your business and the planet."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Build a Sustainable Future with Nessco",
+            "description": "A greener tomorrow starts today. Choose Nessco for sustainable packaging solutions that benefit your business and the planet."
+          }
+        }
+      },
+      {
+        "category": "Landingpage",
+        "Data": {
+          "title": "Sustainability",
+          "description": "Going green is the way we roll",
+          "butterfly": "https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainibility-butterfly.webp",
+          "grass": "https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainability-grass.webp",
+          "trees": "https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainability-trees.webp"
+        }
+      },
+      {
+        "category": "secondpage",
+        "Data": {
+          "title1": "Reduced",
+          "title2": "Carbon Footprint",
+          "description": "At Nessco India, sustainability is at the core of our innovation. Our machines are crafted to align with eco-conscious principles, utilizing energy-efficient designs and environmentally safe materials. By prioritizing green engineering solutions, we aim to minimize our carbon footprint and contribute to a healthier planet. We strive to balance high-performance machinery with responsible resource usage, ensuring a harmonious blend of technological advancement and environmental stewardship. Our dedication to a sustainable future drives us to continuously enhance our processes for greater energy conservation and reduced environmental impact.",
+          "leftFootprint": "https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainability-footprint-left.webp",
+          "rightFootprint": "https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainability-footprint-right.webp",
+          "leafs": "https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainability-vines.webp",
+          "cup": "https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainibility-cup.webp",
+          "bgGarden": "https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainibility-carbon-footprint-video.webm"
+        }
+      },
+      {
+        "category": "thirdPage",
+        "Data": {
+          "titleWhite": "Sustainable",
+          "titleBlack": "Manufacturing Practices",
+          "description": "Nessco India is deeply committed to shaping a sustainable future through responsible engineering. Our machines are developed with a focus on reducing energy consumption and utilizing eco-friendly materials, ensuring they align with global environmental standards. By adopting innovative technologies, we aim to lower emissions and promote efficient resource utilization. Sustainability for us is not just a goal but a continuous journey, as we actively explore new ways to minimize environmental impact while delivering exceptional performance and reliability in our machinery.",
+          "branchLeaves": "https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainability-bushes.webp",
+          "globe": "https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainability-globe-gif.webm"
+        }
+      }
+    ]
+  }

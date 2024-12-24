@@ -1,0 +1,80 @@
+{
+    "KnowYourMachine": [
+      {
+        "knowYourMachineSeoData": {
+          "title": "Dominate Your Industry: Know Your Machine | Nessco",
+          "description": "Dominate your industry with in-depth knowledge of your Nessco machine. Explore our comprehensive guides, tutorials, and troubleshooting tips to maximize your machine's potential.",
+          "openGraph": {
+            "title": "Dominate Your Industry: Know Your Machine | Nessco",
+            "description": "Dominate your industry with in-depth knowledge of your Nessco machine. Explore our comprehensive guides, tutorials, and troubleshooting tips to maximize your machine's potential."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Dominate Your Industry: Know Your Machine | Nessco",
+            "description": "Dominate your industry with in-depth knowledge of your Nessco machine. Explore our comprehensive guides, tutorials, and troubleshooting tips to maximize your machine's potential."
+          }
+        },
+        "Header": {
+          "title": "Know Your Machine",
+          "description": "We specialize in providing innovative and eco-friendly solutions designed to enhance efficiency and sustainability. Our focus is on supporting businesses in producing high-quality, recyclable products that meet market demands while reducing environmental impact. Contact us today to learn more!",
+          "img": "https://assets.nesscoindustries.com/public/assets/resources/knowledge-center/knowledge-center-machine-image.webp",
+          "cards": [
+            {
+              "title": "Mould Change Guide",
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/knowledge-center/know-your-machine-mould-change-guide.webp",
+              "section": [
+                {
+                  "que": "1Lorem ipsum dolor sit ame dolor sit amet?",
+                  "ans": "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo"
+                },
+                {
+                  "que": "2Lorem ipsum dolor sit ame dolor sit amet?",
+                  "ans": "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo"
+                },
+                {
+                  "que": "3Lorem ipsum dolor sit ame dolor sit amet?",
+                  "ans": "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo"
+                },
+                {
+                  "que": "4Lorem ipsum dolor sit ame dolor sit amet?",
+                  "ans": "4Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo"
+                },
+                {
+                  "que": "5Lorem ipsum dolor sit ame dolor sit amet?",
+                  "ans": "5Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo"
+                }
+              ]
+            },
+            {
+              "title": "Preventive Maintenance Practices",
+              "img": "https://assets.nesscoindustries.com/public/assets/resources/knowledge-center/know-your-machine-preventive-maintainance-practices.webp",
+              "section": [
+                {
+                  "que": "1Lorem ipsum dolor sit ame dolor sit amet?",
+                  "ans": "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo"
+                },
+                {
+                  "que": "2Lorem ipsum dolor sit ame dolor sit amet?",
+                  "ans": "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo"
+                },
+                {
+                  "que": "3Lorem ipsum dolor sit ame dolor sit amet?",
+                  "ans": "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo"
+                },
+                {
+                  "que": "4Lorem ipsum dolor sit ame dolor sit amet?",
+                  "ans": "4Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo"
+                },
+                {
+                  "que": "5Lorem ipsum dolor sit ame dolor sit amet?",
+                  "ans": "5Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio sint quos quam, culpa nesciunt exercitationem sunt, sed alias itaque quibusdam voluptas dolor, eum amet voluptates adipisci consequatur quo nostrum perspiciatis. Ut omnis iste perferendis laboriosam tempore ea animi error totam expedita sequi dolorum maxime, nihil, beatae velit fuga nemo"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }

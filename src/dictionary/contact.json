@@ -1,0 +1,143 @@
+{
+    "contact": [
+      {
+        "contactSeoData": {
+          "title": "Contact Nessco for Sustainable Packaging Solutions",
+          "description": "Need help with your packaging needs? Reach out to Nessco today. Contact us for expert advice and support. Using any mode Call, Whatsapp, or Email.",
+          "keywords": "Nessco India",
+          "openGraph": {
+            "title": "Contact Nessco for Sustainable Packaging Solutions",
+            "description": "Need help with your packaging needs? Reach out to Nessco today. Contact us for expert advice and support. Using any mode Call, Whatsapp, or Email."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Contact Nessco for Sustainable Packaging Solutions",
+            "description": "Need help with your packaging needs? Reach out to Nessco today. Contact us for expert advice and support. Using any mode Call, Whatsapp, or Email."
+          }
+        },
+        "mainContent": [
+          {
+            "textBeforeImage": "Revolutionising",
+            "image": {
+              "src": "/assets/contact/himg2.png",
+              "height": "48",
+              "width": "64",
+              "alt": "img"
+            }
+          },
+          {
+            "textBeforeImage": "for a",
+            "textHighlighted": "Sustainable Future",
+            "image": {
+              "src": "/assets/contact/himg.png",
+              "height": "48",
+              "width": "64",
+              "alt": "img"
+            }
+          }
+        ],
+        "caption": "Have a Project in Mind?",
+        "Contactcaption": "Contact Us",
+        "getintouch": "Get IN Touch",
+        "message": "we'll never share your information with anyone",
+        "contactInfo": [
+          {
+            "title": "Head Office",
+            "description": "E-186, Apparel Park, RIICO Industrial Area, Mahal Road, Jagatpura, Jaipur (Rajasthan) - 302022, INDIA",
+            "image": "https://assets.nesscoindustries.com/public/assets/contact/location-icon1.webp"
+          },
+          {
+            "title": "Company Email",
+            "description": "info@gmail.com",
+            "image": "https://assets.nesscoindustries.com/public/assets/contact/email-icon.webp"
+          },
+          {
+            "title": "Contact Us",
+            "description": "+91 95494 44484",
+            "image": "https://assets.nesscoindustries.com/public/assets/contact/call-icon.webp"
+          }
+        ],
+        "imagesOnSide": [
+          {
+            "src": "https://res.cloudinary.com/dlti4o10e/image/upload/v1729244138/aijqvtnk9qbbcqybyngf.avif",
+            "height": "200",
+            "width": "200",
+            "alt": "Cup",
+            "className": "absolute right-0 top-[9rem] rounded-full lg:visible invisible"
+          },
+          {
+            "src": "https://res.cloudinary.com/dlti4o10e/image/upload/v1729244165/fe5y7ycn7fheiyjd6m8t.avif",
+            "height": "100",
+            "width": "100",
+            "alt": "Cup",
+            "className": "absolute left-[10rem] top-[9rem] lg:visible invisible"
+          },
+          {
+            "src": "https://res.cloudinary.com/dlti4o10e/image/upload/v1729244113/oqgfrlc3gyggb6lmo2kh.avif",
+            "height": "200",
+            "width": "200",
+            "alt": "Cup",
+            "className": "absolute left-0 top-[17rem] lg:visible invisible"
+          }
+        ],
+        "heading": [
+          {
+            "title": "Nessco",
+            "highlight": "Branches",
+            "reachtitle": "How To",
+            "reachhighlight": "Reach",
+            "reachmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.6906406902926!2d75.86234927478176!3d26.78612946552013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db577a120875b%3A0x3912582d92baafea!2sNessco%20Paper%20Cup%20Machine!5e0!3m2!1sen!2sin!4v1714119835373!5m2!1sen!2sin"
+          }
+        ],
+        "branchesData": [
+          {
+            "id": "1",
+            "country": "Germany",
+            "office": "Germany Office",
+            "address": "Hanauer Landstrasse 477, Germany",
+            "flag": "https://assets.nesscoindustries.com/public/assets/contact/germany-flag.webp",
+            "location": "/assets/contact/location.png",
+            "image": "https://assets.nesscoindustries.com/public/assets/contact/germany-logo.webp"
+          },
+          {
+            "id": "2",
+            "country": "Turkey",
+            "office": "Turkey Office",
+            "address": "Çarşı Mh., Bodrum, Muğla 48400, Turkey",
+            "flag": "https://assets.nesscoindustries.com/public/assets/contact/turkey-flag.webp",
+            "location": "/assets/contact/location.png",
+            "image": "https://assets.nesscoindustries.com/public/assets/contact/turkey-logo.webp"
+          },
+          {
+            "id": "3",
+            "country": "Italy",
+            "office": "Italy Office",
+            "address": "Via Laura, 13, Laura Salerno 84047, Italy",
+            "flag": "https://assets.nesscoindustries.com/public/assets/contact/italy-flag.webp",
+            "location": "/assets/contact/location.png",
+            "image": "https://assets.nesscoindustries.com/public/assets/contact/italy-logo.webp"
+          },
+          {
+            "id": "4",
+            "country": "UAE",
+            "office": "UAE Office",
+            "address": "Salahuddin Rd Deira, Dubai 57680, UAE",
+            "flag": "https://assets.nesscoindustries.com/public/assets/contact/uae-flag.webp",
+            "location": "/assets/contact/location.png",
+            "image": "https://assets.nesscoindustries.com/public/assets/contact/uae-logo.webp"
+          },
+          {
+            "id": "5",
+            "country": "Japan",
+            "office": "Japan Office",
+            "address": "Salahuddin Rd Deira, Dubai 57680, Japan",
+            "flag": "https://assets.nesscoindustries.com/public/assets/contact/japan-flag.webp",
+            "location": "/assets/contact/location.png",
+            "image": "https://assets.nesscoindustries.com/public/assets/contact/japan-logo.webp"
+          }
+        ]
+      }
+    ]
+  }

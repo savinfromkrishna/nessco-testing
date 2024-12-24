@@ -1,0 +1,427 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --border: 214.3 31.8% 91.4%;
+  }
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+  }
+}
+html {
+  /* Ensure scrollable content */
+  overflow-y: scroll;
+  /* Hide scrollbar for Firefox */
+  scrollbar-width: none;
+}
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+html::-webkit-scrollbar {
+  display: none;
+}
+.scroller {
+  --animation-duration: 20s;
+  --animation-direction: forwards;
+}
+
+.animate-scroll {
+  animation: scroll var(--animation-duration) linear infinite
+    var(--animation-direction);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.no-scroll {
+  overflow: hidden !important;
+}
+
+/* Custom Gradient Mask */
+#testimonials::before {
+  display: block;
+  width: 50%;
+  margin: 50px auto;
+  mask-image: linear-gradient(black, white, transparent);
+  -webkit-mask-image: linear-gradient(black, white, transparent);
+}
+
+@keyframes scrollTestinomial {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+/* Apply a gradient mask to an element */
+.mask-gradient {
+  position: absolute;
+  inset: 0; /* Shorthand for top: 0; right: 0; bottom: 0; left: 0; */
+  z-index: 100;
+  --mask-gradient: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.2) 5%,
+    rgba(0, 0, 0, 1) 15%,
+    rgba(0, 0, 0, 1) 85%,
+    rgba(0, 0, 0, 0.2) 95%,
+    transparent 100%
+  );
+  -webkit-mask-image: var(--mask-gradient);
+  mask-image: var(--mask-gradient);
+}
+
+/* Adjust the gradient for smaller screens */
+@media (max-width: 768px) {
+  .mask-gradient {
+    --mask-gradient: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.2) 2vh,
+      rgba(0, 0, 0, 1) 8vh,
+      rgba(0, 0, 0, 1) calc(100% - 8vh),
+      rgba(0, 0, 0, 0.2) calc(100% - 2vh),
+      transparent 100%
+    );
+  }
+}
+
+.mask-gradient-marquee {
+  position: absolute; /* Ensure the mask covers the container */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 30%,
+    rgba(0, 0, 0, 1) 85%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 15%,
+    rgba(0, 0, 0, 1) 85%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+/* hide scrollbar from browser */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;    /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* product layout of navbar scrollabar hide */
+.stopscrollProduct {
+  /* Ensure scrollable content */
+  overflow-y: auto;
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+@keyframes scrollTestimonial {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-scroll-testimonial {
+  animation: scrollTestimonial var(--animation-duration) linear infinite;
+}
+
+.animate-scroll-testimonial:hover {
+  animation-play-state: paused;
+}
+
+/* border gradient for navbar */
+.custom-gradient-border {
+  border: 2px solid transparent;
+  /* full rounded */
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-image: linear-gradient(to right, #483d73, #b91c1c),
+    /* Inner background */ linear-gradient(to right, #483d73, #b91c1c);
+  /* Border gradient */
+}
+
+.custom-gradient-border:hover {
+  border: 2px solid transparent;
+  /* full rounded */
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-image: linear-gradient(white, white),
+    /* Inner background */ linear-gradient(to right, #483d73, #b91c1c);
+  /* Border gradient */
+}
+
+.custom-gradient-border-icon {
+  border: 1px solid transparent;
+  /* full rounded */
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-image: linear-gradient(white, white),
+    /* Inner background */ linear-gradient(to right, #483d73, #b91c1c);
+  /* Border gradient */
+}
+.bg-circular-gradient-blue {
+  background: radial-gradient(circle at 50% 50%, #24194c, #000000);
+}
+
+.bg-circular-gradient-red {
+  background: radial-gradient(circle at 50% 50%, #4c0109, #000000);
+}
+
+
+.sticky-gradient-wrapper {
+  position: sticky;
+  top: 5%; /* This ensures the gradient sticks to the top */
+  z-index: 30;
+  height: 200px; /* Adjust this height as needed */
+}
+
+.mass-gradient-timeline {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 115%;
+  z-index: 30;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 15%,
+    rgba(0, 0, 0, 1) 85%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(0, 0, 0, 1) 55%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-color: black; /* For visibility, adjust the color as needed */
+}
+
+/* master product page background gradient */
+.bgLines {
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1.5px),
+    linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1.5px);
+  background-size: 100% 2rem, 2rem 100%;
+}
+
+/* scrollbar for applicationLayout page2 component*/
+.scroll-wrapper {
+  direction: rtl;
+  overflow-y: scroll;
+  height: 200px;
+  /* Adjust the height if necessary */
+}
+
+.scroll-wrapper .style-1 {
+  direction: ltr;
+}
+
+.style-1::-webkit-scrollbar {
+  width: 3px;
+  /* Set the scrollbar width */
+}
+
+.style-1::-webkit-scrollbar-track {
+  border-left: 3px dotted #6d6d6d;
+  cursor: all-scroll;
+  /* Only left border */
+}
+
+.style-1::-webkit-scrollbar-thumb {
+  background-color: black;
+  cursor: all-scroll;
+}
+
+/* Custom scrollbar */
+.scrollbar-hide {
+  overflow: scroll;
+  height: 100%;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 0.15rem;
+  height: 0.15rem;
+  /* Set the scrollbar width */
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border: 1px solid #b1afaf;
+  background-color: #b1afaf;
+  border-radius: 2rem;
+  cursor: all-scroll;
+  /* Only left border */
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 2rem;
+  cursor: all-scroll;
+}
+
+/* for safari browser */
+video ::-webkit-media-controls {
+  display: none !important;
+}
+
+/* Learn More Button */
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+ }
+ 
+ button.learn-more {
+  width: 12rem;
+  height: auto;
+ }
+ 
+ button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #483d73;
+  border-radius: 1.625rem;
+ }
+ 
+ button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ 
+ button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+ }
+ 
+ button:hover .circle {
+  width: 100%;
+ }
+ 
+ button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+ }
+ 
+ button:hover .button-text {
+  color: #fff;
+ }
+
+
+
+ /* ZOHO ICONS */
+
+ /* ZOHO ICONS */
+
+/* Existing styles for #zsiq_float */
+#zsiq_float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* Other existing styles */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  #zsiq_float {
+    right: auto !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    bottom: 20px !important;
+  }
+
+  #zsiq_float .zsiq_flt_rel {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  #zsiq_float #zsiq_agtpic {
+    margin-bottom: 10px !important;
+  }
+
+  #zsiq_float #titlediv {
+    display: none !important;
+  }
+}
+

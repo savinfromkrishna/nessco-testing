@@ -1,0 +1,195 @@
+
+/* applicationpage */
+.container {
+    bottom:0;
+    display: flex;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .button {
+    /* padding: 0.2rem 1rem; */
+    padding: 5px 20px 5px 20px;  /*top right bottom left*/
+    color: white;
+    background: transparent;
+    border-radius: 9999px;
+    font-size: 1rem; /* text-sm in Tailwind */
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    
+  }
+  
+  .button:hover {
+    background-color: white;
+    border: 2px solid #483d73;
+    color: #483d73;
+  }
+  
+  .icon {
+    background-color: white;
+    color: #483d73;
+    border-radius: 9999px;
+    height: 1rem; /* h-4 in Tailwind */
+    width: 1rem; /* w-4 in Tailwind */
+    padding: 0.25rem; /* p-1 in Tailwind */ /* ml-2 in Tailwind */
+    margin-left: 5px;
+
+
+  
+  }
+  
+  .button:hover .icon {
+    background-color: #483d73;
+    color: white;
+  }
+
+  /* founderpage */
+  
+  .card {
+    position: relative;
+    background-color: black;
+    /* Adjust as needed */
+    color: white;
+    border: 2px solid;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+
+  }
+  
+  .card:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  
+  
+ 
+  
+  .descriptionContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    height: 100%; /* Adjust height based on how much of the image you want to cover */
+    transform: translateY(120%);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .card:hover .descriptionContainer {
+    transform: translateY(0);
+    height: 125%;
+  }
+
+/* Medium screens (tablets) */
+@media (max-width: 1024px) {
+  .card {
+    padding: 0.60rem;
+  }
+
+  .nameTitle {
+    font-size: 1rem;
+  }
+
+  .icons {
+    top: 0.8rem;
+    right: 1rem;
+    font-size: 1rem;
+  }
+
+ 
+}
+
+/* Small screens (mobile) */
+@media (max-width: 640px) {
+  .card {
+    padding: 0.40rem;
+  }
+
+  .nameTitle {
+    font-size: 1rem;
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  .icons {
+    top: 0.5rem;
+    right: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+ 
+
+
+ 
+}
+  /* gallerycss */
+
+  /* styles.css */
+
+  .imageScaleUp {
+    animation: scaleUp 25s ease-in-out infinite ;
+  }
+
+  .imageTranslateUp {
+    animation: translateUp 25s forwards infinite;
+  }
+  
+  @keyframes scaleUp {
+    /* starting */
+    0% {
+      transform: scale(0.90);  
+    }
+    /* scaleup */
+    50% {
+      transform: scale(1.1);  
+    }
+    /* originalsize */
+    100% {
+      transform: scale(0.90);  
+    }
+  }
+
+    @keyframes translateUp {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    
+  }
+
+
+
+
+/* Add more animations as needed */
+.imageScaleUp {
+  transition: transform 0.3s ease-in-out;
+}
+
+.imageScaleUp:hover {
+  transform: scale(1.1);
+}
+
+.imageTranslateUp {
+  transition: transform 0.3s ease-in-out;
+}
+
+.imageTranslateUp:hover {
+  transform: translateY(-10px);
+}
+
+
+  
+  
+  

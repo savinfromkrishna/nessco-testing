@@ -1,0 +1,296 @@
+{
+    "Application": [
+      {
+        "applicationSeoData": {
+          "title": "Innovative Packaging Solutions for Diverse Applications | Nessco",
+          "description": "Explore Nessco's range of innovative packaging solutions for diverse applications such paper cups, bowls,  straws, plates, bags, lids, food boxes, and cutlery.",
+          "openGraph": {
+            "title": "Innovative Packaging Solutions for Diverse Applications | Nessco",
+            "description": "Explore Nessco's range of innovative packaging solutions for diverse applications such paper cups, bowls,  straws, plates, bags, lids, food boxes, and cutlery."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Innovative Packaging Solutions for Diverse Applications | Nessco",
+            "description": "Explore Nessco's range of innovative packaging solutions for diverse applications such paper cups, bowls,  straws, plates, bags, lids, food boxes, and cutlery."
+          }
+        },
+        "Header": {
+          "applicaion": "Application",
+          "title": "Find the right solution for you",
+          "paragraph": "Nessco empowers the HORECA industry with state-of-the-art paper-based solutions, including cups, bowls, straws, plates, and bags. Our advanced machinery ensures premium quality, eco-friendly production, and unmatched versatility, enabling businesses to elevate their offerings and lead with innovation and sustainability."
+        },
+        "SelectProduct": {
+          "placeholder": "Search Product",
+          "paperCup": "Paper Cup",
+          "viewMore": "View More",
+          "viewAll": "View All",
+          "category": "Category",
+          "products": [
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-lid(2).webp",
+              "title": "Paper Lid",
+              "description": "A paper lid is an eco-friendly cover designed for disposable cups or containers, providing a secure fit to prevent spills while supporting sustainability efforts by reducing plastic use.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-lid2.webp",
+              "link": "paper-lid"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+              "title": "Paper Cup",
+              "description": "A paper cup is a disposable and eco-friendly container, widely used for serving hot or cold beverages, offering convenience and reducing reliance on plastic alternatives.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp",
+              "link": "paper-cup"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+              "title": "Paper Bowl",
+              "description": "A paper bowl is a disposable and eco-friendly container, ideal for serving soups, salads, and desserts, offering convenience and reducing environmental impact compared to plastic options.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-plate.webp",
+              "title": "Paper Plate",
+              "description": "A paper plate is a disposable and eco-friendly dishware option, commonly used for serving food at events, picnics, and parties, offering convenience and reducing cleanup effort.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-plate-logo.webp",
+              "link": "paper-plate"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+              "title": "Paper Straw",
+              "description": "A paper straw is an eco-friendly alternative to plastic straws, designed for single-use to sip beverages while reducing environmental impact and promoting sustainability.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw-logo.webp",
+              "link": "paper-straw"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag.webp",
+              "title": "Paper Bag",
+              "description": "A paper bag is an eco-friendly and reusable packaging solution, widely used for carrying groceries, retail items, or gifts, promoting sustainability and reducing plastic waste.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag-logo.webp",
+              "link": "paper-bag"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-container.webp",
+              "title": "Paper Box",
+              "description": "A paper box is a versatile, eco-friendly packaging solution used for storing, transporting, or presenting items, offering durability and sustainability for various applications.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/carton-erecting.webp",
+              "link": "paper-box"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+              "title": "Insulating Cup",
+              "description": "A paper insulating cup is designed to retain the temperature of beverages, providing a comfortable grip and preventing heat transfer to hands, making it ideal for serving hot or cold drinks.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-logo.webp",
+              "link": "insulating-cup"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/cutlery-icon.webp",
+              "title": "Paper Cutlery",
+              "description": "Paper cutlery is an eco-friendly alternative to plastic utensils, designed for single-use to serve meals sustainably, reducing environmental impact while maintaining convenience.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/cutlery-logo.webp",
+              "link": "paper-cutlery"
+            }
+          ]
+        },
+        "Technology": {
+          "craftsmanshipTechnology": "Craftsmanship And Technology",
+          "paragraph": "With world-leading technology and control of craftsmanship details, you can find Nessco's unique advantages:",
+          "container": [
+            {
+              "Paper Cup With Lid": [
+                {
+                  "title": "1. The machine can be applied to a wide range of sizes.",
+                  "description": "One machine on the market can only make paper cups 4-9oz/4-12oz, we can make from 2-16oz/16-22oz/22-32oz, and the maximum mouth of paper bowl can reach 300mm.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg1.png"
+                },
+                {
+                  "title": "2. The craftsmanship and detail far superior to other manufacturers",
+                  "description": "We have detail requirements for the rolled edge, folded bottom or knurling of paper cups. Often the first choice of some big brands or chain brands OEM factories, such as Starbucks, McDonald's, etc.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title": "3. Wide range of paper types available on the machine",
+                  "description": "Compared to other brand machines which can only produce PE coated paper, our machine issuitable for a coated paper etc. inaddition, the paper thickness we can make is also wider.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg2.png"
+                }
+              ],
+              "Paper Napkin": [
+                {
+                  "title": "1. Wide range of paper types available on the machine",
+                  "description": "Compared to other brand machines which can only produce PE coated paper, our machine issuitable for a coated paper etc. inaddition, the paper thickness we can make is also wider.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title": "2 Wide range of paper types available on the machine",
+                  "description": "Compared to other brand machines which can only produce PE coated paper, our machine issuitable for a coated paper etc. inaddition, the paper thickness we can make is also wider.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title": "3. Wide range of paper types available on the machine",
+                  "description": "Compared to other brand machines which can only produce PE coated paper, our machine issuitable for a coated paper etc. inaddition, the paper thickness we can make is also wider.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg2.png"
+                }
+              ],
+              "Paper Bowl": [
+                {
+                  "title": "1. Wide range of paper types available on the machine",
+                  "description": "Compared to other brand machines which can only produce PE coated paper, our machine issuitable for a coated paper etc. inaddition, the paper thickness we can make is also wider.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title": "2. Wide range of paper types available on the machine",
+                  "description": "Compared to other brand machines which can only produce PE coated paper, our machine issuitable for a coated paper etc. inaddition, the paper thickness we can make is also wider.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title": "3. Wide range of paper types available on the machine",
+                  "description": "Compared to other brand machines which can only produce PE coated paper, our machine issuitable for a coated paper etc. inaddition, the paper thickness we can make is also wider.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg2.png"
+                }
+              ],
+              "Paper Cup": [
+                {
+                  "title": "1. Wide range of paper types available on the machine",
+                  "description": "Compared to other brand machines which can only produce PE coated paper, our machine issuitable for a coated paper etc. inaddition, the paper thickness we can make is also wider.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title": "2. Wide range of paper types available on the machine",
+                  "description": "Compared to other brand machines which can only produce PE coated paper, our machine issuitable for a coated paper etc. inaddition, the paper thickness we can make is also wider.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title": "3. Wide range of paper types available on the machine",
+                  "description": "Compared to other brand machines which can only produce PE coated paper, our machine issuitable for a coated paper etc. inaddition, the paper thickness we can make is also wider.",
+                  "craftsmanshipImg": "/assets/application/CraftsmanshipImg2.png"
+                }
+              ]
+            }
+          ]
+        },
+        "CustomizedProjects": {
+          "craftsmanshipTechnology": "Start Your Customized Projects",
+          "paragraph": "With world-leading technology and control of craftsmanship details, you can find Ruida's unique advantages:",
+          "seoDescription": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage. In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+          "container": [
+            {
+              "Paper Bowl": [
+                {
+                  "title1": "1. Paper Bowl",
+                  "title2": "1. Paper Bowl",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "2. Printing",
+                  "title2": "2. Printing",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "3. Cutting",
+                  "title2": "3. Cutting",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "4. Forming",
+                  "title2": "4. Forming",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "5. Paper Fan",
+                  "title2": "5. Paper Fan",
+                  "description": "Once the cup body is formed, the bottom of the cup is sealed using a separate machine. This step involves applying a bottom piece and sealing it with heat and pressure to ensure the cup is watertight. This final step ensures that the cup can hold liquids without leaking.",
+                  "img": "/assets/application/CraftsmanshipImg3.png"
+                },
+                {
+                  "title1": "6. Final Paper Cup Product",
+                  "title2": "6. Final Product",
+                  "description": "Once the cup body is formed, the bottom of the cup is sealed using a separate machine. This step involves applying a bottom piece and sealing it with heat and pressure to ensure the cup is watertight. This final step ensures that the cup can hold liquids without leaking.",
+                  "img": "/assets/application/CraftsmanshipImg3.png"
+                }
+              ],
+              "Paper Napkin": [
+                {
+                  "title1": "1. Paper Napkin",
+                  "title2": "1. Paper Napkin",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "2. Printing",
+                  "title2": "2. Printing",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "3. Cutting",
+                  "title2": "3. Cutting",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "4. Forming",
+                  "title2": "4. Forming",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "5. Paper Fan",
+                  "title2": "5. Paper Fan",
+                  "description": "Once the cup body is formed, the bottom of the cup is sealed using a separate machine. This step involves applying a bottom piece and sealing it with heat and pressure to ensure the cup is watertight. This final step ensures that the cup can hold liquids without leaking.",
+                  "img": "/assets/application/CraftsmanshipImg3.png"
+                },
+                {
+                  "title1": "6. Final Paper Cup Product",
+                  "title2": "6. Final Product",
+                  "description": "Once the cup body is formed, the bottom of the cup is sealed using a separate machine. This step involves applying a bottom piece and sealing it with heat and pressure to ensure the cup is watertight. This final step ensures that the cup can hold liquids without leaking.",
+                  "img": "/assets/application/CraftsmanshipImg3.png"
+                }
+              ],
+              "Paper Cup": [
+                {
+                  "title1": "1. Paper Napkin",
+                  "title2": "1. Paper Napkin",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "2. Printing",
+                  "title2": "2. Printing",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "3. Cutting",
+                  "title2": "3. Cutting",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "4. Forming",
+                  "title2": "4. Forming",
+                  "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                  "img": "/assets/application/CraftsmanshipImg2.png"
+                },
+                {
+                  "title1": "5. Paper Fan",
+                  "title2": "5. Paper Fan",
+                  "description": "Once the cup body is formed, the bottom of the cup is sealed using a separate machine. This step involves applying a bottom piece and sealing it with heat and pressure to ensure the cup is watertight. This final step ensures that the cup can hold liquids without leaking.",
+                  "img": "/assets/application/CraftsmanshipImg3.png"
+                },
+                {
+                  "title1": "6. Final Paper Cup Product",
+                  "title2": "6. Final Product",
+                  "description": "Once the cup body is formed, the bottom of the cup is sealed using a separate machine. This step involves applying a bottom piece and sealing it with heat and pressure to ensure the cup is watertight. This final step ensures that the cup can hold liquids without leaking.",
+                  "img": "/assets/application/CraftsmanshipImg3.png"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }

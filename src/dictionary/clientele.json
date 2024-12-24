@@ -1,0 +1,93 @@
+{
+    "Clientele": [
+      {
+        "clienteleSeoData": {
+          "title": "Success Stories: Our Satisfied Clients",
+          "description": "With a global clientele of over 1000+ businesses, Nessco is your trusted partner for packaging solutions.",
+          "openGraph": {
+            "title": "Success Stories: Our Satisfied Clients",
+            "description": "With a global clientele of over 1000+ businesses, Nessco is your trusted partner for packaging solutions."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Success Stories: Our Satisfied Clients",
+            "description": "With a global clientele of over 1000+ businesses, Nessco is your trusted partner for packaging solutions."
+          }
+        },
+        "content": {
+          "heading": {
+            "title": "Clientele",
+            "boldHeading": "More than 3500 customers",
+            "peraOne": "Trusted by global brands, our paper cup machines power businesses worldwide with unmatched quality and innovation.",
+            "peraTwo": "5000+ machines sold to 2500+ satisfied customers worldwide",
+            "lefthand": "https://assets.nesscoindustries.com/public/assets/resources/clientel/clientele-left-hand-image.webp",
+            "righthand": "https://assets.nesscoindustries.com/public/assets/resources/clientel/clientele-right-hand-image.webp"
+          }
+        },
+        "squares": [
+          {
+            "id": "1",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-1.webp",
+            "bgClass": "bg-circular-gradient-blue"
+          },
+          {
+            "id": "2",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-2.webp",
+            "bgClass": "bg-circular-gradient-red"
+          },
+          {
+            "id": "3",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-3.webp",
+            "bgClass": "bg-circular-gradient-blue"
+          },
+          {
+            "id": "4",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-4.webp",
+            "bgClass": "bg-circular-gradient-red"
+          },
+          {
+            "id": "5",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-5.webp",
+            "bgClass": "bg-circular-gradient-blue"
+          },
+          {
+            "id": "6",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-6.webp",
+            "bgClass": "bg-circular-gradient-red"
+          },
+          {
+            "id": "7",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-7.webp",
+            "bgClass": "bg-circular-gradient-blue"
+          },
+          {
+            "id": "8",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-8.webp",
+            "bgClass": "bg-circular-gradient-red"
+          },
+          {
+            "id": "9",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-9.webp",
+            "bgClass": "bg-circular-gradient-blue"
+          },
+          {
+            "id": "10",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-10.webp",
+            "bgClass": "bg-circular-gradient-red"
+          },
+          {
+            "id": "11",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-11.webp",
+            "bgClass": "bg-circular-gradient-blue"
+          },
+          {
+            "id": "12",
+            "src": "https://assets.nesscoindustries.com/public/assets/homepage/trusted-brands/trusted-brands-logo-12.webp",
+            "bgClass": "bg-circular-gradient-red"
+          }
+        ]
+      }
+    ]
+  }

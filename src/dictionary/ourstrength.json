@@ -1,0 +1,191 @@
+{
+    "OurStrength": [
+      {
+        "ourStrengthSeoData": {
+          "title": "Why Choose Nessco",
+          "description": "Choose Nessco for superior quality and unmatched expertise. Learn more about our manufacturing excellence, design engineering, and quality assurance.",
+          "openGraph": {
+            "title": "Why Choose Nessco",
+            "description": "Choose Nessco for superior quality and unmatched expertise. Learn more about our manufacturing excellence, design engineering, and quality assurance."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Why Choose Nessco",
+            "description": "Choose Nessco for superior quality and unmatched expertise. Learn more about our manufacturing excellence, design engineering, and quality assurance."
+          }
+        }
+      },
+      {
+        "category": "landingPage",
+        "Data": {
+          "video": "https://assets.nesscoindustries.com/public/assets/about/our-strength/banner.webm",
+          "title": "Our Strength",
+          "getaQuote": "Get a Quote",
+          "mainImg": "https://assets.nesscoindustries.com/public/imageassets/centreimg.svg",
+          "description": "Our strength lies in our unwavering commitment to quality and innovation, ensuring we deliver excellence in every machine we house. We pride ourselves on creating a secure, state-of-the-art environment that supports peak performance and reliability.",
+          "image": [
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/our-strength-manufacturing-excellence-icon.webp",
+              "title": "Manufacturing Excellence"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/our-strength-research-icon.webp",
+              "title": "Research & Development"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/our-strength-main-icon.webp"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/our-strength-design-engineering-icon.webp",
+              "title": "Design Engineering"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/our-strength-quality-assurance-icon.webp",
+              "title": "Quality Assurance"
+            }
+          ]
+        }
+      },
+      {
+        "category": "secondpage",
+        "OurStrengthFeature": {
+          "strengthItems": [
+            {
+              "title": "Facility"
+            },
+            {
+              "title": "Manufacturing Excellence"
+            },
+            {
+              "title": "Design Engineering"
+            },
+            {
+              "title": "Research & Development"
+            },
+            {
+              "title": "Quality Assurance"
+            }
+          ],
+          "StrengthComponent": [
+            {
+              "title1": "Facility",
+              "description": "Our world-class facility is meticulously designed to ensure efficiency, precision, and reliability. Housing over 300 machines in ready stock, we offer a wide range of models to cater to diverse customer needs. Alongside, our 100,000+ inventory of spare parts and components ensures immediate availability, reducing lead times and operational downtime. The in-house assembly unit enables seamless manufacturing and mold production, all while following sustainable practices that minimize environmental impact. At Nessco India, our facility is not just about infrastructure but a reflection of our dedication to delivering excellence.",
+              "video": "https://assets.nesscoindustries.com/public/assets/about/our-company/banner.webm",
+              "modalContent": {
+                "title": "Our Facility",
+                "description": "Our world-class facility is designed to meet the highest standards of performance and efficiency:\r\nExtensive Machine Inventory: Over 300+ machines in ready stock, offering a wide variety of models to meet diverse customer needs.\r\nComprehensive In-House Store: A 100,000+ inventory of parts and components, ensuring immediate availability and reducing downtime.\r\nAssembly and Molding Unit: Fully equipped to assemble complex machines and molds with precision.\r\nSustainable Practices: We integrate eco-friendly processes into our operations, minimizing waste and optimizing energy consumption.\r\nThis advanced infrastructure ensures seamless operations, shorter lead times, and consistently high-quality products for our clients.\r",
+                "images": [
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/facility-image-1.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/facility-image-2.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/facility-image-3.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/facility-image-4.webp"
+                  }
+                ]
+              }
+            },
+            {
+              "title1": "Manufacturing Experience",
+              "description": "Nessco India’s manufacturing capabilities are unmatched, featuring state-of-the-art machinery such as CNC, VMC, cylindrical grinders, surface grinders, and more. We maintain specialized facilities for hardening, coating, plating, and sheet metal fabrication, allowing us to ensure quality and precision across all production stages. This diverse and decentralized setup empowers us to handle large-scale orders and custom projects with ease. Our focus on precision manufacturing enables us to deliver food packaging machines that are not only reliable but also tailored to meet specific customer demands.",
+              "video": "https://assets.nesscoindustries.com/public/assets/about/our-strength/manufacturing-excellence.webm",
+              "modalContent": {
+                "title": "Our Manufacturing Excellence",
+                "description": "Nessco India’s manufacturing capabilities are second to none, combining advanced technology with exceptional craftsmanship:\r\nCutting-Edge Equipment: Our facilities are equipped with CNC, VMC, cylindrical grinders, surface grinders, and more for precision manufacturing.\r\nSpecialized Processes: We offer in-house hardening, coating, plating, and sheet metal fabrication to deliver reliable and durable machines.\r\nMultiple Facilities: Our decentralized manufacturing units cater to specific production needs, enabling us to handle large-scale and custom orders effortlessly.\r\nThis robust manufacturing setup allows us to produce high-performance food packaging machines tailored to our customers’ exact requirements.\r\n",
+                "images": [
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/manufacturing-excellence-image-1.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/manufacturing-excellence-image-2.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/manufacturing-excellence-image-3.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/manufacturing-excellence-image-4.webp"
+                  }
+                ]
+              }
+            },
+            {
+              "title1": "Design Engineering",
+              "description": "At Nessco India, design engineering is at the core of our innovation. Our highly skilled team collaborates with the R&D and Order Processing Teams to deliver machines that align with customer expectations. Using CAD-based software and advanced simulation techniques, we prototype and test designs virtually before physical production, ensuring high reliability and efficiency. We take pride in challenging industry norms, creating innovative solutions that set benchmarks in food packaging technology. Whether it’s enhancing machine reliability or developing groundbreaking mechanisms, our design engineering capabilities make the impossible possible.\r\n",
+              "video": "https://assets.nesscoindustries.com/public/assets/about/our-strength/design-engineering.webm",
+              "modalContent": {
+                "title": "Our Design Engineering",
+                "description": "Our design engineering team combines creativity, technical expertise, and customer-centricity to deliver exceptional results:\r\nCollaborative Approach: Design engineers work closely with the R&D and Order Processing Teams to bring customer visions to life.\r\nAdvanced Tools: Using CAD-based software and simulation techniques, we prototype and test machines virtually before production.\r\nPioneering Solutions: We challenge conventional practices to develop groundbreaking innovations in food packaging machinery.\r\nCustomer-Focused Designs: Every machine is engineered for reliability, efficiency, and ease of use, ensuring long-term value for our clients.\r\nAt Nessco India, we build what others only dream of, pushing the boundaries of what’s possible in packaging technology.\r",
+                "images": [
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/design-engineering-image-1.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/design-engineering-image-2.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/design-engineering-image-3.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/design-engineering-image-4.webp"
+                  }
+                ]
+              }
+            },
+            {
+              "title1": "Research & Development",
+              "description": "Our R&D team blends decades of experience with fresh perspectives, fostering a culture of innovation. With professionals who have worked with global leaders like BOSCH Germany, Kirloskar, and Toyota, alongside young minds driving new ideas, we create solutions that meet even the most complex demands. By understanding customer needs, our R&D team transforms challenges into tangible, high-performing machines. Each project is a testament to our ability to innovate and deliver beyond expectations, ensuring that our solutions contribute to customer success and a more sustainable future.",
+              "video": "https://assets.nesscoindustries.com/public/assets/about/our-strength/research-and-development.webm",
+              "modalContent": {
+                "title": "Our Research & Development",
+                "description": "Our R&D team brings together a perfect blend of experience and fresh ideas to create cutting-edge solutions:\r\nSeasoned Professionals: Experts with backgrounds in leading global brands like BOSCH, Kirloskar, and Toyota bring a wealth of knowledge to every project.\r\nInnovative Young Minds: The inclusion of dynamic, young professionals ensures fresh perspectives and innovative thinking.\r\nCustomer-Centric Projects: By understanding customer needs, the team transforms concepts into tangible, high-performing solutions.\r\nFuture-Driven Focus: R&D is at the heart of our mission to innovate, ensuring our machines are ready to meet tomorrow’s challenges today.\r\nOur R&D efforts consistently deliver solutions that not only meet but exceed customer expectations, creating smiles across the globe.\r",
+                "images": [
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/r&d-image-1.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/r&d-image-2.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/r&d-image-3.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/r&d-image-4.webp"
+                  }
+                ]
+              }
+            },
+            {
+              "title1": "Quality Assurance",
+              "description": "Quality is at the heart of everything we do at Nessco India. Adopting Six Sigma DMAIC principles, we implement stringent quality checks at every stage of manufacturing and assembly. Our goal is to achieve the First-Time-Right Approach, ensuring defect-free products. Every machine undergoes rigorous inspections against detailed checklists to ensure it meets exacting standards and operates within strict tolerance limits. From paper cups and bowls to bags, straws, and lids, we maintain the highest level of quality across our diverse product range. Our commitment to quality ensures that every customer receives reliable, efficient, and durable machines.",
+              "video": "https://assets.nesscoindustries.com/public/assets/about/our-strength/quality-assurance.webm",
+              "modalContent": {
+                "title": "Our Quality Assurance",
+                "description": "At Nessco India, quality is embedded in every step of our process, ensuring world-class products:\r\nStringent Controls: Quality assurance starts on the manufacturing floor, adhering to Six Sigma (DMAIC) principles for precision and reliability.\r\nFirst-Time-Right Approach: Our goal is to deliver defect-free products the first time, every time.\r\nComprehensive Checks: Machines undergo rigorous inspections against detailed checklists to ensure they meet exacting standards.\r\nTolerance Compliance: Every component is checked within strict tolerance limits to ensure seamless performance.\r\nDiverse Product Range: Our QA practices cover all our machinery, including those for paper cups, bowls, bags, straws, lids, and more.\r\nThis unwavering focus on quality guarantees that our customers receive machines that perform reliably and deliver consistent results.\r",
+                "images": [
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/quality-assurance-image-1.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/quality-assurance-image-2.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/quality-assurance-image-3.webp"
+                  },
+                  {
+                    "img": "https://assets.nesscoindustries.com/public/assets/about/our-strength/quality-assurance-image-4.webp"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }

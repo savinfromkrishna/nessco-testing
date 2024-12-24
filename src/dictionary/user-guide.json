@@ -1,0 +1,582 @@
+{
+    "UserGuide": [
+      {
+        "userGuideSeoData": {
+          "title": "Master Your Nessco Machine: User Guide",
+          "description": "Get the most out of your Nessco machine with our comprehensive user guide. Learn how to operate, maintain, and troubleshoot your equipment effectively.",
+          "openGraph": {
+            "title": "Master Your Nessco Machine: User Guide",
+            "description": "Get the most out of your Nessco machine with our comprehensive user guide. Learn how to operate, maintain, and troubleshoot your equipment effectively."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Master Your Nessco Machine: User Guide",
+            "description": "Get the most out of your Nessco machine with our comprehensive user guide. Learn how to operate, maintain, and troubleshoot your equipment effectively."
+          }
+        },
+        "user-guide": {
+          "apply": "Apply",
+          "cancel": "Cancel",
+          "submit": "Submit",
+          "phone": "Phone",
+          "email": "Email",
+          "name": "Name",
+          "filter": "Filter",
+          "title": "Get User Guide",
+          "description": "Kindly fill the form so that we can process your request further as fast as we can",
+          "formDescription": "Fill the form below to get your user guide",
+          "cards": [
+            {
+              "description": "NS-PPM300",
+              "category": "All Categories, Paper Plate",
+              "title": "Model No. :",
+              "description2": "Paper Plate Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-plate-logo.webp",
+              "ctaText": "Download",
+              "index": "1",
+              "content": "The NS-PPM300 Paper Plate Machine is designed to produce paper plates at a speed of 120 plates per minute, with sizes ranging from 5 to 12.5 inches. These plates are commonly used in various markets, including catering services, outdoor events, and food festivals, where disposable tableware is needed. The versatile size makes them suitable for serving a variety of foods, such as appetizers, main courses, and desserts."
+            },
+            {
+              "description": "NS-LID-H",
+              "category": "All Categories, Paper Lid",
+              "title": "Model No. :",
+              "description2": "Paper Lid Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-lid2.webp",
+              "ctaText": "Download",
+              "index": "2",
+              "content": "The NS-LID H Paper Lid Machine is a specialized sub-machine designed for producing lids for bowls and cups, capable of producing 70 pieces per minute. This machine efficiently shapes and cuts paper into precise lid designs, ensuring a perfect fit for various containers, and it uses a three-layer mechanism to enhance its efficiency and the quality of the lids produced. It also allows for branding by adding logos, making it a valuable tool for businesses to improve their product presentation."
+            },
+            {
+              "description": "NS-LID-D",
+              "category": "All Categories, Paper Lid",
+              "title": "Model No. :",
+              "description2": "Paper Lid Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-lid2.webp",
+              "ctaText": "Download",
+              "index": "3",
+              "content": "The NS-LID D Paper Dome Lid Machine is a special machine that makes dome lids at a speed of 70 pieces per minute. This machine shapes and forms paper into dome lids that are often used for coffee cups, ice cream bowls, and takeout containers. The dome shape gives the containers a nice appearance, making them more attractive to customers while also being practical for use. By using this machine, businesses can improve their packaging while also being environmentally friendly with paper materials."
+            },
+            {
+              "description": "NS-950",
+              "category": "All Categories, Flexo Printing",
+              "title": "Model No. :",
+              "description2": "Flexo Printing Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/flexo-printing(3).webp",
+              "ctaText": "Download",
+              "index": "4",
+              "content": "The NS-950 Flexo Printing Machine is a high-speed device capable of producing 120 meters per minute. It uses five cylinders to apply color to paper, ensuring vibrant and consistent prints. Designed to work with paper in a vertical format, this machine is ideal for printing on various packaging materials, labels, and other paper products. Its efficient operation and advanced printing technology make it an essential tool for manufacturers looking to enhance their branding and product presentation while maintaining high-quality output."
+            },
+            {
+              "description": "NS-HFS1300",
+              "category": "All Categories, Flexo Printing",
+              "title": "Model No. :",
+              "description2": "Flexo Printing Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/flexo-printing(3).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-HFS1300 Flexo Printing Machine is a high-speed printing device that operates at 180 meters per minute. It uses six cylinders to apply color to paper, ensuring vibrant and consistent prints. Designed to work with paper in a horizontal format, this machine is ideal for printing on various packaging materials, labels, and other paper products. Its advanced technology and efficient operation make it a valuable asset for manufacturers looking to enhance their production capabilities while delivering high-quality printed materials."
+            },
+            {
+              "description": "NS-200",
+              "category": "All Categories, Paper Cup",
+              "title": "Model No. :",
+              "description2": "Paper Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-200 Paper Cup Machine, with its Cam-Based Technology and chain-driven design, is perfect for making medium-sized cups. These cups are ideal for cafés, restaurants, catering, and other food services, suitable for both hot drinks like coffee and tea, as well as cold drinks like iced tea and soft drinks. This machine works fast, making 120 cups per minute, making it a great choice for busy settings."
+            },
+            {
+              "description": "NS-D3500",
+              "category": "All Categories, Paper Cup",
+              "title": "Model No. :",
+              "description2": "Paper Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-D3500 Paper Cup Machine is engineered for high-speed production, delivering up to 130 cups per minute. It features a Double Curling system, ensuring smooth and precise cup edges for enhanced durability and user comfort. The machine's automatic lubrication system and gear drive mechanism contribute to its stability and consistent performance."
+            },
+            {
+              "description": "NS-2200-D",
+              "category": "All Categories, Paper Cup",
+              "title": "Model No. :",
+              "description2": "Paper Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-2200-D Paper Cup Machine is designed for high-speed production, creating up to 110 cups per minute. Its double curling mechanism ensures smooth and durable cup rims for added comfort. Perfect for large beverages, these cups are ideal for theaters, upscale coffee shops, and fast-casual dining establishments. This versatility makes them a great choice for any business looking to enhance their drink offerings."
+            },
+            {
+              "description": "NS-2010-T",
+              "category": "All Categories, Paper Cup",
+              "title": "Model No. :",
+              "description2": "Paper Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-2010-T Paper Cup Machine is a high-speed, fully automatic solution designed for efficient production of paper cups. Capable of producing up to 110 cups per minute, it accommodates a range of sizes from 3oz to 22oz, making it versatile for various applications. The machine supports paper specifications between 190-400 gsm and operates with a general power requirement of 12 KW. Its robust construction ensures durability and consistent performance."
+            },
+            {
+              "description": "NS-2020",
+              "category": "All Categories, Paper Cup",
+              "title": "Model No. :",
+              "description2": "Paper Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-2020 Paper Cup Machine offers a fully automated and rapid solution for producing disposable paper cups. It can efficiently create up to 120 cups every minute and supports a variety of sizes, ranging from 35 ml to 450 ml. These disposable cups are perfect for food service operations, including cafes, restaurants, and catering businesses, that want to enhance their efficiency in production."
+            },
+            {
+              "description": "NS-G2200",
+              "category": "All Categories, Paper Cup",
+              "title": "Model No. :",
+              "description2": "Paper Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-G2200 Paper Cup Machine is an advanced and effective option for producing disposable paper cups. One of its best features is the gear system, which allows it to run faster than regular machines, this allows it to run at speeds of up to 100 cups per minute. Also, this machine is made for larger 22oz cups, making it perfect for businesses that need to produce big and strong cups quickly."
+            },
+            {
+              "description": "NS-160C",
+              "category": "All Categories, Paper Cup",
+              "title": "Model No. :",
+              "description2": "Paper Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-160C Paper Cup Machine is a high-speed solution designed for efficiently producing disposable paper cups. Featuring the latest Cam technology, this machine operates at impressive speeds of up to 160 cups per minute, making it one of the fastest options available. It is specifically designed to produce standard paper cups commonly used in grocery stores, cafes, and tea shops, ensuring that businesses can meet their demand for quality disposable products."
+            },
+            {
+              "description": "NS-160S",
+              "category": "All Categories, Paper Cup",
+              "title": "Model No. :",
+              "description2": "Paper Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-160S Paper Cup Machine is a high-speed production unit capable of operating at 180 meters per minute. This machine utilizes a servo mechanism for precise control and efficiency, ensuring consistent quality in every cup produced. It is designed to create cups with a size of 135 mm, making it suitable for various applications, including hot and cold beverages. With its advanced technology and reliable performance, this machine is an excellent choice for manufacturers looking to enhance their production capabilities in the competitive packaging market."
+            },
+            {
+              "description": "NS-2900",
+              "category": "All Categories, Paper Bowl",
+              "title": "Model No. :",
+              "description2": "Paper Bowl Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-2900 Paper Bowl Container Machine is a state-of-the-art solution for producing disposable paper bowls, achieving an impressive speed of 75 bowls per minute. This machine employs an efficient mold system to convert paper into durable bowl shapes, making it ideal for serving soups, salads, and ice creams. Commonly used in grocery stores, cafes, and ice cream shops."
+            },
+            {
+              "description": "NS-B3000",
+              "category": "All Categories, Paper Bowl",
+              "title": "Model No. :",
+              "description2": "Paper Bowl Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-B3000 High-Speed Paper Bowl Container Machine is designed for quickly making disposable paper bowls, reaching an impressive speed of 90 bowls per minute. This machine is perfect for producing bowls used for soups, ice creams, and other food items, making it a great choice for restaurants, cafés, and food service businesses. With its advanced technology, the NS-B3000 ensures that every bowl is made with consistent quality and strength,"
+            },
+            {
+              "description": "NS-160B",
+              "category": "All Categories, Paper Bowl",
+              "title": "Model No. :",
+              "description2": "Paper Bowl Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-160B High-Speed Paper Bowl Machine is designed for efficiently producing disposable paper bowls at an impressive speed of 130 bowls per minute. This machine is perfect for the Horeca industry, as it efficiently produces bowls suitable for soups, ice creams, and a variety of other food items, making it an excellent choice for restaurants and food service businesses. A notable feature of the NS-160B is its double curling system, which enhances the strength and quality of the bowls."
+            },
+            {
+              "description": "NS-HSB1800",
+              "category": "All Categories, Paper Bowl",
+              "title": "Model No. :",
+              "description2": "Paper Bowl Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-HSB1800 High Bowl Machine is designed for efficiently producing paper bowls at a speed of 70 bowls per minute. This machine specializes in creating bowls with a size of 180 mm, which are commonly used in various markets, including restaurants, catering services, and food delivery businesses. These bowls are ideal for serving larger portions of soups, salads, and desserts, making them perfect for events and takeout orders."
+            },
+            {
+              "description": "NS-SB1500",
+              "category": "All Categories, Paper Bowl",
+              "title": "Model No. :",
+              "description2": "Paper Bowl Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-SB1500 Salad Bowl Machine is designed for producing high-quality paper bowls at a speed of 75 bowls per minute. This machine specializes in creating bowls with a diameter of 115 mm, which are commonly used in various markets, including salad bars, catering services, and fast-food restaurants. These bowls are perfect for serving salads, snacks, and small portions of side dishes, making them an excellent choice for food vendors and takeout establishments"
+            },
+            {
+              "description": "NS-BH220",
+              "category": "All Categories, Paper Bowl",
+              "title": "Model No. :",
+              "description2": "Paper Bowl Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-BH220 Pop Corn Tub Machine is designed for producing high-quality popcorn tubs at a speed of 70 tubs per minute. This machine specializes in creating tubs with a size of 210 mm, making it ideal for various markets such as cinemas, amusement parks, and concession stands. The larger size is perfect for serving generous portions of popcorn, making it a popular choice for moviegoers and event attendees. Additionally, the NS-BH220 utilizes a gear mechanism, ensuring smooth and efficient operation during production"
+            },
+            {
+              "description": "NS-RB500",
+              "category": "All Categories, Paper Bowl",
+              "title": "Model No. :",
+              "description2": "Paper Bowl Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-RB500 Paper Bowl Machine is designed to produce 40 bowls per minute, specializing in rectangular flat-bottom bowls. This machine efficiently creates single-compartment bowls, making it ideal for serving a variety of food items such as salads, soups, and snacks. With its reliable construction, it ensures consistent quality and durability in every bowl produced, catering to the growing demand for eco-friendly and convenient food packaging solutions."
+            },
+            {
+              "description": "NS-RBT50",
+              "category": "All Categories, Paper Bowl",
+              "title": "Model No. :",
+              "description2": "Paper Bowl Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-RBT50 Paper Bowl Machine is designed to produce 40 bowls per minute, specializing in rectangular flat-bottom bowls with a double compartment. This machine efficiently forms bowls that are perfect for serving different food items separately, making it ideal for applications such as takeout meals and catering. Its reliable performance ensures consistent quality in every bowl produced, catering to the increasing demand for convenient and eco-friendly food packaging solutions."
+            },
+            {
+              "description": "NS-CR",
+              "category": "All Categories, Paper Box",
+              "title": "Model No. :",
+              "description2": "Paper Box Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/carton-erecting.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-CR Carton Erecting Machine is an automated machine designed to form flat cardboard sheets into boxes at a speed of 100 pieces per minute. This machine takes flat carton blanks and folds, seals, and shapes them into ready-to-fill cartons, which are widely used in various industries for packaging products such as food, beverages, and consumer goods. By automating the carton erecting process, this machine significantly improves production efficiency and reduces labor costs, making it an essential tool for businesses looking to streamline their packaging operations."
+            },
+            {
+              "description": "NS-CRF",
+              "category": "All Categories, Paper Box",
+              "title": "Model No. :",
+              "description2": "Paper Box Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/carton-erecting.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-CRF Carton Erecting Machine is an advanced automated machine designed to efficiently form flat cardboard sheets into boxes at a speed of 160 pieces per minute. This machine utilizes a four servo mechanism, which enhances its precision and reliability during operation."
+            },
+            {
+              "description": "NS-LB50",
+              "category": "All Categories, Paper Box",
+              "title": "Model No. :",
+              "description2": "Paper Box Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/carton-erecting.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-LB50 Lunch Box Machine is an efficient machine designed to produce lunch boxes at a speed of 45 pieces per minute. This machine is designed for the food industry, creating disposable lunch boxes that are perfect for takeout meals, catering services, and school lunches. By automating the production process, it helps businesses meet the growing demand for convenient and eco-friendly packaging solutions."
+            },
+            {
+              "description": "NS-PBRM",
+              "category": "All Categories, Paper Bag",
+              "title": "Model No. :",
+              "description2": "Paper Bag Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-PBRM Rope Making Machine is a specialized sub-machine designed for producing twisted rope used in paper bags, operating at a speed of 60 pieces per minute. This machine can handle a maximum paper roll diameter of 450 mm, making it efficient for large-scale production. The twisted rope is commonly used in various markets, such as retail stores, grocery shops, and packaging companies, where strong and durable handles are needed for paper bags"
+            },
+            {
+              "description": "NS-PBRW",
+              "category": "All Categories, Paper Bag",
+              "title": "Model No. :",
+              "description2": "Paper Bag Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-PBRW Rope Winding Machine is designed to specifically wind twisted rope, ensuring that it is wrapped perfectly without any tangles, operating at an impressive speed of 150 pieces per minute. This machine can handle rope diameters ranging from 2 to 4 mm, making it ideal for creating strong and durable handles for various types of paper bags."
+            },
+            {
+              "description": "NS-PB330A",
+              "category": "All Categories, Paper Bag",
+              "title": "Model No. :",
+              "description2": "Paper Bag Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-PB330A Paper Bag Machine is a fully automatic machine designed for the forming of paper bags and attaches twisted rope handles at a fast speed of 135 bags per minute. This machine is ideal for stores, grocery shops, and restaurants that need strong and reliable packaging. The twisted rope handles provide a comfortable grip for customers, enhancing the usability of the bags. This machine also produces bags with square bottom designs, offering versatile options for various products."
+            },
+            {
+              "description": "NS-PB450A",
+              "category": "All Categories, Paper Bag",
+              "title": "Model No. :",
+              "description2": "Paper Bag Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-PB450A Paper Bag Machine is designed to produce paper bags with a width of 450 mm at a speed of 100 bags per minute. This size of bag is commonly used in various markets, including retail stores, supermarkets, and bakeries. The larger width makes it ideal for carrying bulk items such as groceries, clothing, and baked goods. By using this machine, businesses can efficiently meet the demand for eco-friendly paper bags while ensuring their products are packaged securely and attractively."
+            },
+            {
+              "description": "NS-PS6",
+              "category": "All Categories, Paper Straw",
+              "title": "Model No. :",
+              "description2": "Paper Straw Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-PS6 Paper Straw Machine is designed to produce paper straws at a speed of 60 straws per minute and comes equipped with 6 cutters for efficient production. These straws are commonly used in various markets, such as restaurants, cafés, and bars, where they serve as eco-friendly alternatives to plastic straws. They are ideal for serving beverages like smoothies, juices, and cocktails, making them popular in food service settings that prioritize sustainability."
+            },
+            {
+              "description": "NS-PS9",
+              "category": "All Categories, Paper Straw",
+              "title": "Model No. :",
+              "description2": "Paper Straw Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-PS9 Paper Straw Machine is a modern machine that produces paper straws at a fast rate of 120 straws per minute. It has 9 cutters that help make different sizes of straws efficiently. These paper straws are commonly used in places like restaurants, cafés, and bars as a better choice than plastic straws. They are strong and perfect for various drinks, including smoothies, juices, and cocktails. This machine is also great for parties and events, where it offers a stylish and eco-friendly option for guests. By using this machine, businesses can meet the rising demand for sustainable drinking solutions while helping to reduce plastic waste."
+            },
+            {
+              "description": "NS-SLT450",
+              "category": "All Categories, Paper Straw",
+              "title": "Model No. :",
+              "description2": "Paper Straw Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-SLT450 Paper Straw Slitting Machine is an important sub-machine used in making paper straws, producing 120 straws per minute. This machine cuts and shapes paper into different straw sizes, helping manufacturers meet the growing need for eco-friendly options in the drink industry. Its precise cutting ensures high-quality straws that are perfect for a variety of beverages, from smoothies to cocktails"
+            },
+            {
+              "description": "NS-PSPKS",
+              "category": "All Categories, Paper Straw",
+              "title": "Model No. :",
+              "description2": "Paper Straw Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-PSPKS Single Straw Packing Machine with Printing is an important sub-machine that helps package paper straws quickly and efficiently, producing 300 straws per minute. This machine makes it easy to pack straws neatly for distribution. It also has printing features, allowing businesses to add their brand name or product details directly on the packaging, which helps with marketing."
+            },
+            {
+              "description": "NS-PSBD",
+              "category": "All Categories, Paper Straw",
+              "title": "Model No. :",
+              "description2": "Paper Straw Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-PSBD Paper Straw Bending Machine is a vital sub-machine in the production line for paper straws, capable of producing 250 straws per minute. This machine is designed to bend paper straws into various shapes, allowing it to create popular types like U-shaped and bendy straws. Its high-speed performance makes it an excellent choice for manufacturers looking to increase their output and meet customer needs."
+            },
+            {
+              "description": "NS-PSBC",
+              "category": "All Categories, Paper Straw",
+              "title": "Model No. :",
+              "description2": "Paper Straw Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-PSBC Paper Straw Sharp Bevel Cutting Machine is an essential sub-machine in the production line for paper straws, capable of producing 800 straws per minute. This machine is designed to create sharp, angled cuts at the ends of paper straws, ensuring they are ready for use in various beverages. Its high-speed operation allows manufacturers to efficiently produce straws that meet the growing demand for eco-friendly alternatives to plastic."
+            },
+            {
+              "description": "NS-TPK",
+              "category": "All Categories, Paper Straw",
+              "title": "Model No. :",
+              "description2": "Paper Straw Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-TPK Paper Straw U-Shape Packing Machine is a high-speed auxiliary machine designed for paper straw manufacturing, capable of producing up to 600 pieces per minute. This machine ensures precise operation, hygienic packaging, and consistent quality, making it an ideal solution for large-scale production in modern beverage packaging industries. It automates the packing process, allowing for efficient handling and organization of U-shaped paper straws, which are commonly used for various drinks."
+            },
+            {
+              "description": "NS-970",
+              "category": "All Categories, Die Cutting",
+              "title": "Model No. :",
+              "description2": "Die Cutting Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/die-cutting(2).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-970 Wooden Roll Die Cutting Machine is a highly efficient device designed to cut paper into various shapes at a speed of 220 punches per minute. This machine utilizes a wooden die for precise shaping of paper, making it versatile for applications such as packaging, crafts, and stationery production. Its accuracy in cutting ensures each piece is crafted to exact specifications, making it a perfect choice for manufacturers aiming to produce premium-quality products efficiently."
+            },
+            {
+              "description": "NS-970-E",
+              "category": "All Categories, Die Cutting",
+              "title": "Model No. :",
+              "description2": "Die Cutting Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/die-cutting(2).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-970E Wooden Roll Die Cutting Machine is a high-performance device designed to cut paper into various shapes at a speed of 220 punches per minute. This machine utilizes a wooden die for precise cutting and also implements an embossing mechanism, allowing it to create detailed designs and textures on the paper. By combining cutting and embossing capabilities, this machine enhances the versatility of production, making it an essential tool for manufacturers looking to deliver high-quality, visually appealing products efficiently."
+            },
+            {
+              "description": "NS-1200",
+              "category": "All Categories, Die Cutting",
+              "title": "Model No. :",
+              "description2": "Die Cutting Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/die-cutting(2).webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-1200 Wooden Roll Die Cutting Machine is a powerful machine that can produce 220 punches per minute It uses a large die that measures 1200 x 640 mm, which allows it to cut paper efficiently. The maximum cutting size for the paper is 1170 x 660 mm, making this machine suitable for creating different shapes and designs. It is commonly used in packaging, crafts, and other paper products. With its strong build and precise cutting ability, this machine helps manufacturers work faster while ensuring high-quality results."
+            },
+            {
+              "description": "NS-EXT1300",
+              "category": "All Categories, Paper Coating",
+              "title": "Model No. :",
+              "description2": "Paper Coating Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/pe-coating-logo.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-EXT1300 PE Coating Machine is designed to efficiently apply a polyethylene coating to paper at a speed of 150 meters per minute. This coating is crucial as it provides a protective barrier against moisture and grease, making the paper suitable for various applications, particularly in food packaging. By enhancing the durability and water resistance of the paper, the PE coating ensures that products like cups, containers, and wrappers can withstand daily use without compromising their integrity"
+            },
+            {
+              "description": "NS-FG",
+              "category": "All Categories, Insulating Cup",
+              "title": "Model No. :",
+              "description2": "Insulating Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-FG Folder Gluer Machine is a high-performance device designed for efficient folding and gluing of paper products at a remarkable speed of 220 meters per minute. It accommodates paper blanks ranging from 100 to 450 mm in length, making it versatile for various packaging applications. This machine is ideal for producing boxes and cartons, ensuring precise folds and strong adhesive bonds, which are essential for maintaining the integrity of packaging."
+            },
+            {
+              "description": "NS-FGS",
+              "category": "All Categories, Insulating Cup",
+              "title": "Model No. :",
+              "description2": "Insulating Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-FGS Paper Cup Sleeve Forming Machine is designed to form paper/cardboard sleeves, essential for providing insulation to paper cups commonly used in the beverage industry. This machine executes a series of automated functions including paper feeding, pre-folding, alignment adjustments, and folding, culminating in the conveying of the final product. Utilizing insulated, generally corrugated fluted paper, this machine enhances the functionality of paper cups by adding a layer of insulation that protects users from the heat of the beverage."
+            },
+            {
+              "description": "NS-RWH80",
+              "category": "All Categories, Insulating Cup",
+              "title": "Model No. :",
+              "description2": "Insulating Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-RWH80 Ripple Wall Cup Making Machine is a single station machine. This machine has various technologies including open cam technology, gear transmission, and longitudinal axis structure. The automatic lubrication technique reduces the friction among various parts of machine. This machine performs a series of functions starting from multi-row automatic paper feeding."
+            },
+            {
+              "description": "NS-DWH80",
+              "category": "All Categories, Insulating Cup",
+              "title": "Model No. :",
+              "description2": "Insulating Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-DWH80 Double Wall Paper Cup Machine is designed with patented Open Cam Technology. It is capable of producing 80 cups of 4-16 oz every minute. Moreover its single-turn plate technology and its heavy structure ensures lesser noise and vibration. This model comprises of PLC control system and sensor failure detection, which stops machine’s working after detecting a problem. And that helps in reducing maintenance cost and increasing safety measures."
+            },
+            {
+              "description": "NS-DWH100",
+              "category": "All Categories, Insulating Cup",
+              "title": "Model No. :",
+              "description2": "Insulating Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-DWH100 Double Wall Paper Cup Machine is designed with patented Open Cam Technology. It is capable of producing 100 cups of 4-16 oz every minute. Moreover its single-turn plate technology and its heavy structure ensures lesser noise and vibration. This model comprises of PLC control system and sensor failure detection, which stops machine’s working after detecting a problem. And that helps in reducing maintenance cost and increasing safety measures."
+            },
+            {
+              "description": "NS-160-D",
+              "category": "All Categories, Insulating Cup",
+              "title": "Model No. :",
+              "description2": "Insulating Cup Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "The NS-160D Double Wall Paper Cup Machine is designed with patented Open Cam Technology. It is capable of producing 160 cups of 4-16 oz every minute. Moreover its single-turn plate technology and its heavy structure ensures lesser noise and vibration. This model comprises of PLC control system and sensor failure detection, which stops machine’s working after detecting a problem. And that helps in reducing maintenance cost and increasing safety measures."
+            },
+            {
+              "description": "NS-PCTM",
+              "category": "All Categories, Paper Cutlery",
+              "title": "Model No. :",
+              "description2": "Paper Cutlery Machine",
+              "title2": "Product Category :",
+              "src": "https://assets.nesscoindustries.com/public/assets/homepage/cutlery-icon.webp",
+              "ctaText": "Download",
+              "index": "5",
+              "content": "Paper Cutlery making Machine segregates its functions in three parts; first, Glue layer coating & Lamination & Die cutting part; second, Forming part and last, Glue Sealing & Drying part. With the increasing awareness of health hazards caused from using plastic cutleries lately, Paper Cutlery Machine came into more popularity with its varied utility- Paper Knife Fork And Spoons."
+            }
+          ],
+          "categories": [
+            {
+              "title": "All Categories"
+            },
+            {
+              "title": "Paper Bowl"
+            },
+            {
+              "title": "Flexo Printing"
+            },
+            {
+              "title": "Paper Lid"
+            },
+            {
+              "title": "Paper Box"
+            },
+            {
+              "title": "Paper Bag"
+            },
+            {
+              "title": "Paper Cup"
+            },
+            {
+              "title": "Paper Plate"
+            },
+            {
+              "title": "Paper Straw"
+            },
+            {
+              "title": "Die  Cutting "
+            },
+            {
+              "title": "Paper Coating"
+            },
+            {
+              "title": "Insulating Cup"
+            },
+            {
+              "title": "Paper Cutlery"
+            }
+          ]
+        }
+      }
+    ]
+  }

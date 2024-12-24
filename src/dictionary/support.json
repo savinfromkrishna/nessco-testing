@@ -1,0 +1,48 @@
+{
+    "support": [
+      {
+        "supportSeoData": {
+          "title": "Get Expert Support, Anytime, Anywhere from Nessco",
+          "description": "Need expert support? Nessco dedicated team provides comprehensive support, including installation, maintenance, and troubleshooting services at anytime.",
+          "openGraph": {
+            "title": "Get Expert Support, Anytime, Anywhere from Nessco",
+            "description": "Need expert support? Nessco dedicated team provides comprehensive support, including installation, maintenance, and troubleshooting services at anytime."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Get Expert Support, Anytime, Anywhere from Nessco",
+            "description": "Need expert support? Nessco dedicated team provides comprehensive support, including installation, maintenance, and troubleshooting services at anytime."
+          }
+        },
+        "Header": {
+          "title": "Nessco Support",
+          "description": "At Nessco India, we are committed to providing exceptional support to our customers. Our dedicated team offers assistance with machinery setup, maintenance, and troubleshooting to ensure smooth operations. With prompt after-sales service, technical guidance, and easy access to resources, we strive to keep your business running efficiently. Reach out to us for personalized support and solutions tailored to your needs.",
+          "img": "https://assets.nesscoindustries.com/public/assets/support/nessco-support.webp",
+          "cards": [
+            {
+              "title": "Services",
+              "link": "services",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/service-icon.webp"
+            },
+            {
+              "title": "Genuine Parts",
+              "link": "genuine-parts",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/nessco-support-genuine-parts.webp"
+            },
+            {
+              "title": "User Guide",
+              "link": "user-guide",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/user-guide-icon.webp"
+            },
+            {
+              "title": "Maintenance",
+              "link": "maintenance",
+              "img": "https://assets.nesscoindustries.com/public/assets/support/nessco-support-maintainance.webp"
+            }
+          ]
+        }
+      }
+    ]
+  }

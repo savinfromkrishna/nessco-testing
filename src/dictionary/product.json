@@ -1,0 +1,757 @@
+{
+    "Product": [
+      {
+        "productSeoData": {
+          "title": "Explore Full Range of Top Quality Products | Nessco",
+          "description": "Boost your productivity and efficiency with Nessco reliable and durable paper disposal machine. Explore our full range of top-quality products today. Get quote.",
+          "openGraph": {
+            "title": "Explore Full Range of Top Quality Products | Nessco",
+            "description": "Boost your productivity and efficiency with Nessco reliable and durable paper disposal machine. Explore our full range of top-quality products today. Get quote."
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Explore Full Range of Top Quality Products | Nessco",
+            "description": "Boost your productivity and efficiency with Nessco reliable and durable paper disposal machine. Explore our full range of top-quality products today. Get quote."
+          }
+        },
+        "Header": {
+          "ourProduct": "Our Products",
+          "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper cup forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+          "Featured": "Featured Products",
+          "products": [
+            {
+              "machineName": "NS-160S",
+              "description": "The NS-160S Paper Cup Machine is a high-speed production unit capable of operating at 180 cups per minute. ",
+              "machineImg": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160s.webp",
+              "productImg": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp"
+            },
+            {
+              "machineName": "NS-160B",
+              "description": "The NS-160B High-Speed Paper Bowl Machine is designed for efficiently producing disposable paper bowls at an impressive speed of 130 bowls per minute.",
+              "machineImg": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160b.webp",
+              "productImg": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp"
+            },
+            {
+              "machineName": "NS-970",
+              "description": "The NS-970 Wooden Roll Die Cutting Machine is a highly efficient device designed to cut paper into various shapes at a speed of 220 punches per minute.",
+              "machineImg": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-970.webp",
+              "productImg": "https://assets.nesscoindustries.com/public/assets/homepage/die-cutting(2).webp"
+            },
+            {
+              "machineName": "NS-950",
+              "description": "The NS-950 Flexo Printing Machine is a high-speed device capable of producing 120 meters per minute.",
+              "machineImg": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-950.webp",
+              "productImg": "https://assets.nesscoindustries.com/public/assets/homepage/flexo-printing(3).webp"
+            }
+          ]
+        },
+        "ProductCatalouge": {
+          "viewAllMachines": "View All Machines",
+          "viewMachine": "View Machine",
+          "card": [
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp",
+              "title": "Paper Cup Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper cup forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Paper Cup Machine",
+                  "h2": "NS-200",
+                  "link": "paper-cup-machine/ns-200",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2020.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                  "imageInformation": "Paper Cup ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Cup Machine",
+                  "h2": "NS-D3500",
+                  "link": "paper-cup-machine/ns-d3500",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-d3500.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                  "imageInformation": "Paper Cup ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Cup Machine",
+                  "h2": "NS-2200-D",
+                  "link": "paper-cup-machine/ns-2200-d",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2200-d.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                  "imageInformation": "Paper Cup ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Cup Machine",
+                  "h2": "NS-2010-T",
+                  "link": "paper-cup-machine/ns-2010-t",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2010-t.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                  "imageInformation": "Paper Cup ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Cup Machine",
+                  "h2": "NS-2020",
+                  "link": "paper-cup-machine/ns-2020",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2020.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                  "imageInformation": "Paper Cup ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Cup Machine",
+                  "h2": "NS-G2200",
+                  "link": "paper-cup-machine/ns-g2200",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-g2200.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                  "imageInformation": "Paper Cup ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Cup Machine",
+                  "h2": "NS-160C",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "link": "paper-cup-machine/ns-160c",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160c.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                  "imageInformation": "Paper Cup ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Cup Machine",
+                  "h2": "NS-160S",
+                  "link": "paper-cup-machine/ns-160s",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160s.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                  "imageInformation": "Paper Bowl ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp",
+              "title": "Paper Bowl Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper bowl forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Paper Bowl Machine",
+                  "h2": "NS-2900",
+                  "link": "paper-bowl-machine/ns-2900",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2900.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                  "imageInformation": "Paper Bowl ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Bowl Machine",
+                  "h2": "NS-B3000",
+                  "link": "paper-bowl-machine/ns-b3000",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-b3000.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                  "imageInformation": "Paper Bowl ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Bowl Machine",
+                  "h2": "NS-160B",
+                  "link": "paper-bowl-machine/ns-160b",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160b.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                  "imageInformation": "Paper Bowl ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "High Bowl Machine",
+                  "h2": "NS-HSB1800",
+                  "link": "paper-bowl-machine/ns-hsb1800",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-hsb1800.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                  "imageInformation": "Paper Bowl ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Salad Bowl Machine",
+                  "h2": "NS-SB1500",
+                  "link": "paper-bowl-machine/ns-sb1500",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-sb1500.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                  "imageInformation": "Paper Bowl ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Pop Corn Machine",
+                  "h2": "NS-BH220",
+                  "link": "paper-bowl-machine/ns-bh220",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-bh220.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                  "imageInformation": "Paper Bowl ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Bowl Machine",
+                  "h2": "NS-RB500",
+                  "link": "paper-bowl-machine/ns-rb500",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rb500.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                  "imageInformation": "Paper Bowl ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Bowl Machine",
+                  "h2": "NS-RBT50",
+                  "link": "paper-bowl-machine/ns-rbt50",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rbt50.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                  "imageInformation": "Paper Bowl",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/insulated-cup-logo.webp",
+              "title": "Insulating Cup Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper plate forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Folder Gluer Machine ",
+                  "h2": "NS-FG",
+                  "link": "insulating-cup-machine/ns-fg",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-fg.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+                  "imageInformation": "Insulating Cup",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Cup Sleeve Forming Machine ",
+                  "h2": "NS-FGS",
+                  "link": "insulating-cup-machine/ns-fgs",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-fgs.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+                  "imageInformation": "Insulating Cup",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Ripple Wall Cup Making Machine",
+                  "h2": "NS-RWH80",
+                  "link": "insulating-cup-machine/ns-rwh80",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rwh80.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+                  "imageInformation": "Insulating Cup",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Double Wall Paper Cup Machine",
+                  "h2": "NS-DWH80",
+                  "link": "insulating-cup-machine/ns-dwh80",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-dwh80.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+                  "imageInformation": "Insulating Cup",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Double Wall Paper Cup Machine",
+                  "h2": "NS-DWH100",
+                  "link": "insulating-cup-machine/ns-dwh100",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-dwh100.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+                  "imageInformation": "Insulating Cup",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Double Wall Paper Cup Machine",
+                  "h2": "NS-160D",
+                  "link": "insulating-cup-machine/ns-160d",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160d.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+                  "imageInformation": "Insulating Cup",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw-logo.webp",
+              "title": "Paper Straw Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper cup forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Paper Straw Machine",
+                  "h2": "NS-PS6",
+                  "link": "paper-straw-machine/ns-ps6",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ps6.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                  "imageInformation": "Paper Straw ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Straw Machine",
+                  "h2": "NS-PS9",
+                  "link": "paper-straw-machine/ns-ps9",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ps9.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                  "imageInformation": "Paper Straw ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Straw Slitting Machine ",
+                  "h2": "NS-SLT450",
+                  "link": "paper-straw-machine/ns-slt450",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-slt450.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                  "imageInformation": "Paper Straw ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Single Straw Packing Machine With Printing ",
+                  "h2": "NS-PSPKS",
+                  "link": "paper-straw-machine/ns-pspks",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pspks.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                  "imageInformation": "Paper Straw ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Straw Shark Bevel Cutting Machine",
+                  "h2": "NS-PSBC",
+                  "link": "paper-straw-machine/ns-psbc",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-psbc.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                  "imageInformation": "Paper Straw ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Straw U Shape Packing Machine",
+                  "h2": "NS-TPK",
+                  "link": "paper-straw-machine/ns-tpk",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-tpk.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                  "imageInformation": "Paper Straw",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Straw Bending Machine",
+                  "h2": "NS-PSBD",
+                  "link": "paper-straw-machine/ns-tpk",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-tpk.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                  "imageInformation": "Paper Straw",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag-logo.webp",
+              "title": "Paper Bag Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper bowl forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Rope Making Machine",
+                  "h2": "NS-PBRM",
+                  "link": "paper-bag-machine/ns-pbrm",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pbrm.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag.webp",
+                  "imageInformation": "Paper Bag ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Rope Winding Machine",
+                  "h2": "NS-PBRW",
+                  "link": "paper-bag-machine/ns-pbrw",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pbrw.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag.webp",
+                  "imageInformation": "Paper Bag ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Bag Machine",
+                  "h2": "NS-PB330A",
+                  "link": "paper-bag-machine/ns-pb330a",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pb330a.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag.webp",
+                  "imageInformation": "Paper Bag ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Bag Machine",
+                  "h2": "NS-PB450A",
+                  "link": "paper-bag-machine/ns-pb450a",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pb450a.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag.webp",
+                  "imageInformation": "Paper Bag",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/die-cutting(2).webp",
+              "title": "Die Cutting Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper plate forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Wooden Roll Die Cutting Machine ",
+                  "h2": "NS-970",
+                  "link": "die-cutting-machine/ns-970",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-970.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-die.webp",
+                  "imageInformation": "Die Cutting",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Wooden Roll Die Cutting Machine",
+                  "h2": "NS-970E",
+                  "link": "die-cutting-machine/ns-970e",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-970e.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-die.webp",
+                  "imageInformation": "Die Cutting",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Wooden Roll Die Cutting Machine ",
+                  "h2": "NS-1200",
+                  "link": "die-cutting-machine/ns-1200",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-1200.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-die.webp",
+                  "imageInformation": "Die Cutting ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/carton-erecting.webp",
+              "title": "Paper Box Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper plate forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Carton Erecting Machine",
+                  "h2": "NS-CR",
+                  "link": "paper-box-machine/ns-cr",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-cr.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-container.webp",
+                  "imageInformation": "Paper Box",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Carton Erecting Machine",
+                  "h2": "NS-CRF",
+                  "link": "paper-box-machine/ns-crf",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-crf.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-container.webp",
+                  "imageInformation": "Paper Box",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Lunch Box Machine ",
+                  "h2": "NS-LB50",
+                  "link": "paper-box-machine/ns-lb50",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lb50.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-container.webp",
+                  "imageInformation": "Paper Box",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-plate-logo.webp",
+              "title": "Paper Plate Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper plate forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Paper Plate Machine",
+                  "h2": "NS-PPM300",
+                  "link": "paper-plate-machine/ns-ppm300",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ppm300.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-plate.webp",
+                  "imageInformation": "Paper Plate ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/paper-lid2.webp",
+              "title": "Paper Lid Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper plate forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Paper Lid Machine",
+                  "h2": "NS-LID-H",
+                  "link": "paper-lid-machine/ns-lid-h",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lid-h.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-lid(2).webp",
+                  "imageInformation": "Paper Lid ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Paper Dome Lid Machine ",
+                  "h2": "NS-LID-D",
+                  "link": "paper-lid-machine/ns-lid-d",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lid-d.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-lid(2).webp",
+                  "imageInformation": "Paper Lid ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/flexo-printing(3).webp",
+              "title": "Flexo Printing Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper plate forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Flexo Printing Machines",
+                  "h2": "NS-950",
+                  "link": "flexo-printing-machine/ns-950",
+                  "h3": "Machines uses flexible silicon plates to print on various materials including paper, Kraft upto 6 colours",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-950.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/flexo-printing(2).webp",
+                  "imageInformation": "Flexo Printing",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                },
+                {
+                  "h1": "Flexo Printing Machines",
+                  "h2": "NS-HFS1300",
+                  "link": "flexo-printing-machine/ns-hfs1300",
+                  "h3": "Machines uses flexible silicon plates to print on various materials including paper, Kraft upto 6 colours",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-hfs1300.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/flexo-printing(2).webp",
+                  "imageInformation": "Flexo Printing",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/pe-coating-logo.webp",
+              "title": "Paper Coating Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper plate forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Pe Coating Machine ",
+                  "h2": "NS-EXT1300",
+                  "link": "paper-coating-machine/ns-ext1300",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ext1300.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/coating-icon.webp",
+                  "imageInformation": "Paper Coating ",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/homepage/cutlery-logo.webp",
+              "title": "Paper Cutlery Machine",
+              "description": "Nessco is an experienced company focusing on the development, manufacturing and sales of paper plate forming machines. With advanced technology, we provide first-class paper containers to our customers.",
+              "container": [
+                {
+                  "h1": "Paper Cutlery Machine",
+                  "h2": "NS-PCTM",
+                  "link": "paper-cutlery-machine/ns-pctm",
+                  "h3": "950mm Roll Width Die Cutting Machine",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pctm.webp",
+                  "image": "https://assets.nesscoindustries.com/public/assets/homepage/cutlery-icon.webp",
+                  "imageInformation": "Paper Cutlery",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            },
+            {
+              "title": "Packing Machine",
+              "description": "This machine is a highly efficient paper cup lid packing system, designed for optimal performance. It features PLC programmable control and servo motor drive, ensuring easy parameter adjustment and user-friendly operation. ",
+              "container": [
+                {
+                  "h1": "Packing Machine",
+                  "h2": "NS-LPK",
+                  "link": "packing-machine/ns-lpk",
+                  "h3": "packing machine efficiently packages paper cups into stacks or bundles for easy storage and transport.",
+                  "s": "S",
+                  "sInformation": "Servo Driven",
+                  "imageInformation": "Packing Machine",
+                  "inquiry": "Added to inquiry",
+                  "information": "More information about this item."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }

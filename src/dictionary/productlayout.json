@@ -1,0 +1,1242 @@
+{
+    "ProductLayout": [
+      {
+        "productLayoutSeoData": {
+          "title": "Product Layout Manufacturer and Supplier - Nessco India",
+          "description": "Trusted Product Layout Manufacturer since 1978. Nessco offers a wide range of paper cup making machine pairing with the latest technology. Enquire now!",
+          "keywords": "Nessco India",
+          "openGraph": {
+            "title": "Product Layout Manufacturer and Supplier - Nessco India",
+            "description": "Trusted Product Layout Manufacturer since 1978. Nessco offers a wide range of paper cup making machine pairing with the latest technology. Enquire now!",
+            "images": [
+              {
+                "url": "https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp",
+                "alt": "Fully Automatic Paper Cup Making Machine"
+              }
+            ]
+          },
+          "robots": "index, follow",
+          "alternates": {
+            "canonical": "https://www.nesscoindia.com"
+          },
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Product Layout Manufacturer - Nessco India",
+            "description": "Nessco India provides top-quality paper cup making machines paired with the latest technology. Enquire today!",
+            "image": "https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp"
+          }
+        },
+        "Header": {
+          "data": [
+            {
+              "title": "Paper Cup Machine",
+              "description": "Nessco is the leading manufacturers of best disposable paper cup making machine since 1978, providing at cost-effective price featuring with high speed, fully automatic, and advanced technology that offer innovative and sustainable solutions in producing high-quality and efficient paper cup, coffee cup, and tea cup production. We have a wide range of machines, designed to cater various production speeds of 180, 160, 130, 120 cups/min.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(3).webp"
+            },
+            {
+              "title": "Paper Bowl Machine",
+              "description": "Nessco, a trusted manufacturer of paper bowl making machine, provides reliable and efficient solutions for paper bowl production. Designed with advanced technology, our paper container machine deliver high-speed performance and consistent quality. With competitive pricing, we offers cost-effective options tailored to meet the needs of businesses of all sizes.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl.webp"
+            },
+            {
+              "title": "Paper Plate Machine",
+              "description": "Nessco, a trusted industry leader since 1978, offers advanced disposable paper plate making machine designed for the eco-friendly and efficient production of paper dona, paper dishes, and buffet paper plates. Our machines feature cutting-edge technology, exceptional durability, high-speed operation, and energy efficiency, ensuring optimal performance and reduced environmental impact.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-plate-logo.webp"
+            },
+            {
+              "title": "Paper Bag Machine",
+              "description": "Nessco is the leading manufacturers of paper bag making machine since 1978, providing at cost-effective price featuring with high speed, fully automatic, and advanced technology that offer innovative and eco-friendly solutions in producing high-quality and efficient shopping bags, carry bags, grocery bags, bakery bags and pouch bags tailored to meet your diverse packaging needs.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag-logo.webp"
+            },
+            {
+              "title": "Paper Straw Machine",
+              "description": "Nessco, a trusted name since 1978, is the leading manufacturer of paper straw making machine, offering eco-friendly and efficient solutions for biodegradable paper straw production. Our machines feature cutting-edge technology, high-speed performance, energy efficiency, durability, and user-friendly operation, ensuring maximum productivity.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw-logo.webp"
+            },
+            {
+              "title": "Die Cutting Machine",
+              "description": "Nessco providing roll die cutting machine operates on advanced pressure control technology, ensuring high stability and precision in cutting and punching. Its cutting-edge coordination between a stepping motor and photoelectric eye accurately identifies colors, guaranteeing perfect roll die cutting positions and precise cut-outs.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/die-cutting(2).webp"
+            },
+            {
+              "title": "Flexo Printing Machine",
+              "description": "Nessco, a trusted manufacturer of flexo printing machine, offers advanced solutions for multi-color printing. Our flexographic printing machine feature ultraviolet infrared drying devices at each print unit, ensuring precision. Designed for accuracy, they use rolling materials for flawless color printing.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/flexo-printing(3).webp"
+            },
+            {
+              "title": "Paper Lid Machine",
+              "description": "Nessco has been a trusted manufacturer of paper lid making machine since 1978. Our fully automated, self-sufficient machines incorporate advanced technology to enhance efficiency and accuracy. Designed as a single-station system, the model completes the entire process, including paper feeding, oil and silicon lubrication, bottom punching, heating, rolling, rimming, rounding, and discharging.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-lid2.webp"
+            },
+            {
+              "title": "Paper Box Machine",
+              "description": "Nessco, a trusted leader since 1978, specializes in high-quality paper box making machine designed for efficient production of durable paper boxes, including lunch boxes, hamburger boxes, and octagonal boxes. Built with advanced technology, our machines deliver precision, high-speed operation, energy efficiency, and robust performance for superior results.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/carton-erecting.webp"
+            },
+            {
+              "title": "Paper Coating Machine",
+              "description": "We at Nessco, offers paper PE film coating machine is a high-speed casting lamination compounding machine designed for precise sealing and consistent output. Ideal for coating single PE film over paper, it’s perfect for producing paper cups, bowls, and other packaging materials. Its versatility extends to applications like melon seed bags, non-woven cloth, and aluminum foil. ",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/pe-coating-logo.webp"
+            },
+            {
+              "title": "Paper Cutlery Machine",
+              "description": "The Paper Cutlery Making Machine operates in three stages: glue layer coating, lamination, and die cutting; forming; and finally, glue sealing and drying. With growing awareness of health risks associated with plastic cutlery, this machine has gained popularity for producing eco-friendly paper knives, forks, and spoons.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/cuttlery-logo.webp"
+            },
+            {
+              "title": "Insulating Cup Machine",
+              "description": "Nessco offering the complete range of insulating cup machine designed to manufacture double wall, ripple wall or multi-layered cups that provide excellent thermal insulation. Our machines precisely bond the inner and outer layers, often using advanced heat-sealing or ultrasonic technology, ensuring durability and insulation for both hot and cold beverages.",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-logo.webp"
+            },
+            {
+              "title": "Packing Machine",
+              "description": "This machine is a highly efficient paper cup lid packing system, designed for optimal performance. It features PLC programmable control and servo motor drive, ensuring easy parameter adjustment and user-friendly operation. With stable and precise functionality, it delivers reliable and accurate packaging results."
+            }
+          ]
+        },
+        "ProductsGrid": {
+          "inquiry": "Added to inquiry",
+          "placeholder": {
+            "s": "Search Machine..."
+          },
+          "all": "All",
+          "servoDriven": "Servo Driven",
+          "mechanicalCam": "Mechanical Cam",
+          "readMore": "Read More",
+          "readLess": "Read Less",
+          "viewMachine": "View Machine",
+          "data": [
+            {
+              "title": "Paper Cup Machine",
+              "seoTitle": "Paper Cup Making Machine - Enquire for Price | Nessco",
+              "description": "Nessco offers disposable paper cup making machine at the best price. Our machines are designed to cater various production speeds of 180, 160, 130, 120 cups/min.",
+              "openGraph": {
+                "title": "Paper Cup Making Machine - Enquire for Price | Nessco",
+                "description": "Nessco offers disposable paper cup making machine at the best price. Our machines are designed to cater various production speeds of 180, 160, 130, 120 cups/min.",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/paper-cup-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Boost Your Production with Our Fully Automatic Paper Cup Making Machine",
+              "paragraph": "Nessco offers cost-effective, high quality paper cup manufacturing machine designed to meet your needs and budget. Our machines handle various cup sizes and volumes, making them perfect for businesses of any scale. Our team provides full support, from setup to after-sales service, ensuring a smooth experience. To know about our disposable paper cup making machine price Contact us today and get the best deals for transforming your business.",
+              "all": [
+                {
+                  "servoDriven": [
+                    {
+                      "h1": "Paper Cup Machine",
+                      "h2": "NS-160S",
+                      "link": "ns-160s",
+                      "h3": "Machine designed for efficent and eco friendly paper cup Production.",
+                      "s": "S",
+                      "sInformation": "Servo Driven",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160s.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2.5oz - 16oz\n",
+                      "punchTitle": "PCS/MIN.",
+                      "punch": "180",
+                      "weightTitle": "Roll Weight",
+                      "weight": "3500Kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                      "imageInformation": "Paper Cup",
+                      "information": "More information about this item."
+                    }
+                  ]
+                },
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Paper Cup Machine",
+                      "h2": "NS-200",
+                      "link": "ns-200",
+                      "h3": "Machine designed for efficent and eco friendly paper cup Production.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-200.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-14oz\n",
+                      "punchTitle": "PCS/MIN.",
+                      "punch": "120",
+                      "weightTitle": "Heavy Weight",
+                      "weight": "2500 kg\n",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                      "imageInformation": "Paper Cup",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Cup Machine",
+                      "h2": "NS-D3500",
+                      "link": "ns-d3500",
+                      "h3": "Machine designed for efficent and eco friendly paper cup Production.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-d3500.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2oz - 12oz",
+                      "punchTitle": "PCS/MIN.",
+                      "punch": "130",
+                      "weightTitle": "Double Curling",
+                      "weight": "3300Kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                      "imageInformation": "Paper Cup",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Cup Machine",
+                      "h2": "NS-2200-D",
+                      "link": "ns-2200-d",
+                      "h3": "Machine designed for efficent and eco friendly paper cup Production.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2200-d.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "6oz - 32 oz\n",
+                      "punchTitle": "PCS/MIN.",
+                      "punch": "110",
+                      "weightTitle": "Double Curling",
+                      "weight": "3400",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                      "imageInformation": "Paper Cup",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Cup Machine",
+                      "h2": "NS-2010-T",
+                      "link": "ns-2010-t",
+                      "h3": "Machine designed for efficent and eco friendly paper cup Production.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2010-t.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2oz - 12oz\n",
+                      "punchTitle": "PCS/MIN.",
+                      "punch": "125",
+                      "weightTitle": "10 Molds",
+                      "weight": "2500",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                      "imageInformation": "Paper Cup",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Cup Machine",
+                      "h2": "NS-2020",
+                      "link": "ns-2020",
+                      "h3": "Machine designed for efficent and eco friendly paper cup Production.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2020.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2 - 8oz",
+                      "punchTitle": "PCS/MIN.",
+                      "punch": "120",
+                      "weightTitle": "Compact Design",
+                      "weight": "1600kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                      "imageInformation": "Paper Cup",
+                      "information": "More information about this item."
+                    },
+                    null,
+                    {
+                      "h1": "Paper Cup Machine",
+                      "h2": "NS-G2200",
+                      "link": "ns-g2200",
+                      "h3": "Machine designed for efficent and eco friendly paper cup Production.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-g2200.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "6oz - 32 oz\n",
+                      "punchTitle": "PCS/MIN.",
+                      "punch": "100",
+                      "weightTitle": "Heavy Weight",
+                      "weight": "2200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                      "imageInformation": "Paper Cup",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Cup Machine",
+                      "h2": "NS-160C",
+                      "link": "ns-160c",
+                      "h3": "Machine designed for efficent and eco friendly paper cup Production.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160c.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2.5oz - 16oz\n",
+                      "punchTitle": "PCS/MIN.",
+                      "punch": "160",
+                      "weightTitle": "Premium Built",
+                      "weight": "3600kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp",
+                      "imageInformation": "Paper Cup",
+                      "information": "More information about this item."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Paper Bowl Machine",
+              "seoTitle": "Paper Bowl Making Machine - Enquire for Price | Nessco",
+              "description": "Nessco offers paper bowl making machine at best price, equipped with photoelectric sensors . Our paper container machine produces soup and noodle bowls.",
+              "openGraph": {
+                "title": "Paper Bowl Making Machine - Enquire for Price | Nessco",
+                "description": "Nessco offers paper bowl making machine at best price, equipped with photoelectric sensors . Our paper container machine produces soup and noodle bowls.",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/paper-bowl-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Boost Your Business By Investing in the Nessco Paper Bowl Making Machine",
+              "paragraph": "Nessco offers reliable paper bowl forming machine designed for high-speed, quality production. We offer a wide range of products, including the salad bowl machine, paper bucket making machine, paper popcorn tub making machine, soup bowl machine, noodle bowl machine, and rectangular bowl machine, to cater to diverse production needs. Our paper bowl manufacturing machine ensures consistent quality, adaptability for various bowl sizes, and efficient production. With competitive pricing and exceptional performance, we delivers cost-effective solutions to help your business thrive. Contact us today to know our paper bowl making machine price and get the best deals for scaling your business.",
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Paper Bowl Machine",
+                      "h2": "NS-2900",
+                      "link": "ns-2900",
+                      "h3": "Machine designed to produce eco-friendly paper bowls in various sizes used for serving food.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2900.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                      "imageInformation": "Paper Bowl",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Bowl Machine",
+                      "h2": "NS-B3000",
+                      "link": "ns-b3000",
+                      "h3": "Machine designed to produce eco-friendly paper bowls in various sizes used for serving food.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-b3000.webp",
+                      "rangeTitle": "Top Dia",
+                      "range": "Upto 140mm ",
+                      "punchTitle": "PCS/MIN.",
+                      "punch": "90",
+                      "weightTitle": "Gear Driven",
+                      "weight": "2700kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                      "imageInformation": "Paper Bowl",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Bowl Machine",
+                      "h2": "NS-160B",
+                      "link": "ns-160b",
+                      "h3": "Machine designed to produce eco-friendly paper bowls in various sizes used for serving food.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160b.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                      "imageInformation": "Paper Bowl",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "High Bowl Machine",
+                      "h2": "NS-HSB1800",
+                      "link": "ns-hsb1800",
+                      "h3": "Machine designed to produce eco-friendly paper bowls in various sizes used for serving food.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-hsb1800.webp",
+                      "rangeTitle": "Top Dia",
+                      "range": "Upto 140mm\n",
+                      "punchTitle": "Bowl Height",
+                      "punch": "Upto 180mm\n",
+                      "weightTitle": "Heavy Weight",
+                      "weight": "2450KG",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                      "imageInformation": "Paper Bowl",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Salad Bowl Machine",
+                      "h2": "NS-SB1500",
+                      "link": "ns-sb1500",
+                      "h3": "Machine designed to produce eco-friendly paper bowls in various sizes used for serving food.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-sb1500.webp",
+                      "rangeTitle": "Top Dia",
+                      "range": "Upto 150mm\n",
+                      "punchTitle": "High Salad Bowl",
+                      "punch": "Upto 115mm \n",
+                      "weightTitle": "Heavy Weight",
+                      "weight": "2400kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                      "imageInformation": "Paper Bowl",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Pop Corn Tub Machine",
+                      "h2": "NS-BH220",
+                      "link": "ns-bh220",
+                      "h3": "Machine designed to produce eco-friendly paper bowls in various sizes used for serving food.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-bh220.webp",
+                      "rangeTitle": "Top Dia",
+                      "range": "Upto 200mm",
+                      "punchTitle": "High  Popcorn Tub",
+                      "punch": "Upto 210mm",
+                      "weightTitle": "Heavy Weight",
+                      "weight": "4100kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                      "imageInformation": "Paper Bowl",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Bowl Machine",
+                      "h2": "NS-RB500",
+                      "link": "ns-rb500",
+                      "h3": "Machine designed to produce eco-friendly paper bowls in various sizes used for serving food.",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rb500.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                      "imageInformation": "Paper Bowl",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Bowl Machine",
+                      "h2": "NS-RBT50",
+                      "link": "ns-rbt50",
+                      "h3": "Machine designed to produce eco-friendly paper bowls in various sizes used for serving food.",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rbt50.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp",
+                      "imageInformation": "Paper Bowl",
+                      "information": "More information about this item."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Paper Bag Machine",
+              "seoTitle": "Paper Bag Making Machine - Enquire for Price | Nessco",
+              "description": "Nessco  is the leading manufacturers of paper bag machine since 1978. We offers a fully automatic paper bag making machine at the best price. Get quote now!",
+              "openGraph": {
+                "title": "Paper Bag Making Machine - Enquire for Price | Nessco",
+                "description": "Nessco  is the leading manufacturers of paper bag machine since 1978. We offers a fully automatic paper bag making machine at the best price. Get quote now!",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/paper-bag-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Revolutionize Your Packaging Efficiency with Nessco’s Fully Automatic Paper Bag Making Machine",
+              "paragraph": "Streamline your bag production and boost efficiency with Nessco's cutting-edge fully automatic paper bag making machine. We have a wide range of machines such as square bottom paper bag making machine, and v bottom paper bag machine that cater to produce various bag types, including square bottom and V-bottom styles. Experience unparalleled precision and speed as our machines effortlessly create high-quality paper bags, tailored to your specific needs. Contact us today to know our paper bag making machine price and get the sustainable packaging solutions.",
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Rope Making Machine",
+                      "h2": "NS-PBRM",
+                      "link": "ns-pbrm",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pbrm.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag.webp",
+                      "imageInformation": "Paper Plate",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Rope Winding Machine",
+                      "h2": "NS-PBRW",
+                      "link": "ns-pbrw",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pbrw.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag.webp",
+                      "imageInformation": "Paper Plate",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Bag Machine",
+                      "h2": "NS-PB330A",
+                      "link": "ns-pb330a",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pb330a.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag.webp",
+                      "imageInformation": "Paper Plate",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Bag Machine",
+                      "h2": "NS-PB450A",
+                      "link": "ns-pb450a",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pb450a.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag.webp",
+                      "imageInformation": "Paper Plate",
+                      "information": "More information about this item."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Paper Straw Machine",
+              "seoTitle": "Paper Straw Making Machine - Enquire for Price | Nessco",
+              "description": "Nessco  is the leading manufacturers of paper straw making machine. Our machine can produce different-sized straws using its latest auto-feeding technology.",
+              "openGraph": {
+                "title": "Paper Straw Making Machine - Enquire for Price | Nessco",
+                "description": "Nessco  is the leading manufacturers of paper straw making machine. Our machine can produce different-sized straws using its latest auto-feeding technology.",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/paper-straw-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Revolutionize Your Straw Business with Nessco High-Speed Paper Straw Making Machine",
+              "paragraph": "Nessco offering the high-speed paper straw manufacturing machine is an essential piece of equipment for businesses looking to increase their paper straw production. This machine ensures high efficiency and quick output, making it ideal for companies aiming to meet the growing demand for eco-friendly products. We have a complete range of machines such as paper straw bending machine offers precise bending for various straw designs, while the paper straw slitting machine allows for accurate cutting of paper strips in different widths. Contact us today to know our paper straw making machine price and get the sustainable and innovative solutions.",
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Paper Straw Machine",
+                      "h2": "NS-PS6",
+                      "link": "ns-ps6",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ps6.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Straw Machine",
+                      "h2": "NS-PS9",
+                      "link": "ns-ps9",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ps9.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Single Straw Packing Machine With Printing",
+                      "h2": "NS-PSPKS",
+                      "link": "ns-pspks",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pspks.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Straw Bending Machine",
+                      "h2": "NS-PSBD",
+                      "link": "ns-psbd",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-psbd.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Straw Sharp Bevel Cutting Machine",
+                      "h2": "NS-PSBC",
+                      "link": "ns-psbc",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-psbc.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Straw U Shape Packing Machine",
+                      "h2": "NS-TPK",
+                      "link": "ns-tpk",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-tpk.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Die Cutting Machine",
+              "seoTitle": "Paper Die Cutting Machine - Enquire for Price | Nessco",
+              "description": "Nessco provides a wide range of die cutting machines wooden roll die cutting machine & metal roll die punching machine. They cut accurate & precise paper sheet to blanks.",
+              "openGraph": {
+                "title": "Paper Die Cutting Machine - Enquire for Price | Nessco",
+                "description": "Nessco provides a wide range of die cutting machines wooden roll die cutting machine & metal roll die punching machine. They cut accurate & precise paper sheet to blanks.",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/die-cutting-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Revolutionize Your Cutting Process with Nessco Die Cutting Machine",
+              "paragraph": "Transform your cutting process with Nessco’s exclusive range of die cutting machine, including the wooden roll die cutting machine and metal roll die punching machine. Our machines feature with fully automated and a seamless unwinding system to feed paper rolls, producing sheets or blanks with precision. Designed for efficiency and versatility, our die cutting machine for paper cup ensure consistent, high-quality results. Contact us today to explore our cutting-edge solutions and enhance your production capabilities.",
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Wooden Roll Die Cutting Machine",
+                      "h2": "NS-970",
+                      "link": "ns-970",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-970.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-die.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Wooden Roll Die Cutting Machine With Embossing",
+                      "h2": "NS-970E",
+                      "link": "ns-970e",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-970e.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-die.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Wooden Roll Die Cutting Machine",
+                      "h2": "NS-1200",
+                      "link": "ns-1200",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-1200.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-die.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Flexo Printing Machine",
+              "seoTitle": "Flexo Printing Machine - Enquire for Price | Nessco",
+              "description": "Nessco is the leading manufacturers of flexo printing machine. We offers cost-effective flexographic printing machine featured with multi-color printing facility.  Get quote now!",
+              "openGraph": {
+                "title": "Flexo Printing Machine - Enquire for Price | Nessco",
+                "description": "Nessco is the leading manufacturers of flexo printing machine. We offers cost-effective flexographic printing machine featured with multi-color printing facility.  Get quote now!",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/flexo-printing-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Transform Your Printing Experience with Nessco Flexo Printing Machine",
+              "paragraph": "Enhance your printing efficiency with Nessco’s flexographic printing machine, perfect for high-speed, multi-color printing. Fully automated, it handles feeding, printing, and UV drying with precision. Our flexo printing machine ensures seamless operations with one-side winding and rewinding, boosting accuracy and speed. Contact us today to learn how our solutions can revolutionize your printing process.",
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Flexo Printing Machines",
+                      "h2": "NS-950",
+                      "link": "ns-950",
+                      "h3": "Machines uses flexible silicon plates to print on various materials including paper, Kraft upto 6 colours",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-950.webp",
+                      "rangeTitle": "Webwidth",
+                      "range": "950 mm",
+                      "punchTitle": "color",
+                      "punch": "4/6",
+                      "weightTitle": "roll to roll",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/flexo-printing(2).webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Flexo Printing Machines",
+                      "h2": "NS-HFS1300",
+                      "link": "ns-hfs1300",
+                      "h3": "Machines uses flexible silicon plates to print on various materials including paper, Kraft upto 6 colours",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-hfs1300.webp",
+                      "rangeTitle": "Webwidth",
+                      "range": "1300 mm",
+                      "punchTitle": "color",
+                      "punch": "6",
+                      "weightTitle": "roll to roll",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/flexo-printing(2).webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Paper Lid Machine",
+              "seoTitle": "Paper Lid Making Machine - Enquire for Price | Nessco",
+              "description": "Nessco offers paper lid making machine at the best price, equipped with advanced technology. Our high-speed dome lid machine can produce up to 60 lids/min.",
+              "openGraph": {
+                "title": "Paper Lid Making Machine - Enquire for Price | Nessco",
+                "description": "Nessco offers paper lid making machine at the best price, equipped with advanced technology. Our high-speed dome lid machine can produce up to 60 lids/min.",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/paper-lid-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Revolutionize Your Lid Production with Nessco Paper Lid Making Machine",
+              "paragraph": "Transform your production process with Nessco's innovative paper cup lid making machine, designed for efficiency, durability, and precision. Our machines are ideal for producing high-quality lids, including dome lids, to meet diverse packaging needs. Whether you're looking for a paper dome lid machine or a versatile solution for other lid types, Nessco delivers exceptional performance and adaptability. With competitive pricing and comprehensive support, we’re your trusted partner. Contact us today to explore our range and price to boost your production capabilities.",
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Paper Lid Machine",
+                      "h2": "NS-LID-H",
+                      "link": "ns-lid-h",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lid-h.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-lid(2).webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    },
+                    {
+                      "h1": "Paper Dome Lid Machine",
+                      "h2": "NS-LID-D",
+                      "link": "ns-lid-d",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lid-d.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-lid(2).webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Paper Box Machine",
+              "seoTitle": "Paper Box Making Machine - Enquire for Price | Nessco",
+              "description": "Nessco  is the leading manufacturers of paper box machine since 1978. We offers fully automatic paper box making machine at the best price. Get quote now!",
+              "openGraph": {
+                "title": "Paper Box Making Machine - Enquire for Price | Nessco",
+                "description": "Nessco  is the leading manufacturers of paper box machine since 1978. We offers fully automatic paper box making machine at the best price. Get quote now!",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/paper-box-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Maximize Your Production Efficiency with Nessco Paper Box Making Machine",
+              "paragraph": "Elevate your food packaging capabilities with Nessco's cutting-edge paper box making machine. Our comprehensive range of solutions, including carton erecting machine, paper lunch box making machine, and octagonal box forming machine, is designed to streamline your operations and boost output. Contact us today to know our paper box manufacturing machine price to elevate your business with custom packaging solutions.",
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Carton Erecting Machine",
+                      "h2": "NS-CR",
+                      "link": "ns-cr",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-cr.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-container.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item.",
+                      "title": "Flexo Printing Machine",
+                      "heading": "Our world class Paper Roll machines"
+                    },
+                    {
+                      "h1": "Carton Erecting Machine",
+                      "h2": "NS-CRF",
+                      "link": "ns-crf",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-crf.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-container.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item.",
+                      "title": "Flexo Printing Machine",
+                      "heading": "Our world class Paper Roll machines"
+                    },
+                    {
+                      "h1": "Lunch Box Machine",
+                      "h2": "NS-LB50",
+                      "link": "ns-lb50",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lb50.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-container.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item.",
+                      "title": "Flexo Printing Machine",
+                      "heading": "Our world class Paper Roll machines"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Paper Plate Machine",
+              "seoTitle": "Paper Plate Making Machine - Enquire for Price | Nessco",
+              "description": "Nessco is the leading manufacturers of paper plate machine. We offers a fully automatic disposable paper plate making machine at best price. Get quote now!",
+              "openGraph": {
+                "title": "Paper Plate Making Machine - Enquire for Price | Nessco",
+                "description": "Nessco is the leading manufacturers of paper plate machine. We offers a fully automatic disposable paper plate making machine at best price. Get quote now!",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/paper-plate-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Transform Your Plate Business with Nessco Cutting-Edge Fully Automatic Disposable Paper Plate Making Machine",
+              "paragraph": "Transform your plate business with Nessco's cutting-edge fully automatic disposable paper plate making machine. Designed to enhance production efficiency, our machines offer seamless operation for creating high-quality paper plates. With advanced technology, exceptional durability, and high-speed performance, Nessco’s machines ensure eco-friendly and cost-effective manufacturing. Experience energy efficiency, superior output, and minimal maintenance, all while meeting the growing demand for sustainable, disposable paper products. Contact us today to know our paper plate manufacturing machine price to elevate your business with innovation and reliability.",
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Paper Plate Machine",
+                      "h2": "NS-PPM300",
+                      "link": "ns-ppm300",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ppm300.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-plate.webp"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Paper Coating Machine",
+              "seoTitle": "Paper PE Coating Machine - Enquire for Price | Nessco",
+              "description": "Nessco is the leading paper coating machine suppliers & exporters. We have wide range of pe coating machine pairing with the latest technology. Enquiry now!",
+              "openGraph": {
+                "title": "Paper PE Coating Machine - Enquire for Price | Nessco",
+                "description": "Nessco is the leading paper coating machine suppliers & exporters. We have wide range of pe coating machine pairing with the latest technology. Enquiry now!",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/paper-pe-coating-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Unveiling Nessco's Paper PE Coating Machine at Unbeatable Price!",
+              "paragraph": "Get the best deals on Nessco's paper coating machine, designed for precision and durability in paper lamination processes. Our advanced paper PE coating machine ensures uniform coating, high-speed performance, and seamless production for a variety of applications. Built with cutting-edge technology, it delivers consistent results while optimizing efficiency. With competitive pricing and reliable support, Nessco provides the perfect solution for your coating needs. Contact us today to explore our range and prices to enhance your production capabilities.",
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "PE Coating Machine",
+                      "h2": "NS-EXT1300",
+                      "link": "ns-ext1300",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ext1300.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/coating-icon.webp"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Insulating Cup Machine",
+              "seoTitle": "Insulating Cup Machine - Enquire for Price | Nessco",
+              "description": "Nessco provides a wide range of insulating cup machines, ripple and double wall paper cup machine, handle cup machine, folder gluer machine, paper cup sleeve machine.",
+              "openGraph": {
+                "title": "Insulating Cup Machine - Enquire for Price | Nessco",
+                "description": "Nessco provides a wide range of insulating cup machines, ripple and double wall paper cup machine, handle cup machine, folder gluer machine, paper cup sleeve machine.",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/insulating-cup-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Keep Your Beverages Warm with the Revolutionary Nessco Insulating Cup Machine",
+              "paragraph": "Take your beverage packaging to the next level with Nessco insulating cup machine such as ripple and double wall paper cup machine, engineered for durability and superior insulation. Perfect for crafting premium insulated cups, our product line also features the handle cup machine, paper cup sleeve machine, and folder gluer machine to meet diverse production demands. Built with advanced technology, these machines ensure precision and consistency for high-quality output. Contact us today to explore our insulating cup solutions and enhance your production capabilities.",
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Folder Gluer Machine",
+                      "h2": "NS-FG",
+                      "link": "ns-fg",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-fg.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp"
+                    },
+                    {
+                      "h1": "Paper Cup Sleeve Forming Machine",
+                      "h2": "NS-FGS",
+                      "link": "ns-fgs",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-fgs.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item.",
+                      "title": "Flexo Printing Machine",
+                      "heading": "Our world class Paper Roll machines"
+                    },
+                    {
+                      "h1": "Ripple Wall Paper Cup Machine",
+                      "h2": "NS-RWH80",
+                      "link": "ns-rwh80",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rwh80.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item.",
+                      "title": "Flexo Printing Machine",
+                      "heading": "Our world class Paper Roll machines"
+                    },
+                    {
+                      "h1": "Double Wall Paper Cup Machine ",
+                      "h2": "NS-DWH80",
+                      "link": "ns-dwh80",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-dwh80.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item.",
+                      "title": "Flexo Printing Machine",
+                      "heading": "Our world class Paper Roll machines"
+                    },
+                    {
+                      "h1": "Double Wall Paper Cup Machine ",
+                      "h2": "NS-DWH100",
+                      "link": "ns-dwh100",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-dwh100.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item.",
+                      "title": "Flexo Printing Machine",
+                      "heading": "Our world class Paper Roll machines"
+                    },
+                    {
+                      "h1": "Double Wall Paper Cup Machine ",
+                      "h2": "NS-160D",
+                      "link": "ns-160d",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160d.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item.",
+                      "title": "Flexo Printing Machine",
+                      "heading": "Our world class Paper Roll machines"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Paper Cutlery Machine",
+              "seoTitle": "Paper Cutlery Machine - Enquire for Price | Nessco",
+              "description": "Nessco offers paper cutlery making machine is equipped with latest technology. Our machine is able to make paper knife, fork, spoon, etc. Enquire for pricing. ",
+              "openGraph": {
+                "title": "Paper Cutlery Machine - Enquire for Price | Nessco",
+                "description": "Nessco offers paper cutlery making machine is equipped with latest technology. Our machine is able to make paper knife, fork, spoon, etc. Enquire for pricing. ",
+                "images": [
+                  {
+                    "url": "https://assets.nesscoindustries.com/public/assets/og-image/paper-cutlery-machine.webp"
+                  }
+                ]
+              },
+              "heading": "Crafting a Greener Future with Nessco Paper Cutlery Making Machine",
+              "paragraph": "Nessco’s paper cutlery making machine supports eco-friendly manufacturing with a three-stage process: glue layer coating & lamination, forming, and glue sealing & drying. It produces biodegradable, recyclable, and waterproof paper spoons, forks, and knives, meeting growing demand for sustainable alternatives. Equipped for precision, it performs paper feeding, lamination, die cutting, and forming efficiently. Contact us today to discover how our machine helps build a greener future!",
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Paper Cutlery Machine",
+                      "h2": "NS-PCTM",
+                      "link": "ns-pctm",
+                      "s": "S",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pctm.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/cutlery-icon.webp"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "title": "Paper Cutlery Machine - Enquire for Price | Nessco",
+                      "seoTitle": "Paper Cutlery Machine - Enquire for Price | Nessco",
+                      "description": "Nessco offers paper cutlery making machine is equipped with latest technology. Our machine is able to make paper knife, fork, spoon, etc. Enquire for pricing. ",
+                      "url": "https://assets.nesscoindustries.com/public/assets/og-image/paper-cutlery-machine.webp",
+                      "heading": "Crafting a Greener Future with Nessco Paper Cutlery Making Machine",
+                      "paragraph": "Nessco’s paper cutlery making machine supports eco-friendly manufacturing with a three-stage process: glue layer coating & lamination, forming, and glue sealing & drying. It produces biodegradable, recyclable, and waterproof paper spoons, forks, and knives, meeting growing demand for sustainable alternatives. Equipped for precision, it performs paper feeding, lamination, die cutting, and forming efficiently. Contact us today to discover how our machine helps build a greener future!",
+                      "h1": "Packing Machine",
+                      "h2": "NS-LPK",
+                      "link": "ns-pctm",
+                      "h3": "packing machine efficiently packages paper cups into stacks or bundles for easy storage and transport.",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pctm.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/cutlery-icon.webp"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "all": [
+                null,
+                {
+                  "mechanicalCam": [
+                    {
+                      "h1": "Paper Straw Slitting Machine",
+                      "h2": "NS-SLT450",
+                      "link": "ns-slt450",
+                      "s": "M",
+                      "sInformation": "Mechanical Cam",
+                      "img": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-slt450.webp",
+                      "rangeTitle": "Wide Range",
+                      "range": "2-20oz",
+                      "punchTitle": "Punch / Min",
+                      "punch": "320",
+                      "weightTitle": "Roll Weight",
+                      "weight": "1200kg",
+                      "image": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp",
+                      "imageInformation": "Paper Roll",
+                      "information": "More information about this item."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }

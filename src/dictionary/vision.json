@@ -1,0 +1,117 @@
+{
+    "Vision": [
+      {
+        "visionSeoData": {
+          "title": "Mission and Vision | Nessco",
+          "description": "Discover Nessco's commitment to innovation, sustainability, and customer satisfaction for paper disposable industry. Learn more about our mission and vision.",
+          "openGraph": {
+            "title": "Mission and Vision | Nessco",
+            "description": "Discover Nessco's commitment to innovation, sustainability, and customer satisfaction for paper disposable industry. Learn more about our mission and vision.",
+            "images": [
+              {
+                "alt": "Fully Automatic Paper Cup Making Machine"
+              }
+            ]
+          },
+          "robots": "index, follow",
+          "twitter": {
+            "card": "summary_large_image",
+            "site": "@NesscoIndia",
+            "title": "Mission and Vision | Nessco",
+            "description": "Discover Nessco's commitment to innovation, sustainability, and customer satisfaction for paper disposable industry. Learn more about our mission and vision."
+          }
+        },
+        "Header": {
+          "video": "https://assets.nesscoindustries.com/public/assets/about/mission-and-vision/banner.webm",
+          "title": "Mission & Vision",
+          "getaQuote": "Get a Quote",
+          "mainImg": "https://res.cloudinary.com/dfryvystt/image/upload/v1732104526/MainImg_eztkfy.svg",
+          "leftBorderImg": "/assets/Mission And Vision/LeftBorderImg.svg",
+          "rightBorderImg": "/assets/Mission And Vision/RightBorderImg.svg",
+          "description": "Our vision is to be a global leader in transforming the disposable industry through innovation, sustainability, and customer-centric solutions. We aspire to set new benchmarks by creating machinery that not only enhances efficiency but also aligns with the growing demand for eco-friendly alternatives.",
+          "image": [
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/mission-and-vision/mission&vision-mission-icon.webp",
+              "title": "Mission"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/mission-and-vision/mission&vision-vision-icon.webp",
+              "title": "Vision"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/mission-and-vision/mission&vision-main-icon.webp"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/mission-and-vision/mission&vision-culture-icon.webp",
+              "title": "Culture"
+            },
+            {
+              "img": "https://assets.nesscoindustries.com/public/assets/about/mission-and-vision/mission&vision-csr-icon.webp",
+              "title": "CSR"
+            }
+          ]
+        },
+        "Cards": {
+          "cards": [
+            {
+              "image": "https://assets.nesscoindustries.com/public/assets/about/mission-and-vision/mission&vision-main-card-image.svg",
+              "title": "Mission",
+              "description": "We strive to lead with innovation, delivering top-tier paper packaging machines globally.",
+              "largeDescription": "We don’t just build machines—We build trust, innovation, and a legacy of excellence. With over 1,000 machines sold across the globe, we’re proud to have earned the confidence of businesses in markets like Russia, Italy, and the USA. This milestone is more than a number; it’s a reflection of the quality, dedication, and customer-first approach that drives everything we do."
+            },
+            {
+              "image": "https://assets.nesscoindustries.com/public/assets/about/mission-and-vision/mission&vision-vision-card-image.svg",
+              "title": "Vision",
+              "description": "Our vision is to lead the disposable industry globally through innovation and sustainability.",
+              "largeDescription": "Our vision is to be a global leader in transforming the disposable industry through innovation, sustainability, and customer-centric solutions. We aspire to set new benchmarks by creating machinery that not only enhances efficiency but also aligns with the growing demand for eco-friendly alternatives.",
+              "descriptionList": [
+                {
+                  "point": "Product Innovation and Quality Enhancement",
+                  "listImg": "1"
+                },
+                {
+                  "point": "Market Expansion",
+                  "listImg": "2"
+                },
+                {
+                  "point": "Customer-Centric Approach",
+                  "listImg": "3"
+                },
+                {
+                  "point": "Brand Building and Marketing",
+                  "listImg": "4"
+                }
+              ]
+            },
+            {
+              "image": "https://assets.nesscoindustries.com/public/assets/about/mission-and-vision/mission&vision-pillar-image.svg",
+              "title": "Culture",
+              "description": "Our culture fosters teamwork, creativity, honesty, and inclusivity, driving growth.",
+              "largeDescription": "Our culture is all about working together, sharing ideas, and valuing everyone’s efforts. We create a space where creativity shines, teamwork leads the way, and learning never stops. With honesty, inclusivity, and support at our core, we celebrate wins and face challenges as one team, driven by a shared goal to make the disposable industry better for everyone.",
+              "descriptionList": [
+                {
+                  "point": "Customer Centricity",
+                  "listImg": "https://assets.nesscoindustries.com/public/assets/about/stand.svg"
+                },
+                {
+                  "point": "Integrity and Transparency",
+                  "listImg": "https://assets.nesscoindustries.com/public/assets/about/stand.svg"
+                },
+                {
+                  "point": "Collaboration and Teamwork",
+                  "listImg": "https://assets.nesscoindustries.com/public/assets/about/stand.svg"
+                }
+              ]
+            },
+            {
+              "image": "https://assets.nesscoindustries.com/public/assets/about/mission-and-vision/mission&vision-csr-card-image.svg",
+              "title": "CSR",
+              "longTitle": "Corporate Social Responsibility",
+              "description": "Nessco creates jobs, promotes sustainability, and spreads green awareness.",
+              "largeDescription": "Nessco India is committed to making a positive impact on society through various initiatives. We have created over 500 employment opportunities across diverse roles, fostering growth and development. By collaborating with engineering colleges, we train young minds to meet industry standards and regularly host industrial visits to educate students on sustainable practices. Our community campaigns raise awareness about the importance of a sustainable future, encouraging eco-friendly behaviors. As a company, we proudly adopt green practices, ensuring a cleaner and greener tomorrow for the next generation."
+            }
+          ]
+        }
+      }
+    ]
+  }

@@ -1,0 +1,184 @@
+{
+    "Footer": [
+      {
+        "footerContent": {
+          "storeTitle": "SERVICES",
+          "businessTitle": "BUSINESS PARTNERS",
+          "languageTitle": "LANGUAGE & REGION",
+          "awarTitle": "AWARDS & CERTIFICATIONS",
+          "clienteleTitle": "CLIENTELE",
+          "carrersTitle": "CAREERS",
+          "linkTitle": "ABOUT NESSCO",
+          "linkSecond": "GUIDES",
+          "serviceTitle": "PRODUCTS",
+          "subscribeTitle": "SUBSCRIBE TO NEWSLETTER",
+          "contactusTitle": "CONTACT US",
+          "addressTitle": "ADDRESS",
+          "stores": [
+            {
+              "address": "Book A Service",
+              "link": "/support/services"
+            },
+            {
+              "address": "User Guide",
+              "link": "/support/user-guide"
+            },
+            {
+              "address": "Genuine Parts",
+              "link": "/support/genuine-parts"
+            }
+          ],
+          "businessPartners": "Our Business Partners",
+          "awards": [
+            {
+              "src": "https://assets.nesscoindustries.com/public/assets/footer/certificate.webp",
+              "alt": "Awards"
+            }
+          ],
+          "clients": "Our Clients",
+          "careers": [
+            {
+              "career": "Fulltime"
+            },
+            {
+              "career": "Freelance"
+            }
+          ],
+          "links": [
+            {
+              "link": "Mission",
+              "ref": "/about/vision"
+            },
+            {
+              "link": "Our Company",
+              "ref": "/about/our-company"
+            },
+            {
+              "link": "Our Strength",
+              "ref": "/about/our-strength"
+            },
+            {
+              "link": "The Pink City",
+              "ref": "/about/the-pink-city"
+            },
+            {
+              "link": "Projects",
+              "ref": "/about/projects"
+            },
+            {
+              "link": "Sustainibility",
+              "ref": "/about/sustainability"
+            }
+          ],
+          "linkstwo": [
+            {
+              "linksecond": "FAQs",
+              "ref": "/faq"
+            },
+            {
+              "linksecond": "Blogs",
+              "ref": "/blog"
+            },
+            {
+              "linksecond": "Mediaroom",
+              "ref": "/media-room"
+            },
+            {
+              "linksecond": "Know Your Machine",
+              "ref": "/knowledge-center/know-your-machine"
+            },
+            {
+              "linksecond": "Know Your Product",
+              "ref": "/knowledge-center/know-your-product"
+            },
+            {
+              "linksecond": "Know Your Business",
+              "ref": "/knowledge-center/know-your-bussiness"
+            },
+            {
+              "linksecond": "Privacy Policy",
+              "ref": "/privacy-policy"
+            },
+            {
+              "linksecond": "Sitemap",
+              "ref": "/contact"
+            }
+          ],
+          "services": [
+            {
+              "service": "Paper Cup Machine",
+              "ref": "/products/paper-cup-machine"
+            },
+            {
+              "service": "Paper Bag Machine",
+              "ref": "/products/paper-bag-machine"
+            },
+            {
+              "service": "Paper Bowl Machine",
+              "ref": "/products/paper-bowl-machine"
+            },
+            {
+              "service": "Paper Plate Machine",
+              "ref": "/products/paper-plate-machine"
+            },
+            {
+              "service": "Paper Box Machine",
+              "ref": "/products/paper-box-machine"
+            },
+            {
+              "service": "Insulating Cup Machine",
+              "ref": "/products/insulating-cup-machine"
+            },
+            {
+              "service": "Die Cutting Machine",
+              "ref": "/products/die-cutting-machine"
+            },
+            {
+              "service": "Flexo Printing Machine",
+              "ref": "/products/flexo-printing-machine"
+            }
+          ],
+          "address": "E-186, Apparel Park, RIICO Industrial Area, Mahal Road, Jagatpura, Jaipur (Rajasthan) - 302022, INDIA",
+          "contacts": [
+            {
+              "name": "+ 91 99822 00038",
+              "href": "tel:+91 95494 44484"
+            },
+            {
+              "name": "+ 91 95494 44484",
+              "href": "tel:+91 95494 44484"
+            },
+            {
+              "name": "info@nesscoindia.com",
+              "href": "mailto:info@nesscoindia.com"
+            }
+          ],
+          "socialIcons": [
+            {
+              "src": "/assets/footer/facebook.png",
+              "alt": "Facebook"
+            },
+            {
+              "src": "/assets/footer/twitter.png",
+              "alt": "Twitter"
+            },
+            {
+              "src": "/assets/footer/youtube1.png",
+              "alt": "YouTube",
+              "imgclass": "h-14"
+            },
+            {
+              "src": "/assets/footer/instagram.png",
+              "alt": "Instagram"
+            },
+            {
+              "src": "/assets/footer/linkedin.png",
+              "alt": "LinkedIn"
+            }
+          ],
+          "copyright": "Nessco © 2024 All Right Reserved",
+          "privacyPolicy": "Privacy Policy"
+        }
+      }
+    ]
+  }

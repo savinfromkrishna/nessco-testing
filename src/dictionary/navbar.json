@@ -1,0 +1,692 @@
+{
+    "navbar": [
+      {
+        "category": "About",
+        "data": {
+          "navleftdata": [
+            {
+              "title": "Featured Projects",
+              "description": "Paper industry adopts biodegradable materials and enhances recycling efforts.",
+              "textcolor": "text-green-500",
+              "icon": "https://assets.nesscoindustries.com/public/assets/navbar-images/navbar-featured-projects-image.svg",
+              "link": "projects"
+            },
+            {
+              "title": "Sustainability",
+              "description": "Paper industry adopts biodegradable materials and enhances recycling efforts.",
+              "textcolor": "text-green-500",
+              "icon": "https://assets.nesscoindustries.com/public/assets/navbar-images/navbar-sustainability-image.svg",
+              "link": "sustainability"
+            }
+          ],
+          "navrightdata": [
+            {
+              "title": "Mission & Vision",
+              "image": "https://assets.nesscoindustries.com/public/assets/navbar-images/mission-vision.webp",
+              "link": "vision",
+              "alt": "mission"
+            },
+            {
+              "title": "Our Company",
+              "image": "https://assets.nesscoindustries.com/public/assets/navbar-images/our-company.webp",
+              "link": "our-company",
+              "alt": "company"
+            },
+            {
+              "title": "Our Strength",
+              "image": "https://assets.nesscoindustries.com/public/assets/navbar-images/our-strength.webp",
+              "link": "our-strength",
+              "alt": "strength"
+            },
+            {
+              "title": "The Pink City",
+              "image": "https://assets.nesscoindustries.com/public/assets/navbar-images/pink-city.webp",
+              "link": "the-pink-city",
+              "alt": "pinkCity"
+            }
+          ]
+        }
+      },
+      {
+        "category": "Product",
+        "data": {
+          "Machines": [
+            {
+              "name": "NS-PCTM",
+              "link": "ns-pctm",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pctm.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pctm.webp",
+              "category": "Paper Cutlery Machine, All Products"
+            },
+            {
+              "name": "NS-200",
+              "link": "ns-200",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-200.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-200.webp",
+              "category": "Paper Cup Machine, All Products"
+            },
+            {
+              "name": "NS-D3500",
+              "link": "ns-d3500",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-d3500.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-d3500.webp",
+              "category": "Paper Cup Machine, All Products"
+            },
+            {
+              "name": "NS-2200-D",
+              "link": "ns-2200-d",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2200-d.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2200-d.webp",
+              "category": "Paper Cup Machine, All Products"
+            },
+            {
+              "name": "NS-2010-T",
+              "link": "ns-2010-t",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2010-t.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2010-t.webp",
+              "category": "Paper Cup Machine, All Products"
+            },
+            {
+              "name": "NS-2020",
+              "link": "ns-2020",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2020.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2020.webp",
+              "category": "Paper Cup Machine, All Products"
+            },
+            {
+              "name": "NS-EXT1300",
+              "link": "ns-ext1300",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ext1300.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ext1300.webp",
+              "category": "Paper Coating Machine, All Products"
+            },
+            {
+              "name": "NS-G2200",
+              "link": "ns-g2200",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-g2200.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-g2200.webp",
+              "category": "Paper Cup Machine, All Products"
+            },
+            {
+              "name": "NS-160C",
+              "link": "ns-160c",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160c.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160c.webp",
+              "category": "Paper Cup Machine, All Products"
+            },
+            {
+              "name": "NS-160S",
+              "link": "ns-160s",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160s.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160s.webp",
+              "category": "Paper Cup Machine, All Products"
+            },
+            {
+              "name": "NS-2900",
+              "link": "ns-2900",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2900.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-2900.webp",
+              "category": "Paper Bowl Machine, All Products"
+            },
+            {
+              "name": "NS-B3000",
+              "link": "ns-b3000",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-b3000.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-b3000.webp",
+              "category": "Paper Bowl Machine, All Products"
+            },
+            {
+              "name": "NS-HSB1800",
+              "link": "ns-hsb1800",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-hsb1800.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-hsb1800.webp",
+              "category": "Paper Bowl Machine, All Products"
+            },
+            {
+              "name": "NS-SB1500",
+              "link": "ns-sb1500",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-sb1500.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-sb1500.webp",
+              "category": "Paper Bowl Machine, All Products"
+            },
+            {
+              "name": "NS-BH220",
+              "link": "ns-bh220",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-bh220.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-bh220.webp",
+              "category": "Paper Bowl Machine, All Products"
+            },
+            {
+              "name": "NS-RB500",
+              "link": "ns-rb500",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rb500.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rb500.webp",
+              "category": "Paper Bowl Machine, All Products"
+            },
+            {
+              "name": "NS-RBT50",
+              "link": "ns-rbt50",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rbt50.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rbt50.webp",
+              "category": "Paper Bowl Machine, All Products"
+            },
+            {
+              "name": "NS-PBRM",
+              "link": "ns-pbrm",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pbrm.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pbrm.webp",
+              "category": "Paper Bag Machine, All Products"
+            },
+            {
+              "name": "NS-PBRW",
+              "link": "ns-pbrw",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pbrw.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pbrw.webp",
+              "category": "Paper Bag Machine, All Products"
+            },
+            {
+              "name": "NS-PB330A",
+              "link": "ns-pb330a",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pb330a.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pb330a.webp",
+              "category": "Paper Bag Machine, All Products"
+            },
+            {
+              "name": "NS-PB450A",
+              "link": "ns-pb450a",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pb450a.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pb450a.webp",
+              "category": "Paper Bag Machine, All Products"
+            },
+            {
+              "name": "NS-PPM300",
+              "link": "ns-ppm300",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ppm300.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ppm300.webp",
+              "category": "Paper Plate Machine, All Products"
+            },
+            {
+              "name": "NS-PS6",
+              "link": "ns-ps6",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ps6.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ps6.webp",
+              "category": "Paper Straw Machine, All Products"
+            },
+            {
+              "name": "NS-PS9",
+              "link": "ns-ps9",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ps9.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-ps9.webp",
+              "category": "Slitting Machine, All Products"
+            },
+            {
+              "name": "NS-SLT450",
+              "link": "ns-slt450",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-slt450.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-slt450.webp",
+              "category": "Paper Straw Machine, All Products"
+            },
+            {
+              "name": "NS-PSPKS",
+              "link": "ns-pspks",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pspks.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-pspks.webp",
+              "category": "Paper Straw Machine, All Products"
+            },
+            {
+              "name": "NS-PSBD",
+              "link": "ns-psbd",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-psbd.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-psbd.webp",
+              "category": "Paper Straw Machine, All Products"
+            },
+            {
+              "name": "NS-PSBC",
+              "link": "ns-psbc",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-psbc.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-psbc.webp",
+              "category": "Paper Straw Machine, All Products"
+            },
+            {
+              "name": "NS-TPK",
+              "link": "ns-tpk",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-tpk.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-tpk.webp",
+              "category": "Paper Straw Machine, All Products"
+            },
+            {
+              "name": "NS-970",
+              "link": "ns-970",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-970.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-970.webp",
+              "category": "Die Cutting Machine, All Products"
+            },
+            {
+              "name": "NS-970E",
+              "link": "ns-970e",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-970e.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-970e.webp",
+              "category": "Die Cutting Machine, All Products"
+            },
+            {
+              "name": "NS-1200",
+              "link": "ns-1200",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-1200.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-1200.webp",
+              "category": "Die Cutting Machine, All Products"
+            },
+            {
+              "name": "NS-950",
+              "link": "ns-950",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-950.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-950.webp",
+              "category": "Flexo Printing Machine, All Products"
+            },
+            {
+              "name": "NS-HFS1300",
+              "link": "ns-hfs1300",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-hfs1300.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-hfs1300.webp",
+              "category": "Flexo Printing Machine, All Products"
+            },
+            {
+              "name": "NS-LID-H",
+              "link": "ns-lid-h",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lid-h.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lid-h.webp",
+              "category": "Paper Lid Machine, All Products"
+            },
+            {
+              "name": "NS-LID-D",
+              "link": "ns-lid-d",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lid-d.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lid-d.webp",
+              "category": "Paper Lid Machine, All Products"
+            },
+            {
+              "name": "NS-CR",
+              "link": "ns-cr",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-cr.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-cr.webp",
+              "category": "Paper Box Machine, All Products"
+            },
+            {
+              "name": "NS-CRF",
+              "link": "ns-crf",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-crf.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-crf.webp",
+              "category": "Paper Box Machine, All Products"
+            },
+            {
+              "name": "NS-LB50",
+              "link": "ns-lb50",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lb50.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lb50.webp",
+              "category": "Paper Box Machine, All Products"
+            },
+            {
+              "name": "NS-FG",
+              "link": "ns-fg",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-fg.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-fg.webp",
+              "category": "Insulating Cup Machine, All Products"
+            },
+            {
+              "name": "NS-FGS",
+              "link": "ns-fgs",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-fgs.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-fgs.webp",
+              "category": "Insulating Cup Machine, All Products"
+            },
+            {
+              "name": "NS-RWH80",
+              "link": "ns-rwh80",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rwh80.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-rwh80.webp",
+              "category": "Insulating Cup Machine, All Products"
+            },
+            {
+              "name": "NS-DWH80",
+              "link": "ns-dwh80",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-dwh80.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-dwh80.webp",
+              "category": "Insulating Cup Machine, All Products"
+            },
+            {
+              "name": "NS-DWH100",
+              "link": "ns-dwh100",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-dwh100.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-dwh100.webp",
+              "category": "Insulating Cup Machine, All Products"
+            },
+            {
+              "name": "NS-160D",
+              "link": "ns-160d",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160d.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160d.webp",
+              "category": "Insulating Cup Machine, All Products"
+            },
+            {
+              "name": "NS-160B",
+              "link": "ns-160b",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160b.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-160b.webp",
+              "category": "Paper Bowl Machine, All Products"
+            },
+            {
+              "name": "NS-LPK",
+              "link": "ns-lpk",
+              "image": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lpk.webp",
+              "mimage": "https://assets.nesscoindustries.com/public/assets/homepage/machine-images/ns-lpk.webp",
+              "category": "Packing Machine, All Products"
+            },
+            {
+              "name": "NS-SLT650",
+              "link": "ns-slt650",
+              "category": "Slitting Machine,All Products"
+            },
+            {
+              "name": "NS-SLT1300",
+              "link": "ns-slt1300",
+              "category": "Slitting Machine,All Products"
+            },
+            {
+              "name": "NS-SLT1300H",
+              "link": "ns-slt1300h",
+              "category": "Slitting Machine,All Products"
+            },
+            {
+              "name": "NS-SLT1600",
+              "link": "ns-slt1600",
+              "category": "Slitting Machine"
+            },
+            {
+              "name": "NS-SLT1600H",
+              "link": "ns-slt1600h",
+              "category": "Slitting Machine"
+            },
+            {
+              "name": "NS-CRS",
+              "link": "ns-crs",
+              "category": "Corrugation Machine"
+            },
+            {
+              "name": "NS-AL40",
+              "link": "ns-al40",
+              "category": "Aluminium Container Machine"
+            },
+            {
+              "name": "NS-AL63",
+              "link": "ns-al63",
+              "category": "Aluminium Container Machine"
+            },
+            {
+              "name": "NS-AL80",
+              "link": "ns-al80",
+              "category": "Aluminium Container Machine"
+            }
+          ],
+          "SidebarLinks": [
+            {
+              "name": "Paper Cup Machine",
+              "link": "/paper-cup-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/paper-cup(4).webp"
+            },
+            {
+              "name": "Paper Bowl Machine",
+              "link": "/paper-bowl-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bowl(2).webp"
+            },
+            {
+              "name": "Paper Plate Machine",
+              "link": "/paper-plate-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/paper-plate.webp"
+            },
+            {
+              "name": "Flexo Printing Machine",
+              "link": "/flexo-printing-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/flexo-printing(2).webp"
+            },
+            {
+              "name": "Paper Bag Machine",
+              "link": "/paper-bag-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/paper-bag.webp"
+            },
+            {
+              "name": "Paper Straw Machine",
+              "link": "/paper-straw-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/paper-straw.webp"
+            },
+            {
+              "name": "Die Cutting Machine",
+              "link": "/die-cutting-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/paper-die.webp"
+            },
+            {
+              "name": "Paper Lid Machine",
+              "link": "/paper-lid-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/paper-lid(2).webp"
+            },
+            {
+              "name": "Paper Box Machine",
+              "link": "/paper-box-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/paper-container.webp"
+            },
+            {
+              "name": "Paper Coating Machine",
+              "link": "/paper-coating-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/coating-icon.webp"
+            },
+            {
+              "name": "Insulating Cup Machine",
+              "link": "/insulating-cup-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/insulating-cup-icon.webp"
+            },
+            {
+              "name": "Paper Cutlery Machine",
+              "link": "/paper-cutlery-machine",
+              "icon": "https://assets.nesscoindustries.com/public/assets/homepage/cutlery-icon.webp"
+            },
+            {
+              "name": "Packing Machine",
+              "link": "/packing-machine"
+            }
+          ]
+        }
+      },
+      {
+        "category": "Application",
+        "data": {
+          "applications": [
+            {
+              "id": "1",
+              "name": "Paper Lid",
+              "link": "/paper-lid",
+              "description": "A paper lid is an eco-friendly cover designed for disposable cups or containers, providing a secure fit to prevent spills while supporting sustainability efforts by reducing plastic use."
+            },
+            {
+              "id": "2",
+              "name": "Paper Cup",
+              "link": "/paper-cup",
+              "description": "A paper cup is a disposable and eco-friendly container, widely used for serving hot or cold beverages, offering convenience and reducing reliance on plastic alternatives."
+            },
+            {
+              "id": "3",
+              "name": "Paper Bowl",
+              "link": "/paper-bowl",
+              "description": "A paper bowl is a disposable and eco-friendly container, ideal for serving soups, salads, and desserts, offering convenience and reducing environmental impact compared to plastic options."
+            },
+            {
+              "id": "4",
+              "name": "Paper Plate",
+              "link": "/paper-plate",
+              "description": "A paper plate is a disposable and eco-friendly dishware option, commonly used for serving food at events, picnics, and parties, offering convenience and reducing cleanup effort."
+            },
+            {
+              "id": "5",
+              "name": "Paper Straw",
+              "link": "/paper-straw",
+              "description": "A paper straw is an eco-friendly alternative to plastic straws, designed for single-use to sip beverages while reducing environmental impact and promoting sustainability."
+            },
+            {
+              "id": "6",
+              "name": "Paper Bag",
+              "link": "/paper-bag",
+              "description": "A paper bag is an eco-friendly and reusable packaging solution, widely used for carrying groceries, retail items, or gifts, promoting sustainability and reducing plastic waste."
+            },
+            {
+              "id": "7",
+              "name": "Paper Box",
+              "link": "/paper-box",
+              "description": "A paper box is a versatile, eco-friendly packaging solution used for storing, transporting, or presenting items, offering durability and sustainability for various applications."
+            },
+            {
+              "id": "8",
+              "name": "Insulating Cup ",
+              "link": "/insulating-cup",
+              "description": "A paper insulating cup is designed to retain the temperature of beverages, providing a comfortable grip and preventing heat transfer to hands, making it ideal for serving hot or cold drinks."
+            },
+            {
+              "id": "9",
+              "name": "Paper Cutlery",
+              "link": "/paper-cutlery",
+              "description": "Paper cutlery is an eco-friendly alternative to plastic utensils, designed for single-use to serve meals sustainably, reducing environmental impact while maintaining convenience."
+            }
+          ]
+        }
+      },
+      {
+        "category": "Support",
+        "data": {
+          "supportItem": [
+            {
+              "title": "Book a Service",
+              "link": "services",
+              "image": "https://assets.nesscoindustries.com/public/assets/navbar-images/service.json"
+            },
+            {
+              "title": "Genuine Parts",
+              "link": "genuine-parts",
+              "image": "https://assets.nesscoindustries.com/public/assets/navbar-images/genuine-parts.json"
+            },
+            {
+              "title": "User Guide",
+              "link": "user-guide",
+              "image": "https://assets.nesscoindustries.com/public/assets/navbar-images/user-guide.json"
+            },
+            {
+              "title": "Maintenance",
+              "link": "maintenance",
+              "image": "https://assets.nesscoindustries.com/public/assets/navbar-images/maintenance.json"
+            }
+          ],
+          "supportMobile": {
+            "mobileFirst": "\"+91 93584 04366\"",
+            "mobileSecond": "\"+91 78499 04966\""
+          }
+        }
+      },
+      {
+        "category": "Resources",
+        "data": {
+          "DataBankItem": [
+            {
+              "title": "FAQ",
+              "link": "faq",
+              "image": "https://res.cloudinary.com/dlavoml67/image/upload/v1726729266/hzyjkxanmoewqydiqrhf.png",
+              "bgPic": "https://res.cloudinary.com/dlavoml67/image/upload/v1726729997/ulprlkuweecmrindl9jd.png"
+            },
+            {
+              "title": "Knowledge Center",
+              "link": "knowledge-center",
+              "image": "https://res.cloudinary.com/dlavoml67/image/upload/v1726729266/gbtsuvpwuzhz6jnqcpea.png",
+              "bgPic": "https://res.cloudinary.com/dlavoml67/image/upload/v1726729997/ulprlkuweecmrindl9jd.png"
+            },
+            {
+              "title": "Media Rooms",
+              "link": "media-room",
+              "image": "https://res.cloudinary.com/dlavoml67/image/upload/v1726729266/tp1roenkfl9i7oqa8jbn.png",
+              "bgPic": "https://res.cloudinary.com/dlavoml67/image/upload/v1726729997/ulprlkuweecmrindl9jd.png"
+            },
+            {
+              "title": "Blogs",
+              "link": "blog",
+              "image": "https://res.cloudinary.com/dlavoml67/image/upload/v1726729266/snifsvmdtl5pjmv7lwyf.png",
+              "bgPic": "https://res.cloudinary.com/dlavoml67/image/upload/v1726729997/ulprlkuweecmrindl9jd.png"
+            },
+            {
+              "title": "Clientel",
+              "link": "clientele",
+              "image": "https://res.cloudinary.com/dlavoml67/image/upload/v1726729266/nvfu0wu7vm2z2vfhiie2.png",
+              "bgPic": "https://res.cloudinary.com/dlavoml67/image/upload/v1726729997/ulprlkuweecmrindl9jd.png"
+            }
+          ]
+        }
+      },
+      {
+        "category": "Video",
+        "data": {
+          "videoDataItem": [
+            {
+              "title": "Paper Cup Machine",
+              "link": "/videos",
+              "image": "https://www.youtube.com/embed/P1RhGuYdDhQ?si=WNT7QPjISig1KCJV",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/navbar-images/navbar-paper-cup-machine-image.webp"
+            },
+            {
+              "title": "Paper Bowl Machine",
+              "link": "/videos",
+              "image": "https://www.youtube.com/embed/AE0QMNZleJs?si=XiKVWtni11M9AwXU",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/navbar-images/navbar-paper-bowl-machine-image.webp"
+            },
+            {
+              "title": "Paper Bag Machine",
+              "link": "/videos",
+              "image": "https://www.youtube.com/embed/AE0QMNZleJs?si=XiKVWtni11M9AwXU",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/navbar-images/navbar-paper-bag-machine-image.webp"
+            },
+            {
+              "title": "Paper Plate Machine",
+              "link": "/videos",
+              "image": "https://www.youtube.com/embed/fdy9OrKdGhc?si=Gz2VRF3hO7HeyFEE",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/navbar-images/navbar-paper-plate-machine-image.webp"
+            },
+            {
+              "title": "Paper Lid Machine",
+              "link": "/videos",
+              "image": "https://www.youtube.com/embed/fdy9OrKdGhc?si=Gz2VRF3hO7HeyFEE",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/navbar-images/navbar-paper-lid-machine-image.webp"
+            },
+            {
+              "title": "Paper Straw Machine",
+              "link": "/videos",
+              "image": "https://www.youtube.com/embed/fdy9OrKdGhc?si=Gz2VRF3hO7HeyFEE",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/navbar-images/navbar-paper-straw-machine-image.webp"
+            },
+            {
+              "title": "Paper Cutlery Machine",
+              "link": "/videos",
+              "image": "https://www.youtube.com/embed/fdy9OrKdGhc?si=Gz2VRF3hO7HeyFEE",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/navbar-images/navbar-paper-cutlery-machine-image.webp"
+            },
+            {
+              "title": "Flexo Printing Machine",
+              "link": "/videos",
+              "image": "https://www.youtube.com/embed/fdy9OrKdGhc?si=Gz2VRF3hO7HeyFEE",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/navbar-images/navbar-flexo-printing-machine-image.webp"
+            }
+          ]
+        }
+      },
+      {
+        "category": "Contact",
+        "data": {
+          "contact": [
+            {
+              "link": "/contact"
+            }
+          ]
+        }
+      }
+    ]
+  }
