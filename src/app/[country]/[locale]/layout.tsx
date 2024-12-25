@@ -3,14 +3,17 @@ import "./globals.css";
 import Script from "next/script";
 import NavLayout from "@/components/Navbar/NavLayout";
 
-import dynamic from 'next/dynamic'
+import dynamic from "next/dynamic";
 import { locales, validCountryISOs } from "@/i18n";
 import { FormProvider } from "./context/FormContext";
 import ContactIcons from "@/components/Contact/ContactIcon";
 import { getBaseUrl } from "@/app/api/environment";
 import { EnquiryCartProvider } from "./context/EnquiryContext";
 import heroData from "@/dictionary/hero.json";
-import { CountryCode, countryNames } from "@/components/constants/Navbar/config";
+import {
+  CountryCode,
+  countryNames,
+} from "@/components/constants/Navbar/config";
 
 const FooterLayout = dynamic(() => import("@/components/Footer/FooterLayout"));
 
@@ -107,7 +110,6 @@ export default async function RootLayout({
     locale = "en";
   }
   locale = locales.includes(locale as any) ? locale : "en";
-
 
   return (
     <html lang={`${locale}-${country.toUpperCase()}`}>
