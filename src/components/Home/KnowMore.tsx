@@ -171,7 +171,7 @@ export default function Component({ heroData }: KnowMoreLayoutProps) {
                   />
                 </div>
               </DialogTrigger>
-              <DialogContent className="bg-white sm:max-w-[900px] rounded-2xl flex lg:flex-row flex-col items-center justify-center">
+              <DialogContent className="bg-white sm:max-w-[900px] p-6 rounded-2xl flex lg:flex-row flex-col items-center justify-center">
                 <div className="lg:w-1/2 w-full">
                   <BlurImage
                     src={item?.src}
@@ -221,7 +221,7 @@ export default function Component({ heroData }: KnowMoreLayoutProps) {
                 )}
               </div>
             </DialogTrigger>
-            <DialogContent className="bg-white sm:max-w-[900px] rounded-2xl flex lg:flex-row flex-col items-center justify-center">
+            <DialogContent className="bg-white sm:max-w-[900px] rounded-2xl p-6 flex lg:flex-row flex-col items-center justify-center">
               <div className="lg:w-1/2 w-full">
                 <BlurImage
                   src={item?.src}

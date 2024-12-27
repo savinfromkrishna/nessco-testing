@@ -85,11 +85,11 @@ export default function Stepper({ onStepChange, categories }: StepperProps) {
 
   return (
     <div
-      className={`lg:sticky z-[9999] lg:top-[5.8rem] max-w-screen-2xl left-0 w-full overflow-hidden ${
+      className={`lg:sticky z-50 lg:top-[5.8rem] max-w-screen-2xl left-0 w-full overflow-hidden ${
         activeStep > 0 ? "bg-[#f2f2f2]" : "bg-[#f2f2f2]"
       }`}
     >
-      <div className="relative flex items-center justify-center w-full z-[9999] h-24 mx-auto pb-2">
+      <div className="relative flex items-center justify-center w-full z-50 h-24 mx-auto pb-2">
         <div className="w-screen">
           <div
             className="relative flex items-center max-w-screen-2xl justify-start overflow-x-scroll scrollbar-hide w-full"

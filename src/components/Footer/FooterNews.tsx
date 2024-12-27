@@ -494,7 +494,7 @@ const FooterNew: React.FC<FooterProps> = ({ footerData }) => {
 
       <div
         className={`${styles.footerrights} ${
-          isDarkBackground ? "bg-[#222222]" : "bg-white"
+          isDarkBackground ? "bg-black" : "bg-white"
         } relative h-[6.5rem] lg:h-[4rem]`}
       >
         <div className={`${styles.footercontainerx} relative z-20`}>

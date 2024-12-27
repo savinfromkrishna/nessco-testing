@@ -12,6 +12,7 @@ import {
 import { UserGuideItem } from "./types/constant";
 import { Button } from "@/components/ui/button";
 import FormFields, { FormValues } from "../Contact/FormFileds";
+import { ScrollArea } from "../ui/ScrollArea";
 
 interface UserGuideProps {
   userGuideData: UserGuideItem;
@@ -101,10 +102,10 @@ export const UserGuide: React.FC<UserGuideProps> = ({ userGuideData }) => {
     e.preventDefault();
     console.log("Form submitted with values:", formValues);
     try {
-      const response = await fetch('/api/submit', {
-        method: 'POST',
+      const response = await fetch("/api/submit", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           ...formValues,
@@ -113,13 +114,13 @@ export const UserGuide: React.FC<UserGuideProps> = ({ userGuideData }) => {
       });
 
       if (!response.ok) {
-        throw new Error('Form submission failed');
+        throw new Error("Form submission failed");
       }
 
-      console.log('Form submitted successfully');
+      console.log("Form submitted successfully");
       handleCloseDownloadModal();
     } catch (error) {
-      console.error('Error submitting form:', error);
+      console.error("Error submitting form:", error);
       // You might want to show an error message to the user here
     }
   };
@@ -483,13 +484,10 @@ export const UserGuide: React.FC<UserGuideProps> = ({ userGuideData }) => {
           open={isDownloadModalOpen}
           onOpenChange={setIsDownloadModalOpen}
         >
-          <DialogContent className="bg-white lg:max-w-[50rem] h-[70vh] p-0 overflow-hidden">
-            <DialogHeader>
-              <DialogTitle className="sr-only">Download</DialogTitle>
-            </DialogHeader>
-            {selectedDownloadCard && (
-              <div className="flex w-full h-full">
-                <div className="w-1/2 h-full bg-gray-50 -mt-4 lg:block hidden relative">
+          <DialogContent className="p-0 bg-white overflow-hidden w-full sm:max-w-[90vw] md:max-w-[80vw] lg:max-w-[50rem] h-[90vh] sm:h-auto">
+            <ScrollArea className="h-[85vh] sm:h-auto">
+              <div className="flex flex-col sm:flex-row rounded-3xl w-full h-full">
+                <div className="w-full sm:w-1/2 h-[45vh] sm:h-[75vh] bg-gray-50 relative">
                   <BlurImage
                     src="https://res.cloudinary.com/dfryvystt/image/upload/v1731482365/Logo_ilp80b.png"
                     alt="Logo"
@@ -500,9 +498,8 @@ export const UserGuide: React.FC<UserGuideProps> = ({ userGuideData }) => {
                   <BlurImage
                     src={selectedDownloadCard?.src}
                     alt="Selected Card"
-                    height={400}
-                    width={400}
-                    className="absolute h-[50%] top-[20%] width-[50%] object-contain items-center inset-0"
+                    fill
+                    className="absolute object-contain"
                   />
                   <div className="absolute bottom-10 left-4 z-10 flex items-center font-normal text-xs text-black">
                     <p className="mr-2">{selectedDownloadCard?.title2}</p>
@@ -513,27 +510,33 @@ export const UserGuide: React.FC<UserGuideProps> = ({ userGuideData }) => {
                     <p>{selectedDownloadCard?.description}</p>
                   </div>
                 </div>
-                <div className="lg:w-1/2 w-full h-full flex flex-col items-center justify-center px-8 py-8 overflow-y-auto">
-                  <h2 className="text-2xl font-bold mb-3 text-center w-full">
-                    {data?.title}
-                  </h2>
-                  <p className="text-center w-full mb-4 font-regular text-sm">
-                    {data?.formDescription}
-                  </p>
-                  <form onSubmit={handleFormSubmit} className="w-full">
-                    <FormFields onChange={setFormValues} values={formValues} errors={undefined} />
-                    <div className="flex justify-center mt-5">
-                      <Button
-                        type="submit"
-                        className="text-lg font-medium bg-gradient-to-t from-[#483d73] to-black lg:hover:from-black lg:hover:to-[#483d73] text-white w-full p-2 rounded-[0.8rem]"
-                      >
-                        {data?.submit}
-                      </Button>
-                    </div>
-                  </form>
+                <div className="w-full sm:w-1/2 min-h-[50vh] sm:h-[70vh]">
+                  <div className="flex flex-col items-center justify-center py-6 px-8 h-full">
+                    <h2 className="text-2xl font-bold mb-3 text-center w-full">
+                      {data?.title}
+                    </h2>
+                    <p className="text-center w-full mb-4 font-regular text-sm">
+                      {data?.formDescription}
+                    </p>
+                    <form onSubmit={handleFormSubmit} className="w-full">
+                      <FormFields
+                        onChange={setFormValues}
+                        values={formValues}
+                        errors={undefined}
+                      />
+                      <div className="flex justify-center mt-5">
+                        <Button
+                          type="submit"
+                          className="text-lg font-medium bg-gradient-to-t from-[#483d73] to-black hover:from-black hover:to-[#483d73] text-white w-full p-2 rounded-[0.8rem]"
+                        >
+                          {data?.submit}
+                        </Button>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
-            )}
+            </ScrollArea>
           </DialogContent>
         </Dialog>
       </div>
@@ -542,4 +545,3 @@ export const UserGuide: React.FC<UserGuideProps> = ({ userGuideData }) => {
 };
 
 export default UserGuide;
-

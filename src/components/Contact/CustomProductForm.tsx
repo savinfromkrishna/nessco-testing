@@ -18,10 +18,11 @@ import {
   DialogClose,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { X } from "lucide-react";
+import { X } from 'lucide-react';
 import FormFields, { FormValues } from "./FormFileds";
 import { z } from "zod";
 import BlurImage from "../ui/BlurImage";
+import { ScrollArea } from "../ui/ScrollArea";
 
 interface SignupFormDemoProductProps {
   related_product: RelatedProductType;
@@ -228,83 +229,85 @@ const SignupFormDemoProduct: React.FC<SignupFormDemoProductProps> = ({
       <AnimatePresence>
         {isDialogOpen && (
           <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-            <DialogContent className="sm:max-w-[800px] p-0 overflow-hidden bg-white rounded-2xl">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: 20 }}
-                transition={{ duration: 0.3 }}
-                className="flex flex-col sm:flex-row"
-              >
-                <div className="w-full sm:w-1/2 bg-gray-50 relative h-[300px] sm:h-auto overflow-hidden ">
-                  <div className="absolute  inset-0 flex flex-col justify-between p-4">
-                    <div>
-                      <h1 className="text-2xl font-bold text-black mb-2">
-                        {first_name}
-                      </h1>
-                      <h2 className="text-xl text-black/80">{name}</h2>
-                    </div>
-                    <div className="flex items-end">
-                      <div className=" p-4 rounded-lg backdrop-blur-sm">
-                        <BlurImage
-                          src={mimage}
-                          alt="Product icon"
-                          width={64}
-                          height={64}
-                          className="rounded-lg"
-                        />
+            <DialogContent className="sm:max-w-[800px] p-0 overflow-hidden bg-white rounded-2xl max-h-[90vh] sm:max-h-none">
+              <ScrollArea className="h-full max-h-[80vh] sm:max-h-none">
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 20 }}
+                  transition={{ duration: 0.3 }}
+                  className="flex flex-col sm:flex-row"
+                >
+                  <div className="w-full sm:w-1/2 bg-gray-50 relative h-[300px] sm:h-auto overflow-hidden ">
+                    <div className="absolute  inset-0 flex flex-col justify-between p-4">
+                      <div>
+                        <h1 className="text-2xl font-bold text-black mb-2">
+                          {first_name}
+                        </h1>
+                        <h2 className="text-xl text-black/80">{name}</h2>
+                      </div>
+                      <div className="flex items-end">
+                        <div className=" p-4 rounded-lg backdrop-blur-sm">
+                          <BlurImage
+                            src={mimage}
+                            alt="Product icon"
+                            width={64}
+                            height={64}
+                            className="rounded-lg"
+                          />
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <BlurImage
-                    src={image}
-                    alt="Brochure preview"
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-t-2xl sm:rounded-l-2xl "
-                  />
-                </div>
-                <div className="w-full sm:w-1/2 p-6">
-                  <DialogHeader>
-                    <DialogTitle className="text-2xl font-bold text-[#483d73]">
-                      Download Brochure
-                    </DialogTitle>
-                    <DialogDescription className="text-gray-500">
-                      Fill in your details to receive the Nessco{" "}
-                      {product_heading} Catalogue.
-                    </DialogDescription>
-                  </DialogHeader>
-                  <form
-                    onSubmit={(e) => {
-                      e.preventDefault();
-                      handleSubmit("DownloadBrochure");
-                    }}
-                    className="space-y-4 mt-4"
-                  >
-                    <FormFields
-                      onChange={setFormValues}
-                      values={formValues}
-                      inline={false}
-                      errors={{}}
+                    <BlurImage
+                      src={image}
+                      alt="Brochure preview"
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-t-2xl sm:rounded-l-2xl "
                     />
-                    <Button
-                      type="submit"
-                      className="w-full bg-[#483d73] text-white hover:bg-[#2c2447] transition-colors duration-200"
+                  </div>
+                  <div className="w-full sm:w-1/2 p-6">
+                    <DialogHeader>
+                      <DialogTitle className="text-2xl font-bold text-[#483d73]">
+                        Download Brochure
+                      </DialogTitle>
+                      <DialogDescription className="text-gray-500">
+                        Fill in your details to receive the Nessco{" "}
+                        {product_heading} Catalogue.
+                      </DialogDescription>
+                    </DialogHeader>
+                    <form
+                      onSubmit={(e) => {
+                        e.preventDefault();
+                        handleSubmit("DownloadBrochure");
+                      }}
+                      className="space-y-4 mt-4"
                     >
-                      {isSubmitting ? "Submitting..." : "Download Brochure"}
-                    </Button>
-                  </form>
-                </div>
-                <DialogClose asChild>
-                  <Button
-                    variant="ghost"
-                    className="absolute top-2 right-2 rounded-full p-2 hover:bg-gray-100 transition-colors duration-200"
-                    onClick={() => setIsDialogOpen(false)}
-                  >
-                    <X className="h-4 w-4 text-gray-500" />
-                  </Button>
-                </DialogClose>
-              </motion.div>
+                      <FormFields
+                        onChange={setFormValues}
+                        values={formValues}
+                        inline={false}
+                        errors={{}}
+                      />
+                      <Button
+                        type="submit"
+                        className="w-full bg-[#483d73] text-white hover:bg-[#2c2447] transition-colors duration-200"
+                      >
+                        {isSubmitting ? "Submitting..." : "Download Brochure"}
+                      </Button>
+                    </form>
+                  </div>
+                </motion.div>
+              </ScrollArea>
+              <DialogClose asChild>
+                <Button
+                  variant="ghost"
+                  className="absolute top-2 right-2 rounded-full p-2 hover:bg-gray-100 transition-colors duration-200"
+                  onClick={() => setIsDialogOpen(false)}
+                >
+                  <X className="h-4 w-4 text-gray-500" />
+                </Button>
+              </DialogClose>
             </DialogContent>
           </Dialog>
         )}
@@ -314,3 +317,4 @@ const SignupFormDemoProduct: React.FC<SignupFormDemoProductProps> = ({
 };
 
 export { SignupFormDemoProduct };
+

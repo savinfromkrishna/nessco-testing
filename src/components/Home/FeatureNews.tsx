@@ -282,7 +282,7 @@ export default function FeatureNews({ heroData }: FeatureNewsLayoutProps) {
         </div>
       </div>
       <Dialog open={isDialogOpen} onOpenChange={setDialogOpen}>
-        <DialogContent className="sm:max-w-[1000px] bg-white ">
+        <DialogContent className="sm:max-w-[1000px] p-6 bg-white ">
           <div className="flex flex-col lg:flex-row items-center justify-center lg:space-x-4 space-y-4 lg:space-y-0">
             <div className="w-full h-full relative rounded-xl overflow-hidden">
               {dialogContent?.img &&

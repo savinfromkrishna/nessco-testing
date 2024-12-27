@@ -221,7 +221,7 @@ const FeatureProjectPage: React.FC<HomeLayoutProps> = ({ aboutData }) => {
                     imagesRef.current[index] = el;
                   }}
                   className={`border-2 h-[8rem] w-[8rem] overflow-hidden rounded-2xl mt-${
-                    [24, 10, 24, 24, 8][index % 5]
+                    [20, 10, 16, 16, 12][index % 5]
                   } -ml-${
                     [5, 12, 24, 20, 24][index % 5]
                   } z-20 bg-white cursor-pointer ${

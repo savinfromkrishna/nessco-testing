@@ -4,10 +4,11 @@ import dynamic from 'next/dynamic'
 import { HomeData } from "./types/constant"
 // const FeatureProjects=dynamic(()=>import ("./FeatureProjects"))
 import FeatureProjects from "./FeatureProjects";
+import VideoCarousel from "../ui/HomeCaorusel";
 const ReusableForm = dynamic(() => import("../Contact/ReuseableForm"), {
   ssr: false,
 });
-const VideoCarousel = dynamic(() => import("../ui/HomeCaorusel"));
+// const VideoCarousel = dynamic(() => import("../ui/HomeCaorusel"));
 
 interface HeroLayoutProps {
   heroData: HomeData;

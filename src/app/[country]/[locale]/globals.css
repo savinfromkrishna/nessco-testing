@@ -407,7 +407,7 @@ button {
     right: auto !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
-    bottom: 20px !important;
+    bottom: 10px !important;
   }
 
   #zsiq_float .zsiq_flt_rel {
