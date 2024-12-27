@@ -3,7 +3,7 @@ import BlurImage from "../ui/BlurImage";
 import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/hooks/use-outside-click";
-import dynamic from 'next/dynamic'
+import dynamic from "next/dynamic";
 import { AboutItem } from "./types/constant";
 import LinkUrl from "../LinkUrl";
 
@@ -143,9 +143,12 @@ const ExpandableCardDemo: React.FC<HomeLayoutProps> = ({ aboutData }) => {
                     muted
                     playsInline
                     preload="metadata"
-                    poster={active?.video} 
+                    src={active?.video || ""}
+                    poster={
+                      active?.video || "/assets/fallbackImage/fallbackimage.png"
+                    } // Fallback image
                   >
-                    <source src={active?.video}  type="video/mp4" />
+                    Your browser does not support the video tag.
                   </video>
 
                   {/* Title */}
@@ -262,8 +265,8 @@ const ExpandableCardDemo: React.FC<HomeLayoutProps> = ({ aboutData }) => {
           aria-label="read-more"
           className="flex justify-center bg-slate-50 "
         >
-        <button className=" absolute bottom-3  w-[8rem] text-base hover:font-medium font-normal  lg:bg-gray-100 font-poppins h-[2rem] items-center justify-center text-center border lg:border-[#6f6f6f] lg:hover:bg-black lg:text-[#6f6f6f] lg:hover:text-white bg-black text-white rounded-[0.3rem] z-10 ">
-        {homemisionData?.button}
+          <button className=" absolute bottom-3  w-[8rem] text-base hover:font-medium font-normal  lg:bg-gray-100 font-poppins h-[2rem] items-center justify-center text-center border lg:border-[#6f6f6f] lg:hover:bg-black lg:text-[#6f6f6f] lg:hover:text-white bg-black text-white rounded-[0.3rem] z-10 ">
+            {homemisionData?.button}
           </button>
         </div>
       </LinkUrl>

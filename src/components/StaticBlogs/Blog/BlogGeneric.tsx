@@ -119,8 +119,9 @@ const BlogGeneric: React.FC<BlogGenericProps> = ({ id }) => {
                   autoPlay
                   loop
                   muted
+                  poster="/assets/fallbackImage/fallbackimage.png" // Default poster
+                  src={post?.header?.headingImage} // Directly set the video source here
                 >
-                  <source src={post?.header?.headingImage} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               ) : (

@@ -79,11 +79,9 @@ const Page3: React.FC<MainLayoutProps> = ({ sustainData }) => {
             playsInline
             preload="metadata"
             poster="https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainability-globe-gif.webm"
+            src="https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainability-globe-gif.webm" // Directly add the src here
           >
-            <source
-              src="https://assets.nesscoindustries.com/public/assets/about/sustainability/sustainability-globe-gif.webm"
-              type="video/mp4"
-            />
+            Your browser does not support the video tag.
           </video>
         </div>
       </div>

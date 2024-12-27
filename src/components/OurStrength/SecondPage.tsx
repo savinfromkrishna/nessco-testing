@@ -55,8 +55,9 @@ const SecondPage: React.FC<MainLayoutProps> = ({ strengthData }) => {
               muted
               playsInline
               preload="metadata"
+              src={item?.video} // Use the src attribute directly for the video source
             >
-              <source src={item?.video} type="video/mp4" />
+              Your browser does not support the video tag.
             </video>
           </div>
           <div className="flex flex-col justify-center">

@@ -155,6 +155,7 @@ export const SwipeCarousel: React.FC<ImageSliderLayoutProps> = ({
                     autoPlay={selectedIndex === idx}
                     loop
                     muted
+                    playsInline
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
@@ -213,10 +214,16 @@ export const SwipeCarousel: React.FC<ImageSliderLayoutProps> = ({
           <DialogContent className="sm:max-w-[90vw] md:max-w-[80vw] lg:max-w-[70vw] p-0 overflow-hidden rounded-xl">
             <div className="relative w-full pt-[56.25%] bg-black">
               <video
-                src={currentVideoLink}
+                src={currentVideoLink} // Directly using the video link
                 controls
                 className="absolute top-0 left-0 w-full h-full"
-              />
+                poster="path_to_fallback_image.jpg" // Optional: fallback image in case video takes time to load or doesn't load
+                muted
+                autoPlay
+                playsInline
+              >
+                Your browser does not support the video tag.
+              </video>
             </div>
             <DialogClose className="absolute top-2 right-2 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
               <span className="sr-only">Close</span>

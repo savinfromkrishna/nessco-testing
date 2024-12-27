@@ -85,12 +85,10 @@ const Clientele: React.FC<AboutLayoutProps> = ({ clienteleData }) => {
             muted
             playsInline
             preload="metadata"
+            src="https://assets.nesscoindustries.com/public/assets/resources/clientel/clientele-banner.webm"
             poster="https://assets.nesscoindustries.com/public/assets/resources/clientel/clientele-banner.webm"
           >
-            <source
-              src="https://assets.nesscoindustries.com/public/assets/resources/clientel/clientele-banner.webm"
-              type="video/mp4"
-            />
+            Your browser does not support the video tag.
           </video>
         </div>
         <div className="lg:flex lg:flex-row flex-col w-full font-poppins lg:px-8 text-white relative lg:mt-[2rem] -mt-[20rem] px-2">

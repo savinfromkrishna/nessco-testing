@@ -402,13 +402,18 @@ const TrendingNews: React.FC<NewsProps> = ({
               <div className="lg:w-[8rem] w-[14rem]">
                 {item?.img &&
                   (/\.(mp4|webm|ogg)$/i.test(item?.img) ? (
-                    <video className=" rounded-xl" autoPlay loop muted>
-                      <source
-                        src={item.img}
-                        type={`video/${item.img.split(".").pop()}`}
-                      />
-                      Your browser does not support the video tag.
-                    </video>
+                    <video
+                    className="rounded-xl"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/assets/fallbackImage/fallbackimage.png"
+                    src={item?.img} // Directly use the video source here
+                  >
+                    Your browser does not support the video tag.
+                  </video>
+                  
                   ) : (
                     <BlurImage
                       className="rounded-xl"
@@ -571,13 +576,17 @@ const LatestNews: React.FC<NewsProps> = ({
                   {" "}
                   {item?.img &&
                     (/\.(mp4|webm|ogg)$/i.test(item?.img) ? (
-                      <video className=" rounded-xl" autoPlay loop muted>
-                        <source
-                          src={item.img}
-                          type={`video/${item.img.split(".").pop()}`}
-                        />
-                        Your browser does not support the video tag.
-                      </video>
+                      <video
+                      className="rounded-xl"
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      src={item.img} // Directly use the video source here
+                    >
+                      Your browser does not support the video tag.
+                    </video>
+                    
                     ) : (
                       <BlurImage
                         className="rounded-xl"
@@ -733,13 +742,17 @@ const MostRead: React.FC<NewsProps> = ({
                 <div className="w-[40%]">
                   {item?.img &&
                     (/\.(mp4|webm|ogg)$/i.test(item?.img) ? (
-                      <video className=" rounded-xl" autoPlay loop muted>
-                        <source
-                          src={item.img}
-                          type={`video/${item.img.split(".").pop()}`}
-                        />
-                        Your browser does not support the video tag.
-                      </video>
+                      <video
+                      className="rounded-xl"
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      src={item.img} // Use src directly for the video source
+                    >
+                      Your browser does not support the video tag.
+                    </video>
+                    
                     ) : (
                       <BlurImage
                         className="rounded-xl"

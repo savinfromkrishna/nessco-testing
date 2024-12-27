@@ -3,9 +3,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
 import { AboutItem } from "./types/constant";
 import BlurImage from "../ui/BlurImage";
-import dynamic from 'next/dynamic'
+import dynamic from "next/dynamic";
 const ReusableForm = dynamic(() => import("../Contact/ReuseableForm"), {
-ssr: false,});
+  ssr: false,
+});
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,10 +50,12 @@ const Home: React.FC<HomeLayoutProps> = ({ aboutData }) => {
             muted
             playsInline
             preload="metadata"
-            poster={homeaboutData?.video}
+            src={homeaboutData?.video}
+            poster="../../../public/assets/fallbackImage/fallbackimage.png"
           >
-            <source src={homeaboutData?.video} type="video/mp4" />
+            Your browser does not support the video tag.
           </video>
+
           <div className="absolute top-0 h-full w-full bg-black opacity-50"></div>
           <div className="absolute lg:top-28 top-12 space-y-4 flex flex-col  items-center w-full">
             <h1 className="text-white font-semibold lg:text-3xl text-3xl">
@@ -81,16 +84,16 @@ const Home: React.FC<HomeLayoutProps> = ({ aboutData }) => {
             </div>
           </button> */}
           <div className="bg-white w-[9.5rem] h-[2.5rem] rounded-full flex items-center absolute bottom-40 lg:hidden">
-          <ReusableForm
-            formId="aboutPage"
-            buttonText={homeaboutData?.getaQuote}
-            dialogTitle="Get in Touch"
-            dialogSubtitle="We'd love to hear from you!"
-            imageUrl="https://www.nesscoindia.com/Assets/images/resource/popup.webp"
-            showButton={true}
-            secodaryButton={false}
-            normalButton={true}
-          />
+            <ReusableForm
+              formId="aboutPage"
+              buttonText={homeaboutData?.getaQuote}
+              dialogTitle="Get in Touch"
+              dialogSubtitle="We'd love to hear from you!"
+              imageUrl="https://www.nesscoindia.com/Assets/images/resource/popup.webp"
+              showButton={true}
+              secodaryButton={false}
+              normalButton={true}
+            />
           </div>
           <div className="absolute bottom-10 flex justify-center w-full lg:space-x-0 -space-x-3 ">
             {homeimgData?.map((item, index) => (

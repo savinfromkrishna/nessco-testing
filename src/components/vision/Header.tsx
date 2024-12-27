@@ -41,10 +41,12 @@ const Page1: React.FC<VisionProps> = ({ visionData }) => {
             muted
             playsInline
             preload="metadata"
-            poster={Header?.video}
+            src={Header?.video}
+            poster="/assets/fallbackImage/fallbackimage.png" // Example static image
           >
-            <source src={Header?.video} type="video/mp4" />
+            Your browser does not support the video tag.
           </video>
+
           <div className="absolute top-0 h-full w-full bg-black opacity-50"></div>
           <div className="absolute lg:top-28 top-12 space-y-4 flex flex-col  items-center w-full">
             <h1 className="text-white font-semibold lg:text-4xl text-4xl">
@@ -78,15 +80,15 @@ const Page1: React.FC<VisionProps> = ({ visionData }) => {
               />
             </svg> */}
             <ReusableForm
-            formId="aboutPage"
-            buttonText={Header?.getaQuote}
-            dialogTitle="Get in Touch"
-            dialogSubtitle="We'd love to hear from you!"
-            imageUrl="https://www.nesscoindia.com/Assets/images/resource/popup.webp"
-            showButton={true}
-            secodaryButton={false}
-            normalButton={true}
-          />
+              formId="aboutPage"
+              buttonText={Header?.getaQuote}
+              dialogTitle="Get in Touch"
+              dialogSubtitle="We'd love to hear from you!"
+              imageUrl="https://www.nesscoindia.com/Assets/images/resource/popup.webp"
+              showButton={true}
+              secodaryButton={false}
+              normalButton={true}
+            />
           </div>
           <div className="absolute bottom-10 flex justify-center w-full lg:space-x-6 space-x-2">
             {Header?.image?.map((item, index) => (

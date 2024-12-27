@@ -1,15 +1,16 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { OurStrengthItem} from "./types/constant";
-import dynamic from 'next/dynamic'
+import { OurStrengthItem } from "./types/constant";
+import dynamic from "next/dynamic";
 const ReusableForm = dynamic(() => import("../Contact/ReuseableForm"), {
-ssr: false,});
+  ssr: false,
+});
 
 import BlurImage from "../ui/BlurImage";
 gsap.registerPlugin(ScrollTrigger);
 
-interface MainLayoutProps{
-  strengthData:OurStrengthItem;
+interface MainLayoutProps {
+  strengthData: OurStrengthItem;
 }
 
 const imageWidths = [
@@ -27,22 +28,19 @@ const imagebottoms = [
   "justify-end mb-0",
 ];
 
+const Home: React.FC<MainLayoutProps> = ({ strengthData }) => {
+  const title = strengthData?.OurStrength[1]?.Data?.title;
+  const description = strengthData?.OurStrength[1]?.Data?.description;
+  const getaQuote = strengthData?.OurStrength[1]?.Data?.getaQuote;
+  const image = strengthData?.OurStrength[1]?.Data?.image;
 
-const Home:React.FC <MainLayoutProps>= ({strengthData}) => {
- const title=strengthData?.OurStrength[1]?.Data?.title
- const description=strengthData?.OurStrength[1]?.Data?.description
- const getaQuote=strengthData?.OurStrength[1]?.Data?.getaQuote
- const image=strengthData?.OurStrength[1]?.Data?.image;
- 
-
-  console.log("strengthdata",strengthData);
+  console.log("strengthdata", strengthData);
   console.log("data");
-  console.log('Running custom Webpack config');
+  console.log("Running custom Webpack config");
 
   return (
     <>
       <div className="mb-14  lg:mt-0 mt-14 w-full font-poppins font-regular overflow-hidden">
-     
         <div className="w-full lg:h-screen h-[40rem] relative flex items-center justify-center">
           <video
             id="background-video"
@@ -52,14 +50,16 @@ const Home:React.FC <MainLayoutProps>= ({strengthData}) => {
             muted
             playsInline
             preload="metadata"
-            poster ={strengthData?.OurStrength[1]?.Data?.video}
+            src={strengthData?.OurStrength[1]?.Data?.video}
+            poster="/assets/fallbackImage/fallbackimage.png"
           >
-            <source src={strengthData?.OurStrength[1]?.Data?.video} type="video/mp4" />
+            Your browser does not support the video tag.
           </video>
+
           <div className="absolute top-0 h-full w-full bg-black opacity-50"></div>
           <div className="absolute lg:top-28 top-12 space-y-4 flex flex-col  items-center w-full">
             <h1 className="text-white font-semibold lg:text-3xl text-3xl">
-             {title}
+              {title}
             </h1>
             <p className="font-normal lg:w-[50%] w-[85%]  text-center lg:text-[0.8rem] text-[0.7rem] text-white">
               {description}
@@ -83,24 +83,23 @@ const Home:React.FC <MainLayoutProps>= ({strengthData}) => {
             </svg>
             </div> */}
             <ReusableForm
-            formId="aboutPage"
-            buttonText={getaQuote}
-            dialogTitle="Get in Touch"
-            dialogSubtitle="We'd love to hear from you!"
-            imageUrl="https://www.nesscoindia.com/Assets/images/resource/popup.webp"
-            showButton={true}
-            secodaryButton={false}
-            normalButton={true}
-          />
+              formId="aboutPage"
+              buttonText={getaQuote}
+              dialogTitle="Get in Touch"
+              dialogSubtitle="We'd love to hear from you!"
+              imageUrl="https://www.nesscoindia.com/Assets/images/resource/popup.webp"
+              showButton={true}
+              secodaryButton={false}
+              normalButton={true}
+            />
           </button>
           <div className="absolute bottom-10 flex justify-center w-full lg:space-x-3 space-x-1 ">
-         
             {image.map((item, index) => (
               <div
                 key={index}
                 className={`flex flex-col items-center ${imagebottoms[index]}`}
               >
-                 <BlurImage
+                <BlurImage
                   src={item?.img}
                   alt="Content"
                   width={100}
@@ -112,13 +111,11 @@ const Home:React.FC <MainLayoutProps>= ({strengthData}) => {
                 </p>
               </div>
             ))}
-          
           </div>
         </div>
       </div>
     </>
   );
 };
-
 
 export default Home;

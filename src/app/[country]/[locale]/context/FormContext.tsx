@@ -25,7 +25,7 @@ export const FormProvider: React.FC<{ children: React.ReactNode }> = ({ children
     // Combine form data with visit data
     const combinedData = {
       ...data,
-      visitData: visitData
+      ...(visitData || {})  // Spread visitData if it exists, otherwise spread an empty object
     };
 
     // Submit data to API

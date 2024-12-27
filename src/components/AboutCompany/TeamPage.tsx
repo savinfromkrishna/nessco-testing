@@ -4,14 +4,13 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { OurCompanyItem } from "./types/constant";
 
-interface AboutLayoutProps{
-  companyData:OurCompanyItem;
+interface AboutLayoutProps {
+  companyData: OurCompanyItem;
 }
 
-const TeamPage:React.FC<AboutLayoutProps> =({companyData})=> {
+const TeamPage: React.FC<AboutLayoutProps> = ({ companyData }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  
 
   useEffect(() => {
     const video = videoRef.current;
@@ -38,7 +37,7 @@ const TeamPage:React.FC<AboutLayoutProps> =({companyData})=> {
     }
   }, []);
 
-  const homecompanyData=companyData?.Ourcompany[0]?.teampage;
+  const homecompanyData = companyData?.Ourcompany[0]?.teampage;
 
   return (
     <div
@@ -50,24 +49,24 @@ const TeamPage:React.FC<AboutLayoutProps> =({companyData})=> {
          {homecompanyData?.heading} <span className="text-red-600">{homecompanyData?.highlight}</span>
         </h1> */}
         <h1 className="lg:text-lg text-2xl font-regular font-poppins text-white">
-         {homecompanyData?.quote}
+          {homecompanyData?.quote}
         </h1>
       </div>
       <video
-      id="background-video"
+        id="background-video"
         ref={videoRef}
         className="absolute lg:top-0 top-24 left-0 lg:w-full lg:h-[40rem]  object-cover w-full "
         src={homecompanyData?.video}
         muted
         playsInline
       />
-      
+
       <div className=" items text-center text-white  absolute bottom-14  lg:hidden ">
-       
-        <p className="text-center font-poppins  ">{homecompanyData?.description} </p>
-        </div>
-     
+        <p className="text-center font-poppins  ">
+          {homecompanyData?.description}{" "}
+        </p>
+      </div>
     </div>
   );
-}
+};
 export default TeamPage;

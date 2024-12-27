@@ -120,19 +120,17 @@ const ProcessFlow: React.FC<ProcessFlowProps> = ({ page4Data }) => {
                   }}
                 >
                   {isVideo(item.img) ? (
-                    <video
-                      className="h-full w-full object-cover"
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                    >
-                      <source
-                        src={item.img}
-                        type={`video/${item.img.split(".").pop()}`}
-                      />
-                      Your browser does not support the video tag.
-                    </video>
+                   <video
+                   className="h-full w-full object-cover"
+                   autoPlay
+                   loop
+                   muted
+                   playsInline
+                   src={item.img} // Use the src attribute directly for the video source
+                 >
+                   Your browser does not support the video tag.
+                 </video>
+                 
                   ) : (
                     <BlurImage
                       className="h-full w-full"

@@ -115,14 +115,15 @@ const BlogGeneric: React.FC<BlogGenericProps> = ({ id }) => {
             {post?.header?.headingImage &&
               (/\.(mp4|webm|ogg)$/i.test(post?.header?.headingImage) ? (
                 <video
-                  className="object-cover z-50 h-full w-full lg:rounded-[1rem] rounded-[0.8rem] shadow-2xl"
-                  autoPlay
-                  loop
-                  muted
-                >
-                  <source src={post?.header?.headingImage} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                className="object-cover z-50 h-full w-full lg:rounded-[1rem] rounded-[0.8rem] shadow-2xl"
+                autoPlay
+                loop
+                muted
+                src={post?.header?.headingImage} // Directly use the video source here
+              >
+                Your browser does not support the video tag.
+              </video>
+              
               ) : (
                 <BlurImage
                   className="object-contain w-full z-50 h-full lg:rounded-[1rem] rounded-[0.8rem] shadow-2xl"

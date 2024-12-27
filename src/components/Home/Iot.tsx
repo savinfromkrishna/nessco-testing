@@ -63,9 +63,10 @@ export default function IOT({ heroData }: KnowMoreLayoutProps) {
                     muted
                     playsInline
                     preload="metadata"
-                    poster={item?.video}
+                    poster={item?.video} // Fallback image for the poster
+                    src={item?.video} // Video source directly
                   >
-                    <source src={item?.video} type="video/mp4" />
+                    Your browser does not support the video tag.
                   </video>
                   <Dialog
                     open={openModal === idx}
@@ -249,9 +250,9 @@ export default function IOT({ heroData }: KnowMoreLayoutProps) {
             muted
             playsInline
             preload="metadata"
-            poster={IotData?.globeVideo}
+            poster={IotData?.globeVideo} // Fallback image for the poster
+            src={IotData?.globeVideo} // Video source directly
           >
-            <source src={IotData?.globeVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 

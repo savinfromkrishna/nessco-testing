@@ -1,8 +1,9 @@
 import BlurImage from "../ui/BlurImage";
 import { gsap } from "gsap";
-import dynamic from 'next/dynamic'
+import dynamic from "next/dynamic";
 const ReusableForm = dynamic(() => import("../Contact/ReuseableForm"), {
-ssr: false,});
+  ssr: false,
+});
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { OurCompanyItem } from "./types/constant";
 import React from "react";
@@ -36,16 +37,18 @@ const Home: React.FC<AboutLayoutProps> = ({ companyData }) => {
         <div className="w-full lg:h-screen h-[44rem] relative flex items-center justify-center">
           <video
             id="background-video"
-            className="w-full lg:h-screen h-full  object-cover"
+            className="w-full lg:h-screen h-full object-cover"
             autoPlay
             playsInline
             loop
             muted
             preload="metadata"
-            poster={homecompanyData?.video}
+            src={homecompanyData?.video}
+            poster="/assets/fallbackImage/fallbackimage.png" // Default poster
           >
-            <source src={homecompanyData?.video} type="video/mp4" />
+            Your browser does not support the video tag.
           </video>
+
           <div className="absolute bottom-0 w-full h-24 bg-gradient-to-t from-black to-transparent"></div>
 
           <div className="absolute top-0 h-full w-full bg-black opacity-50"></div>
@@ -76,16 +79,16 @@ const Home: React.FC<AboutLayoutProps> = ({ companyData }) => {
             </div>
           </button> */}
           <div className="bg-white w-[9.5rem] h-[2.5rem] rounded-full flex items-center absolute bottom-40 lg:hidden">
-          <ReusableForm
-            formId="aboutPage"
-            buttonText={homecompanyData?.getaQuote}
-            dialogTitle="Get in Touch"
-            dialogSubtitle="We'd love to hear from you!"
-            imageUrl="https://www.nesscoindia.com/Assets/images/resource/popup.webp"
-            showButton={true}
-            secodaryButton={false}
-            normalButton={true}
-          />
+            <ReusableForm
+              formId="aboutPage"
+              buttonText={homecompanyData?.getaQuote}
+              dialogTitle="Get in Touch"
+              dialogSubtitle="We'd love to hear from you!"
+              imageUrl="https://www.nesscoindia.com/Assets/images/resource/popup.webp"
+              showButton={true}
+              secodaryButton={false}
+              normalButton={true}
+            />
           </div>
           <div className="absolute bottom-10 flex justify-center w-full  lg:space-x-1 space-x-1">
             {homecompanyData?.images?.map((item, index) => (

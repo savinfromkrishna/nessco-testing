@@ -109,10 +109,11 @@ export default function FeatureNews({ heroData }: FeatureNewsLayoutProps) {
                     autoPlay
                     loop
                     muted
+                    poster={newsfData[0]?.image} // Poster image
                   >
                     <source
-                      src={newsfData[0]?.image}
-                      type={`video/${newsfData[0]?.image.split(".").pop()}`}
+                      src={newsfData[0]?.image} // Video source
+                      type={`video/${newsfData[0]?.image.split(".").pop()}`} // Video type based on file extension
                     />
                     Your browser does not support the video tag.
                   </video>
@@ -182,11 +183,9 @@ export default function FeatureNews({ heroData }: FeatureNewsLayoutProps) {
                         autoPlay
                         loop
                         muted
+                        poster={news?.image} // Fallback image (poster)
+                        src={news?.image} // Video source
                       >
-                        <source
-                          src={news?.image}
-                          type={`video/${news?.image.split(".").pop()}`}
-                        />
                         Your browser does not support the video tag.
                       </video>
                     ) : (
@@ -258,11 +257,9 @@ export default function FeatureNews({ heroData }: FeatureNewsLayoutProps) {
                           autoPlay
                           loop
                           muted
+                          poster={news?.image} // Fallback image for the poster
+                          src={news?.image} // Video source
                         >
-                          <source
-                            src={news?.image}
-                            type={`video/${news?.image.split(".").pop()}`}
-                          />
                           Your browser does not support the video tag.
                         </video>
                       ) : (
@@ -292,11 +289,9 @@ export default function FeatureNews({ heroData }: FeatureNewsLayoutProps) {
                     autoPlay
                     loop
                     muted
+                    poster={dialogContent?.img} // Fallback image for the poster
+                    src={dialogContent?.img} // Video source
                   >
-                    <source
-                      src={dialogContent?.img}
-                      type={`video/${dialogContent?.img.split(".").pop()}`}
-                    />
                     Your browser does not support the video tag.
                   </video>
                 ) : (
