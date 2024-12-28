@@ -1,9 +1,8 @@
 "use client";
 import React, { useRef } from "react";
-import dynamic from 'next/dynamic'
-import Hero from "@/components/Home/Home";
+import dynamic from "next/dynamic";
+const Hero = dynamic(() => import("@/components/Home/Home"));
 import { HomeData } from "./types/constant";
-// import HomeMachine from "./HomeMachine";
 const IOT = dynamic(() => import("./Iot"));
 const AboutUs = dynamic(() => import("./AboutSection"), { ssr: false });
 const NavLinksDemo = dynamic(() => import("@/components/Home/NavLinks"), {
@@ -34,7 +33,6 @@ interface MainLayoutProps {
   homeData: HomeData;
 }
 
-
 export default function MainLayout({ homeData }: MainLayoutProps) {
   const sectionRefs = {
     AnnouncementRef: useRef<HTMLDivElement>(null),
@@ -48,14 +46,38 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
   };
 
   const navItems = [
-    { text: `${homeData?.home[0]?.navItems[0]?.text}`, ref: sectionRefs.AnnouncementRef },
-    { text: `${homeData?.home[0]?.navItems[1]?.text}`, ref: sectionRefs.homeMachineRef },
-    { text: `${homeData?.home[0]?.navItems[2]?.text}`, ref: sectionRefs.aboutUsRef },
-    { text: `${homeData?.home[0]?.navItems[3]?.text}`, ref: sectionRefs.infiniteCardsRef },
-    { text: `${homeData?.home[0]?.navItems[4]?.text}`, ref: sectionRefs.iotRef },
-    { text: `${homeData?.home[0]?.navItems[5]?.text}`, ref: sectionRefs.knowMoreRef },
-    { text: `${homeData?.home[0]?.navItems[6]?.text}`, ref: sectionRefs.newsFeatureRef },
-    { text: `${homeData?.home[0]?.navItems[7]?.text}`, ref: sectionRefs.homeTestimonialRef },
+    {
+      text: `${homeData?.home[0]?.navItems[0]?.text}`,
+      ref: sectionRefs.AnnouncementRef,
+    },
+    {
+      text: `${homeData?.home[0]?.navItems[1]?.text}`,
+      ref: sectionRefs.homeMachineRef,
+    },
+    {
+      text: `${homeData?.home[0]?.navItems[2]?.text}`,
+      ref: sectionRefs.aboutUsRef,
+    },
+    {
+      text: `${homeData?.home[0]?.navItems[3]?.text}`,
+      ref: sectionRefs.infiniteCardsRef,
+    },
+    {
+      text: `${homeData?.home[0]?.navItems[4]?.text}`,
+      ref: sectionRefs.iotRef,
+    },
+    {
+      text: `${homeData?.home[0]?.navItems[5]?.text}`,
+      ref: sectionRefs.knowMoreRef,
+    },
+    {
+      text: `${homeData?.home[0]?.navItems[6]?.text}`,
+      ref: sectionRefs.newsFeatureRef,
+    },
+    {
+      text: `${homeData?.home[0]?.navItems[7]?.text}`,
+      ref: sectionRefs.homeTestimonialRef,
+    },
   ];
 
   return (
@@ -67,11 +89,17 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
       <NavLinksDemo navItems={navItems} />
 
       <div className="h-full font-poppins">
-        <div ref={sectionRefs.AnnouncementRef} className="h-auto max-w-screen-2xl lg:pl-14 mx-auto mt-10">
+        <div
+          ref={sectionRefs.AnnouncementRef}
+          className="h-auto max-w-screen-2xl lg:pl-14 mx-auto mt-10"
+        >
           <AnnouncementSection heroData={homeData} />
         </div>
 
-        <div ref={sectionRefs.homeMachineRef} className="flex space-y-6 flex-col mt-20">
+        <div
+          ref={sectionRefs.homeMachineRef}
+          className="flex space-y-6 flex-col mt-20"
+        >
           <div className="flex justify-center text-3xl items-center space-x-2">
             <h2 className="text-[#483d73] font-semibold">
               {homeData?.home[0]?.homeMachineSection?.title
@@ -92,15 +120,24 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
           <HomeMachine heroData={homeData} />
         </div>
 
-        <div ref={sectionRefs.aboutUsRef} className="h-auto max-w-screen-2xl mx-auto">
+        <div
+          ref={sectionRefs.aboutUsRef}
+          className="h-auto max-w-screen-2xl mx-auto"
+        >
           <AboutUs heroData={homeData} />
         </div>
 
-        <div ref={sectionRefs.infiniteCardsRef} className="max-w-screen-2xl mx-auto">
+        <div
+          ref={sectionRefs.infiniteCardsRef}
+          className="max-w-screen-2xl mx-auto"
+        >
           <MarqueeSection heroData={homeData} />
         </div>
 
-        <div ref={sectionRefs.iotRef} className="max-w-screen-2xl mx-auto lg:pt-0 pt-10">
+        <div
+          ref={sectionRefs.iotRef}
+          className="max-w-screen-2xl mx-auto lg:pt-0 pt-10"
+        >
           <IOT heroData={homeData} />
         </div>
 
@@ -112,11 +149,13 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
           <FeatureNews heroData={homeData} />
         </div>
 
-        <div ref={sectionRefs.homeTestimonialRef} className="relative bg-gradient-to-l via-purple-200 to-transparent h-screen overflow-hidden mb-10">
+        <div
+          ref={sectionRefs.homeTestimonialRef}
+          className="relative bg-gradient-to-l via-purple-200 to-transparent h-screen overflow-hidden mb-10"
+        >
           <HomeTestimonial heroData={homeData} />
         </div>
       </div>
     </main>
   );
 }
-
