@@ -7,7 +7,6 @@ import React from "react";
 import { locales } from "@/i18n";
 import { getBaseUrl } from "@/app/api/environment";
 import heroData from "@/dictionary/hero.json";
-
 const apiUrl = "https://jsondatafromhostingertosheet.nesscoindustries.com/";
 const countryUrl = "https://countryjson.nesscoindustries.com/";
 
