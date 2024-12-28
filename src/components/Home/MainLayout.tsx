@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import dynamic from 'next/dynamic'
 import Hero from "@/components/Home/Home";
 import { HomeData } from "./types/constant";
-import HomeMachine from "./HomeMachine";
+// import HomeMachine from "./HomeMachine";
 const IOT = dynamic(() => import("./Iot"));
 const AboutUs = dynamic(() => import("./AboutSection"), { ssr: false });
 const NavLinksDemo = dynamic(() => import("@/components/Home/NavLinks"), {
@@ -22,9 +22,9 @@ const MarqueeSection = dynamic(
 const KnowMore = dynamic(() => import("@/components/Home/KnowMore"), {
   ssr: true,
 });
-// const HomeMachine = dynamic(() => import("@/components/Home/HomeMachine"), {
-//   ssr: true,
-// });
+const HomeMachine = dynamic(() => import("@/components/Home/HomeMachine"), {
+  ssr: true,
+});
 const HomeTestimonial = dynamic(
   () => import("@/components/Home/TestimonialsSection"),
   { ssr: true }

@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import Image, { ImageProps, StaticImageData } from "next/image";
 
 // Fallback image URL - replace with your actual fallback image
-import FallbackImage from "../../../public/assets/fallbackImage/fallbackimage.png"
+import FallbackImage from "../../../public/assets/fallbackImage/fallbackimage.png";
 const BlurImage = ({
   height,
   width,
@@ -14,7 +14,9 @@ const BlurImage = ({
   alt,
   ...rest
 }: Omit<ImageProps, "src"> & { src?: string | StaticImageData }) => {
-  const [imageSrc, setImageSrc] = useState<string | StaticImageData>(src || FallbackImage);
+  const [imageSrc, setImageSrc] = useState<string | StaticImageData>(
+    src || FallbackImage
+  );
   const [error, setError] = useState<boolean>(false);
 
   useEffect(() => {
@@ -34,7 +36,11 @@ const BlurImage = ({
 
   return (
     <Image
-      className={cn("transition duration-300", error ? "opacity-50" : "", className)}
+      className={cn(
+        "transition duration-300",
+        error ? "opacity-50" : "",
+        className
+      )}
       src={imageSrc}
       width={width}
       height={height}
@@ -46,4 +52,3 @@ const BlurImage = ({
 };
 
 export default BlurImage;
-
