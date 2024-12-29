@@ -5,7 +5,7 @@ import Hero from "@/components/Home/Home";
 import { HomeData } from "./types/constant";
 // import HomeMachine from "./HomeMachine";
 const IOT = dynamic(() => import("./Iot"));
-const AboutUs = dynamic(() => import("./AboutSection"), { ssr: false });
+const AboutUs = dynamic(() => import("./AboutSection"));
 const NavLinksDemo = dynamic(() => import("@/components/Home/NavLinks"), {
   ssr: true,
 });
