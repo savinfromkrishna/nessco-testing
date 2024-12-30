@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button";
 import SubmitButton from "./Submit";
 import FormFields, { FormValues } from "./FormFileds";
 import BlurImage from "../ui/BlurImage";
-import { cn } from "@/lib/utils";
 
 interface ReusableFormProps {
   formId: string;
@@ -42,6 +41,17 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
   const [errors, setErrors] = useState<Partial<FormValues>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [isOpen]);
 
   const validateForm = () => {
     const newErrors: Partial<FormValues> = {};
@@ -111,17 +121,6 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
   if (!showButton) {
     return formContent;
   }
-
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-    }
-    return () => {
-      document.body.style.overflow = "unset";
-    };
-  }, [isOpen]);
 
   return (
     <>
@@ -240,3 +239,4 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
 };
 
 export default ReusableForm;
+
