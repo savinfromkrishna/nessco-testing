@@ -131,6 +131,7 @@ export async function generateMetadata({
     (m) => normalizeTitle(m.title) === normalizedMachinename
   );
   const seoData = productLayoutData?.ProductLayout[0]?.productLayoutSeoData;
+  console.log("page2machine data", page2machine);
 
   return {
     title: `${page2machine?.seoTitle}  - ${countryName} `,
@@ -145,14 +146,14 @@ export async function generateMetadata({
       url: `${baseUrl}`,
       title: `${page2machine?.seoTitle}  - ${countryName} `,
       description: page2machine?.description,
-      images: seoData?.openGraph?.images,
+      images: page2machine.openGraph.images,
     },
     twitter: {
       card: "summary_large_image",
       site: "@NesscoIndia",
       title: `${page2machine?.seoTitle}  - ${countryName} `,
       description: page2machine?.description,
-      images: seoData?.twitter?.image,
+      images: page2machine.openGraph.images,
     },
     robots: {
       index: true,

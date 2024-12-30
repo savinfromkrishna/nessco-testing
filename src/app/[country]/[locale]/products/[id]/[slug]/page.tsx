@@ -135,7 +135,7 @@ export async function generateMetadata({
       siteName: "Nessco",
       images: [
         {
-          url: seoData?.mimage || "https://example.com/default-image.jpg",
+          url: seoData?.image || "https://example.com/default-image.jpg",
           width: 1920,
           height: 1080,
         },
@@ -147,7 +147,7 @@ export async function generateMetadata({
       title: `${seoData?.name}-${seoData?.first_name} - ${countryName}`,
       description: seoData?.introduction,
       images: [
-        seoData?.mimage || "https://example.com/default-twitter-image.jpg",
+        seoData?.image || "https://example.com/default-twitter-image.jpg",
       ],
     },
     robots: {
