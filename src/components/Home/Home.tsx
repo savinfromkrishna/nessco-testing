@@ -1,22 +1,19 @@
 import React from "react";
 
-import dynamic from 'next/dynamic'
-import { HomeData } from "./types/constant"
-// const FeatureProjects=dynamic(()=>import ("./FeatureProjects"))
-import FeatureProjects from "./FeatureProjects";
+import dynamic from "next/dynamic";
+import { HomeData } from "./types/constant";
+const FeatureProjects = dynamic(() => import("./FeatureProjects"));
+// import FeatureProjects from "./FeatureProjects";
 import VideoCarousel from "../ui/HomeCaorusel";
 const ReusableForm = dynamic(() => import("../Contact/ReuseableForm"), {
   ssr: false,
 });
 // const VideoCarousel = dynamic(() => import("../ui/HomeCaorusel"));
-
 interface HeroLayoutProps {
   heroData: HomeData;
 }
 
 const Home: React.FC<HeroLayoutProps> = ({ heroData }) => {
-  // Extract countryCode and languageCode from pathname
-
   return (
     <>
       <div className="relative max-w-screen-2xl mx-auto h-full w-full flex flex-col items-center overflow-hidden">
