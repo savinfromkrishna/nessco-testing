@@ -1,4 +1,3 @@
-
 export const locales = [
   "af",
   "sq",
@@ -458,5 +457,5 @@ export const validCountryISOs = [
   "yt",
   "za",
   "zm",
-  "zw"
+  "zw",
 ];

@@ -85,9 +85,7 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
       <div className="top-2 relative">
         <Hero heroData={homeData} />
       </div>
-
       <NavLinksDemo navItems={navItems} />
-
       <div className="h-full font-poppins">
         <div
           ref={sectionRefs.AnnouncementRef}

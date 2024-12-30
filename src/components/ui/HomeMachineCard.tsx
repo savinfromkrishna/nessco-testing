@@ -2,7 +2,13 @@
 
 import React from "react";
 import Link from "next/link";
-import ReusableForm from "../Contact/ReuseableForm";
+import dynamic from "next/dynamic";
+
+// Dynamically import components with SSR disabled if necessary
+const Breadcrumb = dynamic(() => import("./Breadcrumb"));
+const BlurImage = dynamic(() => import("./BlurImage"));
+
+// UI components (assume these are lightweight and won't benefit from dynamic imports)
 import {
   Dialog,
   DialogContent,
@@ -10,10 +16,9 @@ import {
   DialogClose,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
+import { ScrollArea } from "@radix-ui/react-scroll-area";
 import { countryCODE, languageCODE } from "../Navbar/nav-menue";
-import Breadcrumb from "./Breadcrumb";
-import BlurImage from "./BlurImage";
-import { ScrollArea } from "./ScrollArea";
+import ReusableForm from "../Contact/ReuseableForm";
 
 type Card = {
   firstLink: string;
@@ -156,7 +161,7 @@ const Card = ({ card, activeStep }: { card: Card; activeStep: string }) => {
           </div>
         </button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[78rem] h-[90vh] lg:h-auto rounded-3xl bg-[#F5F5F7] w-full p-2 z-[99999]">
+      <DialogContent className="sm:max-w-[78rem] bg-white h-[90vh] lg:h-auto rounded-3xl w-full p-2 z-[99999]">
         <ScrollArea className="h-[80vh] md:h-auto">
           <div className=" dark:bg-neutral-800 p-4 md:p-8 font-poppins font-regular  relative">
             <DialogClose className="absolute right-4 top-4"></DialogClose>
@@ -320,37 +325,16 @@ const Card = ({ card, activeStep }: { card: Card; activeStep: string }) => {
                 </ul>
                 <div className="flex w-full space-x-2 lg:space-x-8 lg:justify-end justify-center mt-2">
                   <div className="ml-1">
-                    <div className="">
-                      {/* <span className="text-white group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#483d73] group-hover:to-red-700">
-                        Get a Quote
-                      </span>
-                      <span className="bg-white group-hover:bg-gradient-to-r group-hover:from-[#483d73] group-hover:to-red-700 p-1 rounded-full">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          strokeWidth={3}
-                          stroke="currentColor"
-                          className="w-4 h-4 group-hover:stroke-white stroke-[#483d73]"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M9 5l7 7-7 7"
-                          />
-                        </svg>
-                      </span> */}
-                      <ReusableForm
-                        formId="our product"
-                        buttonText="Get a Quote"
-                        dialogTitle="Get in Touch"
-                        dialogSubtitle="We'd love to hear from you!"
-                        imageUrl="https://www.nesscoindia.com/Assets/images/resource/popup.webp"
-                        showButton={true}
-                        secodaryButton={true}
-                        normalButton={false}
-                      />
-                    </div>
+                    <ReusableForm
+                      formId="our product"
+                      buttonText="Get a Quote"
+                      dialogTitle="Get in Touch"
+                      dialogSubtitle="We'd love to hear from you!"
+                      imageUrl="https://www.nesscoindia.com/Assets/images/resource/popup.webp"
+                      showButton={true}
+                      secodaryButton={true}
+                      normalButton={false}
+                    />
                   </div>
                 </div>
               </div>
@@ -363,3 +347,4 @@ const Card = ({ card, activeStep }: { card: Card; activeStep: string }) => {
 };
 
 export default Card;
+

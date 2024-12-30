@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { toast } from "react-hot-toast";
 import { useForm } from "@/app/[country]/[locale]/context/FormContext";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import SubmitButton from "./Submit";
 import FormFields, { FormValues } from "./FormFileds";
 import BlurImage from "../ui/BlurImage";
+import { cn } from "@/lib/utils";
 
 interface ReusableFormProps {
   formId: string;
@@ -40,7 +41,7 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
   });
   const [errors, setErrors] = useState<Partial<FormValues>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const validateForm = () => {
     const newErrors: Partial<FormValues> = {};
@@ -75,7 +76,7 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
         position: "top-right",
       });
       setFormValues({ fullname: "", email: "", mobilenumber: "" });
-      setIsDialogOpen(false);
+      setIsOpen(false);
     } catch (error) {
       console.error("Failed to submit the form:", error);
       toast.error("Error submitting the form. Please try again.", {
@@ -111,19 +112,23 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
     return formContent;
   }
 
-  const handleButtonClick = () => {
-    setIsDialogOpen(true);
-  };
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [isOpen]);
 
   return (
-    <div className="relative">
-      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+    <>
+      <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogTrigger asChild>
           {secodaryButton ? (
-            <Button
-              onClick={handleButtonClick}
-              className="rounded-full flex items-center justify-between text-primary-foreground border-2 border-white h-[3.5rem] w-40 sm:h-16 sm:w-60 md:h-16 md:w-60 lg:h-16 lg:w-60 text-xs sm:text-sm md:text-base lg:text-lg bg-clip-border relative group custom-gradient-border transition-all duration-300 overflow-hidden"
-            >
+            <Button className="rounded-full flex items-center justify-between text-primary-foreground border-2 border-white h-[3.5rem] w-40 sm:h-16 sm:w-60 md:h-16 md:w-60 lg:h-16 lg:w-60 text-xs sm:text-sm md:text-base lg:text-lg bg-clip-border relative group custom-gradient-border transition-all duration-300 overflow-hidden">
               <span className="font-medium text-white group-hover:bg-gradient-to-r group-hover:from-[#483d73] group-hover:to-red-700 group-hover:text-transparent group-hover:bg-clip-text pl-2 sm:pl-4 md:pl-6 lg:pl-8 truncate flex-grow text-left transition-all duration-300">
                 {buttonText}
               </span>
@@ -145,10 +150,7 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
               </span>
             </Button>
           ) : normalButton ? (
-            <Button
-              onClick={handleButtonClick}
-              className="bg-white text-black font-medium font-poppins py-2 px-6 rounded-full shadow-lg"
-            >
+            <Button className="bg-white text-black font-medium font-poppins py-2 px-6 rounded-full shadow-lg">
               <span className="text-black">{buttonText}</span>
 
               <svg
@@ -170,19 +172,13 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
             </Button>
           ) : learnMore ? (
             <>
-              <button
-                onClick={handleButtonClick}
-                className="learn-more mt-2 lg:block hidden"
-              >
+              <button className="learn-more mt-2 lg:block hidden">
                 <span className="circle" aria-hidden="true">
                   <span className="icon arrow"></span>
                 </span>
                 <span className="button-text font-poppins">Discover More</span>
               </button>
-              <button
-                onClick={handleButtonClick}
-                className="bg-[#483d73] rounded-full text-white flex items-center justify-center lg:hidden"
-              >
+              <button className="bg-[#483d73] rounded-full text-white flex items-center justify-center lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 64 64"
@@ -203,17 +199,14 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
               </button>
             </>
           ) : (
-            <Button
-              onClick={handleButtonClick}
-              className="bg-gradient-to-r from-[#483d73] to-red-700 text-white font-medium font-poppins py-2 px-6 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
-            >
+            <Button className="bg-gradient-to-r from-[#483d73] to-red-700 text-white font-medium font-poppins py-2 px-6 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-100">
                 {buttonText}
               </span>
             </Button>
           )}
         </DialogTrigger>
-        <DialogContent className="md:w-[800px] sm:max-w-[800px] p-0 overflow-hidden rounded-[0.5rem]">
+        <DialogContent className="sm:max-w-[800px] p-0 overflow-hidden rounded-[0.5rem]">
           <div className="flex flex-col sm:flex-row bg-white">
             {imageUrl && (
               <div className="w-full lg:flex hidden sm:w-1/2 relative h-[200px] sm:h-auto overflow-hidden">
@@ -236,7 +229,13 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
           </div>
         </DialogContent>
       </Dialog>
-    </div>
+      {isOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur z-50"
+          onClick={() => setIsOpen(false)}
+        />
+      )}
+    </>
   );
 };
 

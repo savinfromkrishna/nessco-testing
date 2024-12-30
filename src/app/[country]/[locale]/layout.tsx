@@ -79,7 +79,6 @@ const generateHreflangLinks = (locale: string) => {
   }
   const dynamicPath = pathSegments.join("/");
   const baseDomain = `${urlParts.origin}${dynamicPath}`;
-
   const hreflangLinks = supportedLocales.map((country) => {
     const url = baseDomain.replace("{country}", country.toLowerCase());
     return (

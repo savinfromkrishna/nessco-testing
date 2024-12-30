@@ -1,21 +1,24 @@
 "use client";
 
 import React from "react";
-import Carousel from "@/components/ui/HomeMachine-cards-carousel";
+// import Carousel from "@/components/ui/HomeMachine-cards-carousel";
 import Card from "@/components/ui/HomeMachineCard";
+import dynamic from "next/dynamic";
 
 // Dynamically import components
-// const Carousel = dynamic(() => import("@/components/ui/HomeMachine-cards-carousel"));
+const Carousel = dynamic(
+  () => import("@/components/ui/HomeMachine-cards-carousel")
+);
 // const Card = dynamic(() => import("@/components/ui/HomeMachineCard"));
 
 // Define the CardData interface
 interface CardData {
   content?: React.ReactNode;
   category: string;
-  firstLink:string;
+  firstLink: string;
   firstname: string;
   secondname: string;
-  secondLink:string;
+  secondLink: string;
   description: string;
   image: string;
   title: string;
