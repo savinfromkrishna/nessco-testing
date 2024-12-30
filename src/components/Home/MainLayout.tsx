@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import dynamic from "next/dynamic";
+import Hero from "@/components/Home/Home";
 import { HomeData } from "./types/constant";
 const IOT = dynamic(() => import("./Iot"));
 const AboutUs = dynamic(() => import("./AboutSection"));
