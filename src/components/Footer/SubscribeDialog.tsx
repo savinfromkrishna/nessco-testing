@@ -51,7 +51,7 @@ const SubscribeDialog: React.FC<SubscribeDialogProps> = ({
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-[425px] bg-white">
+      <DialogContent className="sm:max-w-[425px] z-50 p-6 bg-white">
         <DialogHeader>
           <DialogTitle>Complete your subscription</DialogTitle>
         </DialogHeader>
