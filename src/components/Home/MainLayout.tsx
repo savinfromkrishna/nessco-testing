@@ -138,7 +138,7 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
           ref={sectionRefs.iotRef}
           className="max-w-screen-2xl mx-auto lg:pt-0 pt-10"
         >
-          {/* <IOT heroData={homeData} /> */}
+          <IOT heroData={homeData} />
         </div>
 
         <div ref={sectionRefs.knowMoreRef} className="h-auto overflow-hidden">
