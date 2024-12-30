@@ -83,7 +83,7 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
   return (
     <main className="relative bg-[#f2f2f2] my-14 gap-2 h-full">
       <div className="top-2 relative">
-        {/* <Hero heroData={homeData} /> */}
+        <Hero heroData={homeData} />
       </div>
 
       <NavLinksDemo navItems={navItems} />
