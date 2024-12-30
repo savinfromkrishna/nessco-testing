@@ -130,8 +130,6 @@ export async function generateMetadata({
   const page2machine = ProductsGrid.data.find(
     (m) => normalizeTitle(m.title) === normalizedMachinename
   );
-  const seoData = productLayoutData?.ProductLayout[0]?.productLayoutSeoData;
-  console.log("page2machine data", page2machine);
 
   return {
     title: `${page2machine?.seoTitle}  - ${countryName} `,
