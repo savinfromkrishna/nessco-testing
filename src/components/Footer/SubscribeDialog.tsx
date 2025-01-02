@@ -11,7 +11,6 @@ import { Button } from "@/components/ui/button";
 import FormFields from "../Contact/FormFileds";
 import { FormSchemaType } from "../Contact/schemas/schemas";
 
-
 interface SubscribeDialogProps {
   isOpen: boolean;
   onClose: () => void;
@@ -32,13 +31,13 @@ const SubscribeDialog: React.FC<SubscribeDialogProps> = ({
   const [errors, setErrors] = useState<Partial<FormSchemaType>>({});
 
   useEffect(() => {
-    setFormValues(prevValues => ({
+    setFormValues((prevValues) => ({
       ...prevValues,
-      email: email
+      email: email,
     }));
   }, [email]);
- console.log(setErrors);
- 
+  console.log(setErrors);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     // Here you would typically validate the form and send the data to your server
@@ -51,7 +50,7 @@ const SubscribeDialog: React.FC<SubscribeDialogProps> = ({
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-[425px] z-50 p-6 bg-white">
+      <DialogContent className="sm:max-w-[425px] p-6 bg-white">
         <DialogHeader>
           <DialogTitle>Complete your subscription</DialogTitle>
         </DialogHeader>
@@ -61,7 +60,10 @@ const SubscribeDialog: React.FC<SubscribeDialogProps> = ({
             values={formValues}
             errors={errors}
           />
-          <Button type="submit" className="bg-gradient-to-r from-[#483d73] to-red-700 text-white font-medium font-poppins py-2 px-6 w-full rounded-xl shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl">
+          <Button
+            type="submit"
+            className="bg-gradient-to-r from-[#483d73] to-red-700 text-white font-medium font-poppins py-2 px-6 w-full rounded-xl shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
+          >
             Subscribe
           </Button>
         </form>
@@ -71,4 +73,3 @@ const SubscribeDialog: React.FC<SubscribeDialogProps> = ({
 };
 
 export default SubscribeDialog;
-
