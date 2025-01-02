@@ -1,101 +1,71 @@
 import MainLayout from "@/components/Home/MainLayout";
 import { HomeData } from "@/components/Home/types/constant";
 import { Metadata } from "next";
-import { cookies } from "next/headers";
+import { cookies } from "next/headers"; // Server-side (Next.js app directory)
 import { unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 import { locales } from "@/i18n";
 import { getBaseUrl } from "@/app/api/environment";
-import heroData from "@/dictionary/hero.json";
+
 const apiUrl = "https://jsondatafromhostingertosheet.nesscoindustries.com/";
 const countryUrl = "https://countryjson.nesscoindustries.com/";
 
-// In-memory cache for storing the last successful response
-const localeCache = new Map<string, HomeData>();
+// Define the allowed Twitter card types
 
-// Revalidate every 60 seconds
+type Props = {
+  params: { locale: string; country: string };
+};
+
+// Revalidate every 60 seconds (or any time period you prefer)
 export const revalidate = 60;
 
-interface Props {
-  params: {
-    locale: string;
-  };
-}
-
-// Fetch home data with locale cache and fallback to local JSON
+// Fetch home data based on the locale
 async function fetchHomeData(locale: string): Promise<HomeData | null> {
   try {
     const res = await fetch(`${apiUrl}${locale}/hero.json`);
-    if (!res.ok) throw new Error("API fetch failed");
     const data = await res.json();
-    localeCache.set(locale, data);
     return data;
   } catch (error) {
-    console.error(`Primary fetch failed for locale: ${locale}`, error);
-
-    try {
-      const fallbackRes = await fetch(`${apiUrl}en/hero.json`, {
-        cache: "no-store",
-      });
-      if (!fallbackRes.ok) throw new Error("Fallback fetch failed");
-      const fallbackData = await fallbackRes.json();
-      localeCache.set("en", fallbackData);
-      return fallbackData;
-    } catch (fallbackError) {
-      console.error("Fallback fetch failed", fallbackError);
-
-      if (localeCache.has(locale)) {
-        console.warn(`Serving cached data for locale: ${locale}`);
-        return localeCache.get(locale) || null;
-      } else if (localeCache.has("en")) {
-        console.warn("Serving cached fallback data for English locale");
-        return localeCache.get("en") || null;
-      }
-
-      console.warn("Using local JSON data as last resort");
-      return heroData as unknown as HomeData;
-    }
+    const fallbackRes = await fetch(`${apiUrl}en/hero.json`, {
+      cache: "no-store", // Ensures no caching for the fallback as well
+    });
+    const data = await fallbackRes.json();
+    return data;
   }
 }
 
 type CountryNames = {
-  [locale: string]: string;
+  [locale: string]: string; // Each locale key maps directly to the country name
 };
 
 async function fetchCountryData(locale: string): Promise<string> {
   const country = cookies().get("country")?.value || "in";
   try {
     const res = await fetch(`${countryUrl}${country}.json`);
-    if (!res.ok) throw new Error("Country API fetch failed");
     const countryData: CountryNames = await res.json();
-    return countryData[locale] || countryData["en"];
+    // Return the country name for the provided locale
+    return countryData[locale] || countryData["en"]; // Fallback to English if the locale isn't available
   } catch (error) {
-    console.error("Country API fetch failed", error);
-
-    try {
-      const fallbackRes = await fetch(`${countryUrl}in.json`);
-      if (!fallbackRes.ok) throw new Error("Country fallback fetch failed");
-      const fallbackData: CountryNames = await fallbackRes.json();
-      return fallbackData[locale] || fallbackData["en"];
-    } catch (fallbackError) {
-      console.error("Country fallback fetch failed", fallbackError);
-      return "India"; // Default to "India" if all else fails
-    }
+    const fallbackRes = await fetch(`${countryUrl}in.json`);
+    const fallbackData: CountryNames = await fallbackRes.json();
+    // Handle fallback case, also fallback to English if locale not available
+    return fallbackData[locale] || fallbackData["en"];
   }
 }
 
+// Dynamically generate metadata using the fetched SEO data
 export async function generateMetadata({
   params: { locale },
 }: Props): Promise<Metadata> {
   const baseUrl = getBaseUrl();
+  // Fallback to "en" if the locale isn't supported
   if (!locales.includes(locale as any)) {
     locale = "en";
   }
-
   const homeData = await fetchHomeData(locale);
   const countryName = await fetchCountryData(locale);
 
-  if (!homeData || !countryName) {
+  if (!homeData && !countryName) {
     return {
       title: "Default Title",
       description: "Default Description",
@@ -120,7 +90,7 @@ export async function generateMetadata({
   const seoData = homeData?.home[0]?.homeSeoData;
 
   return {
-    title: `${seoData?.title} - ${countryName}`,
+    title: `${seoData?.title} - ${countryName} `,
     description: seoData?.description,
     viewport: "width=device-width, initial-scale=1",
     alternates: {
@@ -128,17 +98,17 @@ export async function generateMetadata({
     },
     openGraph: {
       type: "website",
-      title: `${seoData?.title} - ${countryName}`,
       siteName: "Nessco",
       url: `${baseUrl}`,
-      description: seoData?.description,
+      title: `${seoData?.title} - ${countryName} `,
+    description: seoData?.description,
       images: seoData?.openGraph?.images,
     },
     twitter: {
       card: "summary_large_image",
       site: "@NesscoIndia",
-      title: `${seoData?.title} - ${countryName}`,
-      description: seoData?.twitter?.description,
+      title: `${seoData?.title} - ${countryName} `,
+    description: seoData?.description,
       images: seoData?.twitter?.image,
     },
     robots: {
@@ -148,18 +118,23 @@ export async function generateMetadata({
   };
 }
 
+// Home component rendering the MainLayout with fetched data
 export default async function Home({ params: { locale } }: Props) {
+  // Set default locale if not in supported list
   if (!locales.includes(locale as any)) {
-    locale = "en";
+    locale = "en"; // Fallback to English
   }
 
+  // Set the locale for the request
   unstable_setRequestLocale(locale);
 
+  // Fetch home data based on the locale
   const homeData = await fetchHomeData(locale);
-  // const t = await getTranslations({ locale });
+
+  // Fetch translations based on the locale
 
   if (!homeData) {
-    return <p>console.error();</p>;
+    return <p>Critical Error</p>;
   }
 
   return (
