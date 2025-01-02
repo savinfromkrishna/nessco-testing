@@ -1,8 +1,12 @@
-import { Inter, Poppins } from "next/font/google";
+import { Inter, Poppins } from 'next/font/google';
 import "./globals.css";
 import Script from "next/script";
+import { unstable_setRequestLocale } from "next-intl/server";
 import NavLayout from "@/components/Navbar/NavLayout";
-
+import {
+  CountryCode,
+  countryNames,
+} from "@/components/Constants/Navbar/config";
 import dynamic from "next/dynamic";
 import { locales, validCountryISOs } from "@/i18n";
 import { FormProvider } from "./context/FormContext";
@@ -10,10 +14,6 @@ import ContactIcons from "@/components/Contact/ContactIcon";
 import { getBaseUrl } from "@/app/api/environment";
 import { EnquiryCartProvider } from "./context/EnquiryContext";
 import heroData from "@/dictionary/hero.json";
-import {
-  CountryCode,
-  countryNames,
-} from "@/components/constants/Navbar/config";
 
 const FooterLayout = dynamic(() => import("@/components/Footer/FooterLayout"));
 
@@ -34,15 +34,12 @@ const apiUrl = "https://jsondatafromhostingertosheet.nesscoindustries.com/";
 async function fetchHeroData(locale: string) {
   try {
     const heroRes = await fetch(`${apiUrl}${locale}/hero.json`);
-    if (!heroRes.ok)
-      throw new Error(`Primary API fetch failed for locale: ${locale}`);
+    if (!heroRes.ok) throw new Error(`Primary API fetch failed for locale: ${locale}`);
     return await heroRes.json();
   } catch (error) {
     console.error(`Primary fetch failed for locale: ${locale}`, error);
     try {
-      const fallbackRes = await fetch(`${apiUrl}en/hero.json`, {
-        cache: "no-store",
-      });
+      const fallbackRes = await fetch(`${apiUrl}en/hero.json`, { cache: "no-store" });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       return await fallbackRes.json();
     } catch (fallbackError) {
@@ -59,10 +56,12 @@ export async function generateMetadata({
   params: { country: CountryCode; locale: string };
 }) {
   const countryName = countryNames[country] || "Country";
+
   const heroData = await fetchHeroData(locale);
+
   const metaTitle = heroData?.home?.[0]?.homeSeoData?.title || "Default Title";
-  const metaDescription =
-    heroData?.home?.[0]?.homeSeoData?.description || "Default Description";
+  const metaDescription = heroData?.home?.[0]?.homeSeoData?.description || "Default Description";
+
   return {
     title: `${metaTitle} - ${countryName}`,
     description: `${metaDescription} (${countryName})`,
@@ -79,6 +78,7 @@ const generateHreflangLinks = (locale: string) => {
   }
   const dynamicPath = pathSegments.join("/");
   const baseDomain = `${urlParts.origin}${dynamicPath}`;
+
   const hreflangLinks = supportedLocales.map((country) => {
     const url = baseDomain.replace("{country}", country.toLowerCase());
     return (
@@ -92,7 +92,12 @@ const generateHreflangLinks = (locale: string) => {
   });
 
   hreflangLinks.push(
-    <link key="x-default" rel="alternate" hrefLang="x-default" href={baseUrl} />
+    <link
+      key="x-default"
+      rel="alternate"
+      hrefLang="x-default"
+      href={baseUrl}
+    />
   );
 
   return hreflangLinks;
@@ -109,6 +114,8 @@ export default async function RootLayout({
     locale = "en";
   }
   locale = locales.includes(locale as any) ? locale : "en";
+
+  unstable_setRequestLocale(locale);
 
   return (
     <html lang={`${locale}-${country.toUpperCase()}`}>
