@@ -51,13 +51,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "flagcdn.com",
       },
-      {
-        protocol: "https",
-        hostname: "www.*", // Allows all 'www.' subdomains under 'https://'
-      },
+      // Removed "www.*" entry
     ],
   },
   swcMinify: true, // Enables faster builds and smaller bundles
+  reactStrictMode: false
 };
 
 export default withNextIntl(nextConfig);

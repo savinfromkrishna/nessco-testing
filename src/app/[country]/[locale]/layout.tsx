@@ -3,10 +3,7 @@ import "./globals.css";
 import Script from "next/script";
 import { unstable_setRequestLocale } from "next-intl/server";
 import NavLayout from "@/components/Navbar/NavLayout";
-import {
-  CountryCode,
-  countryNames,
-} from "@/components/Constants/Navbar/config";
+
 import dynamic from "next/dynamic";
 import { locales, validCountryISOs } from "@/i18n";
 import { FormProvider } from "./context/FormContext";
@@ -14,6 +11,7 @@ import ContactIcons from "@/components/Contact/ContactIcon";
 import { getBaseUrl } from "@/app/api/environment";
 import { EnquiryCartProvider } from "./context/EnquiryContext";
 import heroData from "@/dictionary/hero.json";
+import { CountryCode, countryNames } from '@/components/constants/Navbar/config';
 
 const FooterLayout = dynamic(() => import("@/components/Footer/FooterLayout"));
 
