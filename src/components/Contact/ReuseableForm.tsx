@@ -171,13 +171,19 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
             </Button>
           ) : learnMore ? (
             <>
-              <button className="learn-more mt-2 lg:block hidden">
+              <button
+                className="learn-more mt-2 lg:block hidden"
+                onClick={() => setIsOpen(true)}
+              >
                 <span className="circle" aria-hidden="true">
                   <span className="icon arrow"></span>
                 </span>
                 <span className="button-text font-poppins">Discover More</span>
               </button>
-              <button className="bg-[#483d73] rounded-full text-white flex items-center justify-center lg:hidden">
+              <button
+                className="bg-[#483d73] rounded-full text-white flex items-center justify-center lg:hidden"
+                onClick={() => setIsOpen(true)}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 64 64"
@@ -191,7 +197,7 @@ const ReusableForm: React.FC<ReusableFormProps> = ({
                   />
                   <path
                     d="M25 20 L37 32 L25 44"
-                    className="stroke-[#483d73] stroke-[4px] fill-none stroke-linecap-round stroke-linejoin-round "
+                    className="stroke-[#483d73] stroke-[4px] fill-none stroke-linecap-round stroke-linejoin-round"
                   />
                 </svg>
                 <span className="py-1 px-4 font-poppins">Discover More</span>
