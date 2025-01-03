@@ -62,7 +62,7 @@ export async function generateMetadata({
       openGraph: {
         title: "Blog Post Not Found",
         description: "The requested blog post could not be found.",
-        url: `${baseUrl}/${locale}/know-your-machine/${id}`,
+        url: `${baseUrl}`,
         images: [],
       },
       twitter: {
@@ -78,7 +78,7 @@ export async function generateMetadata({
     openGraph: {
       type: "article",
       siteName: "Nessco",
-      url: `${baseUrl}/${locale}/know-your-machine/${post.slug}`,
+      url: `${baseUrl}`,
       title: `${post.title} - ${countryName}`,
       description: post.excerpt,
       images: [
@@ -91,7 +91,7 @@ export async function generateMetadata({
       ],
     },
     alternates: {
-      canonical: `${baseUrl}/${locale}/know-your-machine/${post.slug}`,
+      canonical: `${baseUrl}`,
     },
     twitter: {
       card: "summary_large_image",

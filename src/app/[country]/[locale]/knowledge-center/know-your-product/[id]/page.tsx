@@ -80,7 +80,7 @@ export async function generateMetadata({
     openGraph: {
       type: "article",
       siteName: "Nessco",
-      url: `${baseUrl}/${locale}/know-your-product/${post.slug}`,
+      url: `${baseUrl}`,
       title: `${post.title} - ${countryName}`,
       description: post.excerpt,
       images: [
@@ -93,7 +93,7 @@ export async function generateMetadata({
       ],
     },
     alternates: {
-      canonical: `${baseUrl}/${locale}/know-your-product/${post.slug}`,
+      canonical: `${baseUrl}`,
     },
     twitter: {
       card: "summary_large_image",
