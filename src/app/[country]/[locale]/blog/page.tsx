@@ -116,7 +116,7 @@ export async function generateMetadata({
       canonical: `${baseUrl}`,
     },
     openGraph: {
-      type: "website",
+      type: "article",
       siteName: "Nessco",
       url: `${baseUrl}`,
       title: `${seoData?.title} - ${countryName}`,
