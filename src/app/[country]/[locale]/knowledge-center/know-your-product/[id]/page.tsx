@@ -64,7 +64,7 @@ export async function generateMetadata({
       openGraph: {
         title: "Blog Post Not Found",
         description: "The requested blog post could not be found.",
-        url: `${baseUrl}/${locale}/know-your-product/${id}`,
+        url: `${baseUrl}`,
         images: [],
       },
       twitter: {

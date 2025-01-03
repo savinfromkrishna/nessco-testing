@@ -113,7 +113,7 @@ export async function generateMetadata({
     },
     openGraph: {
       type: "website",
-      title: seoData?.openGraph?.title,
+      title: `${seoData?.title} - ${countryName} `,
       siteName: "Nessco",
       url:`${baseUrl}`,
       description: seoData?.openGraph?.description,
@@ -122,7 +122,7 @@ export async function generateMetadata({
     twitter: {
       card: "summary_large_image",
       site: "@NesscoIndia",
-      title: seoData?.twitter?.title,
+      title: `${seoData?.title} - ${countryName} `,
       description: seoData?.twitter?.description,
       images: seoData?.twitter?.image,
     },
