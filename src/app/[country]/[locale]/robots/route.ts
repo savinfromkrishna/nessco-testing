@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 export async function GET(
   _: Request,
-  { params }: { params: { country: string; lang: string } }
+  
 ) {
 
   const content = `
