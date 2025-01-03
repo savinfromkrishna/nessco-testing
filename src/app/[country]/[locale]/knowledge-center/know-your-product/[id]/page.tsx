@@ -103,8 +103,8 @@ export async function generateMetadata({
       images: [post.header.headingImage],
     },
     robots: {
-      index: true,
-      follow: true,
+      index: false,
+      follow: false,
     },
   };
 }

@@ -123,8 +123,8 @@ export async function generateMetadata({
       images: [seoData.image],
     },
     robots: {
-      index: true,
-      follow: true,
+      index: false,
+      follow: false,
     },
     alternates: {
       canonical: `${baseUrl}`,

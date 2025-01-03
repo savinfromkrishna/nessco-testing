@@ -51,11 +51,27 @@ const nextConfig = {
         protocol: "https",
         hostname: "flagcdn.com",
       },
-      // Removed "www.*" entry
     ],
   },
   swcMinify: true, // Enables faster builds and smaller bundles
-  reactStrictMode: false
+  reactStrictMode: false,
+
+  // Add redirects for non-www to www
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'nesscoglobal.com', // Replace with your non-www domain
+          },
+        ],
+        destination: 'https://www.global.com/*', // Replace with your www domain
+        permanent: true, // HTTP 301 Permanent Redirect
+      },
+    ];
+  },
 };
 
 export default withNextIntl(nextConfig);

@@ -154,8 +154,8 @@ export async function generateMetadata({
       images: page2machine.openGraph.images,
     },
     robots: {
-      index: true,
-      follow: true,
+      index: false,
+      follow: false,
     },
   };
 }

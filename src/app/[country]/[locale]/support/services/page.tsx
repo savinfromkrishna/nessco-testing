@@ -130,8 +130,8 @@ export async function generateMetadata({
       images: seoData?.twitter?.image,
     },
     robots: {
-      index: true,
-      follow: true,
+      index: false,
+      follow: false,
     },
   };
 }
