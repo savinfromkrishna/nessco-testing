@@ -119,7 +119,7 @@ export default async function FooterLayout({ params: { locale } }: Props) {
       <FooterNew
         footerData={footerData}
         country={countryName}
-        langauge={language}
+        language={language}
       />
     </div>
   );
