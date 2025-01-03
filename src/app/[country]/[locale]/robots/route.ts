@@ -4,7 +4,6 @@ export async function GET(
   _: Request,
   { params }: { params: { country: string; lang: string } }
 ) {
-  const { country, lang } = params;
 
   const content = `
     User-agent: *
