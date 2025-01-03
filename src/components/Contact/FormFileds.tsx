@@ -79,7 +79,7 @@ const FormFields: React.FC<FormFieldsProps> = ({
             onBlur={() => handleBlur('fullname')}
             required
             className={cn(
-              "border border-[#483d73] py-[0.4rem] px-[0.5rem] text-[0.9rem] rounded-[0.3rem] bg-[#f9fafb] focus:ring-2 focus:ring-[#483d73] transition-all duration-200",
+              "border border-[#483d73] py-[0.4rem] px-[0.5rem] text-[0.9rem] rounded-[0.3rem] bg-[#f9fafb]  focus:ring-[#483d73] transition-all duration-200",
               touchedFields.fullname && validateField('fullname', values.fullname) && "border-red-500"
             )}
           />

@@ -232,7 +232,7 @@ export default function EnquiryComponent({
         </Sheet>
       )}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="sm:max-w-[900px] bg-gray-50">
+        <DialogContent className="sm:max-w-[900px] p-6 bg-gray-50">
           <div className="rounded-2xl">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
               <div className="lg:block hidden pr-4">
