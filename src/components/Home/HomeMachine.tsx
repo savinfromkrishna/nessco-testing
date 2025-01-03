@@ -2,11 +2,9 @@
 import React, { useMemo, useState } from "react";
 import dynamic from 'next/dynamic'
 import { HomeData } from "./types/constant";
+import HomeMachineCarousel from "./Common/HomeMachineCarousel";
 
-// Dynamically import components
-const HomeMachineCarousel = dynamic(
-  () => import("./Common/HomeMachineCarousel")
-);
+
 const Stepper = dynamic(() => import("../ui/Stepper"));
 
 // Define the type for each card item
