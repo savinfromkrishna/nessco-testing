@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react"
 import { usePathname, useSearchParams } from "next/navigation"
-import axios from "axios"
-
 export interface VisitData {
   Language: string
   Os_Name: string
@@ -32,6 +30,9 @@ export interface VisitData {
   Zip_Code: string | null
 }
 
+const IP_DATA_KEY = 'ip_data'
+const IP_DATA_EXPIRY = 24 * 60 * 60 * 1000 // 24 hours in milliseconds
+
 export function useTrackUserSource(): VisitData | null {
   const pathname = usePathname()
   const searchParams = useSearchParams()
@@ -42,7 +43,7 @@ export function useTrackUserSource(): VisitData | null {
       const sessionStartTime = localStorage.getItem("session_start_time")
       const currentUrl = window.location.href
 
-      if(!sessionStartTime) {
+      if (!sessionStartTime) {
         localStorage.setItem("session_start_time", new Date().toISOString())
         localStorage.setItem("first_entry_page", currentUrl)
         localStorage.setItem("session_page_visit_count", "1")
@@ -66,201 +67,13 @@ export function useTrackUserSource(): VisitData | null {
       const userAgent = navigator.userAgent
       const language = navigator.language
 
-      let browserName = "Unknown Browser"
-      let osName = "Unknown OS"
-      let deviceType = "Desktop"
+      const { browserName, osName, deviceType } = getBrowserAndOSInfo(userAgent)
 
-      // Determine OS and device type
-      if (/android/i.test(userAgent)) {
-        osName = "Android"
-        deviceType = "Mobile"
-      } else if (/iphone|ipad|ipod/i.test(userAgent)) {
-        osName = "iOS"
-        deviceType = "Mobile"
-      } else if (/windows/i.test(userAgent)) {
-        osName = "Windows"
-      } else if (/mac/i.test(userAgent)) {
-        osName = "MacOS"
-      } else if (/linux/i.test(userAgent)) {
-        osName = "Linux"
-      }
+      const leadSource = getLeadSource(document.referrer, sessionStorage)
 
-      // Determine browser
-      if (/edg/i.test(userAgent)) {
-        browserName = "Edge"
-      } else if (/chrome/i.test(userAgent) && !/edg/i.test(userAgent)) {
-        browserName = "Chrome"
-      } else if (/safari/i.test(userAgent) && !/chrome/i.test(userAgent)) {
-        browserName = "Safari"
-      } else if (/firefox/i.test(userAgent)) {
-        browserName = "Firefox"
-      } else if (/msie|trident/i.test(userAgent)) {
-        browserName = "Internet Explorer"
-      }
+      const adParams = getAdParams(searchParams, sessionStorage)
 
-      let leadSource = sessionStorage.getItem("Lead_Source") || ""
-
-      const getSessionOrUrlParam = (paramName: string): string | null => {
-        if (sessionStorage.getItem(paramName)) {
-          return sessionStorage.getItem(paramName)
-        }
-        const paramValue = searchParams.get(paramName)
-        if (paramValue) {
-          sessionStorage.setItem(paramName, paramValue)
-        }
-        return paramValue
-      }
-
-      const adParams = {
-        Ad_Medium: getSessionOrUrlParam("medium"),
-        Ad_CampaignName: getSessionOrUrlParam("campaignname"),
-        Ad_Campaign: getSessionOrUrlParam("campaignid"),
-        Ad_AdGroup: getSessionOrUrlParam("adgroupid"),
-        Ad_Adcopy: getSessionOrUrlParam("creative"),
-        Ad_Keyword: getSessionOrUrlParam("keyword"),
-        Ad_Matchtype: getSessionOrUrlParam("matchtype"),
-        Ad_Device: getSessionOrUrlParam("device"),
-        Ad_Gclid: getSessionOrUrlParam("gclid"),
-        Ad_Source: getSessionOrUrlParam("source"),
-      }
-
-      if (Object.values(adParams).some((param) => param)) {
-        if (adParams.Ad_Source) {
-          if (adParams.Ad_Source.includes("Facebook_Ads")) {
-            leadSource = "Facebook Ads"
-          } else if (adParams.Ad_Source.includes("Google_Ads")) {
-            leadSource = "Google Ads"
-          } else if (adParams.Ad_Source.includes("Instagram_Ads")) {
-            leadSource = "Instagram Ads"
-          } else if (adParams.Ad_Source.includes("Twitter_Ads")) {
-            leadSource = "Twitter Ads"
-          } else {
-            leadSource = "Other Ads"
-          }
-        } else {
-          leadSource = "Ads"
-        }
-      } else if (document.referrer) {
-        if (document.referrer.includes("google.com"))
-          leadSource = "Google Search"
-        else if (document.referrer.includes("bing.com"))
-          leadSource = "Bing Search"
-        else if (document.referrer.includes("yahoo.com"))
-          leadSource = "Yahoo Search"
-        else if (document.referrer.includes("duckduckgo.com"))
-          leadSource = "DuckDuckGo Search"
-        else if (document.referrer.includes("baidu.com"))
-          leadSource = "Baidu Search"
-        else if (document.referrer.includes("yandex.com"))
-          leadSource = "Yandex Search"
-        else leadSource = "Reference"
-      } else {
-        leadSource = document.referrer === "" ? "WebSite Visit" : "Others"
-      }
-
-      const fetchIPData = async () => {
-        try {
-          // First attempt: fetch data from ipinfo.io
-          const response = await axios.get("https://ipinfo.io/json/")
-          const data = response.data
-
-          // Fetch additional location data from ipwho.is
-          const response1 = await axios.get(`http://ipwho.is/${data.ip}`)
-          const data1 = response1.data
-
-          return {
-            IP_Address: data.ip,
-            Country: data1.country,
-            City: data1.city,
-            Web_Region: data1.region,
-            Latitude: data1.latitude,
-            Longitude: data1.longitude,
-            Zip_Code: data1.postal,
-          }
-        } catch (error) {
-          console.error(
-            "Error fetching data from ipinfo.io, trying ipapi.co ...",
-            error
-          )
-
-          try {
-            // Second attempt: Try ipapi.co
-            const response = await axios.get("https://ipapi.co/json/")
-            const data = response.data
-
-            return {
-              IP_Address: data.ip,
-              Country: data.country_name,
-              City: data.city,
-              Web_Region: data.region,
-              Latitude: data.latitude,
-              Longitude: data.longitude,
-              Zip_Code: data.postal,
-            }
-          } catch (error) {
-            console.error(
-              "Error fetching data from ipapi.co, trying api.ipify.org ...",
-              error
-            )
-
-            try {
-              // Third attempt: Try ipify.org + ipwho.is combination
-              const ipifyResponse = await axios.get("https://api.ipify.org/?format=json")
-              const ipifyData = ipifyResponse.data
-
-              try {
-                // Try ipwho.is with ipify IP
-                const ipwhoResponse = await axios.get(`http://ipwho.is/${ipifyData.ip}`)
-                const ipwhoData = ipwhoResponse.data
-
-                return {
-                  IP_Address: ipifyData.ip,
-                  Country: ipwhoData.country,
-                  City: ipwhoData.city,
-                  Web_Region: ipwhoData.region,
-                  Latitude: ipwhoData.latitude,
-                  Longitude: ipwhoData.longitude,
-                  Zip_Code: ipwhoData.postal,
-                }
-              } catch (error) {
-                console.error("Error fetching data from ipwho.is, trying db-ip.com ...", error)
-
-                // Fourth attempt: Try db-ip.com
-                try {
-                  const dbipResponse = await axios.get(`https://api.db-ip.com/v2/free/${ipifyData.ip}`)
-                  const dbipData = dbipResponse.data
-
-                  return {
-                    IP_Address: ipifyData.ip,
-                    Country: dbipData.countryName,
-                    City: dbipData.city,
-                    Web_Region: dbipData.stateProv,
-                    Latitude: null, // db-ip free API doesn't provide coordinates
-                    Longitude: null,
-                    Zip_Code: null, // db-ip free API doesn't provide postal code
-                  }
-                } catch (error) {
-                  console.error("Error fetching data from db-ip.com", error)
-                  throw error
-                }
-              }
-            } catch (error) {
-              console.error("All IP lookup services failed", error)
-              return {
-                IP_Address: null,
-                Country: null,
-                City: null,
-                Web_Region: null,
-                Latitude: null,
-                Longitude: null,
-                Zip_Code: null,
-              }
-            }
-          }
-        }
-      }
-
-      const ipData = await fetchIPData()
+      const ipData = await getIPData()
 
       const visitDetails: VisitData = {
         Language: language,
@@ -278,12 +91,179 @@ export function useTrackUserSource(): VisitData | null {
       }
 
       setVisitData(visitDetails)
-      console.log("Visit data updated:", visitDetails)
     }
 
     initializeVisitData()
   }, [pathname, searchParams])
 
   return visitData
+}
+
+function getBrowserAndOSInfo(userAgent: string) {
+  let browserName = "Unknown Browser"
+  let osName = "Unknown OS"
+  let deviceType = "Desktop"
+
+  if (/android/i.test(userAgent)) {
+    osName = "Android"
+    deviceType = "Mobile"
+  } else if (/iphone|ipad|ipod/i.test(userAgent)) {
+    osName = "iOS"
+    deviceType = "Mobile"
+  } else if (/windows/i.test(userAgent)) {
+    osName = "Windows"
+  } else if (/mac/i.test(userAgent)) {
+    osName = "MacOS"
+  } else if (/linux/i.test(userAgent)) {
+    osName = "Linux"
+  }
+
+  if (/edg/i.test(userAgent)) {
+    browserName = "Edge"
+  } else if (/chrome/i.test(userAgent) && !/edg/i.test(userAgent)) {
+    browserName = "Chrome"
+  } else if (/safari/i.test(userAgent) && !/chrome/i.test(userAgent)) {
+    browserName = "Safari"
+  } else if (/firefox/i.test(userAgent)) {
+    browserName = "Firefox"
+  } else if (/msie|trident/i.test(userAgent)) {
+    browserName = "Internet Explorer"
+  }
+
+  return { browserName, osName, deviceType }
+}
+
+function getLeadSource(referrer: string, sessionStorage: Storage) {
+  let leadSource = sessionStorage.getItem("Lead_Source") || ""
+
+  if (leadSource) return leadSource
+
+  if (referrer) {
+    if (referrer.includes("google.com")) leadSource = "Google Search"
+    else if (referrer.includes("bing.com")) leadSource = "Bing Search"
+    else if (referrer.includes("yahoo.com")) leadSource = "Yahoo Search"
+    else if (referrer.includes("duckduckgo.com")) leadSource = "DuckDuckGo Search"
+    else if (referrer.includes("baidu.com")) leadSource = "Baidu Search"
+    else if (referrer.includes("yandex.com")) leadSource = "Yandex Search"
+    else leadSource = "Reference"
+  } else {
+    leadSource = "WebSite Visit"
+  }
+
+  sessionStorage.setItem("Lead_Source", leadSource)
+  return leadSource
+}
+
+function getAdParams(searchParams: URLSearchParams, sessionStorage: Storage) {
+  const adParamNames = [
+    "medium", "campaignname", "campaignid", "adgroupid", "creative",
+    "keyword", "matchtype", "device", "gclid", "source"
+  ]
+
+  const adParams: { [key: string]: string | null } = {}
+
+  adParamNames.forEach(param => {
+    const storedValue = sessionStorage.getItem(param)
+    if (storedValue) {
+      adParams[`Ad_${param.charAt(0).toUpperCase() + param.slice(1)}`] = storedValue
+    } else {
+      const paramValue = searchParams.get(param)
+      if (paramValue) {
+        sessionStorage.setItem(param, paramValue)
+        adParams[`Ad_${param.charAt(0).toUpperCase() + param.slice(1)}`] = paramValue
+      } else {
+        adParams[`Ad_${param.charAt(0).toUpperCase() + param.slice(1)}`] = null
+      }
+    }
+  })
+
+  return adParams
+}
+
+async function getIPData() {
+  const cachedData = localStorage.getItem(IP_DATA_KEY)
+  if (cachedData) {
+    const { data, timestamp } = JSON.parse(cachedData)
+    if (Date.now() - timestamp < IP_DATA_EXPIRY) {
+      return data
+    }
+  }
+
+  const ipDataServices = [
+    { url: "https://ipinfo.io/json", handler: handleIpinfoResponse },
+    { url: "https://ipapi.co/json", handler: handleIpapiResponse },
+    { url: "https://api.ipify.org/?format=json", handler: handleIpifyResponse },
+  ]
+
+  for (const service of ipDataServices) {
+    try {
+      const response = await fetch(service.url)
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
+      const data = await response.json()
+      const processedData = await service.handler(data)
+      localStorage.setItem(IP_DATA_KEY, JSON.stringify({ data: processedData, timestamp: Date.now() }))
+      return processedData
+    } catch (error) {
+      // Silent failure, continue to next service
+    }
+  }
+
+  // If all services fail, return default data without logging
+  return getDefaultIPData()
+}
+
+function handleIpinfoResponse(data: any) {
+  return {
+    IP_Address: data.ip,
+    Country: data.country,
+    City: data.city,
+    Web_Region: data.region,
+    Latitude: data.loc ? parseFloat(data.loc.split(',')[0]) : null,
+    Longitude: data.loc ? parseFloat(data.loc.split(',')[1]) : null,
+    Zip_Code: data.postal,
+  }
+}
+
+function handleIpapiResponse(data: any) {
+  return {
+    IP_Address: data.ip,
+    Country: data.country_name,
+    City: data.city,
+    Web_Region: data.region,
+    Latitude: data.latitude,
+    Longitude: data.longitude,
+    Zip_Code: data.postal,
+  }
+}
+
+async function handleIpifyResponse(data: any) {
+  try {
+    const ipwhoResponse = await fetch(`http://ipwho.is/${data.ip}`)
+    if (!ipwhoResponse.ok) throw new Error(`HTTP error! status: ${ipwhoResponse.status}`)
+    const ipwhoData = await ipwhoResponse.json()
+    return {
+      IP_Address: data.ip,
+      Country: ipwhoData.country,
+      City: ipwhoData.city,
+      Web_Region: ipwhoData.region,
+      Latitude: ipwhoData.latitude,
+      Longitude: ipwhoData.longitude,
+      Zip_Code: ipwhoData.postal,
+    }
+  } catch (error) {
+    throw error
+  }
+}
+
+function getDefaultIPData() {
+  return {
+    IP_Address: null,
+    Country: null,
+    City: null,
+    Web_Region: null,
+    Latitude: null,
+    Longitude: null,
+    Zip_Code: null,
+  }
 }
 

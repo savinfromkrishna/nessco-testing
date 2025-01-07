@@ -3,14 +3,14 @@ import React, { useRef } from "react";
 import dynamic from "next/dynamic";
 import Hero from "@/components/Home/Home";
 import { HomeData } from "./types/constant";
-const IOT = dynamic(() => import("./Iot"));
+// const IOT = dynamic(() => import("./Iot"));
 const AboutUs = dynamic(() => import("./AboutSection"));
 const NavLinksDemo = dynamic(() => import("@/components/Home/NavLinks"), {
   ssr: true,
 });
-const FeatureNews = dynamic(() => import("@/components/Home/FeatureNews"), {
-  ssr: true,
-});
+// const FeatureNews = dynamic(() => import("@/components/Home/FeatureNews"), {
+//   ssr: true,
+// });
 const AnnouncementSection = dynamic(
   () => import("@/components/Home/AnnouncementSection")
 );
@@ -24,10 +24,10 @@ const KnowMore = dynamic(() => import("@/components/Home/KnowMore"), {
 const HomeMachine = dynamic(() => import("@/components/Home/HomeMachine"), {
   ssr: true,
 });
-const HomeTestimonial = dynamic(
-  () => import("@/components/Home/TestimonialsSection"),
-  { ssr: true }
-);
+// const HomeTestimonial = dynamic(
+//   () => import("@/components/Home/TestimonialsSection"),
+//   { ssr: true }
+// );
 
 interface MainLayoutProps {
   homeData: HomeData;
@@ -136,7 +136,7 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
           ref={sectionRefs.iotRef}
           className="max-w-screen-2xl mx-auto lg:pt-0 pt-10"
         >
-          <IOT heroData={homeData} />
+          {/* <IOT heroData={homeData} /> */}
         </div>
 
         <div ref={sectionRefs.knowMoreRef} className="h-auto overflow-hidden">
@@ -144,14 +144,14 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
         </div>
 
         <div ref={sectionRefs.newsFeatureRef}>
-          <FeatureNews heroData={homeData} />
+          {/* <FeatureNews heroData={homeData} /> */}
         </div>
 
         <div
           ref={sectionRefs.homeTestimonialRef}
           className="relative bg-gradient-to-l via-purple-200 to-transparent h-screen overflow-hidden mb-10"
         >
-          <HomeTestimonial heroData={homeData} />
+          {/* <HomeTestimonial heroData={homeData} /> */}
         </div>
       </div>
     </main>

@@ -1,4 +1,10 @@
 import createNextIntlPlugin from "next-intl/plugin";
+import withBundleAnalyzer from "@next/bundle-analyzer";
+
+// Configure the bundle analyzer
+const bundleAnalyzer = withBundleAnalyzer({
+  enabled: process.env.ANALYZE === "true", // Enable only when ANALYZE is set to "true"
+});
 
 // Create the Next.js Intl plugin
 const withNextIntl = createNextIntlPlugin();
@@ -20,8 +26,8 @@ const nextConfig = {
         hostname: "www.youtube.com",
       },
       {
-        protocol: "https",
-        hostname: "img.youtube.com",
+        protocol:"https",
+        hostname:"img.youtube.com"
       },
       {
         protocol: "https",
@@ -48,30 +54,25 @@ const nextConfig = {
         hostname: "example.com",
       },
       {
+        protocol:"https",
+        hostname:"flagcdn.com",
+      },
+      {
         protocol: "https",
-        hostname: "flagcdn.com",
+        hostname: "www.*", // Allows all 'www.' subdomains under 'https://'
       },
     ],
   },
-  swcMinify: true, // Enables faster builds and smaller bundles
-  reactStrictMode: false,
-
-  // Add redirects for non-www to www
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'nesscoglobal.com', // Replace with your non-www domain
-          },
-        ],
-        destination: 'https://www.global.com/*', // Replace with your www domain
-        permanent: true, // HTTP 301 Permanent Redirect
-      },
-    ];
-  },
+  swcMinify: true,
+  // Add experimental features if needed
+  // experimental: {
+  //   optimizePackageImports: [
+  //     '@mantine/core',     // Add Mantine components
+  //     '@mantine/hooks',    // Add Mantine hooks
+  //     'lodash',            // Add Lodash for tree shaking
+  //   ],
+  // },
 };
 
-export default withNextIntl(nextConfig);
+// Export the configuration with both plugins applied
+export default bundleAnalyzer(withNextIntl(nextConfig));

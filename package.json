@@ -6,7 +6,8 @@
     "dev": "next dev -p 8890",
     "build": "next build",
     "start": "next dev -p 8890",
-    "start:prod": "next start"
+    "start:prod": "next start",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "type": "module",
   "dependencies": {

@@ -89,7 +89,7 @@ export default function Footer({ footerData, language }: FooterProps) {
 
   return (
     <footer
-      className={`relative px-4 md:px-6 lg:px-4 overflow-hidden ${textColor} ${bgColor}`}
+      className={`relative px-4 md:px-6 lg:px-4 md:mt-8 overflow-hidden ${textColor} ${bgColor}`}
     >
       {/* Background color */}
       <div className={`absolute inset-0 ${bgColor} -z-50`}></div>
@@ -163,11 +163,11 @@ export default function Footer({ footerData, language }: FooterProps) {
               </div>
               <div className="flex space-x-3 mt-4">
                 {[
-                  { icon: Facebook, href: "facebook" },
-                  { icon: Twitter, href: "twitter" },
-                  { icon: Youtube, href: "youtube" },
-                  { icon: Instagram, href: "instagram" },
-                  { icon: Linkedin, href: "linkedin" },
+                  { icon: Facebook, href: "https://www.facebook.com/NesscoPaperCupMachine" },
+                  { icon: Twitter, href: "https://x.com/NesscoIndia" },
+                  { icon: Youtube, href: "https://www.youtube.com/c/NesscoPaperCupMachine" },
+                  { icon: Instagram, href: "https://www.instagram.com/nesscoindia/" },
+                  { icon: Linkedin, href: "https://www.linkedin.com/company/nesscoindia/" },
                 ].map((social, index) => (
                   <Link
                     key={index}
@@ -204,11 +204,12 @@ export default function Footer({ footerData, language }: FooterProps) {
                   </li>
                 </ul>
               </div>
+
               <div>
-                <h3 className="font-semibold text-base mb-2">
+                <h3 className="font-semibold mb-2 bg-red-200 font-poppins text-sm md:text-xl">
                   {footerData.storeTitle}
                 </h3>
-                <ul className="space-y-1">
+                <ul className="space-y-1 bg-red-200 ">
                   {footerData.stores.map((store: any, index: number) => (
                     <li key={index}>
                       <Link
@@ -221,8 +222,9 @@ export default function Footer({ footerData, language }: FooterProps) {
                   ))}
                 </ul>
               </div>
+
               <div>
-                <h3 className="font-semibold text-base mb-2">
+                <h3 className="font-semibold text-base mb-2 text-red-200">
                   {footerData.languageTitle}
                 </h3>
                 <CountryLayout />
@@ -403,7 +405,7 @@ export default function Footer({ footerData, language }: FooterProps) {
           </div>
 
           <div>
-            <h3 className="font-semibold text-base mb-2">
+            <h3 className="font-semibold text-base mb-2 ">
               {footerData.serviceTitle}
             </h3>
             <ul className="space-y-1">
