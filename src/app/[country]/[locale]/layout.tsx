@@ -13,7 +13,7 @@ import { EnquiryCartProvider } from "./context/EnquiryContext";
 import heroData from "@/dictionary/hero.json";
 import { CountryCode, countryNames } from '@/components/constants/Navbar/config';
 
-// const FooterLayout = dynamic(() => import("@/components/Footer/FooterLayout"));
+const FooterLayout = dynamic(() => import("@/components/Footer/FooterLayout"));
 
 const inter = Inter({
   subsets: ["latin"],
@@ -125,7 +125,7 @@ export default async function RootLayout({
             <ContactIcons />
             {children}
             <div>
-              {/* <FooterLayout params={{ locale }} /> */}
+              <FooterLayout params={{ locale }} />
             </div>
           </EnquiryCartProvider>
         </FormProvider>
