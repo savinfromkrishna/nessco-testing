@@ -13,8 +13,8 @@ const CountryLayout = dynamic(() => import("./NavLayouts/CountryLayout"), {
 import AboutLayout from "@/components/Navbar/NavLayouts/AboutLayout";
 import ApplicationLayout from "@/components/Navbar/NavLayouts/ApplicationLayout";
 import ProductLayout from "@/components/Navbar/NavLayouts/ProductLayout";
-// import ResourceGrid from "@/components/Navbar/NavLayouts/ResourceLayout";
-// import SupportGrid from "@/components/Navbar/NavLayouts/SupportLayout";
+import ResourceGrid from "@/components/Navbar/NavLayouts/ResourceLayout";
+import SupportGrid from "@/components/Navbar/NavLayouts/SupportLayout";
 import VideoGrid from "@/components/Navbar/NavLayouts/VideoLayout";
 import { NavbarData } from "./types/constant";
 import PlusSvg from "../ui/PlusSvg";
@@ -96,13 +96,13 @@ function Navbar({ className, navData }: NavbarProps) {
     {
       name: `${navData?.navbar[3]?.category}`,
       link: "support",
-      // component: <SupportGrid navData={navData} />,
+      component: <SupportGrid navData={navData} />,
       hasComponent: true,
     },
     {
       name: `${navData?.navbar[4]?.category}`,
       link: "resources",
-      // component: <ResourceGrid navData={navData} />,
+      component: <ResourceGrid navData={navData} />,
       hasComponent: true,
     },
     {
