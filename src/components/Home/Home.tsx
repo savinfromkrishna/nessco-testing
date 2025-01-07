@@ -14,6 +14,7 @@ interface HeroLayoutProps {
 }
 
 const Home: React.FC<HeroLayoutProps> = ({ heroData }) => {
+  
   return (
     <>
       <div className="relative max-w-screen-2xl mx-auto h-full w-full flex flex-col items-center overflow-hidden">

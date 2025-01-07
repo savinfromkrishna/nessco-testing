@@ -9,6 +9,7 @@ import IOT from "./Iot";
 import KnowMore from "@/components/Home/KnowMore";
 import FeatureNews from "@/components/Home/FeatureNews";
 import HomeTestimonial from "@/components/Home/TestimonialsSection";
+import NavLinksClient from "./NavLinksClient";
 interface MainLayoutProps {
   homeData: HomeData;
 }
@@ -23,7 +24,10 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
     "FeatureNews",
     "HomeTestimonial",
   ];
-
+  const navItems = componentOrder.map((componentName, index) => ({
+    text: homeData?.home[0]?.navItems[index]?.text,
+    ref: { current: null },
+  }));
   const renderComponent = (componentName: string) => {
     const props = { heroData: homeData };
     switch (componentName) {
@@ -53,6 +57,7 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
       <div className="top-2 relative">
         <Hero heroData={homeData} />
       </div>
+      <NavLinksClient navItems={navItems} />
       <div className="h-full font-poppins">
         {componentOrder.map((componentName) => (
           <div
