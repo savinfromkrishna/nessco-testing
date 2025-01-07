@@ -2,15 +2,15 @@ import React, { useRef, useState } from "react";
 import { NavbarData } from "../types/constant";
 import { countryCODE, languageCODE } from "../nav-menue";
 import Link from "next/link";
-import LottieAnimation from "@/components/ui/LottieAnimation";
-import Support from "../../../../public/assets/NavbarLottie/Support.json";
-import Maintenance from "../../../../public/assets/SupportNavbar/Maintenance.json";
-import UserGuide from "../../../../public/assets/SupportNavbar/help V2.json";
-import Services from "../../../../public/assets/SupportNavbar/Service.json";
-import GenuineParts from "../../../../public/assets/SupportNavbar/Shipping.json";
+// import LottieAnimation from "@/components/ui/LottieAnimation";
+// import Support from "../../../../public/assets/NavbarLottie/Support.json";
+// import Maintenance from "../../../../public/assets/SupportNavbar/Maintenance.json";
+// import UserGuide from "../../../../public/assets/SupportNavbar/help V2.json";
+// import Services from "../../../../public/assets/SupportNavbar/Service.json";
+// import GenuineParts from "../../../../public/assets/SupportNavbar/Shipping.json";
 import BlurImage from "@/components/ui/BlurImage";
 
-const image = [Services, GenuineParts, UserGuide, Maintenance];
+// const image = [Services, GenuineParts, UserGuide, Maintenance];
 
 type SupportItem = {
   title: string;
@@ -103,10 +103,10 @@ const SupportGrid: React.FC<SupportGridProps> = ({ navData, setActive }) => {
               href={`/${countryCODE}/${languageCODE}/support/${item.link}`}
             >
               <div className="flex-shrink-0 w-56 h-32 rounded-3xl p-4 flex flex-col justify-center items-center bg-cover bg-center bg-[#bbabf949]">
-                <LottieAnimation
+                {/* <LottieAnimation
                   className="h-24 w-24"
                   animationData={image[index % image.length]}
-                ></LottieAnimation>
+                ></LottieAnimation> */}
               </div>
               <p className="relative font-poppins text-center mt-4 invert-0 font-normal hover:text-[#483d78] hover:font-semibold text-base">
                 {item?.title}
@@ -130,10 +130,10 @@ const SupportGrid: React.FC<SupportGridProps> = ({ navData, setActive }) => {
           href={`/${countryCODE}/${languageCODE}/support`}
           onClick={() => setActive(null)}
         >
-          <LottieAnimation
+          {/* <LottieAnimation
             className="h-12"
             animationData={Support}
-          ></LottieAnimation>
+          ></LottieAnimation> */}
           <span className="text-xl">Support</span>
         </Link>
         <div className="w-full" ref={carouselRef} onScroll={checkScrollability}>
@@ -148,10 +148,10 @@ const SupportGrid: React.FC<SupportGridProps> = ({ navData, setActive }) => {
                     className="relative flex items-center border-b p-1"
                   >
                     <div className="flex justify-center items-center">
-                      <LottieAnimation
+                      {/* <LottieAnimation
                         className="h-12"
                         animationData={image[itemIndex % image.length]}
-                      ></LottieAnimation>
+                      ></LottieAnimation> */}
                     </div>
                     <p className="font-poppins text-center text-lg font-regular pl-2 text-black">
                       {item?.title}
