@@ -1,5 +1,4 @@
 import { fetchProducts } from '@/hooks/fetchProduct'
-import Link from 'next/link'
 
 export default async function Home() {
   const products = await fetchProducts()
