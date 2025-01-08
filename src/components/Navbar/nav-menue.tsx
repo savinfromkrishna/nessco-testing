@@ -112,7 +112,7 @@ const MenuItem = ({
           <motion.div
             transition={{ duration: 0.3 }}
             layoutId="active"
-            className="bg-white text-black h-screen inset-0 bg-white/40 backdrop-blur-md z-10 overflow-hidden"
+            // className="bg-white text-black h-screen inset-0 bg-white/40 backdrop-blur-md z-10 overflow-hidden"
           >
             <motion.div
               layout

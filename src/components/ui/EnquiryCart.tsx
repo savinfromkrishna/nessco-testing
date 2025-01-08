@@ -35,6 +35,7 @@ export default function EnquiryComponent({
 
   useEffect(() => {
     const savedItems = localStorage.getItem("cartItems");
+    console.log("Saved Items from localStorage:", savedItems);
     if (savedItems) {
       try {
         const parsedItems = JSON.parse(savedItems);

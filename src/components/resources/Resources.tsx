@@ -60,9 +60,9 @@ const Resources: React.FC<AboutLayoutProps> = ({ resourceData }) => {
           {homecardData.map((card, index) => (
             <LinkUrl href={`/${card.link}`} key={index}>
               <div className=" lg:h-[20rem] h-[20rem]  items-center py-10 rounded-xl flex flex-col relative  shadow-lg hover:shadow-2xl hover:scale-80  transform transition-transform duration-300 group bg-gradient-to-t from-[#f2f2f2] to-white ">
-                <h1 className="font-poppins font-semibold text-3xl  relative text-center text-[#636363] group-hover:text-red-700">
+                <h2 className="font-poppins font-semibold text-3xl  relative text-center text-[#636363] group-hover:text-red-700">
                   {card.title}
-                </h1>
+                </h2>
                 <BlurImage
                   src={card.image.src}
                   alt={card.image.alt}

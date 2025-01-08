@@ -149,8 +149,8 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({
               alt={machine.name}
               className="object-contain lg:hover:scale-80 transform transition-transform duration-300 rounded-3xl relative z-10 h-[14rem] -mt-10"
               width={200}
+              priority
               height={150}
-              loading="lazy"
             />
           </div>
           <h3
@@ -196,7 +196,7 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({
               alt={link?.name}
               width={24}
               height={24}
-              loading="lazy"
+              priority
             />
           </div>
           <p className="w-60">{link?.name}</p>
@@ -335,6 +335,7 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({
                 className="h-6 w-auto sm:h-16 md:hover:scale-90 transition-all duration-300"
                 width={100}
                 height={100}
+                priority
                 alt={"application link"}
               />
               <span className="pl-1 text-xl">Products</span>
@@ -356,7 +357,7 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({
                       alt={link?.name}
                       width={24}
                       height={24}
-                      loading="lazy"
+                      priority
                     />
                     <span> {link?.name}</span>
                   </div>
@@ -434,7 +435,7 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({
                                   className="object-contain h-full w-full"
                                   width={200}
                                   height={150}
-                                  loading="lazy"
+                                  priority
                                 />
                               </div>
                               <h4 className="text-sm font-bold mt-2 text-center">

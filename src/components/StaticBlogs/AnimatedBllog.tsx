@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Clock, Calendar, Facebook, Twitter, Linkedin } from "lucide-react";
+import { Facebook, Twitter, Linkedin } from "lucide-react";
 import { blogPosts } from "./data/data";
 import { ContentBlock, ListContent, SectionContent } from "./types/blogs";
 import ImageBlock from "@/components/StaticBlogs/ImageBlock";
@@ -268,7 +268,7 @@ const BlogGeneric: React.FC<BlogGenericProps> = ({ id }) => {
 
           {/* Right Column - Main Content */}
           <div className="md:w-3/4">
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.5, ease: "easeOut" }}
@@ -296,7 +296,7 @@ const BlogGeneric: React.FC<BlogGenericProps> = ({ id }) => {
                   </div>
                 </div>
               </div>
-            </motion.div>
+            </motion.div> */}
 
             {/* <motion.div
               initial={{ opacity: 0, y: 20 }}

@@ -27,12 +27,12 @@ const LandingPage: React.FC<AboutLayoutProps> = ({ pinkcityData }) => {
 
       {/* Title */}
       <div className="w-full absolute top-[15rem] justify-center text-center right-0 lg:relative lg:-top-16 lg:w-0  lg:-mt-52 lg:left-12">
-        <h2
+        <h1
           className="   font-regular text-white text-8xl lg:text-9xl "
           style={{ fontFamily: "Georgia, serif" }}
         >
           {homepinkcity?.jaipur}
-        </h2>
+        </h1>
       </div>
 
       {/* Content Section */}

@@ -181,12 +181,12 @@ const Page2: React.FC<MainLayoutProps> = ({ sustainData }) => {
           <div className="relative flex items-center justify-center lg:h-[31rem] lg:w-[33rem] w-[22rem] md:w-[40rem] md:h-[20rem]">
             {/* Heading overlay */}
             <div className="absolute top-16 left-0 w-full h-full md:w-[40rem]  flex flex-col items-center justify-center text-center lg:text-left z-10 lg:invisible visible">
-              <h1 className="lg:text-[3.2rem] text-4xl font-poppins font-medium text-white ">
+              <h2 className="lg:text-[3.2rem] text-4xl font-poppins font-medium text-white ">
                 {data?.title1}
-              </h1>
-              <h1 className="lg:text-[3.2rem] text-2xl font-poppins text-white font-medium ">
+              </h2>
+              <h2 className="lg:text-[3.2rem] text-2xl font-poppins text-white font-medium ">
                 {data?.title2}
-              </h1>
+              </h2>
             </div>
 
             {/* Video background */}
@@ -221,12 +221,12 @@ const Page2: React.FC<MainLayoutProps> = ({ sustainData }) => {
               ref={rightFootRef}
             />
             <div className=" lg:block hidden text-center lg:text-left">
-              <h1 className="lg:text-[3.2rem] text-4xl font-poppins font-medium lg:mb-3">
+              <h2 className="lg:text-[3.2rem] text-4xl font-poppins font-medium lg:mb-3">
                 {data?.title1}
-              </h1>
-              <h1 className="lg:text-[3.2rem] text-2xl font-poppins text-[#95C43C] font-medium">
+              </h2>
+              <h2 className="lg:text-[3.2rem] text-2xl font-poppins text-[#95C43C] font-medium">
                 {data?.title2}
-              </h1>
+              </h2>
             </div>
             <div className=" w-full lg:h-[20rem] bg-[#0D340F] lg:rounded-[40px] rounded-2xl lg:mt-24 mt-16 relative ">
               <p className="text-center text-white lg:text-[1.07rem] text-sm p-8 font-[200] md:text-xl">

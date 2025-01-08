@@ -103,12 +103,12 @@ const Page1: React.FC<MainLayoutProps> = ({ sustainData }) => {
       />
       <div className="lg:w-full w-[70rem] lg:h-[80vh] h-[24rem] lg:mx-20 md:h-[60rem] mx-5 bg-white lg:rounded-[40px] rounded-2xl relative overflow-hidden mt-12">
         <div className="flex flex-col items-center justify-center h-full relative z-[5]">
-          <h2 className="lg:text-[6.3rem] text-4xl lg:mt-0 md:text-4xl -mt-[5rem] font-black text-[#0C350F] font-poppins text-center">
+          <h1 className="lg:text-[6.3rem] text-4xl lg:mt-0 md:text-4xl -mt-[5rem] font-black text-[#0C350F] font-poppins text-center">
             {data?.title}
-          </h2>
-          <h2 className="relative lg:right-[12rem] lg:-bottom-10 text-xl font-poppins font-thin">
+          </h1>
+          <p className="relative lg:right-[12rem] lg:-bottom-10 text-xl font-poppins font-thin">
             {data?.description}
-          </h2>
+          </p>
         </div>
         <Image
           src={data?.grass}

@@ -1,13 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { NavbarData } from "../types/constant";
-import dynamic from 'next/dynamic'
 import { countryCODE, languageCODE } from "../nav-menue";
-
-const LottieAnimation = dynamic(
-  () => import("@/components/ui/LottieAnimation")
-);
-
+import LottieAnimation from "@/components/ui/LottieAnimation";
 import Server from "../../../../public/assets/NavbarLottie/Server.json";
 import Blogs from "../../../../public/assets/ResourcesNavbar/Blog.json";
 import Faq from "../../../../public/assets/ResourcesNavbar/faq.json";

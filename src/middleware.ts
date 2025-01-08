@@ -383,5 +383,7 @@ export async function middleware(req) {
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|robots.txt).*)"],
+  matcher: [
+    "/((?!_next/static|_next/image|favicon.ico|google059bd1b2c050b28b.html|api).*)",
+  ],
 };

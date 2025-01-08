@@ -94,7 +94,7 @@ const FAQ: React.FC<MainLayoutProps> = ({ faqData }) => {
           <div className="p-6 space-y-6">
             <div className="space-y-4">
               <div className="flex items-center justify-between">
-                <h2 className="text-lg font-medium text-gray-900">Categories</h2>
+                <h3 className="text-lg font-medium text-gray-900">Categories</h3>
                 <svg
                   width="24"
                   height="24"
@@ -175,12 +175,12 @@ const FAQ: React.FC<MainLayoutProps> = ({ faqData }) => {
                 >
                   <CardHeader>
                     <CardTitle>
-                      <h1 className="text-2xl text-gray-600">
+                      <h2 className="text-2xl text-gray-600">
                         Questions Related to{" "}
                         <span className="text-red-700 font-bold">
                           {category?.name}
                         </span>
-                      </h1>
+                      </h2>
                       <div className="lg:border-t-[0.2rem] border-t-2 border-solid border-red-700 lg:w-[8vw] w-[18vw] mt-[0.6rem]"></div>
                     </CardTitle>
                   </CardHeader>

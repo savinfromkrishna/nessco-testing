@@ -115,9 +115,9 @@ const Page3: React.FC<Page3Props> = ({ applicationData, selectedProduct }) => {
             className="w-full lg:h-[10rem] h-full lg:space-x-3 flex lg:flex-row flex-col-reverse"
           >
             <div className="lg:w-[80%] w-full h-full bg-white lg:rounded-[0.5rem] rounded-b-[0.5rem] p-[0.5rem] lg:p-[1rem]">
-              <h2 className="text-[#483d73] font-medium lg:text-[1.6rem] text-[1rem]">
+              <h3 className="text-[#483d73] font-medium lg:text-[1.6rem] text-[1rem]">
                 {item.title}
-              </h2>
+              </h3>
               <div className="h-max w-full lg:pl-[2rem] lg:mt-[0.5rem] mt-[0.2rem]">
                 <p className="lg:text-[1rem] text-sm w-[98%]">
                   {item.description}

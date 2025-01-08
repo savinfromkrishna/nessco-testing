@@ -24,9 +24,9 @@ const Section: React.FC<SectionProps> = ({
       <LinkUrl href={`/knowledge-center/${link}`}>
         <div className="group flex lg:flex-row flex-col lg:p-8 p-6 mb-6 bg-black text-white rounded-[0.8rem] shadow-md font-poppins">
           <div className="lg:w-[80%] space-y-3">
-            <h2 className="lg:text-3xl text-2xl font-medium">
+            <h3 className="lg:text-3xl text-2xl font-medium">
               {number}. {title}
-            </h2>
+            </h3>
             <div className="border-t-2 w-[45%] ml-7"></div>
             <p className="text-md lg:text-left text-justify font-regular lg:ml-7">
               {description}

@@ -64,6 +64,7 @@ export default function ApplicationLayout({
                   className="h-6 w-auto sm:h-16 md:hover:scale-90 transition-all duration-300"
                   width={100}
                   height={100}
+                  priority
                   alt={"application link"}
                 />
               </div>
@@ -84,6 +85,7 @@ export default function ApplicationLayout({
                     className="h-6 w-auto sm:h-16 md:hover:scale-90 transition-all duration-300"
                     width={100}
                     height={100}
+                    priority
                     src={componentList[index]}
                     alt={product.name}
                   />
@@ -140,6 +142,7 @@ export default function ApplicationLayout({
               }
               alt=""
               className="h-full w-full"
+              priority
               layout="fill"
               objectFit="contain"
             />

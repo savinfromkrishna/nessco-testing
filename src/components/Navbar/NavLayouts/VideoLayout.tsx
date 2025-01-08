@@ -65,6 +65,7 @@ const VideoGrid: React.FC<VideoLayoutGridProps> = ({ navData }) => {
               src={item?.bgPic}
               alt={item?.title}
               fill
+              priority
               className="absolute inset-0 h-full w-full rounded-xl opacity-80"
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 rounded-xl"></div>
@@ -130,6 +131,7 @@ const VideoGrid: React.FC<VideoLayoutGridProps> = ({ navData }) => {
                         src={item?.bgPic}
                         alt={item?.title}
                         fill
+                        priority
                         className="absolute inset-0 h-full w-full rounded-xl opacity-80"
                       />
                       <div className="absolute inset-0 bg-black bg-opacity-40 rounded-xl"></div>
@@ -194,6 +196,7 @@ const VideoGrid: React.FC<VideoLayoutGridProps> = ({ navData }) => {
                 className="h-6 w-auto sm:h-16 md:hover:scale-90 transition-all duration-300"
                 width={100}
                 height={100}
+                priority
                 alt={"application link"}
               />
             </div>

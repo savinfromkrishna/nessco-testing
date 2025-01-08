@@ -15,9 +15,9 @@ const SubSection: React.FC<KnowledgeCenterProps> = ({
   return (
     <div className="h-full w-full">
       <LampContainer>
-        <motion.h1 className="lg:mt-8 py-4 text-white text-center text-2xl font-semibold tracking-tight md:text-5xl font-poppins">
+        <motion.h2 className="lg:mt-8 py-4 text-white text-center text-2xl font-semibold tracking-tight md:text-5xl font-poppins">
           {SubSection?.title}
-        </motion.h1>
+        </motion.h2>
         <p className="text-[1rem] font-normal text-center lg:w-2/3 text-white font-poppins">
           {SubSection?.description}
         </p>

@@ -85,6 +85,7 @@ const AboutLayout: React.FC<AboutDataProps> = ({ navData, setActive }) => {
                 className="h-6 w-auto sm:h-16 md:hover:scale-90 transition-all duration-300"
                 width={100}
                 height={100}
+                priority
                 alt={"application link"}
               />
             </div>
@@ -107,10 +108,10 @@ const AboutLayout: React.FC<AboutDataProps> = ({ navData, setActive }) => {
                 <BlurImage
                   src={item?.image || "/path/to/fallback-image.jpg"}
                   alt={item?.alt || "Fallback alt text"}
+                  priority
                   className="rounded-xl cursor-pointer h-10 w-10 lg:w-56 lg:h-56 object-cover transform lg:hover:scale-80 transition-transform duration-200"
                   width={224}
                   height={224}
-                  loading="lazy"
                 />
                 <p className="pt-2 flex items-center justify-center text-xl  text-center font-poppins invert-0 lg:hover:text-[#483d78] lg:hover:font-bold font-normal md:text-base transform lg:hover:scale-80 transition-transform duration-300">
                   <span>{item?.title}</span>
@@ -122,8 +123,8 @@ const AboutLayout: React.FC<AboutDataProps> = ({ navData, setActive }) => {
                   alt={item?.alt || "Fallback alt text"}
                   className="invert cursor-pointer h-6 w-6 lg:w-56 lg:h-56 object-cover transform lg:hover:scale-80 transition-transform duration-200"
                   width={224}
+                  priority
                   height={224}
-                  loading="lazy"
                 />
                 <p className=" flex items-center justify-center text-lg text-center font-poppins invert-0  font-normal text-black">
                   <span>{item?.title}</span>

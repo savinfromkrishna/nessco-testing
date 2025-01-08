@@ -125,10 +125,10 @@ const FeatureProjectPage: React.FC<HomeLayoutProps> = ({ aboutData }) => {
   return (
     <div className="h-full relative overflow-hidden font-poppins bg-[#f2f2f2]">
       <div className="relative flex flex-col w-full bg-white overflow-hidden">
-        <h3 className="lg:text-5xl mt-16 text-3xl bg-gradient-to-r from-[#483d73] from-2% via-red-700 via-20% to-red-700 text-transparent bg-clip-text h-[7rem] font-semibold lg:ml-[2rem] ml-4">
+        <h1 className="lg:text-[2.8rem] mt-16 text-3xl bg-gradient-to-r from-[#483d73] from-2% via-red-700 via-20% to-red-700 text-transparent bg-clip-text h-[7rem] font-semibold lg:ml-[2rem] ml-4">
           <span className="block">{homeaboutData?.featuredpage}</span>
           <span>{homeaboutData?.featuredpagehighlight}</span>
-        </h3>
+        </h1>
 
         {isMobile ? (
           <div className="flex flex-col items-center w-full relative">
@@ -145,9 +145,9 @@ const FeatureProjectPage: React.FC<HomeLayoutProps> = ({ aboutData }) => {
               </div>
               <div className="flex flex-col w-3/5 p-2">
                 <div className="relative pl-2">
-                  <h4 className="text-xl font-bold relative text-black italic font-poppins">
+                  <h2 className="text-xl font-bold relative text-black italic font-poppins">
                     {selectedMachine?.title}
-                  </h4>
+                  </h2>
                 </div>
                 <div className="px-2">
                   <p className="text-xs text-gray-500 mt-2 text-left font-poppins">
@@ -250,7 +250,7 @@ const FeatureProjectPage: React.FC<HomeLayoutProps> = ({ aboutData }) => {
         className="text-center mt-16 mb-12 px-6 font-poppins"
         ref={carouselRef}
       >
-        <p className="text-2xl lg:text-3xl font-medium">
+        <h2 className="text-2xl lg:text-3xl font-medium">
           <span className="block mb-3">{homeaboutData?.banner1}</span>
           <span
             ref={gradientRef}
@@ -258,7 +258,7 @@ const FeatureProjectPage: React.FC<HomeLayoutProps> = ({ aboutData }) => {
           >
             {homeaboutData?.banner2}
           </span>
-        </p>
+        </h2>
       </div>
 
       {isModalOpen && selectedGrid && (
@@ -346,9 +346,9 @@ const FeatureProjectPage: React.FC<HomeLayoutProps> = ({ aboutData }) => {
               className="w-full h-44 object-cover rounded-[0.8rem]"
             />
 
-            <h4 className="mt-2 text-sm font-medium text-gray-800 lg:w-[15rem] ml-2 md:w-[16rem]">
+            <h3 className="mt-2 text-sm font-medium text-gray-800 lg:w-[15rem] ml-2 md:w-[16rem]">
               {item?.title}
-            </h4>
+            </h3>
             <div className="flex-col flex space-y-4 p-2 relative -ml-7">
               <p className="text-gray-600 text-xs font-poppins font-regular mt-3 px-7 h-[5rem]">
                 {truncateText(item?.description, 20)}

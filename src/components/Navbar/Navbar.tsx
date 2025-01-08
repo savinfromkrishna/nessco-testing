@@ -3,13 +3,10 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { countryCODE, languageCODE, Menu } from "./nav-menue";
-import dynamic from 'next/dynamic'
-const MenuItem = dynamic(() => import("./nav-menue"));
-const ContactForm = dynamic(() => import("../Contact/Contact"));
-const SVGComponent = dynamic(() => import("./BlueLogo"));
-const CountryLayout = dynamic(() => import("./NavLayouts/CountryLayout"), {
-  ssr: false,
-});
+import ContactForm from "../Contact/Contact";
+import MenuItem from "./nav-menue";
+import SVGComponent from "./BlueLogo";
+import CountryLayout from "@/components/Navbar/NavLayouts/CountryLayout";
 import AboutLayout from "@/components/Navbar/NavLayouts/AboutLayout";
 import ApplicationLayout from "@/components/Navbar/NavLayouts/ApplicationLayout";
 import ProductLayout from "@/components/Navbar/NavLayouts/ProductLayout";
@@ -215,6 +212,10 @@ function Navbar({ className, navData }: NavbarProps) {
                       <Link
                         href={`/${countryCODE}/${languageCODE}/contact`}
                         className="flex w-full items-center justify-between"
+                        onClick={() => {
+                          setIsOpen(false); // Close the navbar on redirect
+                          setExpandedItem(null); // Reset expanded items
+                        }}
                       >
                         <span>{item?.name}</span>
                         <div className="inline-block h-5 w-5 mr-2">
@@ -305,6 +306,7 @@ function Navbar({ className, navData }: NavbarProps) {
                   alt="Phone"
                   width={400}
                   height={400}
+                  priority
                   className="rounded-xl h-6 w-6 absolute top-[4.2rem]"
                 />
                 <div className="flex items-center border-b-2 h-20 flex-row pt-6">
@@ -347,6 +349,7 @@ function Navbar({ className, navData }: NavbarProps) {
                   alt="email"
                   width={400}
                   height={400}
+                  priority
                   className="rounded-xl h-6 w-6 mr-2"
                 />
                 <a href="mailto:info@nesscoindia.com" className="text-inherit">

@@ -77,7 +77,6 @@ export async function generateMetadata({
     return {
       title: "Default Title",
       description: "Default Description",
-      keywords: "default, keywords",
       openGraph: {
         title: "Default OG Title",
         description: "Default OG Description",

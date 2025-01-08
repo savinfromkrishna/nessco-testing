@@ -155,7 +155,7 @@ export default async function ContactPage({ params: { locale } }: Props) {
   }
 
   return (
-    <div className="bg-[#f2f2f2] px-12 pt-20">
+    <div className="bg-[#f2f2f2] lg:px-12 px-4 pt-20">
       <Contact contactData={contactData} />
       <Branches contactData={contactData} />
       <Reach contactData={contactData} />

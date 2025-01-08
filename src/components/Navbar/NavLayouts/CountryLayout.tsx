@@ -106,6 +106,7 @@ export default function LocaleSwitcher({
               height={100}
               src={`https://flagcdn.com/${countryCode}.svg`}
               alt={`${countryCode} flag`}
+              priority
               className="h-full w-full object-cover"
             />
           </div>

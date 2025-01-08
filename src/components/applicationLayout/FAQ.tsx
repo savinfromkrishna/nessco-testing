@@ -132,9 +132,9 @@ const Page5: React.FC<Page5Props> = ({
         className="border-t-[0.1rem] border-solid border-[#6f6f6f] w-[10%] lg:mx-[2rem] mx-[1rem]"
       ></div>
       <div className="flex lg:pt-[3rem] pt-[1.5rem] lg:pb-[2rem] pb-[1.6rem] lg:px-[2rem] px-[1rem]">
-        <h1 className="font-poppins font-semibold lg:text-[2.2rem] text-[1.4rem]">
+        <h2 className="font-poppins font-semibold lg:text-[2.2rem] text-[1.4rem]">
           <span className="text-red-700">{faqTitle.trim().match(/\S+$/)}</span>
-        </h1>
+        </h2>
       </div>
       <div
         className="w-full flex justify-center items-center lg:px-[3rem] px-[1.5rem]"
@@ -142,10 +142,10 @@ const Page5: React.FC<Page5Props> = ({
       >
         <div className="lg:w-[72%] w-full bg-white lg:mx-[1.5rem] lg:py-[2.5rem] py-[1rem] lg:px-[2rem] px-[1rem] rounded-[0.5rem]">
           <div>
-            <h2 className="font-semibold lg:text-[1.5rem] text-[1.2rem]">
+            <h3 className="font-semibold lg:text-[1.5rem] text-[1.2rem]">
               <span className="text-[#483d73]">{faqSubTitle}</span>
               <span className="text-red-700 ml-2">{categoryName}</span>
-            </h2>
+            </h3>
             <div className="border-t-2 border-solid border-red-700 lg:w-[5.5rem] w-[4rem] mt-[0.6rem]"></div>
           </div>
           <div className="h-[15.5rem] w-full mt-[1rem] overflow-hidden">
@@ -156,9 +156,9 @@ const Page5: React.FC<Page5Props> = ({
                     className="flex justify-between items-center cursor-pointer"
                     onClick={() => toggleExpansion(idx)}
                   >
-                    <h2 className="lg:text-[1.1rem] w-[70%] text-[0.9rem] font-medium font-poppins">
+                    <h4 className="lg:text-[1.1rem] w-[70%] text-[0.9rem] font-medium font-poppins">
                       {item.que}
-                    </h2>
+                    </h4>
                     {expandedIndex === idx ? (
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

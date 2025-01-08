@@ -161,8 +161,8 @@ const Card = ({ card, activeStep }: { card: Card; activeStep: string }) => {
           </div>
         </button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[78rem] bg-white h-[90vh] lg:h-auto rounded-3xl w-full p-2 z-[99999]">
-        <ScrollArea className="h-[80vh] md:h-auto">
+      <DialogContent className="sm:max-w-[78rem] bg-white h-[80vh] lg:h-auto rounded-3xl w-full p-2 z-[99999]">
+        <ScrollArea className="h-[78vh] md:h-auto overflow-y-scroll scrollbar">
           <div className=" dark:bg-neutral-800 p-4 md:p-8 font-poppins font-regular  relative">
             <DialogClose className="absolute right-4 top-4"></DialogClose>
             <div className="lg:block hidden">
@@ -183,7 +183,7 @@ const Card = ({ card, activeStep }: { card: Card; activeStep: string }) => {
                     alt={card?.title}
                     width={600}
                     height={400}
-                    className="rounded-2xl object-contain w-full h-auto md:h-[25rem] -mt-6 hover:scale-80 transition-all duration-300"
+                    className="rounded-2xl object-contain w-auto h-[15rem] md:h-[25rem] -mt-6 hover:scale-80 transition-all duration-300"
                   />
                 </Link>
                 <div
@@ -207,12 +207,12 @@ const Card = ({ card, activeStep }: { card: Card; activeStep: string }) => {
                   <div className="flex items-center justify-center ml-2 absolute top-0 left-12">
                     <div className="relative h-10 w-10 lg:h-14 lg:w-14 border-2 border-[#483d78] rounded-full bg-white inset-0 flex flex-col items-center justify-center">
                       {card?.speed && (
-                        <span className="text-xs lg:text-[1.1rem] font-bold text-red-700 mt-3">
+                        <span className="text-xs lg:text-[1.1rem] font-bold text-red-700 lg:mt-3 mt-1">
                           {card?.speed}
                         </span>
                       )}
                       {card?.unit && (
-                        <span className="mt-1 text-[0.3rem] lg:text-[0.45rem] lg:w-[2rem] w-[1.6rem] h-[0.8rem] lg:h-[1.2rem] font-bold text-[#483d78] whitespace-normal break-words">
+                        <span className="lg:mt-1 text-[0.3rem] lg:text-[0.45rem] lg:w-[2rem] w-[1.6rem] h-[0.8rem] lg:h-[1.2rem] font-bold text-[#483d78] whitespace-normal break-words text-center">
                           {card?.unit}
                         </span>
                       )}

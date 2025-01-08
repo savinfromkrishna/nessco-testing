@@ -177,9 +177,9 @@ const Page4: React.FC<CombinedProps> = ({ applicationData, selectedProduct }) =>
             {productItems.map((item, idx) => (
               <div key={idx} className="flex lg:my-[3rem] my-[1rem]">
                 <div className="lg:w-[65%] w-[60%] lg:pl-[1rem] pl-[0.5rem]">
-                  <h2 className="lg:text-[1.6rem] text-[1.1rem] text-[#483d73] font-medium lg:mb-[0.8rem] mb-[0.4rem]">
+                  <h3 className="lg:text-[1.6rem] text-[1.1rem] text-[#483d73] font-medium lg:mb-[0.8rem] mb-[0.4rem]">
                     {item?.title1}
-                  </h2>
+                  </h3>
                   <p className="lg:text-[1rem] text-sm">{item?.description}</p>
                 </div>
                 <div className="lg:w-[35%] w-[40%] flex justify-end items-center">
@@ -218,9 +218,9 @@ const Page4: React.FC<CombinedProps> = ({ applicationData, selectedProduct }) =>
       {isModalOpen && selectedImage && (
         <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
           <div className="bg-white p-6 mx-4 rounded-lg max-w-lg w-full">
-            <h2 className="text-xl font-bold mb-4 text-[#483d73]">
+            <h3 className="text-xl font-bold mb-4 text-[#483d73]">
               {selectedImage?.title2}
-            </h2>
+            </h3>
             <div className="relative w-full h-64">
               <BlurImage
                 className="object-cover w-full h-full rounded-lg"

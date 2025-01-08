@@ -48,9 +48,9 @@ const HeroSection: React.FC<KnowledgeCenterProps> = ({
   return (
     <div className="flex pt-24 bg-black h-screen w-full flex-col font-regular font-poppins">
       <div className="lg:h-[10%]">
-        <p className="lg:text-5xl text-3xl px-10 font-poppins font-semibold w-full lg:text-left text-center text-white">
+        <h1 className="lg:text-5xl text-3xl px-10 font-poppins font-semibold w-full lg:text-left text-center text-white">
           {Hero?.title}
-        </p>
+        </h1>
       </div>
       <div className="lg:h-[90%] flex lg:flex-row flex-col w-full">
         <div className="lg:w-1/2 flex justify-center items-center">
@@ -108,9 +108,9 @@ const HeroSection: React.FC<KnowledgeCenterProps> = ({
                         height={400}
                       />
 
-                      <h2 className="lg:text-2xl text-md font-normal">
+                      <h3 className="lg:text-2xl text-md font-normal">
                         {item?.title}
-                      </h2>
+                      </h3>
                     </LinkUrl>
                   </div>
                 </div>

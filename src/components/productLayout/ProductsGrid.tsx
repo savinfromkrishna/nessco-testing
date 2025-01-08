@@ -63,6 +63,8 @@ interface Page2Props {
   paramsthing: string | string[];
 }
 
+
+
 const Page2: React.FC<Page2Props> = ({
   productLayoutData,
   page2machine,
@@ -154,12 +156,15 @@ const Page2: React.FC<Page2Props> = ({
   });
 
 
-  useEffect(() => {
-    const savedItems = localStorage.getItem("cartItems");
-    if (savedItems) {
-      setEnquiryItems(JSON.parse(savedItems));
-    }
-  }, []);
+          useEffect(() => {
+            const savedItems = localStorage.getItem("cartItems");
+            console.log("Saved Items from localStorage:", savedItems);
+            if (savedItems) {
+              setEnquiryItems(JSON.parse(savedItems));
+          
+            }
+          }, []);
+
 
   const handleToggleEnquiry = (
     itemId: string,
@@ -170,31 +175,24 @@ const Page2: React.FC<Page2Props> = ({
       const existingItemIndex = prevItems.findIndex(
         (prevItem) => prevItem.id === itemId
       );
-      if (existingItemIndex > -1) {
-        // Item exists, remove it
-        const updatedItems = prevItems.filter(
-          (prevItem) => prevItem.id !== itemId
-        );
-        localStorage.setItem("cartItems", JSON.stringify(updatedItems));
-        return updatedItems;
+
+     if (existingItemIndex > -1) {
+        // Remove item if it already exists
+        return prevItems.filter((prevItem) => prevItem.id !== itemId);
       } else {
-        // Item doesn't exist, add it
-        const updatedItems = [
+        // Add item if not already in the list
+        return [
           ...prevItems,
           { id: itemId, name: itemName, image: itemImage },
         ];
-        localStorage.setItem("cartItems", JSON.stringify(updatedItems));
-        return updatedItems;
       }
     });
   };
 
   const removeEnquiryItem = (itemId: string) => {
-    setEnquiryItems((prevItems) => {
-      const updatedItems = prevItems.filter((item) => item.id !== itemId);
-      localStorage.setItem("cartItems", JSON.stringify(updatedItems));
-      return updatedItems;
-    });
+    setEnquiryItems((prevItems) =>
+      prevItems.filter((item) => item.id !== itemId)
+    );
   };
 
   useEffect(() => {

@@ -2,16 +2,13 @@ import React, { useRef, useState } from "react";
 import { NavbarData } from "../types/constant";
 import { countryCODE, languageCODE } from "../nav-menue";
 import Link from "next/link";
-const LottieAnimation = dynamic(
-  () => import("@/components/ui/LottieAnimation")
-);
+import LottieAnimation from "@/components/ui/LottieAnimation";
 import Support from "../../../../public/assets/NavbarLottie/Support.json";
 import Maintenance from "../../../../public/assets/SupportNavbar/Maintenance.json";
 import UserGuide from "../../../../public/assets/SupportNavbar/help V2.json";
 import Services from "../../../../public/assets/SupportNavbar/Service.json";
 import GenuineParts from "../../../../public/assets/SupportNavbar/Shipping.json";
 import BlurImage from "@/components/ui/BlurImage";
-import dynamic from "next/dynamic";
 
 const image = [Services, GenuineParts, UserGuide, Maintenance];
 
@@ -188,6 +185,7 @@ const SupportGrid: React.FC<SupportGridProps> = ({ navData, setActive }) => {
             alt="Phone"
             width={400}
             height={400}
+            priority
             className="rounded-xl h-6 w-6 absolute top-[4.2rem]"
           />
           <div className="flex items-center border-b-2 h-20 flex-row pt-6">
@@ -230,6 +228,7 @@ const SupportGrid: React.FC<SupportGridProps> = ({ navData, setActive }) => {
             alt="email"
             width={400}
             height={400}
+            priority
             className="rounded-xl h-6 w-6 mr-2"
           />
           <a href="mailto:support@nesscoindia.com" className="text-inherit">

@@ -132,7 +132,7 @@ const BlogGeneric: React.FC<BlogGenericProps> = ({ id }) => {
                   height={500}
                   priority
                   src={post?.header?.headingImage}
-                  alt={post?.slug || "Blog post header image"}
+                  alt={post?.header?.heading || "Blog post header image"}
                 />
               ))}
           </div>

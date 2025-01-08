@@ -74,7 +74,6 @@ export async function generateMetadata({
   return {
     title: `${post.title} - ${countryName}`,
     description: post.excerpt,
-    keywords: post.tags.map((tag) => tag.name).join(", "),
     openGraph: {
       type: "article",
       siteName: "Nessco",
