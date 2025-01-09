@@ -19,7 +19,12 @@ export const revalidate = 60;
 
 async function fetchvisionData(locale: string): Promise<VisionItem | null> {
   try {
-    const res = await fetch(`${apiUrl}${locale}/vision.json`);
+    const res = await fetch(`${apiUrl}${locale}/vision.json`, {
+      next: {
+         tags: ["vision-data"],
+         revalidate: 3600, // Revalidate every hour.
+       },
+     });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
     return data;
@@ -27,8 +32,11 @@ async function fetchvisionData(locale: string): Promise<VisionItem | null> {
     console.error(`Primary fetch failed for locale: ${locale}`, error);
     try {
       const fallbackRes = await fetch(`${apiUrl}en/vision.json`, {
-        cache: "no-store",
-      });
+        next: {
+           tags: ["vision-data"],
+           revalidate: 3600, // Revalidate every hour.
+         },
+       });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();
       return data;

@@ -21,7 +21,12 @@ async function fetchsustainabilityData(
   locale: string
 ): Promise<SustainabilityData | null> {
   try {
-    const res = await fetch(`${apiUrl}${locale}/sustainability.json`);
+    const res = await fetch(`${apiUrl}${locale}/sustainability.json`, {
+      next: {
+         tags: ["sustainability-data"],
+         revalidate: 3600, // Revalidate every hour.
+       },
+     });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
     return data;
@@ -29,8 +34,11 @@ async function fetchsustainabilityData(
     console.error(`Primary fetch failed for locale: ${locale}`, error);
     try {
       const fallbackRes = await fetch(`${apiUrl}en/sustainability.json`, {
-        cache: "no-store",
-      });
+        next: {
+           tags: ["sustainability-data"],
+           revalidate: 3600, // Revalidate every hour.
+         },
+       });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();
       return data;

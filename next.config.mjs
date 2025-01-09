@@ -1,13 +1,16 @@
 import createNextIntlPlugin from "next-intl/plugin";
 import withBundleAnalyzer from "@next/bundle-analyzer";
 
+
 // Configure the bundle analyzer
 const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === "true", // Enable only when ANALYZE is set to "true"
 });
 
+
 // Create the Next.js Intl plugin
 const withNextIntl = createNextIntlPlugin();
+
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -23,6 +26,7 @@ const nextConfig = {
       { protocol: "https", hostname: "www.nesscoindia.com" },
       { protocol: "https", hostname: "res.cloudinary.com" },
       { protocol: "https", hostname: "example.com" },
+      {protocol: "https", hostname:"cloudflare-ipfs.com"},
       { protocol: "https", hostname: "flagcdn.com" },
       { protocol: "https", hostname: "www.*" }, // Allows all 'www.' subdomains under 'https://'
     ],
@@ -35,9 +39,11 @@ const nextConfig = {
   },
 };
 
+
 // Custom fetch logging based on `nextConfig.logging`
 if (nextConfig.logging?.fetches?.fullUrl) {
   const originalFetch = fetch;
+
 
   global.fetch = async (...args) => {
     const [url, options] = args;
@@ -45,6 +51,7 @@ if (nextConfig.logging?.fetches?.fullUrl) {
     if (options) {
       console.log("Fetch Options:", options);
     }
+
 
     try {
       const response = await originalFetch(...args);
@@ -56,6 +63,7 @@ if (nextConfig.logging?.fetches?.fullUrl) {
     }
   };
 }
+
 
 // Export the configuration with both plugins applied
 export default bundleAnalyzer(withNextIntl(nextConfig));

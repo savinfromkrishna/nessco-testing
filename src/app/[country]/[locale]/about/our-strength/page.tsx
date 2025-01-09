@@ -21,7 +21,12 @@ async function fetchstrengthData(
   locale: string
 ): Promise<OurStrengthItem | null> {
   try {
-    const res = await fetch(`${apiUrl}${locale}/ourstrenght.json`);
+    const res = await fetch(`${apiUrl}${locale}/ourstrenght.json`, {
+      next: {
+         tags: ["ourstrength-data"],
+         revalidate: 3600, // Revalidate every hour.
+       },
+     });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
     return data;
@@ -29,8 +34,11 @@ async function fetchstrengthData(
     console.error(`Primary fetch failed for locale: ${locale}`, error);
     try {
       const fallbackRes = await fetch(`${apiUrl}en/ourstrenght.json`, {
-        cache: "no-store",
-      });
+        next: {
+           tags: ["ourstrength-data"],
+           revalidate: 3600, // Revalidate every hour.
+         },
+       });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();
       return data;
