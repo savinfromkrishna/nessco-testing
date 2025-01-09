@@ -16,7 +16,6 @@ type Props = {
   };
 };
 
-export const revalidate = 60;
 
 async function fetchKnowYourBusinessData(
   locale: string

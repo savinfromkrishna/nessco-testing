@@ -15,7 +15,6 @@ type Props = {
   params: { locale: string };
 };
 
-export const revalidate = 60;
 
 async function fetchsustainabilityData(
   locale: string
@@ -24,8 +23,7 @@ async function fetchsustainabilityData(
     const res = await fetch(`${apiUrl}${locale}/sustainability.json`, {
       next: {
          tags: ["sustainability-data"],
-         revalidate: 3600, // Revalidate every hour.
-       },
+        },
      });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
@@ -36,8 +34,7 @@ async function fetchsustainabilityData(
       const fallbackRes = await fetch(`${apiUrl}en/sustainability.json`, {
         next: {
            tags: ["sustainability-data"],
-           revalidate: 3600, // Revalidate every hour.
-         },
+          },
        });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();

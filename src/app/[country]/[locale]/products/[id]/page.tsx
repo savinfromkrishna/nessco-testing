@@ -15,7 +15,6 @@ type Props = {
   params: { locale: string; id: string; country: string };
 };
 
-export const revalidate = 60;
 
 async function fetchProductLayoutData(
   locale: string

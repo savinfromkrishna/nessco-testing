@@ -15,11 +15,16 @@ type Props = {
   params: { locale: string };
 };
 
-export const revalidate = 60;
 
-async function fetchmediaRoomData(locale: string): Promise<MediaRoomItem | null> {
+async function fetchmediaRoomData(
+  locale: string
+): Promise<MediaRoomItem | null> {
   try {
-    const res = await fetch(`${apiUrl}${locale}/mediaroom.json`);
+    const res = await fetch(`${apiUrl}${locale}/mediaroom.json`, {
+      next: {
+        tags: ["mediaroom"],
+      },
+    });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
     return data;
@@ -27,7 +32,9 @@ async function fetchmediaRoomData(locale: string): Promise<MediaRoomItem | null>
     console.error(`Primary fetch failed for locale: ${locale}`, error);
     try {
       const fallbackRes = await fetch(`${apiUrl}en/mediaroom.json`, {
-        cache: "no-store",
+        next: {
+          tags: ["mediaroom"],
+        },
       });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();
@@ -120,14 +127,14 @@ export async function generateMetadata({
       siteName: "Nessco",
       url: `${baseUrl}`,
       title: `${seoData?.title} - ${countryName}`,
-    description: seoData?.description,
+      description: seoData?.description,
       images: seoData?.openGraph?.images,
     },
     twitter: {
       card: "summary_large_image",
       site: "@NesscoIndia",
       title: `${seoData?.title} - ${countryName}`,
-    description: seoData?.description,
+      description: seoData?.description,
       images: seoData?.twitter?.image,
     },
     robots: {
@@ -157,4 +164,3 @@ export default async function MediaRooms({ params: { locale } }: Props) {
     </main>
   );
 }
-

@@ -16,7 +16,6 @@ type Props = {
   };
 };
 
-export const revalidate = 60;
 
 type CountryNames = {
   [locale: string]: string;

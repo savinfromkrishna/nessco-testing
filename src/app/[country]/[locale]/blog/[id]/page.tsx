@@ -13,7 +13,6 @@ type Props = {
   params: { locale: string; country: string; id: string };
 };
 
-export const revalidate = 60;
 
 type CountryNames = {
   [locale: string]: string;

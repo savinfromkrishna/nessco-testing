@@ -15,13 +15,16 @@ type Props = {
   params: { locale: string };
 };
 
-export const revalidate = 60;
 
 async function fetchknowYourBussinessData(
   locale: string
 ): Promise<KnowYourBussinessItem | null> {
   try {
-    const res = await fetch(`${apiUrl}${locale}/knowyourbussiness.json`);
+    const res = await fetch(`${apiUrl}${locale}/knowyourbussiness.json`, {
+      next: {
+        tags: ["knowledgecenter-data"],
+      },
+    });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
     return data;
@@ -29,7 +32,9 @@ async function fetchknowYourBussinessData(
     console.error(`Primary fetch failed for locale: ${locale}`, error);
     try {
       const fallbackRes = await fetch(`${apiUrl}en/knowyourbussiness.json`, {
-        cache: "no-store",
+        next: {
+          tags: ["knowledgecenter-data"],
+        },
       });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();
@@ -84,7 +89,7 @@ export async function generateMetadata({
     return {
       title: "Default Title",
       description: "Default Description",
-      
+
       openGraph: {
         title: "Default OG Title",
         description: "Default OG Description",

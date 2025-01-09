@@ -15,19 +15,24 @@ type Props = {
   params: { locale: string };
 };
 
-export const revalidate = 60;
 
 async function fetchvideosData(locale: string): Promise<VideosItem | null> {
   try {
-    const res = await fetch(`${apiUrl}${locale}/videos.json`);
+    const res = await fetch(`${apiUrl}${locale}/videos.json`,{
+      next: {
+        tags: ["video-tag"],
+      },
+    });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
     return data;
   } catch (error) {
     console.error(`Primary fetch failed for locale: ${locale}`, error);
     try {
-      const fallbackRes = await fetch(`${apiUrl}en/videos.json`, {
-        cache: "no-store",
+      const fallbackRes = await fetch(`${apiUrl}en/videos.json`,{
+        next: {
+          tags: ["video-tag"],
+        },
       });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();

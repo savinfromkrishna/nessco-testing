@@ -6,7 +6,6 @@ import { cookies } from "next/headers"; // Server-side (Next.js app directory)
 import { getBaseUrl } from "@/app/api/environment";
 import KnowledgeCenterGeneric from "@/components/knowledge-center/knowledgeGeneric";
 
-
 const apiUrl = "https://jsondatafromhostingertosheet.nesscoindustries.com/";
 const locales = ["en", "fr", "nl", "de", "es", "hi", "ta"] as const;
 const countryUrl = "https://countryjson.nesscoindustries.com/";
@@ -16,25 +15,29 @@ type Props = {
 };
 
 // Revalidate every 60 seconds (or any time period you prefer)
-export const revalidate = 60;
 
 // Fetch support data based on the locale
 async function fetchknowYourProductData(
   locale: string
 ): Promise<KnowYourProductItem | null> {
   try {
-    const res = await fetch(`${apiUrl}${locale}/knowyourproduct.json`);
+    const res = await fetch(`${apiUrl}${locale}/knowyourproduct.json`, {
+      next: {
+        tags: ["knowledgecenter-data"],
+      },
+    });
     const data = await res.json();
     return data;
   } catch (error) {
     const fallbackRes = await fetch(`${apiUrl}en/knowyourproduct.json`, {
-      cache: "no-store", // Ensures no caching for the fallback as well
+      next: {
+        tags: ["knowledgecenter-data"],
+      },
     });
     const data = await fallbackRes.json();
     return data;
   }
 }
-
 
 type CountryNames = {
   [locale: string]: string; // Each locale key maps directly to the country name
@@ -58,7 +61,6 @@ async function fetchCountryData(locale: string): Promise<string> {
     return fallbackData[locale] || fallbackData["en"];
   }
 }
-
 
 // Dynamically generate metadata using the fetched SEO data
 export async function generateMetadata({
@@ -108,13 +110,13 @@ export async function generateMetadata({
     description: seoData?.description,
     viewport: "width=device-width, initial-scale=1",
     alternates: {
-      canonical:`${baseUrl}`,
+      canonical: `${baseUrl}`,
     },
     openGraph: {
       type: "website",
       title: `${seoData?.title} - ${countryName} `,
       siteName: "Nessco",
-      url:`${baseUrl}`,
+      url: `${baseUrl}`,
       description: seoData?.openGraph?.description,
       images: seoData?.openGraph?.images,
     },

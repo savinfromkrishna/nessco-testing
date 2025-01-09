@@ -19,7 +19,6 @@ type Props = {
   };
 };
 
-export const revalidate = 60;
 
 async function fetchIndividualProductsData(
   locale: string

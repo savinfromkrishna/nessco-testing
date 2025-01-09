@@ -19,7 +19,6 @@ type CountryNames = {
   [locale: string]: string;
 };
 
-export const revalidate = 60;
 
 const fetchFooterData = cache(async (locale: string): Promise<any> => {
   try {

@@ -15,13 +15,15 @@ type Props = {
   params: { locale: string };
 };
 
-export const revalidate = 60;
-
 async function fetchuserGuideData(
   locale: string
 ): Promise<UserGuideItem | null> {
   try {
-    const res = await fetch(`${apiUrl}${locale}/userguide.json`);
+    const res = await fetch(`${apiUrl}${locale}/userguide.json`,{
+      next: {
+        tags: ["support-tag"],
+      },
+    });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
     return data;
@@ -29,7 +31,9 @@ async function fetchuserGuideData(
     console.error(`Primary fetch failed for locale: ${locale}`, error);
     try {
       const fallbackRes = await fetch(`${apiUrl}en/userguide.json`, {
-        cache: "no-store",
+        next: {
+          tags: ["support-tag"],
+        },
       });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();
@@ -122,14 +126,14 @@ export async function generateMetadata({
       siteName: "Nessco",
       url: `${baseUrl}`,
       title: `${seoData?.title} - ${countryName}`,
-    description: seoData?.description,
+      description: seoData?.description,
       images: seoData?.openGraph?.images,
     },
     twitter: {
       card: "summary_large_image",
       site: "@NesscoIndia",
       title: `${seoData?.title} - ${countryName}`,
-    description: seoData?.description,
+      description: seoData?.description,
       images: seoData?.twitter?.image,
     },
     robots: {
@@ -159,4 +163,3 @@ export default async function UserGuidePage({ params: { locale } }: Props) {
     </main>
   );
 }
-

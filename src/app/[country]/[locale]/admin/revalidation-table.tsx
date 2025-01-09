@@ -21,7 +21,7 @@ import {
   DialogTitle,
   DialogFooter,
 } from "@/components/ui/dialog"
-import { revalidateAllTags, revalidateHomeDataTag, revalidateAboutDataTag, revalidateVisionDataTag, revalidateCountryDataTag, revalidateHomePath, revalidateAboutPath, revalidateVisionPath } from './actions'
+import { revalidateAllTags, revalidateHomeDataTag, revalidateAboutDataTag, revalidateVisionDataTag, revalidateThepinkcityDataTag, revalidateSustainabilityDataTag, revalidateProjectsDataTag, revalidateOurstrengthDataTag, revalidateOurcompanyDataTag, revalidateApplicationDataTag, revalidateBlogDataTag, revalidateClienteleDataTag, revalidateContactDataTag, revalidateFaqDataTag, revalidateKnowledgecenterDataTag, revalidateMediaroomDataTag, revalidateProductsDataTag, revalidateResourcesDataTag, revalidateSupportDataTag, revalidateCountryDataTag, revalidateHomePath, revalidateAboutPath, revalidateVisionPath, revalidateThepinkcityPath, revalidateProjectsPath, revalidateSustainabilityPath, revalidateOurstrengthPath, revalidateOurcompanyPath, revalidateApplicationPath, revalidateBlogPath, revalidateClientelePath, revalidateContactPath, revalidateFaqPath, revalidateKnowledgecenterPath, revalidateMediaroomPath, revalidateProductsPath, revalidateResourcesPath, revalidateSupportPath } from './actions'
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { Loader2, RefreshCw, Search, Filter } from 'lucide-react'
@@ -49,6 +49,126 @@ const revalidationItems = [
     key: 'vision-data',
     description: 'Revalidates the home page data cache',
     action: revalidateVisionDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Thepinkcity Data Tag', 
+    type: 'tag',
+    key: 'thepinkcity-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateThepinkcityDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Sustainability Data Tag', 
+    type: 'tag',
+    key: 'sustainability-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateSustainabilityDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Projects Data Tag', 
+    type: 'tag',
+    key: 'projects-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateProjectsDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Ourcompany Data Tag', 
+    type: 'tag',
+    key: 'ourcompany-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateOurcompanyDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Ourstrength Data Tag', 
+    type: 'tag',
+    key: 'ourstrength-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateOurstrengthDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Application Data Tag', 
+    type: 'tag',
+    key: 'application-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateApplicationDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Blog Data Tag', 
+    type: 'tag',
+    key: 'blog-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateBlogDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Clientele Data Tag', 
+    type: 'tag',
+    key: 'clientele-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateClienteleDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Contact Data Tag', 
+    type: 'tag',
+    key: 'contact-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateContactDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Faq Data Tag', 
+    type: 'tag',
+    key: 'faq-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateFaqDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Knowledgecenter Data Tag', 
+    type: 'tag',
+    key: 'knowledgecenter-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateKnowledgecenterDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Mediaroom Data Tag', 
+    type: 'tag',
+    key: 'mediaroom-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateMediaroomDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Products Data Tag', 
+    type: 'tag',
+    key: 'products-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateProductsDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Resources Data Tag', 
+    type: 'tag',
+    key: 'resources-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateResourcesDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Support Data Tag', 
+    type: 'tag',
+    key: 'support-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateSupportDataTag,
     image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
   },
   { 
@@ -81,6 +201,126 @@ const revalidationItems = [
     key: '/about/vision',
     description: 'Revalidates the entire home page',
     action: revalidateVisionPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Thepinkcity Path', 
+    type: 'path',
+    key: '/about/the-pink-city',
+    description: 'Revalidates the entire home page',
+    action: revalidateThepinkcityPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Sustainability Path', 
+    type: 'path',
+    key: '/about/sustainability',
+    description: 'Revalidates the entire home page',
+    action: revalidateSustainabilityPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Projects Path', 
+    type: 'path',
+    key: '/about/projects',
+    description: 'Revalidates the entire home page',
+    action: revalidateProjectsPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Ourstrength Path', 
+    type: 'path',
+    key: '/about/our-strength',
+    description: 'Revalidates the entire home page',
+    action: revalidateOurstrengthPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Ourcompany Path', 
+    type: 'path',
+    key: '/about/our-company',
+    description: 'Revalidates the entire home page',
+    action: revalidateOurcompanyPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Application Path', 
+    type: 'path',
+    key: '/application',
+    description: 'Revalidates the entire home page',
+    action: revalidateApplicationPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Blog Path', 
+    type: 'path',
+    key: '/blog',
+    description: 'Revalidates the entire home page',
+    action: revalidateBlogPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Clientele Path', 
+    type: 'path',
+    key: '/clientele',
+    description: 'Revalidates the entire home page',
+    action: revalidateClientelePath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Contact Path', 
+    type: 'path',
+    key: '/contact',
+    description: 'Revalidates the entire home page',
+    action: revalidateContactPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Faq Path', 
+    type: 'path',
+    key: '/faq',
+    description: 'Revalidates the entire home page',
+    action: revalidateFaqPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Knowledgecenter Path', 
+    type: 'path',
+    key: '/knowledge-center',
+    description: 'Revalidates the entire home page',
+    action: revalidateKnowledgecenterPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Mediaroom Path', 
+    type: 'path',
+    key: '/media-room',
+    description: 'Revalidates the entire home page',
+    action: revalidateMediaroomPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Products Path', 
+    type: 'path',
+    key: '/products',
+    description: 'Revalidates the entire home page',
+    action: revalidateProductsPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Resources Path', 
+    type: 'path',
+    key: '/resources',
+    description: 'Revalidates the entire home page',
+    action: revalidateResourcesPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Support Path', 
+    type: 'path',
+    key: '/support',
+    description: 'Revalidates the entire home page',
+    action: revalidateSupportPath,
     image: '/placeholder.svg?height=300&width=300&text=Home+Path'
   },
 ]

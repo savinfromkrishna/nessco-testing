@@ -13,7 +13,6 @@ type Props = {
   params: { locale: string; id: string };
 };
 
-export const revalidate = 60;
 
 async function fetchApplicationLayoutData(
   locale: string

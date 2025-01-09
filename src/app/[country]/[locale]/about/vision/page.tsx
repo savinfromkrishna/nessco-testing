@@ -15,15 +15,13 @@ type Props = {
   params: { locale: string };
 };
 
-export const revalidate = 60;
 
 async function fetchvisionData(locale: string): Promise<VisionItem | null> {
   try {
     const res = await fetch(`${apiUrl}${locale}/vision.json`, {
       next: {
          tags: ["vision-data"],
-         revalidate: 3600, // Revalidate every hour.
-       },
+        },
      });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
@@ -34,8 +32,7 @@ async function fetchvisionData(locale: string): Promise<VisionItem | null> {
       const fallbackRes = await fetch(`${apiUrl}en/vision.json`, {
         next: {
            tags: ["vision-data"],
-           revalidate: 3600, // Revalidate every hour.
-         },
+          },
        });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();

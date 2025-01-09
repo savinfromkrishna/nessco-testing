@@ -13,13 +13,16 @@ const apiUrl = "https://jsondatafromhostingertosheet.nesscoindustries.com/";
 const locales = ["en", "fr", "nl", "de", "es", "hi", "ta"] as const;
 const countryUrl = "https://countryjson.nesscoindustries.com/";
 
-export const revalidate = 60;
 
 async function fetchKnowledgeCenterData(
   locale: string
 ): Promise<KnowledgeCenterItem | null> {
   try {
-    const res = await fetch(`${apiUrl}${locale}/knowledgecenter.json`);
+    const res = await fetch(`${apiUrl}${locale}/knowledgecenter.json`, {
+      next: {
+        tags: ["knowledgecenter"],
+      },
+    });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
     return data;
@@ -27,7 +30,9 @@ async function fetchKnowledgeCenterData(
     console.error(`Primary fetch failed for locale: ${locale}`, error);
     try {
       const fallbackRes = await fetch(`${apiUrl}en/knowledgecenter.json`, {
-        cache: "no-store",
+        next: {
+          tags: ["knowledgecenter"],
+        },
       });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();

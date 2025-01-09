@@ -15,11 +15,14 @@ type Props = {
   params: { locale: string };
 };
 
-export const revalidate = 60;
 
 async function fetchblogsData(locale: string): Promise<BlogsItem | null> {
   try {
-    const res = await fetch(`${apiUrl}${locale}/blogs.json`);
+    const res = await fetch(`${apiUrl}${locale}/blogs.json`, {
+      next: {
+         tags: ["blog-data"],
+        },
+     });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
     return data;
@@ -27,8 +30,10 @@ async function fetchblogsData(locale: string): Promise<BlogsItem | null> {
     console.error(`Primary fetch failed for locale: ${locale}`, error);
     try {
       const fallbackRes = await fetch(`${apiUrl}en/blogs.json`, {
-        cache: "no-store",
-      });
+        next: {
+           tags: ["blog-data"],
+          },
+       });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();
       return data;

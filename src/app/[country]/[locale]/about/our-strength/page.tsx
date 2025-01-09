@@ -15,7 +15,6 @@ type Props = {
   params: { locale: string; country: string };
 };
 
-export const revalidate = 60;
 
 async function fetchstrengthData(
   locale: string
@@ -24,8 +23,7 @@ async function fetchstrengthData(
     const res = await fetch(`${apiUrl}${locale}/ourstrenght.json`, {
       next: {
          tags: ["ourstrength-data"],
-         revalidate: 3600, // Revalidate every hour.
-       },
+        },
      });
     if (!res.ok) throw new Error("Primary API fetch failed");
     const data = await res.json();
@@ -36,8 +34,7 @@ async function fetchstrengthData(
       const fallbackRes = await fetch(`${apiUrl}en/ourstrenght.json`, {
         next: {
            tags: ["ourstrength-data"],
-           revalidate: 3600, // Revalidate every hour.
-         },
+          },
        });
       if (!fallbackRes.ok) throw new Error("Fallback API fetch failed");
       const data = await fallbackRes.json();
