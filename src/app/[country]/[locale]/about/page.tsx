@@ -6,7 +6,7 @@ interface Person {
 
 async function getAboutInfo() {
   const res = await fetch('https://677f5fb70476123f76a625b0.mockapi.io/api/v1/about', 
-    { next: {revalidate:36000, tags: ['home'] } }
+    { next: { tags: ['about'] } }
   )
   if (!res.ok) {
     throw new Error('Failed to fetch about info')
@@ -26,10 +26,12 @@ function PersonCard({ person }: { person: Person }) {
 
 export default async function About() {
   const aboutInfo = await getAboutInfo()
+  const timestamp = new Date().toLocaleString()
 
   return (
-    <div className="py-32">
+    <div>
       <h1 className="text-3xl font-bold mb-6">About Us</h1>
+      <p className="mb-4">Last updated: {timestamp}</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {aboutInfo.map((person: Person) => (
           <PersonCard key={person.id} person={person} />

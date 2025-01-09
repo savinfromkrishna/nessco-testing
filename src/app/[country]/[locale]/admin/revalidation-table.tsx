@@ -21,7 +21,7 @@ import {
   DialogTitle,
   DialogFooter,
 } from "@/components/ui/dialog"
-import { revalidateAllTags, revalidateHomeDataTag, revalidateCountryDataTag, revalidateHomePath } from './actions'
+import { revalidateAllTags, revalidateHomeDataTag, revalidateAboutDataTag, revalidateVisionDataTag, revalidateCountryDataTag, revalidateHomePath, revalidateAboutPath, revalidateVisionPath } from './actions'
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { Loader2, RefreshCw, Search, Filter } from 'lucide-react'
@@ -33,6 +33,22 @@ const revalidationItems = [
     key: 'home-data',
     description: 'Revalidates the home page data cache',
     action: revalidateHomeDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'About Data Tag', 
+    type: 'tag',
+    key: 'about-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateAboutDataTag,
+    image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
+  },
+  { 
+    name: 'Vision Data Tag', 
+    type: 'tag',
+    key: 'vision-data',
+    description: 'Revalidates the home page data cache',
+    action: revalidateVisionDataTag,
     image: 'https://i.pinimg.com/474x/ca/69/0f/ca690fe8c2896b6779623cb0bbc8eba6.jpg'
   },
   { 
@@ -49,6 +65,22 @@ const revalidationItems = [
     key: '/',
     description: 'Revalidates the entire home page',
     action: revalidateHomePath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'About Path', 
+    type: 'path',
+    key: '/about',
+    description: 'Revalidates the entire home page',
+    action: revalidateAboutPath,
+    image: '/placeholder.svg?height=300&width=300&text=Home+Path'
+  },
+  { 
+    name: 'Vision Path', 
+    type: 'path',
+    key: '/about/vision',
+    description: 'Revalidates the entire home page',
+    action: revalidateVisionPath,
     image: '/placeholder.svg?height=300&width=300&text=Home+Path'
   },
 ]
