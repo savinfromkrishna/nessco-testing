@@ -12,16 +12,6 @@ export async function revalidateHomeDataTag() {
   }
 }
 
-export async function revalidateAboutDataTag() {
-  try {
-    revalidateTag('about-data')
-    return { success: true, message: 'Home data cache has been refreshed using revalidateTag.' }
-  } catch (error) {
-    console.error('Failed to revalidate home-data tag:', error)
-    return { success: false, message: 'Failed to refresh home data cache using revalidateTag.' }
-  }
-}
-
 export async function revalidateCountryDataTag() {
   try {
     revalidateTag('country-data')
@@ -47,16 +37,6 @@ export async function revalidateAllTags() {
 export async function revalidateHomePath() {
   try {
     revalidatePath('/')
-    return { success: true, message: 'Home page cache has been refreshed using revalidatePath.' }
-  } catch (error) {
-    console.error('Failed to revalidate home path:', error)
-    return { success: false, message: 'Failed to refresh home page cache using revalidatePath.' }
-  }
-}
-
-export async function revalidateAboutPath() {
-  try {
-    revalidatePath('/about')
     return { success: true, message: 'Home page cache has been refreshed using revalidatePath.' }
   } catch (error) {
     console.error('Failed to revalidate home path:', error)
